@@ -7,7 +7,9 @@ A scalar is a single number representing magnitude. A vector is an ordered list 
 Think of a scalar as a single measurement like your weight (70 kg). A vector is like a GPS coordinate giving your latitude, longitude, and elevation (37.77, -122.41, 15), specifying a precise spot in 3D space.
 
 ### 3. Mathematical Definition
-A vector $\mathbf{v} \in \mathbb{R}^n$ is an $n$-tuple of real numbers $(v_1, v_2, \dots, v_n)$. It can be written as a column vector $\mathbf{v} = \begin{bmatrix} v_1 \\ \vdots \\ v_n \end{bmatrix}$ or row vector $\mathbf{v}^T = [v_1, \dots, v_n]$.
+A vector $\mathbf{v} \in \mathbb{R}^n$ is an $n$-tuple of real numbers $(v_1, v_2, \dots, v_n)$. It can be written as a column vector:
+$$\mathbf{v} = \begin{bmatrix} v_1 \\ \vdots \\ v_n \end{bmatrix}$$
+or as a row vector $\mathbf{v}^T = [v_1, v_2, \dots, v_n]$.
 
 ### 4. Notation
 $\alpha, c \in \mathbb{R}$ for scalars. $\mathbf{v}, \vec{v}, \mathbf{x} \in \mathbb{R}^n$ for vectors. Component $i$ is denoted $v_i$.

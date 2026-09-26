@@ -4,7 +4,7 @@
 ### Question 1
 Wind speed is a scalar (magnitude only, e.g. 20 mph). Wind velocity is a vector (magnitude and direction, e.g. 20 mph North).
 ### Question 2
-$\mathbf{x} = \begin{bmatrix} 2 \\ -5 \\ 0 \end{bmatrix}$.
+$$\mathbf{x} = \begin{bmatrix} 2 \\ -5 \\ 0 \end{bmatrix}$$
 ### Question 3
 The dimension is $n = 5$ because it has 5 elements.
 ### Question 4
