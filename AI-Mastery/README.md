@@ -1,10 +1,14 @@
-# AI Mastery — Complete Self-Study Curriculum
+# AI Mastery Curriculum
 
-Welcome to **AI Mastery**, a comprehensive, self-study learning repository for Artificial Intelligence, Machine Learning, Deep Learning, and Generative AI.
+Comprehensive, self-study GitHub curriculum for mastering Artificial Intelligence from mathematical foundations to modern Generative AI.
 
----
+## Curriculum Levels
 
-## 🛣️ Curriculum Roadmap
+### [Level 1 — Mathematics for AI](./Level-1-Mathematics-for-AI/)
+- Linear Algebra, Calculus, Probability, and Statistics.
 
-- **[Level 1 — Mathematics for AI](./Level-1-Mathematics-for-AI/)**: Linear Algebra, Calculus, Probability, and Statistics (Days 1–85).
-- **[Level 2 — Data Science Foundations](./Level-2-Data-Science-Foundations/)**: NumPy, Pandas, Data Visualization, Data Cleaning, EDA, and Data Preprocessing for Machine Learning (Days 86–172).
+### [Level 2 — Data Science Foundations](./Level-2-Data-Science-Foundations/)
+- NumPy, Pandas, Data Cleaning, EDA, Visualization, Data Preprocessing, and Leakage Prevention.
+
+### [Level 3 — Artificial Intelligence Fundamentals](./Level-3-Artificial-Intelligence-Fundamentals/)
+- Understanding AI, AI History, Intelligent Agents, State Spaces, Problem Formulation, Classical Search (BFS, DFS, UCS, Greedy, A*), Knowledge Representation, Reasoning, Planning, and Adversarial Search (Minimax, Alpha-Beta Pruning).
