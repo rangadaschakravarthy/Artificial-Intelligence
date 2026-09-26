@@ -24,11 +24,23 @@ $$\mathbf{A} = \sum_{i=1}^r \sigma_i \mathbf{u}_i \mathbf{v}_i^T = \sigma_1 \mat
 - $r$: Rank of matrix $\mathbf{A}$
 
 ### 7. Step-by-Step Calculation
-Calculate singular values of $\mathbf{A} = \begin{bmatrix} 3 & 0 \\ 0 & -2 \end{bmatrix}$:
-1. $\mathbf{A}^T \mathbf{A} = \begin{bmatrix} 9 & 0 \\ 0 & 4 \end{bmatrix}$.
+Calculate singular values of 
+
+$$\mathbf{A} = \begin{bmatrix} 3 & 0 \\ 0 & -2 \end{bmatrix}$$
+
+:
+1. 
+
+$$\mathbf{A}^T \mathbf{A} = \begin{bmatrix} 9 & 0 \\ 0 & 4 \end{bmatrix}$$
+
+.
 2. Eigenvalues of $\mathbf{A}^T \mathbf{A}$ are $\lambda_1 = 9, \lambda_2 = 4$.
 3. Singular values $\sigma_1 = \sqrt{9} = 3, \sigma_2 = \sqrt{4} = 2$.
-4. $\mathbf{\Sigma} = \begin{bmatrix} 3 & 0 \\ 0 & 2 \end{bmatrix}$.
+4. 
+
+$$\mathbf{\Sigma} = \begin{bmatrix} 3 & 0 \\ 0 & 2 \end{bmatrix}$$
+
+.
 
 ### 8. Second Example
 Low-rank approximation: Keeping only top 1 singular value $\mathbf{A}_1 = \sigma_1 \mathbf{u}_1 \mathbf{v}_1^T$ gives the best rank-1 approximation of matrix $\mathbf{A}$.

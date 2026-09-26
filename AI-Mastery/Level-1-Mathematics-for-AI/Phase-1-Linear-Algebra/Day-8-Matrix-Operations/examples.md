@@ -1,10 +1,18 @@
 # Examples — Matrix Operations
 
 ## Example 1 — Very Easy
-Matrix Addition: $\begin{bmatrix} 2 & 1 \\ 0 & 3 \end{bmatrix} + \begin{bmatrix} 4 & 5 \\ 1 & -2 \end{bmatrix} = \begin{bmatrix} 6 & 6 \\ 1 & 1 \end{bmatrix}$.
+Matrix Addition: 
+
+$$\begin{bmatrix} 2 & 1 \\ 0 & 3 \end{bmatrix} + \begin{bmatrix} 4 & 5 \\ 1 & -2 \end{bmatrix} = \begin{bmatrix} 6 & 6 \\ 1 & 1 \end{bmatrix}$$
+
+.
 
 ## Example 2 — Beginner
-Scalar Scaling: $-2 \begin{bmatrix} 1 & -3 \\ 4 & 0 \end{bmatrix} = \begin{bmatrix} -2 & 6 \\ -8 & 0 \end{bmatrix}$.
+Scalar Scaling: 
+
+$$-2 \begin{bmatrix} 1 & -3 \\ 4 & 0 \end{bmatrix} = \begin{bmatrix} -2 & 6 \\ -8 & 0 \end{bmatrix}$$
+
+.
 
 ## Example 3 — Intermediate
 Hadamard Image Masking: Image pixel matrix $\mathbf{I}$ multiplied element-wise by binary mask matrix $\mathbf{M}$.

@@ -8,7 +8,11 @@
 5. How do you check the shape and dimension of a NumPy array `arr`?
 
 ## Level 2 — Calculation
-1. Write code to solve system $\mathbf{A}\mathbf{x} = \mathbf{b}$ for $\mathbf{A} = \begin{bmatrix} 3 & 1 \\ 1 & 2 \end{bmatrix}$ and $\mathbf{b} = [9, 8]^T$ using `np.linalg.solve`.
+1. Write code to solve system \mathbf{A}\mathbf{x} = \mathbf{b} for 
+
+$$\mathbf{A} = \begin{bmatrix} 3 & 1 \\ 1 & 2 \end{bmatrix}$$
+
+ and \mathbf{b} = [9, 8]^T using `np.linalg.solve`.
 2. Compute L2 norm of vector `v = np.array([3, 4, 12])` using `np.linalg.norm`.
 3. Compute eigenvalues of symmetric matrix using `np.linalg.eigh`.
 4. Convert a 1D array of 12 elements into a 3x4 matrix using `.reshape()`.

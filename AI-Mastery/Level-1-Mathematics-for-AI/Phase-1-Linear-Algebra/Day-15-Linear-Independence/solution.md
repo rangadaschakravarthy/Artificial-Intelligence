@@ -14,7 +14,11 @@
 
 ## Level 2 — Calculation Solutions
 ### Question 1
-1. $\det \begin{bmatrix} 1 & -1 \\ 2 & 3 \end{bmatrix} = 1(3) - (-1)(2) = 3 + 2 = 5 \neq 0$. Independent!
+1. 
+
+$$\det \begin{bmatrix} 1 & -1 \\ 2 & 3 \end{bmatrix} = 1(3) - (-1)(2) = 3 + 2 = 5 \neq 0$$
+
+. Independent!
 ### Question 2
 2. Notice $\mathbf{w} = \mathbf{u} + \mathbf{v}$ ($[1,0,1]^T + [0,1,1]^T = [1,1,2]^T$). Since $\mathbf{w}$ is a sum of others, the set is LINEARLY DEPENDENT! (Determinant $= 0$).
 ### Question 3

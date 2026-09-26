@@ -20,7 +20,15 @@ $$\mathbf{I}_3 = \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatri
 - $\delta_{i,j}$: Kronecker Delta function
 
 ### 7. Step-by-Step Calculation
-Multiply $\mathbf{A} = \begin{bmatrix} 3 & 7 \\ 2 & 9 \end{bmatrix}$ by $\mathbf{I}_2 = \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}$:
+Multiply 
+
+$$\mathbf{A} = \begin{bmatrix} 3 & 7 \\ 2 & 9 \end{bmatrix}$$
+
+ by 
+
+$$\mathbf{I}_2 = \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}$$
+
+:
 - $c_{1,1} = 3(1) + 7(0) = 3$
 - $c_{1,2} = 3(0) + 7(1) = 7$
 - $c_{2,1} = 2(1) + 9(0) = 2$

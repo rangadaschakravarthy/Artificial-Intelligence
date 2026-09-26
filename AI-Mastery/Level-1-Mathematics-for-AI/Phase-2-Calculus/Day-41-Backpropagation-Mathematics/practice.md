@@ -8,7 +8,11 @@
 5. What is the output layer delta $\mathbf{\delta}^{(L)}$ for MSE loss with linear activation?
 
 ## Level 2 — Calculation
-1. Given $\mathbf{\delta}^{(2)} = [0.2, -0.4]^T$, $\mathbf{W}^{(2)} = \begin{bmatrix} 1 & 3 \\ 2 & 4 \end{bmatrix}$, and $\sigma'(\mathbf{z}^{(1)}) = [0.5, 0.5]^T$, calculate hidden delta $\mathbf{\delta}^{(1)}$.
+1. Given \mathbf{\delta}^{(2)} = [0.2, -0.4]^T, 
+
+$$\mathbf{W}^{(2)} = \begin{bmatrix} 1 & 3 \\ 2 & 4 \end{bmatrix}$$
+
+, and \sigma'(\mathbf{z}^{(1)}) = [0.5, 0.5]^T, calculate hidden delta \mathbf{\delta}^{(1)}.
 2. Given $\mathbf{\delta}^{(1)} = [-0.1, 0.3]^T$ and input vector $\mathbf{x} = [2, 5]^T$, compute weight gradient matrix $\frac{\partial L}{\partial \mathbf{W}^{(1)}}$.
 3. If a network has 5 layers, list the order in which deltas $\mathbf{\delta}^{(l)}$ are computed.
 4. Show that for a 1D network, $\delta^{(1)} = \delta^{(2)} w_2 \sigma'(z_1)$.
@@ -22,7 +26,11 @@
 5. How does mini-batch matrix backpropagation rewrite vector deltas as 2D matrix multiplications?
 
 ## Level 4 — AI/ML Application
-1. Perform a complete hand calculation of forward pass, loss, backward pass deltas, and weight gradients for a 2-layer network with inputs $x=[1, 1]^T$, initial weights $W^{(1)}=\begin{bmatrix}0.1&0.2\\0.3&0.4\end{bmatrix}, b^{(1)}=[0, 0]^T, W^{(2)}=[0.5, 0.6], b^{(2)}=0$, and target $y=1.0$. Verify every number.
+1. Perform a complete hand calculation of forward pass, loss, backward pass deltas, and weight gradients for a 2-layer network with inputs x=[1, 1]^T, initial weights 
+
+$$W^{(1)}=\begin{bmatrix}0.1&0.2\\0.3&0.4\end{bmatrix}, b^{(1)}=[0, 0]^T, W^{(2)}=[0.5, 0.6], b^{(2)}=0$$
+
+, and target y=1.0. Verify every number.
 2. Write a Python script that implements the hand calculation above and confirms exact matching numerical values.
 3. Explain how PyTorch's `autograd` engine automatically constructs the backward execution graph without requiring manual gradient derivation.
 

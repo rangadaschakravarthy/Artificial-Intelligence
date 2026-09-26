@@ -4,13 +4,25 @@
 2. \|\mathbf{x}\|_2 = \sqrt{3^2 + 4^2} = \sqrt{25} = 5.
 3. $\mathbf{u} \cdot \mathbf{v} = 1(1) + 0(1) = 1$. $\|\mathbf{u}\| = 1, \|\mathbf{v}\| = \sqrt{2}$. $\text{sim} = \frac{1}{\sqrt{2}} \approx 0.7071$.
 4. $\det(A) = (1)(4) - (2)(3) = 4 - 6 = -2$.
-5. $A^T = \begin{bmatrix} 1 & 3 \\ 2 & 4 \end{bmatrix}$.
-6. $A^{-1} = \frac{1}{ad-bc} \begin{bmatrix} d & -b \\ -c & a \end{bmatrix}$.
+5. 
+
+$$A^T = \begin{bmatrix} 1 & 3 \\ 2 & 4 \end{bmatrix}$$
+
+.
+6. 
+
+$$A^{-1} = \frac{1}{ad-bc} \begin{bmatrix} d & -b \\ -c & a \end{bmatrix}$$
+
+.
 7. Eigenvalue $\lambda = 5$.
 8. Orthogonal projection matrix $P = A (A^T A)^{-1} A^T$.
 9. Singular values $\sigma_i$ (square roots of eigenvalues of $A^T A$).
 10. $Q^T Q = Q Q^T = I \implies Q^{-1} = Q^T$.
-11. $\begin{bmatrix} 2(4)+1(2) \\ 0(4)+3(2) \end{bmatrix} = \begin{bmatrix} 10 \\ 6 \end{bmatrix}$.
+11. 
+
+$$\begin{bmatrix} 2(4)+1(2) \\ 0(4)+3(2) \end{bmatrix} = \begin{bmatrix} 10 \\ 6 \end{bmatrix}$$
+
+.
 12. Rank $= 3$.
 13. $f'(x) = 12 x^2 - 5$.
 14. $\sigma'(z) = \sigma(z)(1 - \sigma(z))$.

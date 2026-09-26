@@ -26,8 +26,16 @@ $$\text{Max rate of change occurs when } \cos(\theta) = 1 \implies \mathbf{u} \t
 Calculate gradient of $f(x, y) = x^2 + 3y^2$ at point $(2, 1)$:
 1. Partial w.r.t $x$: $\frac{\partial f}{\partial x} = 2x$.
 2. Partial w.r.t $y$: $\frac{\partial f}{\partial y} = 6y$.
-3. Gradient vector: $\nabla f(x, y) = \begin{bmatrix} 2x \\ 6y \end{bmatrix}$.
-4. Evaluate at $(2, 1)$: $\nabla f(2, 1) = \begin{bmatrix} 2(2) \\ 6(1) \end{bmatrix} = \begin{bmatrix} 4 \\ 6 \end{bmatrix}$.
+3. Gradient vector: 
+
+$$\nabla f(x, y) = \begin{bmatrix} 2x \\ 6y \end{bmatrix}$$
+
+.
+4. Evaluate at (2, 1): 
+
+$$\nabla f(2, 1) = \begin{bmatrix} 2(2) \\ 6(1) \end{bmatrix} = \begin{bmatrix} 4 \\ 6 \end{bmatrix}$$
+
+.
 Steepest uphill direction is along vector $[4, 6]^T$. Steepest descent direction is $[-4, -6]^T$.
 
 ### 8. Second Example

@@ -14,9 +14,21 @@
 
 ## Level 2 — Calculation Solutions
 ### Question 1
-1. $\mathbf{W}^{(2)T} \mathbf{\delta}^{(2)} = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} \begin{bmatrix} 0.2 \\ -0.4 \end{bmatrix} = \begin{bmatrix} 0.2 - 0.8 \\ 0.6 - 1.6 \end{bmatrix} = \begin{bmatrix} -0.6 \\ -1.0 \end{bmatrix}$. $\mathbf{\delta}^{(1)} = \begin{bmatrix} -0.6 \\ -1.0 \end{bmatrix} \odot \begin{bmatrix} 0.5 \\ 0.5 \end{bmatrix} = \begin{bmatrix} -0.3 \\ -0.5 \end{bmatrix}$.
+1. 
+
+$$\mathbf{W}^{(2)T} \mathbf{\delta}^{(2)} = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} \begin{bmatrix} 0.2 \\ -0.4 \end{bmatrix} = \begin{bmatrix} 0.2 - 0.8 \\ 0.6 - 1.6 \end{bmatrix} = \begin{bmatrix} -0.6 \\ -1.0 \end{bmatrix}$$
+
+. 
+
+$$\mathbf{\delta}^{(1)} = \begin{bmatrix} -0.6 \\ -1.0 \end{bmatrix} \odot \begin{bmatrix} 0.5 \\ 0.5 \end{bmatrix} = \begin{bmatrix} -0.3 \\ -0.5 \end{bmatrix}$$
+
+.
 ### Question 2
-2. $\frac{\partial L}{\partial \mathbf{W}^{(1)}} = \mathbf{\delta}^{(1)} \mathbf{x}^T = \begin{bmatrix} -0.1 \\ 0.3 \end{bmatrix} [2, 5] = \begin{bmatrix} -0.2 & -0.5 \\ 0.6 & 1.5 \end{bmatrix}$.
+2. 
+
+$$\frac{\partial L}{\partial \mathbf{W}^{(1)}} = \mathbf{\delta}^{(1)} \mathbf{x}^T = \begin{bmatrix} -0.1 \\ 0.3 \end{bmatrix} [2, 5] = \begin{bmatrix} -0.2 & -0.5 \\ 0.6 & 1.5 \end{bmatrix}$$
+
+.
 ### Question 3
 3. Order: $\mathbf{\delta}^{(5)} \rightarrow \mathbf{\delta}^{(4)} \rightarrow \mathbf{\delta}^{(3)} \rightarrow \mathbf{\delta}^{(2)} \rightarrow \mathbf{\delta}^{(1)}$.
 ### Question 4
@@ -38,7 +50,35 @@
 
 ## Level 4 — AI/ML Application Solutions
 ### Question 1
-1. Forward: $z_1 = \begin{bmatrix}0.1&0.2\\0.3&0.4\end{bmatrix} \begin{bmatrix}1\\1\end{bmatrix} = \begin{bmatrix}0.3\\0.7\end{bmatrix}$. $a_1 = \begin{bmatrix}\sigma(0.3)\\\sigma(0.7)\end{bmatrix} = \begin{bmatrix}0.5744\\0.6682\end{bmatrix}$. $z_2 = [0.5, 0.6] \begin{bmatrix}0.5744\\0.6682\end{bmatrix} = 0.2872 + 0.4009 = 0.6881$. $a_2 = \sigma(0.6881) = 0.6655$. Loss $= 0.5(0.6655 - 1.0)^2 = 0.0559$. Output Delta: $\delta_2 = (0.6655 - 1.0) \sigma'(0.6881) = (-0.3345)(0.6655)(0.3345) = -0.0744$. Hidden Delta: $\mathbf{W}^{(2)T} \delta_2 = \begin{bmatrix}0.5\\0.6\end{bmatrix} (-0.0744) = \begin{bmatrix}-0.0372\\-0.0446\end{bmatrix}$. $\sigma'(z_1) = \begin{bmatrix}0.2444\\0.2217\end{bmatrix}$. $\delta_1 = \begin{bmatrix}-0.0372(0.2444)\\-0.0446(0.2217)\end{bmatrix} = \begin{bmatrix}-0.0091\\-0.0099\end{bmatrix}$. Gradients: $dW_2 = \delta_2 a_1^T = -0.0744 [0.5744, 0.6682] = [-0.0427, -0.0497]$. $dW_1 = \delta_1 x^T = \begin{bmatrix}-0.0091\\-0.0099\end{bmatrix} [1, 1] = \begin{bmatrix}-0.0091&-0.0091\\-0.0099&-0.0099\end{bmatrix}$.
+1. Forward: 
+
+$$z_1 = \begin{bmatrix}0.1&0.2\\0.3&0.4\end{bmatrix} \begin{bmatrix}1\\1\end{bmatrix} = \begin{bmatrix}0.3\\0.7\end{bmatrix}$$
+
+. 
+
+$$a_1 = \begin{bmatrix}\sigma(0.3)\\\sigma(0.7)\end{bmatrix} = \begin{bmatrix}0.5744\\0.6682\end{bmatrix}$$
+
+. 
+
+$$z_2 = [0.5, 0.6] \begin{bmatrix}0.5744\\0.6682\end{bmatrix} = 0.2872 + 0.4009 = 0.6881$$
+
+. a_2 = \sigma(0.6881) = 0.6655. Loss = 0.5(0.6655 - 1.0)^2 = 0.0559. Output Delta: \delta_2 = (0.6655 - 1.0) \sigma'(0.6881) = (-0.3345)(0.6655)(0.3345) = -0.0744. Hidden Delta: 
+
+$$\mathbf{W}^{(2)T} \delta_2 = \begin{bmatrix}0.5\\0.6\end{bmatrix} (-0.0744) = \begin{bmatrix}-0.0372\\-0.0446\end{bmatrix}$$
+
+. 
+
+$$\sigma'(z_1) = \begin{bmatrix}0.2444\\0.2217\end{bmatrix}$$
+
+. 
+
+$$\delta_1 = \begin{bmatrix}-0.0372(0.2444)\\-0.0446(0.2217)\end{bmatrix} = \begin{bmatrix}-0.0091\\-0.0099\end{bmatrix}$$
+
+. Gradients: dW_2 = \delta_2 a_1^T = -0.0744 [0.5744, 0.6682] = [-0.0427, -0.0497]. 
+
+$$dW_1 = \delta_1 x^T = \begin{bmatrix}-0.0091\\-0.0099\end{bmatrix} [1, 1] = \begin{bmatrix}-0.0091&-0.0091\\-0.0099&-0.0099\end{bmatrix}$$
+
+.
 ### Question 2
 2. Python script executes forward and backward pass formulas above, printing values matching hand calculation to 4 decimal places.
 ### Question 3

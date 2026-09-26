@@ -2,7 +2,11 @@
 
 ## Level 1 — Basic Understanding Solutions
 ### Question 1
-1. $\det = 3(2) - 1(4) = 2$. $\mathbf{A}^{-1} = \frac{1}{2} \begin{bmatrix} 2 & -1 \\ -4 & 3 \end{bmatrix} = \begin{bmatrix} 1 & -0.5 \\ -2 & 1.5 \end{bmatrix}$.
+1. \det = 3(2) - 1(4) = 2. 
+
+$$\mathbf{A}^{-1} = \frac{1}{2} \begin{bmatrix} 2 & -1 \\ -4 & 3 \end{bmatrix} = \begin{bmatrix} 1 & -0.5 \\ -2 & 1.5 \end{bmatrix}$$
+
+.
 ### Question 2
 2. No. $\det = 2(6) - 4(3) = 12 - 12 = 0$. Singular matrices have no inverse.
 ### Question 3
@@ -14,11 +18,35 @@
 
 ## Level 2 — Calculation Solutions
 ### Question 1
-1. $\mathbf{D}^{-1} = \begin{bmatrix} 1/4 & 0 \\ 0 & -1/2 \end{bmatrix} = \begin{bmatrix} 0.25 & 0 \\ 0 & -0.5 \end{bmatrix}$.
+1. 
+
+$$\mathbf{D}^{-1} = \begin{bmatrix} 1/4 & 0 \\ 0 & -1/2 \end{bmatrix} = \begin{bmatrix} 0.25 & 0 \\ 0 & -0.5 \end{bmatrix}$$
+
+.
 ### Question 2
-2. $\mathbf{A}\mathbf{B} = \begin{bmatrix} 2 & 2 \\ 0 & 3 \end{bmatrix}$. $\det = 6$. $(\mathbf{A}\mathbf{B})^{-1} = \frac{1}{6} \begin{bmatrix} 3 & -2 \\ 0 & 2 \end{bmatrix} = \begin{bmatrix} 0.5 & -1/3 \\ 0 & 1/3 \end{bmatrix}$.
+2. 
+
+$$\mathbf{A}\mathbf{B} = \begin{bmatrix} 2 & 2 \\ 0 & 3 \end{bmatrix}$$
+
+. \det = 6. 
+
+$$(\mathbf{A}\mathbf{B})^{-1} = \frac{1}{6} \begin{bmatrix} 3 & -2 \\ 0 & 2 \end{bmatrix} = \begin{bmatrix} 0.5 & -1/3 \\ 0 & 1/3 \end{bmatrix}$$
+
+.
 ### Question 3
-3. System $\begin{bmatrix} 2 & 1 \\ 1 & 3 \end{bmatrix} \begin{bmatrix} x \\ y \end{bmatrix} = \begin{bmatrix} 7 \\ 11 \end{bmatrix}$. $\det = 5$. Inverse $= \frac{1}{5} \begin{bmatrix} 3 & -1 \\ -1 & 2 \end{bmatrix}$. Solution $\begin{bmatrix} x \\ y \end{bmatrix} = \frac{1}{5} \begin{bmatrix} 21-11 \\ -7+22 \end{bmatrix} = \frac{1}{5} \begin{bmatrix} 10 \\ 15 \end{bmatrix} = \begin{bmatrix} 2 \\ 3 \end{bmatrix}$.
+3. System 
+
+$$\begin{bmatrix} 2 & 1 \\ 1 & 3 \end{bmatrix} \begin{bmatrix} x \\ y \end{bmatrix} = \begin{bmatrix} 7 \\ 11 \end{bmatrix}$$
+
+. \det = 5. Inverse 
+
+$$= \frac{1}{5} \begin{bmatrix} 3 & -1 \\ -1 & 2 \end{bmatrix}$$
+
+. Solution 
+
+$$\begin{bmatrix} x \\ y \end{bmatrix} = \frac{1}{5} \begin{bmatrix} 21-11 \\ -7+22 \end{bmatrix} = \frac{1}{5} \begin{bmatrix} 10 \\ 15 \end{bmatrix} = \begin{bmatrix} 2 \\ 3 \end{bmatrix}$$
+
+.
 ### Question 4
 4. An orthogonal matrix ($\mathbf{A}^T = \mathbf{A}^{-1} \implies \mathbf{A}^T \mathbf{A} = \mathbf{I}$).
 ### Question 5
@@ -38,7 +66,23 @@
 
 ## Level 4 — AI/ML Application Solutions
 ### Question 1
-1. $\mathbf{X}^T \mathbf{X} = \begin{bmatrix} 3 & 6 \\ 6 & 14 \end{bmatrix}$. $\det = 42 - 36 = 6$. $(\mathbf{X}^T \mathbf{X})^{-1} = \frac{1}{6} \begin{bmatrix} 14 & -6 \\ -6 & 3 \end{bmatrix}$. $\mathbf{X}^T \mathbf{y} = \begin{bmatrix} 8.5 \\ 18.5 \end{bmatrix}$. $\mathbf{w} = \frac{1}{6} \begin{bmatrix} 14(8.5)-6(18.5) \\ -6(8.5)+3(18.5) \end{bmatrix} = \frac{1}{6} \begin{bmatrix} 119-111 \\ -51+55.5 \end{bmatrix} = \frac{1}{6} \begin{bmatrix} 8 \\ 4.5 \end{bmatrix} = \begin{bmatrix} 1.333 \\ 0.75 \end{bmatrix}$.
+1. 
+
+$$\mathbf{X}^T \mathbf{X} = \begin{bmatrix} 3 & 6 \\ 6 & 14 \end{bmatrix}$$
+
+. \det = 42 - 36 = 6. 
+
+$$(\mathbf{X}^T \mathbf{X})^{-1} = \frac{1}{6} \begin{bmatrix} 14 & -6 \\ -6 & 3 \end{bmatrix}$$
+
+. 
+
+$$\mathbf{X}^T \mathbf{y} = \begin{bmatrix} 8.5 \\ 18.5 \end{bmatrix}$$
+
+. 
+
+$$\mathbf{w} = \frac{1}{6} \begin{bmatrix} 14(8.5)-6(18.5) \\ -6(8.5)+3(18.5) \end{bmatrix} = \frac{1}{6} \begin{bmatrix} 119-111 \\ -51+55.5 \end{bmatrix} = \frac{1}{6} \begin{bmatrix} 8 \\ 4.5 \end{bmatrix} = \begin{bmatrix} 1.333 \\ 0.75 \end{bmatrix}$$
+
+.
 ### Question 2
 2. Collinearity makes feature columns linearly dependent, producing $\det(\mathbf{X}^T \mathbf{X}) \approx 0$. Dividing by near-zero yields massive weight values and numerical overflow.
 ### Question 3

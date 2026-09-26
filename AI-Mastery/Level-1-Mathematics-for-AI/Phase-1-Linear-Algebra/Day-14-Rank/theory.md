@@ -21,13 +21,21 @@ $$\mathbf{A} \text{ is Full Rank if } \text{Rank}(\mathbf{A}) = \min(m, n)$$
 - $\min(m, n)$: Maximum possible rank upper bound
 
 ### 7. Step-by-Step Calculation
-Find rank of $\mathbf{A} = \begin{bmatrix} 1 & 2 & 3 \\ 2 & 4 & 6 \\ 0 & 1 & 5 \end{bmatrix}$:
+Find rank of 
+
+$$\mathbf{A} = \begin{bmatrix} 1 & 2 & 3 \\ 2 & 4 & 6 \\ 0 & 1 & 5 \end{bmatrix}$$
+
+:
 - Row 2 is exactly $2 \times$ Row 1 ($[2, 4, 6] = 2[1, 2, 3]$). Redundant!
 - Row 3 $[0, 1, 5]$ is independent of Row 1.
 - We have 2 linearly independent rows $\implies \text{Rank}(\mathbf{A}) = 2$. (Rank Deficient, since $\min(3,3)=3$).
 
 ### 8. Second Example
-Rank of Identity Matrix $\mathbf{I}_3 = \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix}$: All 3 rows are linearly independent $\implies \text{Rank}(\mathbf{I}_3) = 3$ (Full Rank!).
+Rank of Identity Matrix 
+
+$$\mathbf{I}_3 = \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix}$$
+
+: All 3 rows are linearly independent \implies \text{Rank}(\mathbf{I}_3) = 3 (Full Rank!).
 
 ### 9. Common Mistakes
 Assuming a $100 \times 5$ matrix can have rank 100 (rank CANNOT exceed $\min(m, n) = 5$); confusing matrix shape with matrix rank.

@@ -8,7 +8,11 @@
 5. Are principal component directions orthogonal to each other?
 
 ## Level 2 — Calculation
-1. Given 2D centered data matrix $\mathbf{X}_c = \begin{bmatrix} -1 & 1 \\ 1 & -1 \end{bmatrix}$, compute covariance matrix $\mathbf{\Sigma}$.
+1. Given 2D centered data matrix 
+
+$$\mathbf{X}_c = \begin{bmatrix} -1 & 1 \\ 1 & -1 \end{bmatrix}$$
+
+, compute covariance matrix \mathbf{\Sigma}.
 2. Compute eigenvalues of covariance matrix $\mathbf{\Sigma}$ from Question 1 above.
 3. Find the normalized 1st principal component eigenvector $\mathbf{v}_1$.
 4. Project sample $\mathbf{x}_c = [3, -3]^T$ onto PC1 eigenvector $\mathbf{v}_1$.

@@ -23,11 +23,31 @@ $$\mathbf{w}^* = (\mathbf{X}^T \mathbf{X})^{-1} \mathbf{X}^T \mathbf{y} \quad \t
 
 ### 7. Step-by-Step Calculation
 Compute OLS weights for 2 samples: $x_1=1, y_1=2; x_2=2, y_2=3$:
-1. Augmented design matrix $\mathbf{X} = \begin{bmatrix} 1 & 1 \\ 1 & 2 \end{bmatrix}$ (col 1 is bias 1s).
-2. $\mathbf{X}^T \mathbf{X} = \begin{bmatrix} 2 & 3 \\ 3 & 5 \end{bmatrix}$.
-3. Inverse $(\mathbf{X}^T \mathbf{X})^{-1} = \begin{bmatrix} 5 & -3 \\ -3 & 2 \end{bmatrix}$.
-4. $\mathbf{X}^T \mathbf{y} = \begin{bmatrix} 1 & 1 \\ 1 & 2 \end{bmatrix} \begin{bmatrix} 2 \\ 3 \end{bmatrix} = \begin{bmatrix} 5 \\ 8 \end{bmatrix}$.
-5. $\mathbf{w}^* = \begin{bmatrix} 5 & -3 \\ -3 & 2 \end{bmatrix} \begin{bmatrix} 5 \\ 8 \end{bmatrix} = \begin{bmatrix} 25-24 \\ -15+16 \end{bmatrix} = \begin{bmatrix} 1 \\ 1 \end{bmatrix} \implies y = 1x + 1$.
+1. Augmented design matrix 
+
+$$\mathbf{X} = \begin{bmatrix} 1 & 1 \\ 1 & 2 \end{bmatrix}$$
+
+ (col 1 is bias 1s).
+2. 
+
+$$\mathbf{X}^T \mathbf{X} = \begin{bmatrix} 2 & 3 \\ 3 & 5 \end{bmatrix}$$
+
+.
+3. Inverse 
+
+$$(\mathbf{X}^T \mathbf{X})^{-1} = \begin{bmatrix} 5 & -3 \\ -3 & 2 \end{bmatrix}$$
+
+.
+4. 
+
+$$\mathbf{X}^T \mathbf{y} = \begin{bmatrix} 1 & 1 \\ 1 & 2 \end{bmatrix} \begin{bmatrix} 2 \\ 3 \end{bmatrix} = \begin{bmatrix} 5 \\ 8 \end{bmatrix}$$
+
+.
+5. 
+
+$$\mathbf{w}^* = \begin{bmatrix} 5 & -3 \\ -3 & 2 \end{bmatrix} \begin{bmatrix} 5 \\ 8 \end{bmatrix} = \begin{bmatrix} 25-24 \\ -15+16 \end{bmatrix} = \begin{bmatrix} 1 \\ 1 \end{bmatrix} \implies y = 1x + 1$$
+
+.
 
 ### 8. Second Example
 SVM Hyperplane decision boundary: $\mathbf{w}^T \mathbf{x} + b = 0$. Distance from point $\mathbf{x}_i$ to hyperplane is $\frac{|\mathbf{w}^T \mathbf{x}_i + b|}{||\mathbf{w}||_2}$. Margin $= \frac{2}{||\mathbf{w}||_2}$.

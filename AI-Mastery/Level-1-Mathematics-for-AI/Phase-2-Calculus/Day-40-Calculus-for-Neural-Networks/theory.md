@@ -34,9 +34,17 @@ Weight gradient $\frac{\partial L}{\partial \mathbf{W}^{(2)}} = \delta^{(2)} (\m
 
 ### 8. Second Example
 Propagate error delta to hidden layer $\mathbf{\delta}^{(1)}$:
-Let $\mathbf{W}^{(2)} = [2.0, 1.0]$. $\mathbf{W}^{(2)T} \delta^{(2)} = \begin{bmatrix} 2.0 \\ 1.0 \end{bmatrix} (-0.2) = \begin{bmatrix} -0.4 \\ -0.2 \end{bmatrix}$.
+Let \mathbf{W}^{(2)} = [2.0, 1.0]. 
+
+$$\mathbf{W}^{(2)T} \delta^{(2)} = \begin{bmatrix} 2.0 \\ 1.0 \end{bmatrix} (-0.2) = \begin{bmatrix} -0.4 \\ -0.2 \end{bmatrix}$$
+
+.
 Let $\sigma'(\mathbf{z}^{(1)}) = [0.25, 0.24]^T$.
-Hidden delta $\mathbf{\delta}^{(1)} = \begin{bmatrix} -0.4 \\ -0.2 \end{bmatrix} \odot \begin{bmatrix} 0.25 \\ 0.24 \end{bmatrix} = \begin{bmatrix} -0.100 \\ -0.048 \end{bmatrix}$.
+Hidden delta 
+
+$$\mathbf{\delta}^{(1)} = \begin{bmatrix} -0.4 \\ -0.2 \end{bmatrix} \odot \begin{bmatrix} 0.25 \\ 0.24 \end{bmatrix} = \begin{bmatrix} -0.100 \\ -0.048 \end{bmatrix}$$
+
+.
 
 ### 9. Common Mistakes
 Forgetting element-wise Hadamard product $\odot$ when applying activation derivative $\sigma'(\mathbf{z}^{(l)})$; getting weight gradient matrix order reversed.

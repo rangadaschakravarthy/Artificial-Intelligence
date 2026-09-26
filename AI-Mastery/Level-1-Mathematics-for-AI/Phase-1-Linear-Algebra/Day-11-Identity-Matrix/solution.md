@@ -2,7 +2,11 @@
 
 ## Level 1 — Basic Understanding Solutions
 ### Question 1
-1. $\mathbf{I}_4 = \begin{bmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1 \end{bmatrix}$.
+1. 
+
+$$\mathbf{I}_4 = \begin{bmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1 \end{bmatrix}$$
+
+.
 ### Question 2
 2. $\mathbf{I}_n \mathbf{v} = \mathbf{v}$.
 ### Question 3
@@ -16,9 +20,17 @@
 ### Question 1
 1. Left multiplication: $\mathbf{I}_2 \mathbf{A}_{2 \times 3}$. Right multiplication: $\mathbf{A}_{2 \times 3} \mathbf{I}_3$.
 ### Question 2
-2. $\mathbf{A} + 3\mathbf{I}_2 = \begin{bmatrix} 1 & 4 \\ 2 & 5 \end{bmatrix} + \begin{bmatrix} 3 & 0 \\ 0 & 3 \end{bmatrix} = \begin{bmatrix} 4 & 4 \\ 2 & 8 \end{bmatrix}$.
+2. 
+
+$$\mathbf{A} + 3\mathbf{I}_2 = \begin{bmatrix} 1 & 4 \\ 2 & 5 \end{bmatrix} + \begin{bmatrix} 3 & 0 \\ 0 & 3 \end{bmatrix} = \begin{bmatrix} 4 & 4 \\ 2 & 8 \end{bmatrix}$$
+
+.
 ### Question 3
-3. $\begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix} \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix} = \begin{bmatrix} 1(1)+0(0) & 1(0)+0(1) \\ 0(1)+1(0) & 0(0)+1(1) \end{bmatrix} = \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}$.
+3. 
+
+$$\begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix} \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix} = \begin{bmatrix} 1(1)+0(0) & 1(0)+0(1) \\ 0(1)+1(0) & 0(0)+1(1) \end{bmatrix} = \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}$$
+
+.
 ### Question 4
 4. $\det(\mathbf{I}_n) = 1$.
 ### Question 5
@@ -38,7 +50,11 @@
 
 ## Level 4 — AI/ML Application Solutions
 ### Question 1
-1. $\mathbf{X}^T \mathbf{X} + 0.5 \mathbf{I}_2 = \begin{bmatrix} 4 & 2 \\ 2 & 1 \end{bmatrix} + \begin{bmatrix} 0.5 & 0 \\ 0 & 0.5 \end{bmatrix} = \begin{bmatrix} 4.5 & 2.0 \\ 2.0 & 1.5 \end{bmatrix}$. Determinant $= 4.5(1.5) - 2(2) = 6.75 - 4.0 = 2.75 \neq 0$. Invertible!
+1. 
+
+$$\mathbf{X}^T \mathbf{X} + 0.5 \mathbf{I}_2 = \begin{bmatrix} 4 & 2 \\ 2 & 1 \end{bmatrix} + \begin{bmatrix} 0.5 & 0 \\ 0 & 0.5 \end{bmatrix} = \begin{bmatrix} 4.5 & 2.0 \\ 2.0 & 1.5 \end{bmatrix}$$
+
+. Determinant = 4.5(1.5) - 2(2) = 6.75 - 4.0 = 2.75 \neq 0. Invertible!
 ### Question 2
 2. $\mathbf{h} = [0.2, -0.1]^T + [1.0, 2.0]^T = [1.2, 1.9]^T$.
 ### Question 3

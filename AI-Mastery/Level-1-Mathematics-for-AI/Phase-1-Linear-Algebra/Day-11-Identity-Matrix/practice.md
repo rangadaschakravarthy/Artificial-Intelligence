@@ -8,8 +8,16 @@
 5. Evaluate Kronecker delta $\delta_{3,3}$ and $\delta_{2,4}$.
 
 ## Level 2 — Calculation
-1. Given $\mathbf{A} = \begin{bmatrix} 2 & -1 & 4 \\ 5 & 0 & 3 \end{bmatrix}_{2 \times 3}$, state which identity matrix $\mathbf{I}_k$ multiplies $\mathbf{A}$ on the left and right.
-2. Calculate $\mathbf{A} + 3\mathbf{I}_2$ for $\mathbf{A} = \begin{bmatrix} 1 & 4 \\ 2 & 5 \end{bmatrix}$.
+1. Given 
+
+$$\mathbf{A} = \begin{bmatrix} 2 & -1 & 4 \\ 5 & 0 & 3 \end{bmatrix}_{2 \times 3}$$
+
+, state which identity matrix \mathbf{I}_k multiplies \mathbf{A} on the left and right.
+2. Calculate \mathbf{A} + 3\mathbf{I}_2 for 
+
+$$\mathbf{A} = \begin{bmatrix} 1 & 4 \\ 2 & 5 \end{bmatrix}$$
+
+.
 3. Show that $\mathbf{I}_2 \mathbf{I}_2 = \mathbf{I}_2$.
 4. Calculate determinant of $\mathbf{I}_n$.
 5. Compute trace of $\mathbf{I}_n$.
@@ -22,7 +30,11 @@
 5. Why do we initialize RNN recurrent weights to identity matrices (Identity RNN)?
 
 ## Level 4 — AI/ML Application
-1. In Ridge Regression, $\mathbf{X}^T \mathbf{X} = \begin{bmatrix} 4 & 2 \\ 2 & 1 \end{bmatrix}$ is singular (non-invertible). Add $\lambda \mathbf{I}$ with $\lambda = 0.5$ and show the result is invertible.
+1. In Ridge Regression, 
+
+$$\mathbf{X}^T \mathbf{X} = \begin{bmatrix} 4 & 2 \\ 2 & 1 \end{bmatrix}$$
+
+ is singular (non-invertible). Add \lambda \mathbf{I} with \lambda = 0.5 and show the result is invertible.
 2. A ResNet layer output is $\mathbf{h} = F(\mathbf{x}) + \mathbf{I}\mathbf{x}$. If $F(\mathbf{x}) = [0.2, -0.1]^T$ and $\mathbf{x} = [1.0, 2.0]^T$, compute $\mathbf{h}$.
 3. Explain how identity shortcut connections solve the vanishing gradient problem in 100+ layer deep neural networks.
 

@@ -23,11 +23,23 @@ $$\text{Linear Approximation: } \mathbf{f}(\mathbf{x} + \Delta \mathbf{x}) \appr
 - $\mathbf{J}_{i,j}$: Partial derivative of output $i$ with respect to input $j$
 
 ### 7. Step-by-Step Calculation
-Find Jacobian of $\mathbf{f}(x, y) = \begin{bmatrix} x^2 y \\ x + 3y \end{bmatrix}$ at point $(2, 1)$:
+Find Jacobian of 
+
+$$\mathbf{f}(x, y) = \begin{bmatrix} x^2 y \\ x + 3y \end{bmatrix}$$
+
+ at point (2, 1):
 1. Output $f_1(x, y) = x^2 y \implies \frac{\partial f_1}{\partial x} = 2xy, \frac{\partial f_1}{\partial y} = x^2$.
 2. Output $f_2(x, y) = x + 3y \implies \frac{\partial f_2}{\partial x} = 1, \frac{\partial f_2}{\partial y} = 3$.
-3. Jacobian matrix: $\mathbf{J} = \begin{bmatrix} 2xy & x^2 \\ 1 & 3 \end{bmatrix}$.
-4. Evaluate at $(2, 1)$: $\mathbf{J}(2, 1) = \begin{bmatrix} 2(2)(1) & 2^2 \\ 1 & 3 \end{bmatrix} = \begin{bmatrix} 4 & 4 \\ 1 & 3 \end{bmatrix}_{2 \times 2}$.
+3. Jacobian matrix: 
+
+$$\mathbf{J} = \begin{bmatrix} 2xy & x^2 \\ 1 & 3 \end{bmatrix}$$
+
+.
+4. Evaluate at (2, 1): 
+
+$$\mathbf{J}(2, 1) = \begin{bmatrix} 2(2)(1) & 2^2 \\ 1 & 3 \end{bmatrix} = \begin{bmatrix} 4 & 4 \\ 1 & 3 \end{bmatrix}_{2 \times 2}$$
+
+.
 
 ### 8. Second Example
 Jacobian of linear transformation $\mathbf{f}(\mathbf{x}) = \mathbf{A}\mathbf{x}$: $\mathbf{J} = \frac{\partial (\mathbf{A}\mathbf{x})}{\partial \mathbf{x}} = \mathbf{A}$. The Jacobian of a linear transform is the matrix itself!

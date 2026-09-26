@@ -4,14 +4,26 @@
 1. Compute the dot product of $\mathbf{u} = [2, 3]$ and $\mathbf{v} = [4, -1]$.
 2. Compute $L_2$ norm of $\mathbf{x} = [3, 4]$.
 3. Compute Cosine Similarity between $\mathbf{u} = [1, 0]$ and $\mathbf{v} = [1, 1]$.
-4. Given $A = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$, compute $\det(A)$.
+4. Given 
+
+$$A = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$$
+
+, compute \det(A).
 5. For matrix $A$ in Q4, compute $A^T$.
-6. State the inverse formula for a $2 \times 2$ matrix $\begin{bmatrix} a & b \\ c & d \end{bmatrix}$.
+6. State the inverse formula for a 2 \times 2 matrix 
+
+$$\begin{bmatrix} a & b \\ c & d \end{bmatrix}$$
+
+.
 7. If $A \mathbf{v} = 5 \mathbf{v}$, what is the eigenvalue $\lambda$?
 8. What matrix operation projects a vector onto a subspace?
 9. In SVD $A = U \Sigma V^T$, what do the diagonal entries of $\Sigma$ represent?
 10. What property defines an orthogonal matrix $Q$?
-11. Compute Matrix-Vector product $\begin{bmatrix} 2 & 1 \\ 0 & 3 \end{bmatrix} \begin{bmatrix} 4 \\ 2 \end{bmatrix}$.
+11. Compute Matrix-Vector product 
+
+$$\begin{bmatrix} 2 & 1 \\ 0 & 3 \end{bmatrix} \begin{bmatrix} 4 \\ 2 \end{bmatrix}$$
+
+.
 12. What is the rank of a matrix with 3 linearly independent columns?
 
 ## Calculus (Questions 13–25)

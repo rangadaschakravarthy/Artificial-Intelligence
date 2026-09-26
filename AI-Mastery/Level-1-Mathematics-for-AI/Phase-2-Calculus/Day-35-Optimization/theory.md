@@ -27,13 +27,25 @@ $$\lambda_i > 0 \, \forall i \implies \text{Local Min}, \quad \lambda_i < 0 \, \
 
 ### 7. Step-by-Step Calculation
 Classify critical point of $f(x, y) = x^2 + 2y^2 - 4x + 8y + 5$:
-1. Gradient: $\nabla f = \begin{bmatrix} 2x - 4 \\ 4y + 8 \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \end{bmatrix} \implies x^* = 2, y^* = -2$.
-2. Hessian matrix: $f_{xx} = 2, f_{xy} = 0, f_{yy} = 4 \implies \mathbf{H} = \begin{bmatrix} 2 & 0 \\ 0 & 4 \end{bmatrix}$.
+1. Gradient: 
+
+$$\nabla f = \begin{bmatrix} 2x - 4 \\ 4y + 8 \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \end{bmatrix} \implies x^* = 2, y^* = -2$$
+
+.
+2. Hessian matrix: 
+
+$$f_{xx} = 2, f_{xy} = 0, f_{yy} = 4 \implies \mathbf{H} = \begin{bmatrix} 2 & 0 \\ 0 & 4 \end{bmatrix}$$
+
+.
 3. Eigenvalues of $\mathbf{H}$: $\lambda_1 = 2, \lambda_2 = 4$. Both eigenvalues $> 0$ (Positive Definite $\mathbf{H} \succ 0$).
 4. Conclusion: Critical point $(2, -2)$ is a STRICT LOCAL MINIMUM!
 
 ### 8. Second Example
-Saddle Point Example: $f(x, y) = x^2 - y^2$. $\nabla f = [2x, -2y]^T = [0, 0]^T \implies (0, 0)$. Hessian $\mathbf{H} = \begin{bmatrix} 2 & 0 \\ 0 & -2 \end{bmatrix}$. Eigenvalues $\lambda_1 = 2, \lambda_2 = -2$ (mixed signs!). $(0, 0)$ is a SADDLE POINT!
+Saddle Point Example: f(x, y) = x^2 - y^2. \nabla f = [2x, -2y]^T = [0, 0]^T \implies (0, 0). Hessian 
+
+$$\mathbf{H} = \begin{bmatrix} 2 & 0 \\ 0 & -2 \end{bmatrix}$$
+
+. Eigenvalues \lambda_1 = 2, \lambda_2 = -2 (mixed signs!). (0, 0) is a SADDLE POINT!
 
 ### 9. Common Mistakes
 Assuming every critical point $\nabla f = \mathbf{0}$ is a local minimum (it could be a maximum or a saddle point!).

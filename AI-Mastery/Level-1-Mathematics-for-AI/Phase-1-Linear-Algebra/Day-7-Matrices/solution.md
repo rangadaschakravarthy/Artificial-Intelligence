@@ -14,9 +14,17 @@
 
 ## Level 2 — Calculation Solutions
 ### Question 1
-1. $\mathbf{I}_3 = \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix}$.
+1. 
+
+$$\mathbf{I}_3 = \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix}$$
+
+.
 ### Question 2
-2. Example: $\mathbf{S} = \begin{bmatrix} 5 & 2 \\ 2 & 9 \end{bmatrix}$ (off-diagonal elements must match).
+2. Example: 
+
+$$\mathbf{S} = \begin{bmatrix} 5 & 2 \\ 2 & 9 \end{bmatrix}$$
+
+ (off-diagonal elements must match).
 ### Question 3
 3. $100 \times 20 = 2000$ numbers.
 ### Question 4

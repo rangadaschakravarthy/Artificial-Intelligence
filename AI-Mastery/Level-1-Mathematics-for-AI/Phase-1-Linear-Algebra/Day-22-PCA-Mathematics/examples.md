@@ -4,7 +4,11 @@
 Mean Centering: Data $[10, 20], [30, 40] \implies \mu = [20, 30] \implies$ Centered $[-10, -10], [10, 10]$.
 
 ## Example 2 — Beginner
-2D Covariance Matrix: $\mathbf{\Sigma} = \begin{bmatrix} \text{Var}(X) & \text{Cov}(X,Y) \\ \text{Cov}(Y,X) & \text{Var}(Y) \end{bmatrix}$.
+2D Covariance Matrix: 
+
+$$\mathbf{\Sigma} = \begin{bmatrix} \text{Var}(X) & \text{Cov}(X,Y) \\ \text{Cov}(Y,X) & \text{Var}(Y) \end{bmatrix}$$
+
+.
 
 ## Example 3 — Intermediate
 Explained Variance: $\lambda_1 = 15, \lambda_2 = 5 \implies$ PC1 explains $15/(15+5) = 75\%$, PC2 explains $25\%$.

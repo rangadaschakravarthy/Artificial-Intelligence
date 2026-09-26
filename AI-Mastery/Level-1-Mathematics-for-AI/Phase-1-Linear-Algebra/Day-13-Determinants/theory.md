@@ -21,12 +21,20 @@ $$\text{For } 3 \times 3: \det \begin{bmatrix} a & b & c \\ d & e & f \\ g & h &
 - $(ei - fh)$: $2 \times 2$ sub-determinant (minor) for element $a$
 
 ### 7. Step-by-Step Calculation
-Calculate determinant of $\mathbf{A} = \begin{bmatrix} 3 & 8 \\ 4 & 6 \end{bmatrix}$:
+Calculate determinant of 
+
+$$\mathbf{A} = \begin{bmatrix} 3 & 8 \\ 4 & 6 \end{bmatrix}$$
+
+:
 $$\det(\mathbf{A}) = (3)(6) - (8)(4) = 18 - 32 = -14$$
 (Negative sign means orientation of space was flipped!)
 
 ### 8. Second Example
-Calculate $3 \times 3$ determinant for $\mathbf{B} = \begin{bmatrix} 1 & 2 & 0 \\ 3 & 4 & 1 \\ 0 & 1 & 2 \end{bmatrix}$:
+Calculate 3 \times 3 determinant for 
+
+$$\mathbf{B} = \begin{bmatrix} 1 & 2 & 0 \\ 3 & 4 & 1 \\ 0 & 1 & 2 \end{bmatrix}$$
+
+:
 $\det(\mathbf{B}) = 1(4\cdot 2 - 1\cdot 1) - 2(3\cdot 2 - 1\cdot 0) + 0(3\cdot 1 - 4\cdot 0)$
 $= 1(8 - 1) - 2(6 - 0) + 0 = 7 - 12 = -5$.
 

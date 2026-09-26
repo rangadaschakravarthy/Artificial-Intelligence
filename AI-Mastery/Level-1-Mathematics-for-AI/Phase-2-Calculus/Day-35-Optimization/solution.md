@@ -16,11 +16,19 @@
 ### Question 1
 1. $\nabla f = [4x - 8, 6y - 12]^T = [0, 0]^T \implies x^* = 2, y^* = 2$. Critical point $(2, 2)$.
 ### Question 2
-2. $f_{xx} = 4, f_{xy} = 0, f_{yy} = 6 \implies \mathbf{H} = \begin{bmatrix} 4 & 0 \\ 0 & 6 \end{bmatrix}$.
+2. 
+
+$$f_{xx} = 4, f_{xy} = 0, f_{yy} = 6 \implies \mathbf{H} = \begin{bmatrix} 4 & 0 \\ 0 & 6 \end{bmatrix}$$
+
+.
 ### Question 3
 3. Eigenvalues $\lambda_1 = 4, \lambda_2 = 6$. Both positive $\implies (2, 2)$ is a STRICT LOCAL MINIMUM.
 ### Question 4
-4. $\nabla f = [2x - 4y, -4x + 2y]^T = [0, 0]^T \implies (0, 0)$. $\mathbf{H} = \begin{bmatrix} 2 & -4 \\ -4 & 2 \end{bmatrix}$. $\det(\mathbf{H}-\lambda\mathbf{I}) = (2-\lambda)^2 - 16 = 0 \implies \lambda_1 = 6, \lambda_2 = -2$. Mixed signs $\implies (0, 0)$ is a SADDLE POINT!
+4. \nabla f = [2x - 4y, -4x + 2y]^T = [0, 0]^T \implies (0, 0). 
+
+$$\mathbf{H} = \begin{bmatrix} 2 & -4 \\ -4 & 2 \end{bmatrix}$$
+
+. \det(\mathbf{H}-\lambda\mathbf{I}) = (2-\lambda)^2 - 16 = 0 \implies \lambda_1 = 6, \lambda_2 = -2. Mixed signs \implies (0, 0) is a SADDLE POINT!
 ### Question 5
 5. $f'(x) = 2x - 6, f''(x) = 2$. At $x=0$: $x_{new} = 0 - \frac{-6}{2} = 0 + 3 = 3$. Minimum of quadratic reached in exactly 1 step!
 

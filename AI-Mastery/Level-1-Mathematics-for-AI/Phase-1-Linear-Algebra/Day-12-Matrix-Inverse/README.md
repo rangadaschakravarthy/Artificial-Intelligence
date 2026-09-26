@@ -12,7 +12,10 @@ Day 9 — Matrix Multiplication, Day 11 — Identity Matrix
 ## Topics Covered
 - Matrix Inverse definition: $\mathbf{A}\mathbf{A}^{-1} = \mathbf{A}^{-1}\mathbf{A} = \mathbf{I}$
 - Invertibility condition ($\det(\mathbf{A}) \neq 0$)
-- Formula for $2 \times 2$ inverse: $\mathbf{A}^{-1} = \frac{1}{ad-bc} \begin{bmatrix} d & -b \\ -c & a \end{bmatrix}$
+- Formula for 2 \times 2 inverse: 
+
+$$\mathbf{A}^{-1} = \frac{1}{ad-bc} \begin{bmatrix} d & -b \\ -c & a \end{bmatrix}$$
+
 - Properties of Inverses: $(\mathbf{A}^{-1})^{-1} = \mathbf{A}$, $(\mathbf{A}\mathbf{B})^{-1} = \mathbf{B}^{-1}\mathbf{A}^{-1}$
 - Solving linear systems $\mathbf{A}\mathbf{x} = \mathbf{b}$
 

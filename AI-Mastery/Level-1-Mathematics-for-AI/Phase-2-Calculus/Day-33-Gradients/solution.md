@@ -8,21 +8,37 @@
 ### Question 3
 3. In the direction of steepest descent (greatest rate of decrease).
 ### Question 4
-4. $\nabla f = \begin{bmatrix} 10x \\ 6y^2 \end{bmatrix}$.
+4. 
+
+$$\nabla f = \begin{bmatrix} 10x \\ 6y^2 \end{bmatrix}$$
+
+.
 ### Question 5
 5. The zero vector $\mathbf{0} = [0, \dots, 0]^T$.
 
 ## Level 2 — Calculation Solutions
 ### Question 1
-1. $\frac{\partial f}{\partial x} = 2xy - 3$, $\frac{\partial f}{\partial y} = x^2 + 8y$. At $(1, 2)$: $\nabla f(1, 2) = \begin{bmatrix} 4-3 \\ 1+16 \end{bmatrix} = \begin{bmatrix} 1 \\ 17 \end{bmatrix}$.
+1. \frac{\partial f}{\partial x} = 2xy - 3, \frac{\partial f}{\partial y} = x^2 + 8y. At (1, 2): 
+
+$$\nabla f(1, 2) = \begin{bmatrix} 4-3 \\ 1+16 \end{bmatrix} = \begin{bmatrix} 1 \\ 17 \end{bmatrix}$$
+
+.
 ### Question 2
-2. Steepest descent direction is $-\nabla f(1, 2) = \begin{bmatrix} -1 \\ -17 \end{bmatrix}$.
+2. Steepest descent direction is 
+
+$$-\nabla f(1, 2) = \begin{bmatrix} -1 \\ -17 \end{bmatrix}$$
+
+.
 ### Question 3
 3. $\nabla f = [4x, 6y]^T$. At $(1, 1)$, $\nabla f = [4, 6]^T$. $D_{\mathbf{u}} f = [4, 6] \cdot [0.6, 0.8]^T = 2.4 + 4.8 = 7.2$.
 ### Question 4
 4. $\nabla f = [2x - 6, 2y + 4]^T = [0, 0]^T \implies 2x=6 \implies x=3; 2y=-4 \implies y=-2$. Critical point at $(3, -2)$.
 ### Question 5
-5. $\nabla L = [2w_1, 4w_2]^T$. At $(3, 2)$, $\nabla L = [6, 8]^T$. Update: $\mathbf{w}_{new} = \begin{bmatrix} 3 \\ 2 \end{bmatrix} - 0.1 \begin{bmatrix} 6 \\ 8 \end{bmatrix} = \begin{bmatrix} 3 - 0.6 \\ 2 - 0.8 \end{bmatrix} = \begin{bmatrix} 2.4 \\ 1.2 \end{bmatrix}$.
+5. \nabla L = [2w_1, 4w_2]^T. At (3, 2), \nabla L = [6, 8]^T. Update: 
+
+$$\mathbf{w}_{new} = \begin{bmatrix} 3 \\ 2 \end{bmatrix} - 0.1 \begin{bmatrix} 6 \\ 8 \end{bmatrix} = \begin{bmatrix} 3 - 0.6 \\ 2 - 0.8 \end{bmatrix} = \begin{bmatrix} 2.4 \\ 1.2 \end{bmatrix}$$
+
+.
 
 ## Level 3 — Conceptual Solutions
 ### Question 1

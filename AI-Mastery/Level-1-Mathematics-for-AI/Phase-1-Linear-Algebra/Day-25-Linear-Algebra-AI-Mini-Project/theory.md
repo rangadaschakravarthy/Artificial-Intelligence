@@ -22,8 +22,16 @@ $$\text{Similarity}(\mathbf{q}_k, \mathbf{d}_j) = \frac{\mathbf{q}_k \cdot \math
 
 ### 7. Step-by-Step Calculation
 Projecting query vector onto 2D latent topic space:
-Query $\mathbf{q} = [1, 0, 1]^T$. Top 2 Left Singular Vectors $\mathbf{U}_2 = \begin{bmatrix} 0.8 & 0.1 \\ 0.2 & 0.9 \\ 0.6 & 0.3 \end{bmatrix}$.
-Latent Query $\mathbf{q}_k = \mathbf{U}_2^T \mathbf{q} = \begin{bmatrix} 0.8(1)+0.2(0)+0.6(1) \\ 0.1(1)+0.9(0)+0.3(1) \end{bmatrix} = \begin{bmatrix} 1.4 \\ 0.4 \end{bmatrix}$.
+Query \mathbf{q} = [1, 0, 1]^T. Top 2 Left Singular Vectors 
+
+$$\mathbf{U}_2 = \begin{bmatrix} 0.8 & 0.1 \\ 0.2 & 0.9 \\ 0.6 & 0.3 \end{bmatrix}$$
+
+.
+Latent Query 
+
+$$\mathbf{q}_k = \mathbf{U}_2^T \mathbf{q} = \begin{bmatrix} 0.8(1)+0.2(0)+0.6(1) \\ 0.1(1)+0.9(0)+0.3(1) \end{bmatrix} = \begin{bmatrix} 1.4 \\ 0.4 \end{bmatrix}$$
+
+.
 
 ### 8. Second Example
 Compare $\mathbf{q}_k = [1.4, 0.4]^T$ with Doc 1 embedding $\mathbf{d}_1 = [1.0, 0.2]^T$:

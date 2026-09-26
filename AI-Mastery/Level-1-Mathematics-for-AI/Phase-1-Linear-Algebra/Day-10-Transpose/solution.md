@@ -2,25 +2,53 @@
 
 ## Level 1 — Basic Understanding Solutions
 ### Question 1
-1. $\mathbf{A}^T = \begin{bmatrix} 1 & 2 \\ 5 & 6 \\ 9 & 0 \end{bmatrix}_{3 \times 2}$.
+1. 
+
+$$\mathbf{A}^T = \begin{bmatrix} 1 & 2 \\ 5 & 6 \\ 9 & 0 \end{bmatrix}_{3 \times 2}$$
+
+.
 ### Question 2
 2. Shape is $2 \times 5$.
 ### Question 3
 3. $(\mathbf{A}^T)^T = \mathbf{A}$.
 ### Question 4
-4. Yes, because $\mathbf{S}^T = \begin{bmatrix} 3 & -1 \\ -1 & 4 \end{bmatrix} = \mathbf{S}$.
+4. Yes, because 
+
+$$\mathbf{S}^T = \begin{bmatrix} 3 & -1 \\ -1 & 4 \end{bmatrix} = \mathbf{S}$$
+
+.
 ### Question 5
 5. $(\mathbf{A}\mathbf{B})^T = \mathbf{B}^T \mathbf{A}^T$.
 
 ## Level 2 — Calculation Solutions
 ### Question 1
-1. $\mathbf{A}+\mathbf{B} = \begin{bmatrix} 1 & 3 \\ 5 & 9 \end{bmatrix} \implies (\mathbf{A}+\mathbf{B})^T = \begin{bmatrix} 1 & 5 \\ 3 & 9 \end{bmatrix}$. $\mathbf{A}^T+\mathbf{B}^T = \begin{bmatrix} 1 & 3 \\ 2 & 4 \end{bmatrix} + \begin{bmatrix} 0 & 2 \\ 1 & 5 \end{bmatrix} = \begin{bmatrix} 1 & 5 \\ 3 & 9 \end{bmatrix}$. Equal!
+1. 
+
+$$\mathbf{A}+\mathbf{B} = \begin{bmatrix} 1 & 3 \\ 5 & 9 \end{bmatrix} \implies (\mathbf{A}+\mathbf{B})^T = \begin{bmatrix} 1 & 5 \\ 3 & 9 \end{bmatrix}$$
+
+. 
+
+$$\mathbf{A}^T+\mathbf{B}^T = \begin{bmatrix} 1 & 3 \\ 2 & 4 \end{bmatrix} + \begin{bmatrix} 0 & 2 \\ 1 & 5 \end{bmatrix} = \begin{bmatrix} 1 & 5 \\ 3 & 9 \end{bmatrix}$$
+
+. Equal!
 ### Question 2
-2. $\mathbf{A}\mathbf{B} = \begin{bmatrix} 1(2)+3(4) & 1(1)+3(0) \\ 0(2)+2(4) & 0(1)+2(0) \end{bmatrix} = \begin{bmatrix} 14 & 1 \\ 8 & 0 \end{bmatrix} \implies (\mathbf{A}\mathbf{B})^T = \begin{bmatrix} 14 & 8 \\ 1 & 0 \end{bmatrix}$.
+2. 
+
+$$\mathbf{A}\mathbf{B} = \begin{bmatrix} 1(2)+3(4) & 1(1)+3(0) \\ 0(2)+2(4) & 0(1)+2(0) \end{bmatrix} = \begin{bmatrix} 14 & 1 \\ 8 & 0 \end{bmatrix} \implies (\mathbf{A}\mathbf{B})^T = \begin{bmatrix} 14 & 8 \\ 1 & 0 \end{bmatrix}$$
+
+.
 ### Question 3
-3. $\mathbf{B}^T = \begin{bmatrix} 2 & 4 \\ 1 & 0 \end{bmatrix}, \mathbf{A}^T = \begin{bmatrix} 1 & 0 \\ 3 & 2 \end{bmatrix} \implies \mathbf{B}^T \mathbf{A}^T = \begin{bmatrix} 2(1)+4(3) & 2(0)+4(2) \\ 1(1)+0(3) & 1(0)+0(2) \end{bmatrix} = \begin{bmatrix} 14 & 8 \\ 1 & 0 \end{bmatrix}$. Matches!
+3. 
+
+$$\mathbf{B}^T = \begin{bmatrix} 2 & 4 \\ 1 & 0 \end{bmatrix}, \mathbf{A}^T = \begin{bmatrix} 1 & 0 \\ 3 & 2 \end{bmatrix} \implies \mathbf{B}^T \mathbf{A}^T = \begin{bmatrix} 2(1)+4(3) & 2(0)+4(2) \\ 1(1)+0(3) & 1(0)+0(2) \end{bmatrix} = \begin{bmatrix} 14 & 8 \\ 1 & 0 \end{bmatrix}$$
+
+. Matches!
 ### Question 4
-4. $\mathbf{A}^T \mathbf{A} = \begin{bmatrix} 1 & 3 \\ 2 & 0 \end{bmatrix} \begin{bmatrix} 1 & 2 \\ 3 & 0 \end{bmatrix} = \begin{bmatrix} 10 & 2 \\ 2 & 4 \end{bmatrix}$. Yes, it is symmetric!
+4. 
+
+$$\mathbf{A}^T \mathbf{A} = \begin{bmatrix} 1 & 3 \\ 2 & 0 \end{bmatrix} \begin{bmatrix} 1 & 2 \\ 3 & 0 \end{bmatrix} = \begin{bmatrix} 10 & 2 \\ 2 & 4 \end{bmatrix}$$
+
+. Yes, it is symmetric!
 ### Question 5
 5. A square matrix $\mathbf{K}$ where $\mathbf{K}^T = -\mathbf{K}$ (all diagonal entries must be 0).
 

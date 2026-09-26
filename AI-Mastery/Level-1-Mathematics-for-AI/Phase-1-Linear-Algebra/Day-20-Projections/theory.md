@@ -31,8 +31,16 @@ Project vector $\mathbf{v} = [3, 4]^T$ onto line $\mathbf{u} = [1, 0]^T$ ($x$-ax
 4. Residual error $\mathbf{e} = [3,4]^T - [3,0]^T = [0, 4]^T$. (Notice $\mathbf{e} \perp \mathbf{u}$!).
 
 ### 8. Second Example
-Project $\mathbf{b} = [1, 2, 3]^T$ onto column space of $\mathbf{A} = \begin{bmatrix} 1 & 0 \\ 0 & 1 \\ 0 & 0 \end{bmatrix}$ ($xy$-plane in $\mathbb{R}^3$):
-$\mathbf{A}^T \mathbf{A} = \mathbf{I}_2 \implies \mathbf{P} = \mathbf{A} \mathbf{A}^T = \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 0 \end{bmatrix}$.
+Project \mathbf{b} = [1, 2, 3]^T onto column space of 
+
+$$\mathbf{A} = \begin{bmatrix} 1 & 0 \\ 0 & 1 \\ 0 & 0 \end{bmatrix}$$
+
+ (xy-plane in \mathbb{R}^3):
+
+
+$$\mathbf{A}^T \mathbf{A} = \mathbf{I}_2 \implies \mathbf{P} = \mathbf{A} \mathbf{A}^T = \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 0 \end{bmatrix}$$
+
+.
 $\hat{\mathbf{b}} = \mathbf{P}\mathbf{b} = [1, 2, 0]^T$. Drops $z$-coordinate!
 
 ### 9. Common Mistakes

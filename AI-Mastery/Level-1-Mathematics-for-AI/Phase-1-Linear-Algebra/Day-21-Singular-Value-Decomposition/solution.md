@@ -16,7 +16,11 @@
 ### Question 1
 1. $\mathbf{A}^T \mathbf{A} = \text{diag}(9, 16) \implies \lambda_1 = 16, \lambda_2 = 9 \implies \sigma_1 = 4, \sigma_2 = 3$.
 ### Question 2
-2. $\mathbf{A}^T \mathbf{A} = \begin{bmatrix} 1 & 1 \\ 1 & 2 \end{bmatrix}$. Characteristic equation $(1-\lambda)(2-\lambda)-1 = 0 \implies \lambda^2 - 3\lambda + 1 = 0 \implies \lambda = \frac{3 \pm \sqrt{5}}{2}$. $\sigma_1 = \sqrt{\frac{3+\sqrt{5}}{2}} \approx 1.618$, $\sigma_2 = \sqrt{\frac{3-\sqrt{5}}{2}} \approx 0.618$.
+2. 
+
+$$\mathbf{A}^T \mathbf{A} = \begin{bmatrix} 1 & 1 \\ 1 & 2 \end{bmatrix}$$
+
+. Characteristic equation (1-\lambda)(2-\lambda)-1 = 0 \implies \lambda^2 - 3\lambda + 1 = 0 \implies \lambda = \frac{3 \pm \sqrt{5}}{2}. \sigma_1 = \sqrt{\frac{3+\sqrt{5}}{2}} \approx 1.618, \sigma_2 = \sqrt{\frac{3-\sqrt{5}}{2}} \approx 0.618.
 ### Question 3
 3. Exactly $r = 3$ non-zero singular values.
 ### Question 4

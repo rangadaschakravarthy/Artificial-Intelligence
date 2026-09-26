@@ -22,14 +22,34 @@ $$\text{For } \mathbf{A} = \begin{bmatrix} a & b \\ c & d \end{bmatrix} \implies
 - $d, -b, -c, a$: Adjugate matrix entries
 
 ### 7. Step-by-Step Calculation
-Invert $\mathbf{A} = \begin{bmatrix} 4 & 7 \\ 2 & 6 \end{bmatrix}$:
+Invert 
+
+$$\mathbf{A} = \begin{bmatrix} 4 & 7 \\ 2 & 6 \end{bmatrix}$$
+
+:
 1. Determinant: $ad - bc = (4)(6) - (7)(2) = 24 - 14 = 10 \neq 0$.
-2. Swap $a,d$ and negate $b,c$: $\begin{bmatrix} 6 & -7 \\ -2 & 4 \end{bmatrix}$.
-3. Divide by determinant: $\mathbf{A}^{-1} = \frac{1}{10} \begin{bmatrix} 6 & -7 \\ -2 & 4 \end{bmatrix} = \begin{bmatrix} 0.6 & -0.7 \\ -0.2 & 0.4 \end{bmatrix}$.
-4. Check: $\mathbf{A}\mathbf{A}^{-1} = \begin{bmatrix} 4(0.6)+7(-0.2) & 4(-0.7)+7(0.4) \\ 2(0.6)+6(-0.2) & 2(-0.7)+6(0.4) \end{bmatrix} = \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}$.
+2. Swap a,d and negate b,c: 
+
+$$\begin{bmatrix} 6 & -7 \\ -2 & 4 \end{bmatrix}$$
+
+.
+3. Divide by determinant: 
+
+$$\mathbf{A}^{-1} = \frac{1}{10} \begin{bmatrix} 6 & -7 \\ -2 & 4 \end{bmatrix} = \begin{bmatrix} 0.6 & -0.7 \\ -0.2 & 0.4 \end{bmatrix}$$
+
+.
+4. Check: 
+
+$$\mathbf{A}\mathbf{A}^{-1} = \begin{bmatrix} 4(0.6)+7(-0.2) & 4(-0.7)+7(0.4) \\ 2(0.6)+6(-0.2) & 2(-0.7)+6(0.4) \end{bmatrix} = \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}$$
+
+.
 
 ### 8. Second Example
-Non-invertible singular matrix example: $\mathbf{B} = \begin{bmatrix} 1 & 2 \\ 2 & 4 \end{bmatrix}$. Determinant $= 1(4) - 2(2) = 0$. Inverse does not exist (division by zero)!
+Non-invertible singular matrix example: 
+
+$$\mathbf{B} = \begin{bmatrix} 1 & 2 \\ 2 & 4 \end{bmatrix}$$
+
+. Determinant = 1(4) - 2(2) = 0. Inverse does not exist (division by zero)!
 
 ### 9. Common Mistakes
 Inverting element-wise ($1/a_{i,j}$); trying to invert non-square matrices; applying inverse when determinant is zero.

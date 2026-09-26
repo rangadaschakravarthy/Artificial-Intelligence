@@ -22,12 +22,26 @@ $$\mathbf{C} = \mathbf{A} \odot \mathbf{B} \implies c_{i,j} = a_{i,j} \cdot b_{i
 - $a_{i,j}, b_{i,j}$: Elements at row $i$, column $j$
 
 ### 7. Step-by-Step Calculation
-Given $\mathbf{A} = \begin{bmatrix} 1 & 3 \\ 2 & 4 \end{bmatrix}, \mathbf{B} = \begin{bmatrix} 5 & 0 \\ -1 & 2 \end{bmatrix}$:
-1. $\mathbf{A} + \mathbf{B} = \begin{bmatrix} 1+5 & 3+0 \\ 2+(-1) & 4+2 \end{bmatrix} = \begin{bmatrix} 6 & 3 \\ 1 & 6 \end{bmatrix}$
-2. $3\mathbf{A} = \begin{bmatrix} 3(1) & 3(3) \\ 3(2) & 3(4) \end{bmatrix} = \begin{bmatrix} 3 & 9 \\ 6 & 12 \end{bmatrix}$
+Given 
+
+$$\mathbf{A} = \begin{bmatrix} 1 & 3 \\ 2 & 4 \end{bmatrix}, \mathbf{B} = \begin{bmatrix} 5 & 0 \\ -1 & 2 \end{bmatrix}$$
+
+:
+1. 
+
+$$\mathbf{A} + \mathbf{B} = \begin{bmatrix} 1+5 & 3+0 \\ 2+(-1) & 4+2 \end{bmatrix} = \begin{bmatrix} 6 & 3 \\ 1 & 6 \end{bmatrix}$$
+
+2. 
+
+$$3\mathbf{A} = \begin{bmatrix} 3(1) & 3(3) \\ 3(2) & 3(4) \end{bmatrix} = \begin{bmatrix} 3 & 9 \\ 6 & 12 \end{bmatrix}$$
+
 
 ### 8. Second Example
-Hadamard Product $\mathbf{A} \odot \mathbf{B} = \begin{bmatrix} 1(5) & 3(0) \\ 2(-1) & 4(2) \end{bmatrix} = \begin{bmatrix} 5 & 0 \\ -2 & 8 \end{bmatrix}$.
+Hadamard Product 
+
+$$\mathbf{A} \odot \mathbf{B} = \begin{bmatrix} 1(5) & 3(0) \\ 2(-1) & 4(2) \end{bmatrix} = \begin{bmatrix} 5 & 0 \\ -2 & 8 \end{bmatrix}$$
+
+.
 
 ### 9. Common Mistakes
 Attempting matrix addition on matrices with different shapes; confusing Hadamard product $\mathbf{A} \odot \mathbf{B}$ with dot product matrix multiplication $\mathbf{A} \mathbf{B}$.

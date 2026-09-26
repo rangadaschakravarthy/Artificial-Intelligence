@@ -34,7 +34,11 @@ Optimize $L(w) = w^2$ starting at $w_0 = 4.0$ with learning rate $\eta = 0.1$:
 ### 8. Second Example
 Multi-variable step for $L(w_1, w_2) = w_1^2 + 2w_2^2$ starting at $\mathbf{w}_0 = [2.0, 3.0]^T, \eta = 0.1$:
 $\nabla L = [2w_1, 4w_2]^T = [4.0, 12.0]^T$.
-$\mathbf{w}_1 = \begin{bmatrix} 2.0 \\ 3.0 \end{bmatrix} - 0.1 \begin{bmatrix} 4.0 \\ 12.0 \end{bmatrix} = \begin{bmatrix} 1.6 \\ 1.8 \end{bmatrix}$.
+
+
+$$\mathbf{w}_1 = \begin{bmatrix} 2.0 \\ 3.0 \end{bmatrix} - 0.1 \begin{bmatrix} 4.0 \\ 12.0 \end{bmatrix} = \begin{bmatrix} 1.6 \\ 1.8 \end{bmatrix}$$
+
+.
 
 ### 9. Common Mistakes
 Adding the gradient instead of subtracting it (causes gradient ASCENT toward infinite loss!); confusing Epochs (full dataset passes) with Iterations (batch parameter updates).

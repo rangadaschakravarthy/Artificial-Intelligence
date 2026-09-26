@@ -25,9 +25,21 @@ $$\text{Explained Variance Ratio}_i = \frac{\lambda_i}{\sum_{j=1}^d \lambda_j}$$
 ### 7. Step-by-Step Calculation
 PCA on 2D dataset with 3 samples: $x_1=[1,2]^T, x_2=[3,4]^T, x_3=[5,6]^T$:
 1. Mean vector $\mathbf{\mu} = [(1+3+5)/3, (2+4+6)/3]^T = [3, 4]^T$.
-2. Centered data $\mathbf{X}_c = \begin{bmatrix} 1-3 & 2-4 \\ 3-3 & 4-4 \\ 5-3 & 6-4 \end{bmatrix} = \begin{bmatrix} -2 & -2 \\ 0 & 0 \\ 2 & 2 \end{bmatrix}$.
-3. Covariance matrix $\mathbf{\Sigma} = \frac{1}{2} \mathbf{X}_c^T \mathbf{X}_c = \frac{1}{2} \begin{bmatrix} 8 & 8 \\ 8 & 8 \end{bmatrix} = \begin{bmatrix} 4 & 4 \\ 4 & 4 \end{bmatrix}$.
-4. Eigenvalues of $\mathbf{\Sigma}$: $\det \begin{bmatrix} 4-\lambda & 4 \\ 4 & 4-\lambda \end{bmatrix} = (4-\lambda)^2 - 16 = 0 \implies \lambda_1 = 8, \lambda_2 = 0$.
+2. Centered data 
+
+$$\mathbf{X}_c = \begin{bmatrix} 1-3 & 2-4 \\ 3-3 & 4-4 \\ 5-3 & 6-4 \end{bmatrix} = \begin{bmatrix} -2 & -2 \\ 0 & 0 \\ 2 & 2 \end{bmatrix}$$
+
+.
+3. Covariance matrix 
+
+$$\mathbf{\Sigma} = \frac{1}{2} \mathbf{X}_c^T \mathbf{X}_c = \frac{1}{2} \begin{bmatrix} 8 & 8 \\ 8 & 8 \end{bmatrix} = \begin{bmatrix} 4 & 4 \\ 4 & 4 \end{bmatrix}$$
+
+.
+4. Eigenvalues of \mathbf{\Sigma}: 
+
+$$\det \begin{bmatrix} 4-\lambda & 4 \\ 4 & 4-\lambda \end{bmatrix} = (4-\lambda)^2 - 16 = 0 \implies \lambda_1 = 8, \lambda_2 = 0$$
+
+.
 5. Total variance $= 8+0=8$. PC1 explains $8/8 = 100\%$ of variance!
 
 ### 8. Second Example

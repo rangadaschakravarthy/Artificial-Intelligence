@@ -14,13 +14,21 @@ $\mathbb{R}^3$ represents the 3-dimensional vector space of all ordered triples 
 
 ## Level 2 — Calculation Solutions
 ### Question 1
-1. $c\mathbf{v} = 3 \begin{bmatrix} 2 \\ 4 \end{bmatrix} = \begin{bmatrix} 6 \\ 12 \end{bmatrix}$.
+1. 
+
+$$c\mathbf{v} = 3 \begin{bmatrix} 2 \\ 4 \end{bmatrix} = \begin{bmatrix} 6 \\ 12 \end{bmatrix}$$
+
+.
 ### Question 2
 2. The 3rd component $v_3 = 30$.
 ### Question 3
 3. $m = n$ because vectors can only have equal dimensions if their component counts match.
 ### Question 4
-4. $[1, 2, 3]^T = \begin{bmatrix} 1 \\ 2 \\ 3 \end{bmatrix}$.
+4. 
+
+$$[1, 2, 3]^T = \begin{bmatrix} 1 \\ 2 \\ 3 \end{bmatrix}$$
+
+.
 ### Question 5
 5. Each feature vector has dimension $n = 50$ (it belongs to $\mathbb{R}^{50}$).
 

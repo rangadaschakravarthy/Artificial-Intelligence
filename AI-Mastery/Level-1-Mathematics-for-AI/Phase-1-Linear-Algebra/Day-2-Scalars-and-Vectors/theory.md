@@ -23,7 +23,11 @@ $$\mathbf{v} = \begin{bmatrix} v_1 \\ v_2 \\ \vdots \\ v_n \end{bmatrix} \in \ma
 - $\mathbb{R}^n$: $n$-dimensional real vector space
 
 ### 7. Step-by-Step Calculation
-For a point $(3, 4)$ in 2D space: Component $x = 3$, component $y = 4$. Vector $\mathbf{v} = \begin{bmatrix} 3 \\ 4 \end{bmatrix}$. Dimension $n = 2$.
+For a point (3, 4) in 2D space: Component x = 3, component y = 4. Vector 
+
+$$\mathbf{v} = \begin{bmatrix} 3 \\ 4 \end{bmatrix}$$
+
+. Dimension n = 2.
 
 ### 8. Second Example
 For 4D text feature vector [word_count=50, sentiment=0.8, avg_len=4.5, contains_links=1]: $\mathbf{x} = [50, 0.8, 4.5, 1.0]^T \in \mathbb{R}^4$.

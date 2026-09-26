@@ -2,14 +2,26 @@
 
 ## Level 1 — Basic Understanding
 1. What is the maximum possible rank of a $5 \times 3$ matrix?
-2. Find the rank of $\mathbf{A} = \begin{bmatrix} 2 & 4 \\ 1 & 2 \end{bmatrix}$.
+2. Find the rank of 
+
+$$\mathbf{A} = \begin{bmatrix} 2 & 4 \\ 1 & 2 \end{bmatrix}$$
+
+.
 3. What is the rank of an $n \times n$ identity matrix $\mathbf{I}_n$?
 4. What is the rank of a zero matrix $\mathbf{0}_{4 \times 4}$?
 5. What does 'full rank' mean for a $4 \times 4$ matrix?
 
 ## Level 2 — Calculation
-1. Determine the rank of $\mathbf{B} = \begin{bmatrix} 1 & 2 & 3 \\ 0 & 1 & 4 \\ 0 & 0 & 5 \end{bmatrix}$.
-2. Given $\mathbf{u} = [1, 2]^T$ and $\mathbf{v} = [3, 4]^T$, what is the rank of outer product $\mathbf{u} \mathbf{v}^T = \begin{bmatrix} 3 & 4 \\ 6 & 8 \end{bmatrix}$?
+1. Determine the rank of 
+
+$$\mathbf{B} = \begin{bmatrix} 1 & 2 & 3 \\ 0 & 1 & 4 \\ 0 & 0 & 5 \end{bmatrix}$$
+
+.
+2. Given \mathbf{u} = [1, 2]^T and \mathbf{v} = [3, 4]^T, what is the rank of outer product 
+
+$$\mathbf{u} \mathbf{v}^T = \begin{bmatrix} 3 & 4 \\ 6 & 8 \end{bmatrix}$$
+
+?
 3. If $\mathbf{A}$ has shape $100 \times 10$ and $\text{Rank}(\mathbf{A}) = 8$, how many linearly independent columns does it have?
 4. If $\mathbf{A}$ is a $3 \times 3$ matrix with $\det(\mathbf{A}) = 0$, what can you say about its rank?
 5. What is the rank of a diagonal matrix with 4 non-zero and 2 zero entries on the main diagonal?

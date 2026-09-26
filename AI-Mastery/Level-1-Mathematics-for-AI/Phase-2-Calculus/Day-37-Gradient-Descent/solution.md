@@ -16,7 +16,11 @@
 ### Question 1
 1. $L'(w) = 2(w-5)$. Step 1: $L'(1) = 2(-4) = -8 \implies w_1 = 1 - 0.2(-8) = 2.6$. Step 2: $L'(2.6) = 2(-2.4) = -4.8 \implies w_2 = 2.6 - 0.2(-4.8) = 3.56$. Approaching $w=5$!
 ### Question 2
-2. $\nabla L = [6w_1, 2w_2]^T$. At $(1, 2)$, $\nabla L = [6, 4]^T$. $\mathbf{w}_1 = \begin{bmatrix} 1 \\ 2 \end{bmatrix} - 0.05 \begin{bmatrix} 6 \\ 4 \end{bmatrix} = \begin{bmatrix} 0.7 \\ 1.8 \end{bmatrix}$.
+2. \nabla L = [6w_1, 2w_2]^T. At (1, 2), \nabla L = [6, 4]^T. 
+
+$$\mathbf{w}_1 = \begin{bmatrix} 1 \\ 2 \end{bmatrix} - 0.05 \begin{bmatrix} 6 \\ 4 \end{bmatrix} = \begin{bmatrix} 0.7 \\ 1.8 \end{bmatrix}$$
+
+.
 ### Question 3
 3. Because each individual sample (or small mini-batch) gradient is an imperfect noisy approximation of the true full-dataset population gradient.
 ### Question 4

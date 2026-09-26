@@ -22,12 +22,20 @@ $$\mathbf{A}_{m \times n} = [a_{i,j}], \quad 1 \le i \le m, \, 1 \le j \le n$$
 - $a_{i,j}$: Element at row $i$ and column $j$
 
 ### 7. Step-by-Step Calculation
-For matrix $\mathbf{A} = \begin{bmatrix} 5 & 2 & 9 \\ 1 & 7 & 3 \end{bmatrix}$:
+For matrix 
+
+$$\mathbf{A} = \begin{bmatrix} 5 & 2 & 9 \\ 1 & 7 & 3 \end{bmatrix}$$
+
+:
 Rows $m = 2$, Columns $n = 3$. Shape is $2 \times 3$.
 Element $a_{1,1} = 5$, $a_{1,3} = 9$, $a_{2,2} = 7$.
 
 ### 8. Second Example
-Special Matrix: Diagonal matrix $\mathbf{D} = \begin{bmatrix} 4 & 0 & 0 \\ 0 & -2 & 0 \\ 0 & 0 & 9 \end{bmatrix}$. All non-diagonal entries ($i \neq j$) are zero!
+Special Matrix: Diagonal matrix 
+
+$$\mathbf{D} = \begin{bmatrix} 4 & 0 & 0 \\ 0 & -2 & 0 \\ 0 & 0 & 9 \end{bmatrix}$$
+
+. All non-diagonal entries (i \neq j) are zero!
 
 ### 9. Common Mistakes
 Mixing up row-first vs column-first index order (remember: Row $\times$ Column = 'RC Cola'); confusing shape (2,3) with (3,2).

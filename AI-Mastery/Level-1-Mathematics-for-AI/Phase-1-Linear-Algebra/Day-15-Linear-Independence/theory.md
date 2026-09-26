@@ -24,7 +24,11 @@ $$\text{Vectors } \{\mathbf{v}_1, \dots, \mathbf{v}_n\} \in \mathbb{R}^n \text{ 
 
 ### 7. Step-by-Step Calculation
 Test if $\mathbf{u} = [1, 2]^T$ and $\mathbf{v} = [3, 6]^T$ are independent:
-Set $c_1 \begin{bmatrix} 1 \\ 2 \end{bmatrix} + c_2 \begin{bmatrix} 3 \\ 6 \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \end{bmatrix}$.
+Set 
+
+$$c_1 \begin{bmatrix} 1 \\ 2 \end{bmatrix} + c_2 \begin{bmatrix} 3 \\ 6 \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \end{bmatrix}$$
+
+.
 1. $c_1 + 3c_2 = 0 \implies c_1 = -3c_2$.
 2. $2c_1 + 6c_2 = 0 \implies 2(-3c_2) + 6c_2 = 0 \implies 0 = 0$.
 Since $c_1 = -3, c_2 = 1$ is a valid non-zero solution, the vectors are LINEARLY DEPENDENT! (Indeed $\mathbf{v} = 3\mathbf{u}$).

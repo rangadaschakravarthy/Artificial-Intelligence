@@ -14,13 +14,33 @@
 
 ## Level 2 — Calculation Solutions
 ### Question 1
-1. $\mathbf{J} = \begin{bmatrix} 2x & 2y \\ 3y & 3x \end{bmatrix}$. At $(1, 2)$: $\mathbf{J}(1, 2) = \begin{bmatrix} 2 & 4 \\ 6 & 3 \end{bmatrix}$.
+1. 
+
+$$\mathbf{J} = \begin{bmatrix} 2x & 2y \\ 3y & 3x \end{bmatrix}$$
+
+. At (1, 2): 
+
+$$\mathbf{J}(1, 2) = \begin{bmatrix} 2 & 4 \\ 6 & 3 \end{bmatrix}$$
+
+.
 ### Question 2
-2. $\mathbf{J} = \begin{bmatrix} \cos\theta & -r\sin\theta \\ \sin\theta & r\cos\theta \end{bmatrix} \implies \det(\mathbf{J}) = r\cos^2\theta - (-r\sin^2\theta) = r(\cos^2\theta + \sin^2\theta) = r$.
+2. 
+
+$$\mathbf{J} = \begin{bmatrix} \cos\theta & -r\sin\theta \\ \sin\theta & r\cos\theta \end{bmatrix} \implies \det(\mathbf{J}) = r\cos^2\theta - (-r\sin^2\theta) = r(\cos^2\theta + \sin^2\theta) = r$$
+
+.
 ### Question 3
-3. Shape $2 \times 3$. $\mathbf{J} = \begin{bmatrix} 2x_1 & 0 & 0 \\ 0 & x_3 & x_2 \end{bmatrix}$.
+3. Shape 2 \times 3. 
+
+$$\mathbf{J} = \begin{bmatrix} 2x_1 & 0 & 0 \\ 0 & x_3 & x_2 \end{bmatrix}$$
+
+.
 ### Question 4
-4. $\mathbf{J} = \begin{bmatrix} S_1(1-S_1) & -S_1 S_2 \\ -S_1 S_2 & S_2(1-S_2) \end{bmatrix}$.
+4. 
+
+$$\mathbf{J} = \begin{bmatrix} S_1(1-S_1) & -S_1 S_2 \\ -S_1 S_2 & S_2(1-S_2) \end{bmatrix}$$
+
+.
 ### Question 5
 5. $\mathbf{f}(\mathbf{x}) \approx \mathbf{f}(\mathbf{x}_0) + \mathbf{J}(\mathbf{x}_0)(\mathbf{x} - \mathbf{x}_0)$.
 
@@ -38,7 +58,11 @@
 
 ## Level 4 — AI/ML Application Solutions
 ### Question 1
-1. Partial derivatives: $\frac{\partial y_1}{\partial x_1} = 1, \frac{\partial y_1}{\partial x_2} = 0$; $\frac{\partial y_2}{\partial x_1} = x_2 s'(x_1) e^{s(x_1)} + t'(x_1), \frac{\partial y_2}{\partial x_2} = e^{s(x_1)}$. Lower triangular Jacobian $\mathbf{J} = \begin{bmatrix} 1 & 0 \\ \text{stuff} & e^{s(x_1)} \end{bmatrix} \implies \det(\mathbf{J}) = 1 \cdot e^{s(x_1)} = e^{s(x_1)}$.
+1. Partial derivatives: \frac{\partial y_1}{\partial x_1} = 1, \frac{\partial y_1}{\partial x_2} = 0; \frac{\partial y_2}{\partial x_1} = x_2 s'(x_1) e^{s(x_1)} + t'(x_1), \frac{\partial y_2}{\partial x_2} = e^{s(x_1)}. Lower triangular Jacobian 
+
+$$\mathbf{J} = \begin{bmatrix} 1 & 0 \\ \text{stuff} & e^{s(x_1)} \end{bmatrix} \implies \det(\mathbf{J}) = 1 \cdot e^{s(x_1)} = e^{s(x_1)}$$
+
+.
 ### Question 2
 2. Let $\mathbf{z} = \mathbf{W}\mathbf{x} + \mathbf{b}$. $\mathbf{J}_{h, x} = \frac{\partial \mathbf{h}}{\partial \mathbf{z}} \frac{\partial \mathbf{z}}{\partial \mathbf{x}} = \text{diag}(\text{ReLU}'(\mathbf{z})) \mathbf{W}$.
 ### Question 3
