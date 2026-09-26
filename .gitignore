@@ -5,6 +5,8 @@ build_*.py
 generate_*.py
 curriculum_builder.py
 verify_repository.py
+verify_*.py
+builder_*.py
 
 # Python Environment & Cache
 __pycache__/
