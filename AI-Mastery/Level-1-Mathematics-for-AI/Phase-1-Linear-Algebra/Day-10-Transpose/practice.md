@@ -3,14 +3,18 @@
 ## Level 1 — Basic Understanding
 1. Find the transpose of 
 
-$$\mathbf{A} = \begin{bmatrix} 1 & 5 & 9 \\ 2 & 6 & 0 \end{bmatrix}$$
+$$
+\mathbf{A} = \begin{bmatrix} 1 & 5 & 9 \\ 2 & 6 & 0 \end{bmatrix}
+$$
 
 .
 2. What is the shape of $\mathbf{M}^T$ if $\mathbf{M}$ has shape $5 \times 2$?
 3. What is $(\mathbf{A}^T)^T$ for any matrix $\mathbf{A}$?
 4. Is matrix 
 
-$$\mathbf{S} = \begin{bmatrix} 3 & -1 \\ -1 & 4 \end{bmatrix}$$
+$$
+\mathbf{S} = \begin{bmatrix} 3 & -1 \\ -1 & 4 \end{bmatrix}
+$$
 
  symmetric?
 5. State the product transpose rule for $(\mathbf{A}\mathbf{B})^T$.
@@ -18,26 +22,36 @@ $$\mathbf{S} = \begin{bmatrix} 3 & -1 \\ -1 & 4 \end{bmatrix}$$
 ## Level 2 — Calculation
 1. Given 
 
-$$\mathbf{A} = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$$
+$$
+\mathbf{A} = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}
+$$
 
  and 
 
-$$\mathbf{B} = \begin{bmatrix} 0 & 1 \\ 2 & 5 \end{bmatrix}$$
+$$
+\mathbf{B} = \begin{bmatrix} 0 & 1 \\ 2 & 5 \end{bmatrix}
+$$
 
 , compute (\mathbf{A} + \mathbf{B})^T and verify it equals \mathbf{A}^T + \mathbf{B}^T.
 2. Given 
 
-$$\mathbf{A} = \begin{bmatrix} 1 & 3 \\ 0 & 2 \end{bmatrix}$$
+$$
+\mathbf{A} = \begin{bmatrix} 1 & 3 \\ 0 & 2 \end{bmatrix}
+$$
 
  and 
 
-$$\mathbf{B} = \begin{bmatrix} 2 & 1 \\ 4 & 0 \end{bmatrix}$$
+$$
+\mathbf{B} = \begin{bmatrix} 2 & 1 \\ 4 & 0 \end{bmatrix}
+$$
 
 , compute (\mathbf{A}\mathbf{B})^T.
 3. Compute $\mathbf{B}^T \mathbf{A}^T$ for matrices above and verify it equals $(\mathbf{A}\mathbf{B})^T$.
 4. Compute Gram matrix \mathbf{A}^T \mathbf{A} for 
 
-$$\mathbf{A} = \begin{bmatrix} 1 & 2 \\ 3 & 0 \end{bmatrix}$$
+$$
+\mathbf{A} = \begin{bmatrix} 1 & 2 \\ 3 & 0 \end{bmatrix}
+$$
 
 . Is it symmetric?
 5. What is a skew-symmetric matrix?

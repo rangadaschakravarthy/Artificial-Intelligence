@@ -16,13 +16,17 @@ Given a sample space $\Omega$ containing all possible outcomes, an event $A$ is 
 
 ## 5. Formula
 Mathematical definition under equal likelihood:
-$$P(A) = rac{|A|}{|\Omega|} = rac{	ext{Number of favorable outcomes}}{	ext{Total number of possible outcomes}}$$
+
+$$
+P(A) = rac{|A|}{|\Omega|} = rac{	ext{Number of favorable outcomes}}{	ext{Total number of possible outcomes}}
+$$
 
 Kolmogorov Axioms:
 1. **Non-negativity**: $P(A) \ge 0$ for all $A$.
 2. **Unitarity**: $P(\Omega) = 1$.
 3. **Countable Additivity**: For disjoint events $A_1, A_2, \dots$:
-$$P\left(igcup_{i=1}^{\infty} A_iight) = \sum_{i=1}^{\infty} P(A_i)$$
+$$P\left(igcup_{i=1}^{\infty} A_i
+ight) = \sum_{i=1}^{\infty} P(A_i)$$
 
 ## 6. Symbol Explanation
 - $|A|$: Cardinality (count of elements) in set $A$.

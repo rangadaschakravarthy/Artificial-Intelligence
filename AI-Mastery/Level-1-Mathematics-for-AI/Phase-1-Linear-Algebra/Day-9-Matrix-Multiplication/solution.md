@@ -8,13 +8,17 @@
 ### Question 3
 3. 
 
-$$\begin{bmatrix} 1(2)+2(1) & 1(0)+2(3) \\ 3(2)+4(1) & 3(0)+4(3) \end{bmatrix} = \begin{bmatrix} 4 & 6 \\ 10 & 12 \end{bmatrix}$$
+$$
+\begin{bmatrix} 1(2)+2(1) & 1(0)+2(3) \\ 3(2)+4(1) & 3(0)+4(3) \end{bmatrix} = \begin{bmatrix} 4 & 6 \\ 10 & 12 \end{bmatrix}
+$$
 
 .
 ### Question 4
 4. 
 
-$$\begin{bmatrix} 3(2)+1(4) \\ 2(2)+5(4) \end{bmatrix} = \begin{bmatrix} 10 \\ 24 \end{bmatrix}$$
+$$
+\begin{bmatrix} 3(2)+1(4) \\ 2(2)+5(4) \end{bmatrix} = \begin{bmatrix} 10 \\ 24 \end{bmatrix}
+$$
 
 .
 ### Question 5
@@ -24,7 +28,9 @@ $$\begin{bmatrix} 3(2)+1(4) \\ 2(2)+5(4) \end{bmatrix} = \begin{bmatrix} 10 \\ 2
 ### Question 1
 1. 
 
-$$\mathbf{A}\mathbf{B} = \begin{bmatrix} 1(3)+0(2)+2(1) & 1(1)+0(1)+2(0) \\ -1(3)+3(2)+1(1) & -1(1)+3(1)+1(0) \end{bmatrix} = \begin{bmatrix} 5 & 1 \\ 4 & 2 \end{bmatrix}_{2 \times 2}$$
+$$
+\mathbf{A}\mathbf{B} = \begin{bmatrix} 1(3)+0(2)+2(1) & 1(1)+0(1)+2(0) \\ -1(3)+3(2)+1(1) & -1(1)+3(1)+1(0) \end{bmatrix} = \begin{bmatrix} 5 & 1 \\ 4 & 2 \end{bmatrix}_{2 \times 2}
+$$
 
 .
 ### Question 2
@@ -34,7 +40,9 @@ $$\mathbf{A}\mathbf{B} = \begin{bmatrix} 1(3)+0(2)+2(1) & 1(1)+0(1)+2(0) \\ -1(3
 ### Question 4
 4. 
 
-$$\mathbf{A}^2 = \begin{bmatrix} 2 & 1 \\ 0 & 3 \end{bmatrix} \begin{bmatrix} 2 & 1 \\ 0 & 3 \end{bmatrix} = \begin{bmatrix} 4 & 5 \\ 0 & 9 \end{bmatrix}$$
+$$
+\mathbf{A}^2 = \begin{bmatrix} 2 & 1 \\ 0 & 3 \end{bmatrix} \begin{bmatrix} 2 & 1 \\ 0 & 3 \end{bmatrix} = \begin{bmatrix} 4 & 5 \\ 0 & 9 \end{bmatrix}
+$$
 
 .
 ### Question 5
@@ -52,7 +60,9 @@ $$\mathbf{A}^2 = \begin{bmatrix} 2 & 1 \\ 0 & 3 \end{bmatrix} \begin{bmatrix} 2 
 ### Question 5
 5. Yes! 
 
-$$\mathbf{A} = \begin{bmatrix} 0 & 1 \\ 0 & 0 \end{bmatrix}, \mathbf{B} = \begin{bmatrix} 1 & 0 \\ 0 & 0 \end{bmatrix} \implies \mathbf{A}\mathbf{B} = \begin{bmatrix} 0 & 0 \\ 0 & 0 \end{bmatrix}$$
+$$
+\mathbf{A} = \begin{bmatrix} 0 & 1 \\ 0 & 0 \end{bmatrix}, \mathbf{B} = \begin{bmatrix} 1 & 0 \\ 0 & 0 \end{bmatrix} \implies \mathbf{A}\mathbf{B} = \begin{bmatrix} 0 & 0 \\ 0 & 0 \end{bmatrix}
+$$
 
 .
 
@@ -60,11 +70,15 @@ $$\mathbf{A} = \begin{bmatrix} 0 & 1 \\ 0 & 0 \end{bmatrix}, \mathbf{B} = \begin
 ### Question 1
 1. 
 
-$$\mathbf{X}\mathbf{W} = \begin{bmatrix} 1(1)+0(2)+2(0) & 1(-1)+0(0)+2(1) \\ 0(1)+3(2)+1(0) & 0(-1)+3(0)+1(1) \end{bmatrix} = \begin{bmatrix} 1 & 1 \\ 6 & 1 \end{bmatrix}$$
+$$
+\mathbf{X}\mathbf{W} = \begin{bmatrix} 1(1)+0(2)+2(0) & 1(-1)+0(0)+2(1) \\ 0(1)+3(2)+1(0) & 0(-1)+3(0)+1(1) \end{bmatrix} = \begin{bmatrix} 1 & 1 \\ 6 & 1 \end{bmatrix}
+$$
 
 . Adding bias [1, 2]: 
 
-$$\mathbf{Z} = \begin{bmatrix} 2 & 3 \\ 7 & 3 \end{bmatrix}$$
+$$
+\mathbf{Z} = \begin{bmatrix} 2 & 3 \\ 7 & 3 \end{bmatrix}
+$$
 
 .
 ### Question 2

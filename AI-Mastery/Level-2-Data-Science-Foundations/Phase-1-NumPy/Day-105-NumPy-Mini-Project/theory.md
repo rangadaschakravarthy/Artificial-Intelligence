@@ -31,11 +31,17 @@ Extreme feature outliers warp linear regression weights. Features are bounded st
 
 ### 5. Step 3: Z-Score Standardization
 Broadcasting converts feature matrix $X$ into zero-mean unit-variance space:
-$$X_{	ext{std}} = rac{X - \mu_{	ext{cols}}}{\sigma_{	ext{cols}}}$$
+
+$$
+X_{	ext{std}} = rac{X - \mu_{	ext{cols}}}{\sigma_{	ext{cols}}}
+$$
 
 ### 6. Step 4: Closed-Form OLS Linear Regression
 Adding a bias column of 1s to $X_{	ext{std}}$ allows solving optimal weight parameters $w$ directly using LAPACK matrix routines:
-$$w = (X_{	ext{std}}^T X_{	ext{std}})^{-1} X_{	ext{std}}^T y$$
+
+$$
+w = (X_{	ext{std}}^T X_{	ext{std}})^{-1} X_{	ext{std}}^T y
+$$
 
 ### 7. Summary
 By completing this mini-project, you transition from basic NumPy syntax to building scalable numerical data processing engines.

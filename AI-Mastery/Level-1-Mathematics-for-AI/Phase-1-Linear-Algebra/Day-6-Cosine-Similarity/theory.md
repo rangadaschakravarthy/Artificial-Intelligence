@@ -13,7 +13,10 @@ For non-zero vectors $\mathbf{u}, \mathbf{v} \in \mathbb{R}^n$, $\text{cos}(\the
 $\text{sim}(\mathbf{u}, \mathbf{v}) \in [-1, 1]$. Cosine distance $d_{cos}(\mathbf{u}, \mathbf{v}) = 1 - \text{sim}(\mathbf{u}, \mathbf{v}) \in [0, 2]$.
 
 ### 5. Formula
-$$\text{sim}(\mathbf{u}, \mathbf{v}) = \frac{\sum_{i=1}^n u_i v_i}{\sqrt{\sum_{i=1}^n u_i^2} \sqrt{\sum_{i=1}^n v_i^2}}$$
+
+$$
+\text{sim}(\mathbf{u}, \mathbf{v}) = \frac{\sum_{i=1}^n u_i v_i}{\sqrt{\sum_{i=1}^n u_i^2} \sqrt{\sum_{i=1}^n v_i^2}}
+$$
 
 ### 6. Symbol-by-Symbol Explanation
 - $\mathbf{u} \cdot \mathbf{v}$: Dot product sum of component products

@@ -8,18 +8,34 @@ When a model makes a prediction, it chooses parameters $	heta$ that make the obs
 
 ## 3. Mathematical Foundations
 - **Maximum Likelihood Estimation (MLE)**:
-  $$\hat{	heta}_{MLE} = rg\max_{	heta} P(\mathcal{D} \mid 	heta) = rg\max_{	heta} \sum_{i=1}^N \ln P(y_i \mid x_i; 	heta)$$
+  
+
+$$
+\hat{	heta}_{MLE} = rg\max_{	heta} P(\mathcal{D} \mid 	heta) = rg\max_{	heta} \sum_{i=1}^N \ln P(y_i \mid x_i; 	heta)
+$$
 
 - **Maximum A Posteriori (MAP)**:
-  $$\hat{	heta}_{MAP} = rg\max_{	heta} P(	heta \mid \mathcal{D}) = rg\max_{	heta} \left[ \sum_{i=1}^N \ln P(y_i \mid x_i; 	heta) + \ln P(	heta) ight]$$
+  $$\hat{	heta}_{MAP} = rg\max_{	heta} P(	heta \mid \mathcal{D}) = rg\max_{	heta} \left[ \sum_{i=1}^N \ln P(y_i \mid x_i; 	heta) + \ln P(	heta) 
+ight]$$
 
 ## 4. Deriving Loss Functions
 1. **Bernoulli Likelihood $\implies$ Binary Cross-Entropy (BCE)**:
-   $$P(y \mid x) = \hat{y}^y (1 - \hat{y})^{1-y}$$
-   $$-\ln P(y \mid x) = -\left[ y \ln \hat{y} + (1-y) \ln(1 - \hat{y}) ight]$$
+   
+
+$$
+P(y \mid x) = \hat{y}^y (1 - \hat{y})^{1-y}
+$$
+
+   $$-\ln P(y \mid x) = -\left[ y \ln \hat{y} + (1-y) \ln(1 - \hat{y}) 
+ight]$$
 2. **Gaussian Likelihood $\implies$ Mean Squared Error (MSE)**:
-   $$P(y \mid x) = rac{1}{\sqrt{2\pi \sigma^2}} \exp\left( -rac{(y - f(x))^2}{2\sigma^2} ight)$$
-   $$-\ln P(y \mid x) = 	ext{const} + rac{1}{2\sigma^2} (y - f(x))^2 \propto 	ext{MSE}$$
+   $$P(y \mid x) = rac{1}{\sqrt{2\pi \sigma^2}} \exp\left( -rac{(y - f(x))^2}{2\sigma^2} 
+ight)$$
+   
+
+$$
+-\ln P(y \mid x) = 	ext{const} + rac{1}{2\sigma^2} (y - f(x))^2 \propto 	ext{MSE}
+$$
 
 ## 5. Notation
 - $\mathcal{D} = \{(x_i, y_i)\}_{i=1}^N$: Training dataset.

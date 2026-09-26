@@ -4,7 +4,11 @@
 ### Question 1
 Wind speed is a scalar (magnitude only, e.g. 20 mph). Wind velocity is a vector (magnitude and direction, e.g. 20 mph North).
 ### Question 2
-$$\mathbf{x} = \begin{bmatrix} 2 \\ -5 \\ 0 \end{bmatrix}$$
+
+$$
+\mathbf{x} = \begin{bmatrix} 2 \\ -5 \\ 0 \end{bmatrix}
+$$
+
 ### Question 3
 The dimension is $n = 5$ because it has 5 elements.
 ### Question 4
@@ -16,7 +20,9 @@ $\mathbb{R}^3$ represents the 3-dimensional vector space of all ordered triples 
 ### Question 1
 1. 
 
-$$c\mathbf{v} = 3 \begin{bmatrix} 2 \\ 4 \end{bmatrix} = \begin{bmatrix} 6 \\ 12 \end{bmatrix}$$
+$$
+c\mathbf{v} = 3 \begin{bmatrix} 2 \\ 4 \end{bmatrix} = \begin{bmatrix} 6 \\ 12 \end{bmatrix}
+$$
 
 .
 ### Question 2
@@ -26,7 +32,9 @@ $$c\mathbf{v} = 3 \begin{bmatrix} 2 \\ 4 \end{bmatrix} = \begin{bmatrix} 6 \\ 12
 ### Question 4
 4. 
 
-$$[1, 2, 3]^T = \begin{bmatrix} 1 \\ 2 \\ 3 \end{bmatrix}$$
+$$
+[1, 2, 3]^T = \begin{bmatrix} 1 \\ 2 \\ 3 \end{bmatrix}
+$$
 
 .
 ### Question 5

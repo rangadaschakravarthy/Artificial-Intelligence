@@ -5,7 +5,9 @@
 2. What is the characteristic equation used to solve for eigenvalues?
 3. Find eigenvalues of diagonal matrix 
 
-$$\mathbf{D} = \begin{bmatrix} 8 & 0 \\ 0 & 3 \end{bmatrix}$$
+$$
+\mathbf{D} = \begin{bmatrix} 8 & 0 \\ 0 & 3 \end{bmatrix}
+$$
 
 .
 4. If $\lambda_1 = 4$ and $\lambda_2 = 6$ for a $2 \times 2$ matrix, what is $\text{Tr}(\mathbf{A})$ and $\det(\mathbf{A})$?
@@ -14,13 +16,17 @@ $$\mathbf{D} = \begin{bmatrix} 8 & 0 \\ 0 & 3 \end{bmatrix}$$
 ## Level 2 — Calculation
 1. Compute eigenvalues of 
 
-$$\mathbf{A} = \begin{bmatrix} 2 & 1 \\ 1 & 2 \end{bmatrix}$$
+$$
+\mathbf{A} = \begin{bmatrix} 2 & 1 \\ 1 & 2 \end{bmatrix}
+$$
 
 .
 2. Find the normalized eigenvectors corresponding to eigenvalues computed above.
 3. Verify that \text{Tr}(\mathbf{A}) = \lambda_1 + \lambda_2 and \det(\mathbf{A}) = \lambda_1 \lambda_2 for 
 
-$$\mathbf{A} = \begin{bmatrix} 2 & 1 \\ 1 & 2 \end{bmatrix}$$
+$$
+\mathbf{A} = \begin{bmatrix} 2 & 1 \\ 1 & 2 \end{bmatrix}
+$$
 
 .
 4. If $\mathbf{A}\mathbf{v} = \lambda \mathbf{v}$, show that $\mathbf{A}^2 \mathbf{v} = \lambda^2 \mathbf{v}$.
@@ -36,7 +42,9 @@ $$\mathbf{A} = \begin{bmatrix} 2 & 1 \\ 1 & 2 \end{bmatrix}$$
 ## Level 4 — AI/ML Application
 1. In PCA, dataset covariance matrix is 
 
-$$\mathbf{\Sigma} = \begin{bmatrix} 3 & 1 \\ 1 & 3 \end{bmatrix}$$
+$$
+\mathbf{\Sigma} = \begin{bmatrix} 3 & 1 \\ 1 & 3 \end{bmatrix}
+$$
 
 . Compute eigenvalues \lambda_1, \lambda_2. What percentage of total variance is explained by the 1st principal component?
 2. Google's PageRank models web browsing as Markov chain $\mathbf{p}_{t+1} = \mathbf{M} \mathbf{p}_t$. Why does steady-state stationarity require $\mathbf{M}\mathbf{p} = 1 \cdot \mathbf{p}$?

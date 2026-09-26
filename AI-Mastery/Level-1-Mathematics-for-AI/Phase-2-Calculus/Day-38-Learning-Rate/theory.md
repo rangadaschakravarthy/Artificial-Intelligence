@@ -13,7 +13,10 @@ For update $\mathbf{w}_{t+1} = \mathbf{w}_t - \eta_t \nabla L(\mathbf{w}_t)$, ma
 $\eta, \alpha, \text{lr}$. Cosine Annealing $\eta_t = \eta_{min} + \frac{1}{2}(\eta_{max} - \eta_{min})\left(1 + \cos\left(\frac{t}{T}\pi\right)\right)$.
 
 ### 5. Formula
-$$\text{Exponential Decay: } \eta_t = \eta_0 \cdot \gamma^t, \quad \text{Step Decay: } \eta_t = \eta_0 \cdot \gamma^{\lfloor t / s \rfloor}$$
+
+$$
+\text{Exponential Decay: } \eta_t = \eta_0 \cdot \gamma^t, \quad \text{Step Decay: } \eta_t = \eta_0 \cdot \gamma^{\lfloor t / s \rfloor}
+$$
 
 ### 6. Symbol-by-Symbol Explanation
 - \eta_0: Initial learning rate

@@ -13,8 +13,14 @@ The determinant $\det(\mathbf{A})$ or $|\mathbf{A}|$ of a square matrix $\mathbf
 $\det(\mathbf{A})$ or $|\mathbf{A}|$. Applies ONLY to square matrices.
 
 ### 5. Formula
-$$\text{For } 2 \times 2: \det \begin{bmatrix} a & b \\ c & d \end{bmatrix} = ad - bc$$
-$$\text{For } 3 \times 3: \det \begin{bmatrix} a & b & c \\ d & e & f \\ g & h & i \end{bmatrix} = a(ei - fh) - b(di - fg) + c(dh - eg)$$
+
+$$
+\text{For } 2 \times 2: \det \begin{bmatrix} a & b \\ c & d \end{bmatrix} = ad - bc
+$$
+
+$$
+\text{For } 3 \times 3: \det \begin{bmatrix} a & b & c \\ d & e & f \\ g & h & i \end{bmatrix} = a(ei - fh) - b(di - fg) + c(dh - eg)
+$$
 
 ### 6. Symbol-by-Symbol Explanation
 - $a, b, c, \dots$: Matrix element entries
@@ -23,16 +29,24 @@ $$\text{For } 3 \times 3: \det \begin{bmatrix} a & b & c \\ d & e & f \\ g & h &
 ### 7. Step-by-Step Calculation
 Calculate determinant of 
 
-$$\mathbf{A} = \begin{bmatrix} 3 & 8 \\ 4 & 6 \end{bmatrix}$$
+$$
+\mathbf{A} = \begin{bmatrix} 3 & 8 \\ 4 & 6 \end{bmatrix}
+$$
 
 :
-$$\det(\mathbf{A}) = (3)(6) - (8)(4) = 18 - 32 = -14$$
+
+$$
+\det(\mathbf{A}) = (3)(6) - (8)(4) = 18 - 32 = -14
+$$
+
 (Negative sign means orientation of space was flipped!)
 
 ### 8. Second Example
 Calculate 3 \times 3 determinant for 
 
-$$\mathbf{B} = \begin{bmatrix} 1 & 2 & 0 \\ 3 & 4 & 1 \\ 0 & 1 & 2 \end{bmatrix}$$
+$$
+\mathbf{B} = \begin{bmatrix} 1 & 2 & 0 \\ 3 & 4 & 1 \\ 0 & 1 & 2 \end{bmatrix}
+$$
 
 :
 $\det(\mathbf{B}) = 1(4\cdot 2 - 1\cdot 1) - 2(3\cdot 2 - 1\cdot 0) + 0(3\cdot 1 - 4\cdot 0)$

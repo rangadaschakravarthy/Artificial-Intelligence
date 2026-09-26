@@ -16,9 +16,18 @@ Let $X$ be a discrete random variable with support $S_X = \{x_1, x_2, \dots\}$.
 2. Normalization: $\sum_{x \in S_X} p_X(x) = 1$.
 
 ## 5. Formula
-$$	ext{PMF: } p(x) = P(X = x)$$
-$$	ext{CDF: } F(x) = P(X \le x) = \sum_{k \le x} p(k)$$
-$$	ext{Interval Probability: } P(a < X \le b) = F(b) - F(a)$$
+
+$$
+ext{PMF: } p(x) = P(X = x)
+$$
+
+$$
+ext{CDF: } F(x) = P(X \le x) = \sum_{k \le x} p(k)
+$$
+
+$$
+ext{Interval Probability: } P(a < X \le b) = F(b) - F(a)
+$$
 
 ## 6. Symbol Explanation
 - $p(x)$: Probability mass function.

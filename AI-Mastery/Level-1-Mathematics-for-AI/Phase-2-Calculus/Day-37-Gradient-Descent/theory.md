@@ -8,16 +8,29 @@ Imagine walking down a foggy mountain in the dark. At each step, you feel around
 
 ### 3. Mathematical Definition
 Given objective function $L(\mathbf{w})$, Gradient Descent updates parameter vector $\mathbf{w} \in \mathbb{R}^d$ iteratively:
-$$\mathbf{w}_{t+1} = \mathbf{w}_t - \eta \nabla L(\mathbf{w}_t)$$
+
+$$
+\mathbf{w}_{t+1} = \mathbf{w}_t - \eta \nabla L(\mathbf{w}_t)
+$$
+
 where $\eta > 0$ is the learning rate hyperparameter.
 
 ### 4. Notation
 $\mathbf{w}_t$: Weights at iteration $t$. $\eta$: Learning rate. $\nabla L(\mathbf{w}_t)$: Gradient vector.
 
 ### 5. Formula
-$$\text{Batch GD: } \mathbf{w}_{t+1} = \mathbf{w}_t - \eta \frac{1}{N} \sum_{i=1}^N \nabla L_i(\mathbf{w}_t)$$
-$$\text{SGD: } \mathbf{w}_{t+1} = \mathbf{w}_t - \eta \nabla L_i(\mathbf{w}_t)$$
-$$\text{Mini-Batch: } \mathbf{w}_{t+1} = \mathbf{w}_t - \eta \frac{1}{B} \sum_{i \in B} \nabla L_i(\mathbf{w}_t)$$
+
+$$
+\text{Batch GD: } \mathbf{w}_{t+1} = \mathbf{w}_t - \eta \frac{1}{N} \sum_{i=1}^N \nabla L_i(\mathbf{w}_t)
+$$
+
+$$
+\text{SGD: } \mathbf{w}_{t+1} = \mathbf{w}_t - \eta \nabla L_i(\mathbf{w}_t)
+$$
+
+$$
+\text{Mini-Batch: } \mathbf{w}_{t+1} = \mathbf{w}_t - \eta \frac{1}{B} \sum_{i \in B} \nabla L_i(\mathbf{w}_t)
+$$
 
 ### 6. Symbol-by-Symbol Explanation
 - $N$: Full dataset size
@@ -35,8 +48,9 @@ Optimize $L(w) = w^2$ starting at $w_0 = 4.0$ with learning rate $\eta = 0.1$:
 Multi-variable step for $L(w_1, w_2) = w_1^2 + 2w_2^2$ starting at $\mathbf{w}_0 = [2.0, 3.0]^T, \eta = 0.1$:
 $\nabla L = [2w_1, 4w_2]^T = [4.0, 12.0]^T$.
 
-
-$$\mathbf{w}_1 = \begin{bmatrix} 2.0 \\ 3.0 \end{bmatrix} - 0.1 \begin{bmatrix} 4.0 \\ 12.0 \end{bmatrix} = \begin{bmatrix} 1.6 \\ 1.8 \end{bmatrix}$$
+$$
+\mathbf{w}_1 = \begin{bmatrix} 2.0 \\ 3.0 \end{bmatrix} - 0.1 \begin{bmatrix} 4.0 \\ 12.0 \end{bmatrix} = \begin{bmatrix} 1.6 \\ 1.8 \end{bmatrix}
+$$
 
 .
 

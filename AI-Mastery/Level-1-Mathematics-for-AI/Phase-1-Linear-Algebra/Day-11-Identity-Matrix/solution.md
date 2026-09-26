@@ -4,7 +4,9 @@
 ### Question 1
 1. 
 
-$$\mathbf{I}_4 = \begin{bmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1 \end{bmatrix}$$
+$$
+\mathbf{I}_4 = \begin{bmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1 \end{bmatrix}
+$$
 
 .
 ### Question 2
@@ -22,13 +24,17 @@ $$\mathbf{I}_4 = \begin{bmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0
 ### Question 2
 2. 
 
-$$\mathbf{A} + 3\mathbf{I}_2 = \begin{bmatrix} 1 & 4 \\ 2 & 5 \end{bmatrix} + \begin{bmatrix} 3 & 0 \\ 0 & 3 \end{bmatrix} = \begin{bmatrix} 4 & 4 \\ 2 & 8 \end{bmatrix}$$
+$$
+\mathbf{A} + 3\mathbf{I}_2 = \begin{bmatrix} 1 & 4 \\ 2 & 5 \end{bmatrix} + \begin{bmatrix} 3 & 0 \\ 0 & 3 \end{bmatrix} = \begin{bmatrix} 4 & 4 \\ 2 & 8 \end{bmatrix}
+$$
 
 .
 ### Question 3
 3. 
 
-$$\begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix} \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix} = \begin{bmatrix} 1(1)+0(0) & 1(0)+0(1) \\ 0(1)+1(0) & 0(0)+1(1) \end{bmatrix} = \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}$$
+$$
+\begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix} \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix} = \begin{bmatrix} 1(1)+0(0) & 1(0)+0(1) \\ 0(1)+1(0) & 0(0)+1(1) \end{bmatrix} = \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}
+$$
 
 .
 ### Question 4
@@ -52,7 +58,9 @@ $$\begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix} \begin{bmatrix} 1 & 0 \\ 0 & 1 \e
 ### Question 1
 1. 
 
-$$\mathbf{X}^T \mathbf{X} + 0.5 \mathbf{I}_2 = \begin{bmatrix} 4 & 2 \\ 2 & 1 \end{bmatrix} + \begin{bmatrix} 0.5 & 0 \\ 0 & 0.5 \end{bmatrix} = \begin{bmatrix} 4.5 & 2.0 \\ 2.0 & 1.5 \end{bmatrix}$$
+$$
+\mathbf{X}^T \mathbf{X} + 0.5 \mathbf{I}_2 = \begin{bmatrix} 4 & 2 \\ 2 & 1 \end{bmatrix} + \begin{bmatrix} 0.5 & 0 \\ 0 & 0.5 \end{bmatrix} = \begin{bmatrix} 4.5 & 2.0 \\ 2.0 & 1.5 \end{bmatrix}
+$$
 
 . Determinant = 4.5(1.5) - 2(2) = 6.75 - 4.0 = 2.75 \neq 0. Invertible!
 ### Question 2

@@ -8,14 +8,21 @@ Imagine standing on a mountain slope. Moving North changes your elevation at a c
 
 ### 3. Mathematical Definition
 For function $f(x, y)$, the partial derivative with respect to $x$ is defined as:
-$$\frac{\partial f}{\partial x} = \lim_{h \to 0} \frac{f(x+h, y) - f(x, y)}{h}$$
+
+$$
+\frac{\partial f}{\partial x} = \lim_{h \to 0} \frac{f(x+h, y) - f(x, y)}{h}
+$$
+
 Variable $y$ is held constant.
 
 ### 4. Notation
 \frac{\partial f}{\partial x}, f_x, \partial_x f. Curly 'd' $\partial$ denotes partial derivative.
 
 ### 5. Formula
-$$\text{Clairaut's Theorem: } \frac{\partial^2 f}{\partial x \partial y} = \frac{\partial^2 f}{\partial y \partial x} \quad \text{(if 2nd derivatives are continuous)}$$
+
+$$
+\text{Clairaut's Theorem: } \frac{\partial^2 f}{\partial x \partial y} = \frac{\partial^2 f}{\partial y \partial x} \quad \text{(if 2nd derivatives are continuous)}
+$$
 
 ### 6. Symbol-by-Symbol Explanation
 - $\partial$: Partial derivative symbol (curly d)

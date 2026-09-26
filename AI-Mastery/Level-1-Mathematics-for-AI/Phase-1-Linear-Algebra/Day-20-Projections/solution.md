@@ -16,7 +16,9 @@
 ### Question 1
 1. 
 
-$$\mathbf{P} = \mathbf{u}\mathbf{u}^T = \begin{bmatrix} 0.6 \\ 0.8 \end{bmatrix} \begin{bmatrix} 0.6 & 0.8 \end{bmatrix} = \begin{bmatrix} 0.36 & 0.48 \\ 0.48 & 0.64 \end{bmatrix}$$
+$$
+\mathbf{P} = \mathbf{u}\mathbf{u}^T = \begin{bmatrix} 0.6 \\ 0.8 \end{bmatrix} \begin{bmatrix} 0.6 & 0.8 \end{bmatrix} = \begin{bmatrix} 0.36 & 0.48 \\ 0.48 & 0.64 \end{bmatrix}
+$$
 
 .
 ### Question 2
@@ -24,19 +26,25 @@ $$\mathbf{P} = \mathbf{u}\mathbf{u}^T = \begin{bmatrix} 0.6 \\ 0.8 \end{bmatrix}
 ### Question 3
 3. \mathbf{A}^T \mathbf{A} = [1(1)+2(2)] = [5]. Inverse = [1/5]. 
 
-$$\mathbf{P} = \begin{bmatrix} 1 \\ 2 \end{bmatrix} [1/5] \begin{bmatrix} 1 & 2 \end{bmatrix} = \begin{bmatrix} 0.2 & 0.4 \\ 0.4 & 0.8 \end{bmatrix}$$
+$$
+\mathbf{P} = \begin{bmatrix} 1 \\ 2 \end{bmatrix} [1/5] \begin{bmatrix} 1 & 2 \end{bmatrix} = \begin{bmatrix} 0.2 & 0.4 \\ 0.4 & 0.8 \end{bmatrix}
+$$
 
 .
 ### Question 4
 4. 
 
-$$\mathbf{P}^T = \begin{bmatrix} 0.2 & 0.4 \\ 0.4 & 0.8 \end{bmatrix}^T = \mathbf{P}$$
+$$
+\mathbf{P}^T = \begin{bmatrix} 0.2 & 0.4 \\ 0.4 & 0.8 \end{bmatrix}^T = \mathbf{P}
+$$
 
 . Symmetric!
 ### Question 5
 5. 
 
-$$\mathbf{P}^2 = \begin{bmatrix} 0.2 & 0.4 \\ 0.4 & 0.8 \end{bmatrix} \begin{bmatrix} 0.2 & 0.4 \\ 0.4 & 0.8 \end{bmatrix} = \begin{bmatrix} 0.04+0.16 & 0.08+0.32 \\ 0.08+0.32 & 0.16+0.64 \end{bmatrix} = \begin{bmatrix} 0.2 & 0.4 \\ 0.4 & 0.8 \end{bmatrix} = \mathbf{P}$$
+$$
+\mathbf{P}^2 = \begin{bmatrix} 0.2 & 0.4 \\ 0.4 & 0.8 \end{bmatrix} \begin{bmatrix} 0.2 & 0.4 \\ 0.4 & 0.8 \end{bmatrix} = \begin{bmatrix} 0.04+0.16 & 0.08+0.32 \\ 0.08+0.32 & 0.16+0.64 \end{bmatrix} = \begin{bmatrix} 0.2 & 0.4 \\ 0.4 & 0.8 \end{bmatrix} = \mathbf{P}
+$$
 
 . Idempotent!
 

@@ -10,20 +10,32 @@
 
 ## 3. Mathematical Formulas
 - **$t$-Statistic**:
-  $$t = rac{ar{X} - \mu}{s / \sqrt{N}} \sim t_{N-1}$$
+  
+
+$$
+t = rac{ar{X} - \mu}{s / \sqrt{N}} \sim t_{N-1}
+$$
+
 - **Student's $t$ PDF**:
   $$f(t; 
 u) = rac{\Gamma\left(rac{
-u+1}{2}ight)}{\sqrt{
+u+1}{2}
+ight)}{\sqrt{
 u \pi} \Gamma\left(rac{
-u}{2}ight)} \left( 1 + rac{t^2}{
-u} ight)^{-rac{
+u}{2}
+ight)} \left( 1 + rac{t^2}{
+u} 
+ight)^{-rac{
 u+1}{2}}$$
   *(where $
 u = df = N - 1$ degrees of freedom)*
 
 - **Chi-Square Statistic**:
-  $$\chi^2 = \sum_{i=1}^k rac{(O_i - E_i)^2}{E_i} \sim \chi^2_{df}$$
+  
+
+$$
+\chi^2 = \sum_{i=1}^k rac{(O_i - E_i)^2}{E_i} \sim \chi^2_{df}
+$$
 
 ## 4. Degrees of Freedom ($df$)
 Degrees of freedom represent the number of independent pieces of information available to estimate a parameter.

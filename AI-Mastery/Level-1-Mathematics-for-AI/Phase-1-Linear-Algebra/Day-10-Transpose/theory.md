@@ -8,13 +8,19 @@ Imagine holding a spreadsheet by its top-left corner and flipping the sheet side
 
 ### 3. Mathematical Definition
 For matrix $\mathbf{A} \in \mathbb{R}^{m \times n}$, its transpose $\mathbf{A}^T \in \mathbb{R}^{n \times m}$ is defined by:
-$$(\mathbf{A}^T)_{i,j} = a_{j,i}$$
+
+$$
+(\mathbf{A}^T)_{i,j} = a_{j,i}
+$$
 
 ### 4. Notation
 $\mathbf{A}^T$, $\mathbf{A}'$, or $\mathbf{A}^\top$. Shape transforms from $m \times n$ to $n \times m$.
 
 ### 5. Formula
-$$\text{If } \mathbf{A} = \begin{bmatrix} a & b \\ c & d \\ e & f \end{bmatrix}_{3 \times 2} \implies \mathbf{A}^T = \begin{bmatrix} a & c & e \\ b & d & f \end{bmatrix}_{2 \times 3}$$
+
+$$
+\text{If } \mathbf{A} = \begin{bmatrix} a & b \\ c & d \\ e & f \end{bmatrix}_{3 \times 2} \implies \mathbf{A}^T = \begin{bmatrix} a & c & e \\ b & d & f \end{bmatrix}_{2 \times 3}
+$$
 
 ### 6. Symbol-by-Symbol Explanation
 - $\mathbf{A}$: Original $m \times n$ matrix
@@ -24,24 +30,32 @@ $$\text{If } \mathbf{A} = \begin{bmatrix} a & b \\ c & d \\ e & f \end{bmatrix}_
 ### 7. Step-by-Step Calculation
 Given 
 
-$$\mathbf{A} = \begin{bmatrix} 1 & 4 & 7 \\ 2 & 5 & 8 \end{bmatrix}_{2 \times 3}$$
+$$
+\mathbf{A} = \begin{bmatrix} 1 & 4 & 7 \\ 2 & 5 & 8 \end{bmatrix}_{2 \times 3}
+$$
 
 :
 - Row 1 $[1, 4, 7]$ becomes Column 1 $[1, 4, 7]^T$
 - Row 2 $[2, 5, 8]$ becomes Column 2 $[2, 5, 8]^T$
-$$\mathbf{A}^T = \begin{bmatrix} 1 & 2 \\ 4 & 5 \\ 7 & 8 \end{bmatrix}_{3 \times 2}$$
+
+$$
+\mathbf{A}^T = \begin{bmatrix} 1 & 2 \\ 4 & 5 \\ 7 & 8 \end{bmatrix}_{3 \times 2}
+$$
 
 ### 8. Second Example
 Verify $(\mathbf{A}\mathbf{B})^T = \mathbf{B}^T \mathbf{A}^T$:
 Let 
 
-$$\mathbf{A} = \begin{bmatrix} 1 & 2 \end{bmatrix}_{1 \times 2}, \mathbf{B} = \begin{bmatrix} 3 \\ 4 \end{bmatrix}_{2 \times 1}$$
+$$
+\mathbf{A} = \begin{bmatrix} 1 & 2 \end{bmatrix}_{1 \times 2}, \mathbf{B} = \begin{bmatrix} 3 \\ 4 \end{bmatrix}_{2 \times 1}
+$$
 
 .
 $\mathbf{A}\mathbf{B} = [1(3)+2(4)] = [11]_{1 \times 1} \implies (\mathbf{A}\mathbf{B})^T = [11]$.
 
-
-$$\mathbf{B}^T = [3, 4]_{1 \times 2}, \mathbf{A}^T = \begin{bmatrix} 1 \\ 2 \end{bmatrix}_{2 \times 1} \implies \mathbf{B}^T \mathbf{A}^T = 3(1)+4(2) = 11$$
+$$
+\mathbf{B}^T = [3, 4]_{1 \times 2}, \mathbf{A}^T = \begin{bmatrix} 1 \\ 2 \end{bmatrix}_{2 \times 1} \implies \mathbf{B}^T \mathbf{A}^T = 3(1)+4(2) = 11
+$$
 
 . Matches!
 

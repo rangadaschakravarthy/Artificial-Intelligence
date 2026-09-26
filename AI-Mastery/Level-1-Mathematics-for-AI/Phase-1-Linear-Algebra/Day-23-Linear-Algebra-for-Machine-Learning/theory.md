@@ -13,7 +13,10 @@ Linear Model: $f(\mathbf{x}) = \mathbf{w}^T \mathbf{x} + b$. OLS Parameter Matri
 $\mathbf{X}_{N \times d}$: Data matrix. $\mathbf{w}_{d \times 1}$: Model parameter weight vector. $\mathbf{y}_{N \times 1}$: Target label vector.
 
 ### 5. Formula
-$$\mathbf{w}^* = (\mathbf{X}^T \mathbf{X})^{-1} \mathbf{X}^T \mathbf{y} \quad \text{(Closed-form OLS Solution)}$$
+
+$$
+\mathbf{w}^* = (\mathbf{X}^T \mathbf{X})^{-1} \mathbf{X}^T \mathbf{y} \quad \text{(Closed-form OLS Solution)}
+$$
 
 ### 6. Symbol-by-Symbol Explanation
 - $\mathbf{X}$: $N \times d$ dataset design matrix
@@ -25,27 +28,37 @@ $$\mathbf{w}^* = (\mathbf{X}^T \mathbf{X})^{-1} \mathbf{X}^T \mathbf{y} \quad \t
 Compute OLS weights for 2 samples: $x_1=1, y_1=2; x_2=2, y_2=3$:
 1. Augmented design matrix 
 
-$$\mathbf{X} = \begin{bmatrix} 1 & 1 \\ 1 & 2 \end{bmatrix}$$
+$$
+\mathbf{X} = \begin{bmatrix} 1 & 1 \\ 1 & 2 \end{bmatrix}
+$$
 
  (col 1 is bias 1s).
 2. 
 
-$$\mathbf{X}^T \mathbf{X} = \begin{bmatrix} 2 & 3 \\ 3 & 5 \end{bmatrix}$$
+$$
+\mathbf{X}^T \mathbf{X} = \begin{bmatrix} 2 & 3 \\ 3 & 5 \end{bmatrix}
+$$
 
 .
 3. Inverse 
 
-$$(\mathbf{X}^T \mathbf{X})^{-1} = \begin{bmatrix} 5 & -3 \\ -3 & 2 \end{bmatrix}$$
+$$
+(\mathbf{X}^T \mathbf{X})^{-1} = \begin{bmatrix} 5 & -3 \\ -3 & 2 \end{bmatrix}
+$$
 
 .
 4. 
 
-$$\mathbf{X}^T \mathbf{y} = \begin{bmatrix} 1 & 1 \\ 1 & 2 \end{bmatrix} \begin{bmatrix} 2 \\ 3 \end{bmatrix} = \begin{bmatrix} 5 \\ 8 \end{bmatrix}$$
+$$
+\mathbf{X}^T \mathbf{y} = \begin{bmatrix} 1 & 1 \\ 1 & 2 \end{bmatrix} \begin{bmatrix} 2 \\ 3 \end{bmatrix} = \begin{bmatrix} 5 \\ 8 \end{bmatrix}
+$$
 
 .
 5. 
 
-$$\mathbf{w}^* = \begin{bmatrix} 5 & -3 \\ -3 & 2 \end{bmatrix} \begin{bmatrix} 5 \\ 8 \end{bmatrix} = \begin{bmatrix} 25-24 \\ -15+16 \end{bmatrix} = \begin{bmatrix} 1 \\ 1 \end{bmatrix} \implies y = 1x + 1$$
+$$
+\mathbf{w}^* = \begin{bmatrix} 5 & -3 \\ -3 & 2 \end{bmatrix} \begin{bmatrix} 5 \\ 8 \end{bmatrix} = \begin{bmatrix} 25-24 \\ -15+16 \end{bmatrix} = \begin{bmatrix} 1 \\ 1 \end{bmatrix} \implies y = 1x + 1
+$$
 
 .
 

@@ -13,7 +13,10 @@ Linear Regression Gradient: $\nabla_{\mathbf{w}} L = \frac{2}{N} \mathbf{X}^T (\
 $\mathbf{X}_{N \times d}$: Feature matrix. $\mathbf{w}$: Weight vector. $\sigma(z)$: Sigmoid function.
 
 ### 5. Formula
-$$\mathbf{w}_{t+1} = \mathbf{w}_t - \eta \frac{1}{N} \mathbf{X}^T (\sigma(\mathbf{X}\mathbf{w}_t) - \mathbf{y})$$
+
+$$
+\mathbf{w}_{t+1} = \mathbf{w}_t - \eta \frac{1}{N} \mathbf{X}^T (\sigma(\mathbf{X}\mathbf{w}_t) - \mathbf{y})
+$$
 
 ### 6. Symbol-by-Symbol Explanation
 - \mathbf{X}^T (\sigma(\mathbf{X}\mathbf{w}) - \mathbf{y}): Data-weighted residual error vector

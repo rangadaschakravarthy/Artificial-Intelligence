@@ -8,14 +8,21 @@ If $f(x)$ is a hill altitude and $x$ is your position, the derivative $f'(x)$ is
 
 ### 3. Mathematical Definition
 The derivative of function $f: \mathbb{R} \rightarrow \mathbb{R}$ at point $x$ is defined by:
-$$f'(x) = \frac{df}{dx} = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
+
+$$
+f'(x) = \frac{df}{dx} = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}
+$$
+
 if this limit exists.
 
 ### 4. Notation
 $f'(x), \frac{df}{dx}, \frac{d}{dx}[f(x)], D f(x)$. Value at $x=a$ denoted $f'(a)$ or $\left.\frac{df}{dx}\right|_{x=a}$.
 
 ### 5. Formula
-$$\frac{d}{dx}[x^n] = n x^{n-1}, \quad \frac{d}{dx}[e^x] = e^x, \quad \frac{d}{dx}[\ln(x)] = \frac{1}{x}$$
+
+$$
+\frac{d}{dx}[x^n] = n x^{n-1}, \quad \frac{d}{dx}[e^x] = e^x, \quad \frac{d}{dx}[\ln(x)] = \frac{1}{x}
+$$
 
 ### 6. Symbol-by-Symbol Explanation
 - $x^n$: Power function
@@ -31,7 +38,10 @@ Slope of tangent line at $x=2$ is 12!
 
 ### 8. Second Example
 Numerical derivative of $f(x) = x^2$ at $x=3$ using Central Difference ($h=0.001$):
-$$f'(3) \approx \frac{f(3.001) - f(2.999)}{2(0.001)} = \frac{9.006001 - 8.994001}{0.002} = \frac{0.012}{0.002} = 6.000$$
+
+$$
+f'(3) \approx \frac{f(3.001) - f(2.999)}{2(0.001)} = \frac{9.006001 - 8.994001}{0.002} = \frac{0.012}{0.002} = 6.000
+$$
 
 ### 9. Common Mistakes
 Forgetting that $\frac{d}{dx}[e^x] = e^x$; assuming $|x|$ is differentiable at $x=0$ (sharp kink means derivative does not exist).

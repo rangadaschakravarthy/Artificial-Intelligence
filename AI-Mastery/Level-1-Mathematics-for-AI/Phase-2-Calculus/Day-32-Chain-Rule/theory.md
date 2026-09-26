@@ -14,7 +14,10 @@ Multi-variable: If $z = f(u, v)$ with $u = u(t), v = v(t)$, then $\frac{dz}{dt} 
 $\frac{dy}{dx} = \frac{dy}{du} \cdot \frac{du}{dx}$ or $(f \circ g)'(x) = f'(g(x)) g'(x)$.
 
 ### 5. Formula
-$$\frac{\partial L}{\partial w} = \frac{\partial L}{\partial y} \cdot \frac{\partial y}{\partial z} \cdot \frac{\partial z}{\partial w} \quad \text{(Backpropagation Chain)}$$
+
+$$
+\frac{\partial L}{\partial w} = \frac{\partial L}{\partial y} \cdot \frac{\partial y}{\partial z} \cdot \frac{\partial z}{\partial w} \quad \text{(Backpropagation Chain)}
+$$
 
 ### 6. Symbol-by-Symbol Explanation
 - $L$: Loss function output

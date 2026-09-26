@@ -43,8 +43,14 @@ $\mathbf{x} \in \mathbb{R}^4$ means $\mathbf{x}$ is a vector containing 4 real-n
 2. Users vs Movies matrix has Users as rows and Movies as columns. Matrix cell $(i, j)$ contains User $i$'s rating for Movie $j$. Matrix factorization breaks this matrix down to discover latent preferences.
 ### Question 3
 3. Given $\mathbf{x} = [2, 3]^T, \mathbf{w} = [0.5, -1.0]^T, b = 2.0$:
-$$\mathbf{w}^T \mathbf{x} = (0.5 \times 2) + (-1.0 \times 3) = 1.0 - 3.0 = -2.0$$
-$$y = -2.0 + 2.0 = 0.0$$
+
+$$
+\mathbf{w}^T \mathbf{x} = (0.5 \times 2) + (-1.0 \times 3) = 1.0 - 3.0 = -2.0
+$$
+
+$$
+y = -2.0 + 2.0 = 0.0
+$$
 
 ## Level 5 — Interview Questions Solutions
 ### Question 1

@@ -9,7 +9,12 @@ Statistics integrates into 4 major machine learning lifecycle stages:
 
 ## 2. Statistical Feature Selection Metrics
 - **ANOVA $F$-Score (`f_classif`)**: Computes ratio of between-class variance to within-class variance:
-  $$F = rac{	ext{Between-Class Variance}}{	ext{Within-Class Variance}}$$
+  
+
+$$
+F = rac{	ext{Between-Class Variance}}{	ext{Within-Class Variance}}
+$$
+
   High $F$-score $\implies$ Feature mean differs significantly across classes (High predictive signal!).
 - **Chi-Square Score (`chi2`)**: Measures dependency between categorical feature $X$ and target $Y$.
 

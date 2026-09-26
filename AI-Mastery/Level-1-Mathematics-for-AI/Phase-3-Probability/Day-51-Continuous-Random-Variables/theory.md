@@ -12,7 +12,10 @@ Let $X$ be a continuous random variable with PDF $f_X(x): \mathbb{R} 	o [0, \inf
 - **CDF**: $F_X(x) = P(X \le x) = \int_{-\infty}^x f_X(t) dt$
 
 ## 4. Fundamental Relationship (Calculus)
-$$f(x) = rac{d}{dx} F(x) = F'(x)$$
+
+$$
+f(x) = rac{d}{dx} F(x) = F'(x)
+$$
 
 ## 5. PDF Conditions
 1. Non-negativity: $f(x) \ge 0$ for all $x$.
@@ -26,11 +29,18 @@ $$f(x) = rac{d}{dx} F(x) = F'(x)$$
 ## 7. Step-by-Step Calculation
 Uniform distribution on $[0, 2]$. $f(x) = 0.5$ for $x \in [0, 2]$.
 Find $P(0.5 \le X \le 1.5)$:
-$$P(0.5 \le X \le 1.5) = \int_{0.5}^{1.5} 0.5 dx = [0.5 x]_{0.5}^{1.5} = 0.5(1.5 - 0.5) = 0.5(1.0) = 0.50$$
+
+$$
+P(0.5 \le X \le 1.5) = \int_{0.5}^{1.5} 0.5 dx = [0.5 x]_{0.5}^{1.5} = 0.5(1.5 - 0.5) = 0.5(1.0) = 0.50
+$$
 
 ## 8. Second Example (Gaussian PDF in Machine Learning)
 Standard Normal distribution $\mathcal{N}(0, 1)$:
-$$f(x) = rac{1}{\sqrt{2\pi}} e^{-rac{x^2}{2}}$$
+
+$$
+f(x) = rac{1}{\sqrt{2\pi}} e^{-rac{x^2}{2}}
+$$
+
 - $P(-1 \le X \le 1) = \int_{-1}^1 rac{1}{\sqrt{2\pi}} e^{-rac{x^2}{2}} dx pprox 0.6827$ ($68.27\%$ empirical rule).
 
 ## 9. Common Mistakes

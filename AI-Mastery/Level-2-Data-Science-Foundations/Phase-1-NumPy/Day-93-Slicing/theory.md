@@ -29,8 +29,14 @@ sub2d = m[0:2, 1:3] # Top-right 2x2 sub-matrix
 
 ### 6. How It Works
 Slicing updates array metadata:
-$$	ext{New Offset} = 	ext{Base Offset} + (	ext{start} 	imes 	ext{stride})$$
-$$	ext{New Shape}_i = \left\lceil rac{	ext{stop} - 	ext{start}}{	ext{step}} ightceil, \quad 	ext{New Stride}_i = 	ext{stride}_i 	imes 	ext{step}$$
+
+$$
+ext{New Offset} = 	ext{Base Offset} + (	ext{start} 	imes 	ext{stride})
+$$
+
+$$	ext{New Shape}_i = \left\lceil rac{	ext{stop} - 	ext{start}}{	ext{step}} 
+ight
+ceil, \quad 	ext{New Stride}_i = 	ext{stride}_i 	imes 	ext{step}$$
 
 ### 7. Simple Example
 ```python

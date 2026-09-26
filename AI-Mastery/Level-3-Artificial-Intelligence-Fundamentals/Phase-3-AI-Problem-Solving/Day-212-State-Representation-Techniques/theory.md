@@ -11,7 +11,10 @@ Think of state space as a map of every possible configuration a system can take,
 
 ## 4. Syntax / Notation
 Formally:
-$$\mathcal{S} = \{ s_1, s_2, \dots, s_N \}, \quad \text{with action transition } T: S \times A \to S$$
+
+$$
+\mathcal{S} = \{ s_1, s_2, \dots, s_N \}, \quad \text{with action transition } T: S \times A \to S
+$$
 
 ## 5. Parameters / Environment
 - State space cardinality $|S|$

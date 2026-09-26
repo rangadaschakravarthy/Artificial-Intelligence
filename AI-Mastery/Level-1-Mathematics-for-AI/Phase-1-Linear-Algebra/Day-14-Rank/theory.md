@@ -13,8 +13,14 @@ For $\mathbf{A} \in \mathbb{R}^{m \times n}$, the column rank is the dimension o
 $\text{Rank}(\mathbf{A})$ or $\text{rk}(\mathbf{A}) \in \mathbb{Z}_{\ge 0}$.
 
 ### 5. Formula
-$$\text{Rank}(\mathbf{A}_{m \times n}) \le \min(m, n)$$
-$$\mathbf{A} \text{ is Full Rank if } \text{Rank}(\mathbf{A}) = \min(m, n)$$
+
+$$
+\text{Rank}(\mathbf{A}_{m \times n}) \le \min(m, n)
+$$
+
+$$
+\mathbf{A} \text{ is Full Rank if } \text{Rank}(\mathbf{A}) = \min(m, n)
+$$
 
 ### 6. Symbol-by-Symbol Explanation
 - $m, n$: Rows and columns of matrix
@@ -23,7 +29,9 @@ $$\mathbf{A} \text{ is Full Rank if } \text{Rank}(\mathbf{A}) = \min(m, n)$$
 ### 7. Step-by-Step Calculation
 Find rank of 
 
-$$\mathbf{A} = \begin{bmatrix} 1 & 2 & 3 \\ 2 & 4 & 6 \\ 0 & 1 & 5 \end{bmatrix}$$
+$$
+\mathbf{A} = \begin{bmatrix} 1 & 2 & 3 \\ 2 & 4 & 6 \\ 0 & 1 & 5 \end{bmatrix}
+$$
 
 :
 - Row 2 is exactly $2 \times$ Row 1 ($[2, 4, 6] = 2[1, 2, 3]$). Redundant!
@@ -33,7 +41,9 @@ $$\mathbf{A} = \begin{bmatrix} 1 & 2 & 3 \\ 2 & 4 & 6 \\ 0 & 1 & 5 \end{bmatrix}
 ### 8. Second Example
 Rank of Identity Matrix 
 
-$$\mathbf{I}_3 = \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix}$$
+$$
+\mathbf{I}_3 = \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix}
+$$
 
 : All 3 rows are linearly independent \implies \text{Rank}(\mathbf{I}_3) = 3 (Full Rank!).
 

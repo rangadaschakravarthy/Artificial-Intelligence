@@ -4,7 +4,9 @@
 1. What is the maximum possible rank of a $5 \times 3$ matrix?
 2. Find the rank of 
 
-$$\mathbf{A} = \begin{bmatrix} 2 & 4 \\ 1 & 2 \end{bmatrix}$$
+$$
+\mathbf{A} = \begin{bmatrix} 2 & 4 \\ 1 & 2 \end{bmatrix}
+$$
 
 .
 3. What is the rank of an $n \times n$ identity matrix $\mathbf{I}_n$?
@@ -14,12 +16,16 @@ $$\mathbf{A} = \begin{bmatrix} 2 & 4 \\ 1 & 2 \end{bmatrix}$$
 ## Level 2 — Calculation
 1. Determine the rank of 
 
-$$\mathbf{B} = \begin{bmatrix} 1 & 2 & 3 \\ 0 & 1 & 4 \\ 0 & 0 & 5 \end{bmatrix}$$
+$$
+\mathbf{B} = \begin{bmatrix} 1 & 2 & 3 \\ 0 & 1 & 4 \\ 0 & 0 & 5 \end{bmatrix}
+$$
 
 .
 2. Given \mathbf{u} = [1, 2]^T and \mathbf{v} = [3, 4]^T, what is the rank of outer product 
 
-$$\mathbf{u} \mathbf{v}^T = \begin{bmatrix} 3 & 4 \\ 6 & 8 \end{bmatrix}$$
+$$
+\mathbf{u} \mathbf{v}^T = \begin{bmatrix} 3 & 4 \\ 6 & 8 \end{bmatrix}
+$$
 
 ?
 3. If $\mathbf{A}$ has shape $100 \times 10$ and $\text{Rank}(\mathbf{A}) = 8$, how many linearly independent columns does it have?

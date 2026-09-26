@@ -32,7 +32,10 @@ t = np.array([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])
 
 ### 6. How It Works
 Index calculation for element $A[i, j]$ in a 2D matrix of shape $(R, C)$ with strides $(s_0, s_1)$:
-$$	ext{Byte Address} = 	ext{Base Address} + (i 	imes s_0) + (j 	imes s_1)$$
+
+$$
+ext{Byte Address} = 	ext{Base Address} + (i 	imes s_0) + (j 	imes s_1)
+$$
 
 ### 7. Simple Example
 ```python

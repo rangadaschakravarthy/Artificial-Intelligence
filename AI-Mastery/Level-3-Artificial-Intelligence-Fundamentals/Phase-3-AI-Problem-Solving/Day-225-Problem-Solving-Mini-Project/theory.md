@@ -11,7 +11,11 @@ Imagine a detective analyzing a crime scene. Deduction derives necessary facts f
 
 ## 4. Syntax / Notation
 Formal Inference / Planning Syntax:
-$$\text{KB} \models \alpha \quad \iff \quad M(\text{KB}) \subseteq M(\alpha)$$
+
+$$
+\text{KB} \models \alpha \quad \iff \quad M(\text{KB}) \subseteq M(\alpha)
+$$
+
 Where $\text{KB}$ is the Knowledge Base, $\alpha$ is a target proposition, and $M(\cdot)$ is the set of models.
 
 ## 5. Parameters / Environment

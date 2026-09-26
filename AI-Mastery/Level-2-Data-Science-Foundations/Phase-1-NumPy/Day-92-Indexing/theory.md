@@ -26,7 +26,10 @@ val = arr2d[1, 0] # Row index 1, Column index 0 -> Value 3
 
 ### 6. How It Works
 For a 2D matrix with strides $(s_0, s_1)$, indexing `arr[i, j]` calculates RAM pointer address directly:
-$$	ext{Address} = 	ext{Base} + i \cdot s_0 + j \cdot s_1$$
+
+$$
+ext{Address} = 	ext{Base} + i \cdot s_0 + j \cdot s_1
+$$
 
 ### 7. Simple Example
 ```python

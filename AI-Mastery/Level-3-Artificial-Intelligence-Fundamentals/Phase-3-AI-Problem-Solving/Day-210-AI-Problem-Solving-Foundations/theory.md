@@ -11,7 +11,11 @@ Imagine navigating a dense forest. Instead of recording every individual leaf an
 
 ## 4. Syntax / Notation
 A well-defined AI problem is formally specified by a 6-tuple:
-$$\mathcal{P} = \langle S, s_0, A, T, G, c \rangle$$
+
+$$
+\mathcal{P} = \langle S, s_0, A, T, G, c \rangle
+$$
+
 - $S$: State space (set of all valid states).
 - $s_0 \in S$: Initial state.
 - $A(s)$: Action space (valid actions available in state $s$).

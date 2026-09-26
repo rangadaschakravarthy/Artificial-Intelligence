@@ -10,7 +10,9 @@
 ### Question 4
 4. 
 
-$$\nabla f = \begin{bmatrix} 10x \\ 6y^2 \end{bmatrix}$$
+$$
+\nabla f = \begin{bmatrix} 10x \\ 6y^2 \end{bmatrix}
+$$
 
 .
 ### Question 5
@@ -20,13 +22,17 @@ $$\nabla f = \begin{bmatrix} 10x \\ 6y^2 \end{bmatrix}$$
 ### Question 1
 1. \frac{\partial f}{\partial x} = 2xy - 3, \frac{\partial f}{\partial y} = x^2 + 8y. At (1, 2): 
 
-$$\nabla f(1, 2) = \begin{bmatrix} 4-3 \\ 1+16 \end{bmatrix} = \begin{bmatrix} 1 \\ 17 \end{bmatrix}$$
+$$
+\nabla f(1, 2) = \begin{bmatrix} 4-3 \\ 1+16 \end{bmatrix} = \begin{bmatrix} 1 \\ 17 \end{bmatrix}
+$$
 
 .
 ### Question 2
 2. Steepest descent direction is 
 
-$$-\nabla f(1, 2) = \begin{bmatrix} -1 \\ -17 \end{bmatrix}$$
+$$
+-\nabla f(1, 2) = \begin{bmatrix} -1 \\ -17 \end{bmatrix}
+$$
 
 .
 ### Question 3
@@ -36,7 +42,9 @@ $$-\nabla f(1, 2) = \begin{bmatrix} -1 \\ -17 \end{bmatrix}$$
 ### Question 5
 5. \nabla L = [2w_1, 4w_2]^T. At (3, 2), \nabla L = [6, 8]^T. Update: 
 
-$$\mathbf{w}_{new} = \begin{bmatrix} 3 \\ 2 \end{bmatrix} - 0.1 \begin{bmatrix} 6 \\ 8 \end{bmatrix} = \begin{bmatrix} 3 - 0.6 \\ 2 - 0.8 \end{bmatrix} = \begin{bmatrix} 2.4 \\ 1.2 \end{bmatrix}$$
+$$
+\mathbf{w}_{new} = \begin{bmatrix} 3 \\ 2 \end{bmatrix} - 0.1 \begin{bmatrix} 6 \\ 8 \end{bmatrix} = \begin{bmatrix} 3 - 0.6 \\ 2 - 0.8 \end{bmatrix} = \begin{bmatrix} 2.4 \\ 1.2 \end{bmatrix}
+$$
 
 .
 

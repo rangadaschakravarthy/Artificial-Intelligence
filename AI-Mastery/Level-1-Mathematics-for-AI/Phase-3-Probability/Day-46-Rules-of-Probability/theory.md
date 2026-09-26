@@ -22,9 +22,18 @@ Probability rules are mathematical laws that allow us to calculate the likelihoo
 - $P(B|A)$: Conditional probability of $B$ given $A$.
 
 ## 5. Formula Summary
-$$	ext{Complement: } P(A^c) = 1 - P(A)$$
-$$	ext{Addition: } P(A \cup B) = P(A) + P(B) - P(A \cap B)$$
-$$	ext{Multiplication: } P(A \cap B) = P(B|A)P(A)$$
+
+$$
+ext{Complement: } P(A^c) = 1 - P(A)
+$$
+
+$$
+ext{Addition: } P(A \cup B) = P(A) + P(B) - P(A \cap B)
+$$
+
+$$
+ext{Multiplication: } P(A \cap B) = P(B|A)P(A)
+$$
 
 ## 6. Symbol Explanation
 - $\cup$: Union (OR).
@@ -34,9 +43,18 @@ $$	ext{Multiplication: } P(A \cap B) = P(B|A)P(A)$$
 ## 7. Step-by-Step Calculation
 Given $P(A) = 0.6$, $P(B) = 0.5$, $P(A \cap B) = 0.3$.
 - Find $P(A \cup B)$:
-  $$P(A \cup B) = 0.6 + 0.5 - 0.3 = 0.8$$
+  
+
+$$
+P(A \cup B) = 0.6 + 0.5 - 0.3 = 0.8
+$$
+
 - Find $P(A^c)$:
-  $$P(A^c) = 1 - 0.6 = 0.4$$
+  
+
+$$
+P(A^c) = 1 - 0.6 = 0.4
+$$
 
 ## 8. Second Example (Ensemble AI Models)
 Suppose 3 independent classifiers each have error rate $p = 0.10$. What is the probability that AT LEAST ONE classifier makes an error?

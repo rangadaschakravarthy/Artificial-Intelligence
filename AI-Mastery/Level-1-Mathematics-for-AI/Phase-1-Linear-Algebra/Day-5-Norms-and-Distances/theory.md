@@ -13,7 +13,10 @@ A norm $||\mathbf{v}||$ on a vector space $V$ is a function $V \rightarrow \math
 $||v||_1$ for L1 norm, $||v||_2$ for L2 norm, $||v||_\infty$ for max norm. Distance $d(\mathbf{u}, \mathbf{v}) = ||\mathbf{u} - \mathbf{v}||$.
 
 ### 5. Formula
-$$||\mathbf{v}||_1 = \sum_{i=1}^n |v_i|, \quad ||\mathbf{v}||_2 = \sqrt{\sum_{i=1}^n v_i^2}, \quad ||\mathbf{v}||_\infty = \max_{i} |v_i|$$
+
+$$
+||\mathbf{v}||_1 = \sum_{i=1}^n |v_i|, \quad ||\mathbf{v}||_2 = \sqrt{\sum_{i=1}^n v_i^2}, \quad ||\mathbf{v}||_\infty = \max_{i} |v_i|
+$$
 
 ### 6. Symbol-by-Symbol Explanation
 - $|v_i|$: Absolute value of component $i$

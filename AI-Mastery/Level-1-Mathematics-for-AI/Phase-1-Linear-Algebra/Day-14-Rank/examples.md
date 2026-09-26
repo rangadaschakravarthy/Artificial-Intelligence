@@ -3,14 +3,18 @@
 ## Example 1 — Very Easy
 Full Rank 2x2 Matrix: 
 
-$$\begin{bmatrix} 1 & 0 \\ 0 & 2 \end{bmatrix} \implies \text{Rank} = 2$$
+$$
+\begin{bmatrix} 1 & 0 \\ 0 & 2 \end{bmatrix} \implies \text{Rank} = 2
+$$
 
 .
 
 ## Example 2 — Beginner
 Rank Deficient 2x2 Matrix: 
 
-$$\begin{bmatrix} 1 & 3 \\ 2 & 6 \end{bmatrix} \implies \text{Rank} = 1$$
+$$
+\begin{bmatrix} 1 & 3 \\ 2 & 6 \end{bmatrix} \implies \text{Rank} = 1
+$$
 
  (Row 2 = 2 * Row 1).
 

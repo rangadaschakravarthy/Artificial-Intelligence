@@ -13,7 +13,10 @@ A function $f: X \rightarrow Y$ is a relation that assigns to each element $x$ i
 $y = f(x)$. Domain $\text{Dom}(f) \subseteq \mathbb{R}^n$, Range $\text{Ran}(f) \subseteq \mathbb{R}^m$. Composite $(f \circ g)(x) = f(g(x))$.
 
 ### 5. Formula
-$$\text{Sigmoid: } \sigma(x) = \frac{1}{1 + e^{-x}}, \quad \text{ReLU: } f(x) = \max(0, x)$$
+
+$$
+\text{Sigmoid: } \sigma(x) = \frac{1}{1 + e^{-x}}, \quad \text{ReLU: } f(x) = \max(0, x)
+$$
 
 ### 6. Symbol-by-Symbol Explanation
 - $x$: Input argument (independent variable)
@@ -28,7 +31,10 @@ Evaluate composite function $f(g(x))$ for $g(x) = 2x + 1$ and $f(u) = u^2$ at $x
 
 ### 8. Second Example
 Evaluate Sigmoid activation at $x = 0$:
-$$\sigma(0) = \frac{1}{1 + e^0} = \frac{1}{1 + 1} = \frac{1}{2} = 0.5$$
+
+$$
+\sigma(0) = \frac{1}{1 + e^0} = \frac{1}{1 + 1} = \frac{1}{2} = 0.5
+$$
 
 ### 9. Common Mistakes
 Assuming a single input can have two different outputs in a valid function (fails vertical line test); confusing domain (valid inputs) with range (valid outputs).

@@ -16,8 +16,13 @@ For any statistical distribution object `dist = stats.norm(loc=mu, scale=sigma)`
 
 ## 3. Monte Carlo Method
 Monte Carlo simulation approximates expected values $E[g(X)]$ by drawing $S$ independent random samples and computing average:
-$$E[g(X)] pprox rac{1}{S} \sum_{s=1}^S g(x^{(s)}), \quad x^{(s)} \sim P(X)$$
-By Law of Large Numbers, error decreases at rate $O\left(rac{1}{\sqrt{S}}ight)$.
+
+$$
+E[g(X)] pprox rac{1}{S} \sum_{s=1}^S g(x^{(s)}), \quad x^{(s)} \sim P(X)
+$$
+
+By Law of Large Numbers, error decreases at rate $O\left(rac{1}{\sqrt{S}}
+ight)$.
 
 ## 4. Fitting Distributions
 To find parameters $\hat{	heta}$ that best model empirical dataset `data`:

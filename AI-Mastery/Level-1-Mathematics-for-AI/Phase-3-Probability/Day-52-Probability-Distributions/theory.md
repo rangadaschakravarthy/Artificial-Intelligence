@@ -29,11 +29,17 @@ Think of distributions as pre-built mathematical shapes:
 
 ## 5. Step-by-Step Example (Binomial)
 Flip 10 fair coins ($n=10, p=0.5$). Find probability of getting exactly 6 Heads:
-$$P(X = 6) = inom{10}{6} (0.5)^6 (0.5)^4 = 210 	imes 0.015625 	imes 0.0625 = 210 	imes 0.0009765625 pprox 0.2051 = 20.51\%$$
+
+$$
+P(X = 6) = inom{10}{6} (0.5)^6 (0.5)^4 = 210 	imes 0.015625 	imes 0.0625 = 210 	imes 0.0009765625 pprox 0.2051 = 20.51\%
+$$
 
 ## 6. Second Example (Poisson Web Traffic)
 A website gets an average of $\lambda = 3$ API calls per second. Find $P(X = 0)$ calls in a second:
-$$P(X = 0) = rac{3^0 e^{-3}}{0!} = e^{-3} pprox 0.0498 = 4.98\%$$
+
+$$
+P(X = 0) = rac{3^0 e^{-3}}{0!} = e^{-3} pprox 0.0498 = 4.98\%
+$$
 
 ## 7. Common Mistakes
 - Confusing standard deviation $\sigma$ with variance $\sigma^2$ in SciPy (`scale=sigma`, not `sigma**2`).

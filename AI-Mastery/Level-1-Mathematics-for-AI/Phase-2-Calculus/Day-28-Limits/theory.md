@@ -13,7 +13,10 @@ Formal $\epsilon-\delta$ definition: $\lim_{x \to c} f(x) = L$ means for every $
 $\lim_{x \to c} f(x) = L$. Read: 'The limit of $f(x)$ as $x$ approaches $c$ is $L$'.
 
 ### 5. Formula
-$$\text{L'Hôpital's Rule: If } \lim_{x \to c} \frac{f(x)}{g(x)} = \frac{0}{0} \text{ or } \frac{\pm \infty}{\pm \infty} \implies \lim_{x \to c} \frac{f(x)}{g(x)} = \lim_{x \to c} \frac{f'(x)}{g'(x)}$$
+
+$$
+\text{L'Hôpital's Rule: If } \lim_{x \to c} \frac{f(x)}{g(x)} = \frac{0}{0} \text{ or } \frac{\pm \infty}{\pm \infty} \implies \lim_{x \to c} \frac{f(x)}{g(x)} = \lim_{x \to c} \frac{f'(x)}{g'(x)}
+$$
 
 ### 6. Symbol-by-Symbol Explanation
 - $c$: Point being approached by $x$

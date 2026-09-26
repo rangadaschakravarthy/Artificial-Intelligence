@@ -26,7 +26,10 @@ reshaped = arr.reshape(3, 2)
 
 ### 6. How It Works
 The total number of elements (`size`) in an array is equal to the product of all elements in its shape tuple:
-$$	ext{size} = \prod_{i=0}^{N-1} 	ext{shape}[i]$$
+
+$$
+ext{size} = \prod_{i=0}^{N-1} 	ext{shape}[i]
+$$
 
 ### 7. Simple Example
 ```python

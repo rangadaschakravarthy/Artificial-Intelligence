@@ -8,14 +8,23 @@ Gradient is for 1 output. Jacobian is for MULTIPLE outputs! Row $i$ of the Jacob
 
 ### 3. Mathematical Definition
 For vector-valued function $\mathbf{f}: \mathbb{R}^n \rightarrow \mathbb{R}^m$ given by $\mathbf{f}(\mathbf{x}) = [f_1(\mathbf{x}), \dots, f_m(\mathbf{x})]^T$, the Jacobian matrix $\mathbf{J}_{m \times n} \in \mathbb{R}^{m \times n}$ is:
-$$\mathbf{J} = \frac{\partial \mathbf{f}}{\partial \mathbf{x}} = \begin{bmatrix} \frac{\partial f_1}{\partial x_1} & \dots & \frac{\partial f_1}{\partial x_n} \\ \vdots & \ddots & \vdots \\ \frac{\partial f_m}{\partial x_1} & \dots & \frac{\partial f_m}{\partial x_n} \end{bmatrix}$$
+
+$$
+\mathbf{J} = \frac{\partial \mathbf{f}}{\partial \mathbf{x}} = \begin{bmatrix} \frac{\partial f_1}{\partial x_1} & \dots & \frac{\partial f_1}{\partial x_n} \\ \vdots & \ddots & \vdots \\ \frac{\partial f_m}{\partial x_1} & \dots & \frac{\partial f_m}{\partial x_n} \end{bmatrix}
+$$
 
 ### 4. Notation
 $\mathbf{J}$, $\frac{\partial \mathbf{f}}{\partial \mathbf{x}}$, $D \mathbf{f}(\mathbf{x})$. Shape is $m \times n$ ($m$ outputs, $n$ inputs).
 
 ### 5. Formula
-$$\mathbf{J}_{i,j} = \frac{\partial f_i}{\partial x_j}$$
-$$\text{Linear Approximation: } \mathbf{f}(\mathbf{x} + \Delta \mathbf{x}) \approx \mathbf{f}(\mathbf{x}) + \mathbf{J} \Delta \mathbf{x}$$
+
+$$
+\mathbf{J}_{i,j} = \frac{\partial f_i}{\partial x_j}
+$$
+
+$$
+\text{Linear Approximation: } \mathbf{f}(\mathbf{x} + \Delta \mathbf{x}) \approx \mathbf{f}(\mathbf{x}) + \mathbf{J} \Delta \mathbf{x}
+$$
 
 ### 6. Symbol-by-Symbol Explanation
 - $m$: Number of output components ($f_1, \dots, f_m$)
@@ -25,19 +34,25 @@ $$\text{Linear Approximation: } \mathbf{f}(\mathbf{x} + \Delta \mathbf{x}) \appr
 ### 7. Step-by-Step Calculation
 Find Jacobian of 
 
-$$\mathbf{f}(x, y) = \begin{bmatrix} x^2 y \\ x + 3y \end{bmatrix}$$
+$$
+\mathbf{f}(x, y) = \begin{bmatrix} x^2 y \\ x + 3y \end{bmatrix}
+$$
 
  at point (2, 1):
 1. Output $f_1(x, y) = x^2 y \implies \frac{\partial f_1}{\partial x} = 2xy, \frac{\partial f_1}{\partial y} = x^2$.
 2. Output $f_2(x, y) = x + 3y \implies \frac{\partial f_2}{\partial x} = 1, \frac{\partial f_2}{\partial y} = 3$.
 3. Jacobian matrix: 
 
-$$\mathbf{J} = \begin{bmatrix} 2xy & x^2 \\ 1 & 3 \end{bmatrix}$$
+$$
+\mathbf{J} = \begin{bmatrix} 2xy & x^2 \\ 1 & 3 \end{bmatrix}
+$$
 
 .
 4. Evaluate at (2, 1): 
 
-$$\mathbf{J}(2, 1) = \begin{bmatrix} 2(2)(1) & 2^2 \\ 1 & 3 \end{bmatrix} = \begin{bmatrix} 4 & 4 \\ 1 & 3 \end{bmatrix}_{2 \times 2}$$
+$$
+\mathbf{J}(2, 1) = \begin{bmatrix} 2(2)(1) & 2^2 \\ 1 & 3 \end{bmatrix} = \begin{bmatrix} 4 & 4 \\ 1 & 3 \end{bmatrix}_{2 \times 2}
+$$
 
 .
 

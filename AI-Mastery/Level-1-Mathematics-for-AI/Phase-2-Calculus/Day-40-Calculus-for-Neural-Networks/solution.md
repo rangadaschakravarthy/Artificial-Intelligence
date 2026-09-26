@@ -20,11 +20,15 @@
 ### Question 3
 3. 
 
-$$\mathbf{W}^{(2)T} \delta^{(2)} = \begin{bmatrix} 1.5 \\ -2.0 \end{bmatrix} (-0.1) = \begin{bmatrix} -0.15 \\ 0.20 \end{bmatrix}$$
+$$
+\mathbf{W}^{(2)T} \delta^{(2)} = \begin{bmatrix} 1.5 \\ -2.0 \end{bmatrix} (-0.1) = \begin{bmatrix} -0.15 \\ 0.20 \end{bmatrix}
+$$
 
 . 
 
-$$\mathbf{\delta}^{(1)} = \begin{bmatrix} -0.15 \\ 0.20 \end{bmatrix} \odot \begin{bmatrix} 0.2 \\ 0.2 \end{bmatrix} = \begin{bmatrix} -0.03 \\ 0.04 \end{bmatrix}$$
+$$
+\mathbf{\delta}^{(1)} = \begin{bmatrix} -0.15 \\ 0.20 \end{bmatrix} \odot \begin{bmatrix} 0.2 \\ 0.2 \end{bmatrix} = \begin{bmatrix} -0.03 \\ 0.04 \end{bmatrix}
+$$
 
 .
 ### Question 4

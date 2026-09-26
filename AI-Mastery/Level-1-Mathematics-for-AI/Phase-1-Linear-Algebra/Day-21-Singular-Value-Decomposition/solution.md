@@ -18,7 +18,9 @@
 ### Question 2
 2. 
 
-$$\mathbf{A}^T \mathbf{A} = \begin{bmatrix} 1 & 1 \\ 1 & 2 \end{bmatrix}$$
+$$
+\mathbf{A}^T \mathbf{A} = \begin{bmatrix} 1 & 1 \\ 1 & 2 \end{bmatrix}
+$$
 
 . Characteristic equation (1-\lambda)(2-\lambda)-1 = 0 \implies \lambda^2 - 3\lambda + 1 = 0 \implies \lambda = \frac{3 \pm \sqrt{5}}{2}. \sigma_1 = \sqrt{\frac{3+\sqrt{5}}{2}} \approx 1.618, \sigma_2 = \sqrt{\frac{3-\sqrt{5}}{2}} \approx 0.618.
 ### Question 3

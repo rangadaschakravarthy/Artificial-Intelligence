@@ -13,7 +13,10 @@ A tensor $\mathbf{X} \in \mathbb{R}^{n_1 \times n_2 \times \dots \times n_d}$ of
 Euler script or bold letters $\mathcal{X} \in \mathbb{R}^{d_1 \times d_2 \times \dots \times d_n}$. Axis $0, 1, \dots, d-1$.
 
 ### 5. Formula
-$$\mathcal{X}_{B \times C \times H \times W} \implies \text{4D Tensor: (Batch, Channels, Height, Width)}$$
+
+$$
+\mathcal{X}_{B \times C \times H \times W} \implies \text{4D Tensor: (Batch, Channels, Height, Width)}
+$$
 
 ### 6. Symbol-by-Symbol Explanation
 - $B$: Batch size (number of data samples)

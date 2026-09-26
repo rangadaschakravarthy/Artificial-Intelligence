@@ -8,9 +8,18 @@ Machine Learning (ML) is the branch of AI focused on building algorithms that le
 
 ### 3. The Paradigm Shift
 - **Traditional Programming / Symbolic AI**:
-  $$\text{Data} + \text{Hand-coded Rules} \to \text{Outputs}$$
+  
+
+$$
+\text{Data} + \text{Hand-coded Rules} \to \text{Outputs}
+$$
+
 - **Machine Learning**:
-  $$\text{Data} + \text{Expected Outputs} \to \text{Trained Model (Rules)}$$
+  
+
+$$
+\text{Data} + \text{Expected Outputs} \to \text{Trained Model (Rules)}
+$$
 
 ### 4. Three Primary ML Paradigms
 1. **Supervised Learning**: Learned from labeled data $(X, y)$.

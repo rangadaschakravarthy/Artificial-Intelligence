@@ -8,10 +8,25 @@ Instead of looking at house size ($X$) or house price ($Y$) individually, a join
 
 ## 3. Mathematical Definition
 - **Discrete Joint PMF**: $p_{X,Y}(x, y) = P(X = x, Y = y)$
-  $$\sum_x \sum_y p_{X,Y}(x, y) = 1, \quad p(x,y) \ge 0$$
+  
+
+$$
+\sum_x \sum_y p_{X,Y}(x, y) = 1, \quad p(x,y) \ge 0
+$$
+
 - **Continuous Joint PDF**: $f_{X,Y}(x, y)$ such that:
-  $$P((X,Y) \in R) = \iint_R f_{X,Y}(x, y) dx dy$$
-  $$\int_{-\infty}^{\infty} \int_{-\infty}^{\infty} f_{X,Y}(x, y) dx dy = 1$$
+  
+
+$$
+P((X,Y) \in R) = \iint_R f_{X,Y}(x, y) dx dy
+$$
+
+  
+
+$$
+\int_{-\infty}^{\infty} \int_{-\infty}^{\infty} f_{X,Y}(x, y) dx dy = 1
+$$
+
 - **Joint CDF**: $F_{X,Y}(x, y) = P(X \le x, Y \le y) = \int_{-\infty}^x \int_{-\infty}^y f(u, v) dv du$
 
 ## 4. Notation
@@ -22,13 +37,19 @@ Instead of looking at house size ($X$) or house price ($Y$) individually, a join
 ## 5. Step-by-Step Integration Example
 Let $f(x, y) = 2$ for $x \ge 0, y \ge 0, x + y \le 1$.
 1. Check normalization (Area of triangle $= 0.5$):
-   $$\int_0^1 \int_0^{1-x} 2 dy dx = \int_0^1 2(1-x) dx = \left[ 2x - x^2 ight]_0^1 = 2 - 1 = 1.0$$
+   $$\int_0^1 \int_0^{1-x} 2 dy dx = \int_0^1 2(1-x) dx = \left[ 2x - x^2 
+ight]_0^1 = 2 - 1 = 1.0$$
 2. Compute $P(X \le 0.5, Y \le 0.5)$:
-   $$\int_0^{0.5} \int_0^{0.5} 2 dy dx = 2 	imes 0.5 	imes 0.5 = 0.50$$
+   
+
+$$
+\int_0^{0.5} \int_0^{0.5} 2 dy dx = 2 	imes 0.5 	imes 0.5 = 0.50
+$$
 
 ## 6. Second Example (Bivariate Gaussian Distribution)
 Continuous 2D Gaussian PDF with mean vector $oldsymbol{\mu} = [\mu_1, \mu_2]^T$ and covariance matrix $oldsymbol{\Sigma}$:
-$$f(\mathbf{x}) = rac{1}{2\pi |oldsymbol{\Sigma}|^{1/2}} \exp\left( -rac{1}{2} (\mathbf{x} - oldsymbol{\mu})^T oldsymbol{\Sigma}^{-1} (\mathbf{x} - oldsymbol{\mu}) ight)$$
+$$f(\mathbf{x}) = rac{1}{2\pi |oldsymbol{\Sigma}|^{1/2}} \exp\left( -rac{1}{2} (\mathbf{x} - oldsymbol{\mu})^T oldsymbol{\Sigma}^{-1} (\mathbf{x} - oldsymbol{\mu}) 
+ight)$$
 
 ## 7. Common Mistakes
 - Integrating continuous limits incorrectly when integration region boundary depends on $x$ or $y$.

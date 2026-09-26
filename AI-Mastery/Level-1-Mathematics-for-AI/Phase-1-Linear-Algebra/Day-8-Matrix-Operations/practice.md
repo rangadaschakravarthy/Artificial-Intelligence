@@ -3,21 +3,29 @@
 ## Level 1 — Basic Understanding
 1. Add matrices 
 
-$$\mathbf{A} = \begin{bmatrix} 2 & 4 \\ 1 & 3 \end{bmatrix}$$
+$$
+\mathbf{A} = \begin{bmatrix} 2 & 4 \\ 1 & 3 \end{bmatrix}
+$$
 
  and 
 
-$$\mathbf{B} = \begin{bmatrix} 5 & 1 \\ 0 & 2 \end{bmatrix}$$
+$$
+\mathbf{B} = \begin{bmatrix} 5 & 1 \\ 0 & 2 \end{bmatrix}
+$$
 
 .
 2. Calculate 4 \mathbf{A} for 
 
-$$\mathbf{A} = \begin{bmatrix} 1 & -2 \\ 3 & 0 \end{bmatrix}$$
+$$
+\mathbf{A} = \begin{bmatrix} 1 & -2 \\ 3 & 0 \end{bmatrix}
+$$
 
 .
 3. Compute Hadamard product \mathbf{A} \odot \mathbf{B} for 
 
-$$\mathbf{A} = \begin{bmatrix} 3 & 2 \\ 1 & 4 \end{bmatrix}, \mathbf{B} = \begin{bmatrix} 2 & 0 \\ -1 & 5 \end{bmatrix}$$
+$$
+\mathbf{A} = \begin{bmatrix} 3 & 2 \\ 1 & 4 \end{bmatrix}, \mathbf{B} = \begin{bmatrix} 2 & 0 \\ -1 & 5 \end{bmatrix}
+$$
 
 .
 4. Can you add a $3 \times 2$ matrix to a $2 \times 3$ matrix? Why or why not?
@@ -26,17 +34,23 @@ $$\mathbf{A} = \begin{bmatrix} 3 & 2 \\ 1 & 4 \end{bmatrix}, \mathbf{B} = \begin
 ## Level 2 — Calculation
 1. Compute linear combination 2\mathbf{A} - 3\mathbf{B} for 
 
-$$\mathbf{A} = \begin{bmatrix} 1 & 2 \\ 0 & 4 \end{bmatrix}, \mathbf{B} = \begin{bmatrix} 3 & -1 \\ 2 & 1 \end{bmatrix}$$
+$$
+\mathbf{A} = \begin{bmatrix} 1 & 2 \\ 0 & 4 \end{bmatrix}, \mathbf{B} = \begin{bmatrix} 3 & -1 \\ 2 & 1 \end{bmatrix}
+$$
 
 .
 2. Solve for matrix \mathbf{X} in equation: 
 
-$$\mathbf{X} + \begin{bmatrix} 1 & 3 \\ 2 & 0 \end{bmatrix} = \begin{bmatrix} 4 & 5 \\ 1 & 2 \end{bmatrix}$$
+$$
+\mathbf{X} + \begin{bmatrix} 1 & 3 \\ 2 & 0 \end{bmatrix} = \begin{bmatrix} 4 & 5 \\ 1 & 2 \end{bmatrix}
+$$
 
 .
 3. Perform element-wise ReLU activation f(x) = \max(0, x) on matrix 
 
-$$\mathbf{Z} = \begin{bmatrix} 2.5 & -1.2 \\ -0.5 & 3.0 \end{bmatrix}$$
+$$
+\mathbf{Z} = \begin{bmatrix} 2.5 & -1.2 \\ -0.5 & 3.0 \end{bmatrix}
+$$
 
 .
 4. Given $\mathbf{A} \in \mathbb{R}^{4 \times 3}$ and vector $\mathbf{b} \in \mathbb{R}^{1 \times 3}$, what is the shape of $\mathbf{A} + \mathbf{b}$ using broadcasting?
@@ -52,16 +66,22 @@ $$\mathbf{Z} = \begin{bmatrix} 2.5 & -1.2 \\ -0.5 & 3.0 \end{bmatrix}$$
 ## Level 4 — AI/ML Application
 1. In gradient descent weight update \mathbf{W} = \mathbf{W} - \eta \mathbf{G}, given 
 
-$$\mathbf{W} = \begin{bmatrix} 0.5 & 1.0 \\ -0.2 & 0.8 \end{bmatrix}$$
+$$
+\mathbf{W} = \begin{bmatrix} 0.5 & 1.0 \\ -0.2 & 0.8 \end{bmatrix}
+$$
 
 , \eta = 0.1, 
 
-$$\mathbf{G} = \begin{bmatrix} 2.0 & -1.0 \\ 0.5 & 4.0 \end{bmatrix}$$
+$$
+\mathbf{G} = \begin{bmatrix} 2.0 & -1.0 \\ 0.5 & 4.0 \end{bmatrix}
+$$
 
 , compute updated weight matrix \mathbf{W}.
 2. A mini-batch activation matrix \mathbf{Z} \in \mathbb{R}^{3 \times 2} is 
 
-$$\begin{bmatrix} 1.0 & 2.0 \\ 3.0 & 4.0 \\ 5.0 & 6.0 \end{bmatrix}$$
+$$
+\begin{bmatrix} 1.0 & 2.0 \\ 3.0 & 4.0 \\ 5.0 & 6.0 \end{bmatrix}
+$$
 
 . Bias vector \mathbf{b} = [0.5, -0.5]. Compute broadcasted sum \mathbf{Z} + \mathbf{b}.
 3. Explain how Dropout deactivates activations during training via Hadamard product with a random binary matrix.

@@ -13,7 +13,10 @@ MSE: $L_{MSE}(y, \hat{y}) = (y - \hat{y})^2$. BCE: $L_{BCE}(y, \hat{y}) = -y \ln
 $L(y, \hat{y})$ for single sample loss. $J(\mathbf{w}) = \frac{1}{N} \sum_{i=1}^N L(y_i, \hat{y}_i)$ for total dataset cost.
 
 ### 5. Formula
-$$\frac{\partial L_{MSE}}{\partial \hat{y}} = -2(y - \hat{y}), \quad \frac{\partial L_{BCE}}{\partial \hat{y}} = \frac{\hat{y} - y}{\hat{y}(1-\hat{y})}$$
+
+$$
+\frac{\partial L_{MSE}}{\partial \hat{y}} = -2(y - \hat{y}), \quad \frac{\partial L_{BCE}}{\partial \hat{y}} = \frac{\hat{y} - y}{\hat{y}(1-\hat{y})}
+$$
 
 ### 6. Symbol-by-Symbol Explanation
 - $y$: True ground truth target label
@@ -29,7 +32,11 @@ Calculate MSE and BCE loss for true label $y = 1$ and prediction $\hat{y} = 0.8$
 
 ### 8. Second Example
 Calculate Huber Loss ($d = y - \hat{y}$, threshold $\delta = 1.0$):
-$$\text{Huber}(d) = \begin{cases} \frac{1}{2} d^2 & \text{if } |d| \le \delta \\ \delta(|d| - \frac{1}{2}\delta) & \text{if } |d| > \delta \end{cases}$$
+
+$$
+\text{Huber}(d) = \begin{cases} \frac{1}{2} d^2 & \text{if } |d| \le \delta \\ \delta(|d| - \frac{1}{2}\delta) & \text{if } |d| > \delta \end{cases}
+$$
+
 For small error $d=0.5 \le 1.0 \implies \frac{1}{2}(0.25) = 0.125$. For large outlier error $d=5.0 > 1.0 \implies 1.0(5.0 - 0.5) = 4.5$ (Linear penalty instead of quadratic 12.5!).
 
 ### 9. Common Mistakes

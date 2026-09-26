@@ -11,15 +11,24 @@ Consider Shoe Size ($X$) and Reading Ability ($Y$) among school children.
 
 ## 3. Mathematical Definition
 $X$ and $Y$ are conditionally independent given $Z$ (written $X \perp \!\!\! \perp Y \mid Z$) if and only if:
-$$P(X=x, Y=y \mid Z=z) = P(X=x \mid Z=z) \cdot P(Y=y \mid Z=z) \quad orall x, y, z$$
+
+$$
+P(X=x, Y=y \mid Z=z) = P(X=x \mid Z=z) \cdot P(Y=y \mid Z=z) \quad orall x, y, z
+$$
 
 Equivalent conditional form:
-$$P(X=x \mid Y=y, Z=z) = P(X=x \mid Z=z)$$
+
+$$
+P(X=x \mid Y=y, Z=z) = P(X=x \mid Z=z)
+$$
 
 ## 4. Naive Bayes Assumption
 In a multi-feature classification problem with features $\mathbf{X} = [X_1, X_2, \dots, X_d]^T$ and class target $Y$:
 Naive Bayes assumes features $X_i$ are conditionally independent given target $Y$:
-$$P(X_1, X_2, \dots, X_d \mid Y) = \prod_{i=1}^d P(X_i \mid Y)$$
+
+$$
+P(X_1, X_2, \dots, X_d \mid Y) = \prod_{i=1}^d P(X_i \mid Y)
+$$
 
 ## 5. Notation
 - $X \perp \!\!\! \perp Y \mid Z$: $X$ and $Y$ are conditionally independent given $Z$.
@@ -30,9 +39,13 @@ Spam Classifier features: $X_1 = 	ext{"Viagra"}$, $X_2 = 	ext{"Casino"}$, Target
 - Given $Y = 	ext{Spam}$, Naive Bayes assumes $P(X_1=1, X_2=1 \mid 	ext{Spam}) = P(X_1=1 \mid 	ext{Spam}) P(X_2=1 \mid 	ext{Spam})$.
 
 ## 7. Structural Patterns in Graphical Models
-1. **Common Cause ($X \leftarrow Z ightarrow Y$)**: $X \perp \!\!\! \perp Y \mid Z$ (Conditioning on $Z$ blocks correlation).
-2. **Chain ($X ightarrow Z ightarrow Y$)**: $X \perp \!\!\! \perp Y \mid Z$ (Markov Chain: $Y$ only depends on $X$ through $Z$).
-3. **Collider / Common Effect ($X ightarrow Z \leftarrow Y$)**: $X \perp \!\!\! \perp Y$ marginally, but conditioning on $Z$ CREATES dependence between $X$ and $Y$ (Berkson's Paradox / Explaining Away).
+1. **Common Cause ($X \leftarrow Z 
+ightarrow Y$)**: $X \perp \!\!\! \perp Y \mid Z$ (Conditioning on $Z$ blocks correlation).
+2. **Chain ($X 
+ightarrow Z 
+ightarrow Y$)**: $X \perp \!\!\! \perp Y \mid Z$ (Markov Chain: $Y$ only depends on $X$ through $Z$).
+3. **Collider / Common Effect ($X 
+ightarrow Z \leftarrow Y$)**: $X \perp \!\!\! \perp Y$ marginally, but conditioning on $Z$ CREATES dependence between $X$ and $Y$ (Berkson's Paradox / Explaining Away).
 
 ## 8. Common Mistakes
 - Confusing marginal independence ($X \perp \!\!\! \perp Y$) with conditional independence ($X \perp \!\!\! \perp Y \mid Z$). Neither implies the other!

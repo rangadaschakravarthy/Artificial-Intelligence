@@ -8,14 +8,21 @@ Imagine taking a photo of a 3D object. SVD breaks down the photo creation into: 
 
 ### 3. Mathematical Definition
 Any real matrix $\mathbf{A} \in \mathbb{R}^{m \times n}$ can be factorized as:
-$$\mathbf{A} = \mathbf{U} \mathbf{\Sigma} \mathbf{V}^T$$
+
+$$
+\mathbf{A} = \mathbf{U} \mathbf{\Sigma} \mathbf{V}^T
+$$
+
 where $\mathbf{U} \in \mathbb{R}^{m \times m}$ is an orthogonal matrix of left singular vectors (eigenvectors of $\mathbf{A}\mathbf{A}^T$), $\mathbf{V} \in \mathbb{R}^{n \times n}$ is an orthogonal matrix of right singular vectors (eigenvectors of $\mathbf{A}^T \mathbf{A}$), and $\mathbf{\Sigma} \in \mathbb{R}^{m \times n}$ is a diagonal matrix of singular values $\sigma_1 \ge \sigma_2 \ge \dots \ge \sigma_r > 0$.
 
 ### 4. Notation
 $\mathbf{A} = \mathbf{U} \mathbf{\Sigma} \mathbf{V}^T$. Singular values $\sigma_i = \sqrt{\lambda_i(\mathbf{A}^T \mathbf{A})}$.
 
 ### 5. Formula
-$$\mathbf{A} = \sum_{i=1}^r \sigma_i \mathbf{u}_i \mathbf{v}_i^T = \sigma_1 \mathbf{u}_1 \mathbf{v}_1^T + \sigma_2 \mathbf{u}_2 \mathbf{v}_2^T + \dots + \sigma_r \mathbf{u}_r \mathbf{v}_r^T$$
+
+$$
+\mathbf{A} = \sum_{i=1}^r \sigma_i \mathbf{u}_i \mathbf{v}_i^T = \sigma_1 \mathbf{u}_1 \mathbf{v}_1^T + \sigma_2 \mathbf{u}_2 \mathbf{v}_2^T + \dots + \sigma_r \mathbf{u}_r \mathbf{v}_r^T
+$$
 
 ### 6. Symbol-by-Symbol Explanation
 - $\mathbf{U}_{m \times m}$: Orthonormal left singular vectors
@@ -26,19 +33,25 @@ $$\mathbf{A} = \sum_{i=1}^r \sigma_i \mathbf{u}_i \mathbf{v}_i^T = \sigma_1 \mat
 ### 7. Step-by-Step Calculation
 Calculate singular values of 
 
-$$\mathbf{A} = \begin{bmatrix} 3 & 0 \\ 0 & -2 \end{bmatrix}$$
+$$
+\mathbf{A} = \begin{bmatrix} 3 & 0 \\ 0 & -2 \end{bmatrix}
+$$
 
 :
 1. 
 
-$$\mathbf{A}^T \mathbf{A} = \begin{bmatrix} 9 & 0 \\ 0 & 4 \end{bmatrix}$$
+$$
+\mathbf{A}^T \mathbf{A} = \begin{bmatrix} 9 & 0 \\ 0 & 4 \end{bmatrix}
+$$
 
 .
 2. Eigenvalues of $\mathbf{A}^T \mathbf{A}$ are $\lambda_1 = 9, \lambda_2 = 4$.
 3. Singular values $\sigma_1 = \sqrt{9} = 3, \sigma_2 = \sqrt{4} = 2$.
 4. 
 
-$$\mathbf{\Sigma} = \begin{bmatrix} 3 & 0 \\ 0 & 2 \end{bmatrix}$$
+$$
+\mathbf{\Sigma} = \begin{bmatrix} 3 & 0 \\ 0 & 2 \end{bmatrix}
+$$
 
 .
 

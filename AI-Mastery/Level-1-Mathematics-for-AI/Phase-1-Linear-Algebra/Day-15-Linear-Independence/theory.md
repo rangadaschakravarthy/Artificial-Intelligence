@@ -8,14 +8,21 @@ Imagine directions on a map. 'North' and 'East' are independent because walking 
 
 ### 3. Mathematical Definition
 A set of vectors \{\mathbf{v}_1, \mathbf{v}_2, \dots, \mathbf{v}_k\} \subset \mathbb{R}^n$ is linearly independent if the equation:
-$$c_1 \mathbf{v}_1 + c_2 \mathbf{v}_2 + \dots + c_k \mathbf{v}_k = \mathbf{0}$$
+
+$$
+c_1 \mathbf{v}_1 + c_2 \mathbf{v}_2 + \dots + c_k \mathbf{v}_k = \mathbf{0}
+$$
+
 has ONLY the trivial solution $c_1 = c_2 = \dots = c_k = 0$. If non-zero scalars $c_i$ exist, the vectors are linearly dependent.
 
 ### 4. Notation
 $c_1 \mathbf{v}_1 + \dots + c_k \mathbf{v}_k = \mathbf{0} \implies c_i = 0 \quad \forall i$.
 
 ### 5. Formula
-$$\text{Vectors } \{\mathbf{v}_1, \dots, \mathbf{v}_n\} \in \mathbb{R}^n \text{ are Independent } \iff \det([\mathbf{v}_1 \, \mathbf{v}_2 \dots \mathbf{v}_n]) \neq 0$$
+
+$$
+\text{Vectors } \{\mathbf{v}_1, \dots, \mathbf{v}_n\} \in \mathbb{R}^n \text{ are Independent } \iff \det([\mathbf{v}_1 \, \mathbf{v}_2 \dots \mathbf{v}_n]) \neq 0
+$$
 
 ### 6. Symbol-by-Symbol Explanation
 - $\mathbf{v}_i$: Individual vectors in the set
@@ -26,7 +33,9 @@ $$\text{Vectors } \{\mathbf{v}_1, \dots, \mathbf{v}_n\} \in \mathbb{R}^n \text{ 
 Test if $\mathbf{u} = [1, 2]^T$ and $\mathbf{v} = [3, 6]^T$ are independent:
 Set 
 
-$$c_1 \begin{bmatrix} 1 \\ 2 \end{bmatrix} + c_2 \begin{bmatrix} 3 \\ 6 \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \end{bmatrix}$$
+$$
+c_1 \begin{bmatrix} 1 \\ 2 \end{bmatrix} + c_2 \begin{bmatrix} 3 \\ 6 \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+$$
 
 .
 1. $c_1 + 3c_2 = 0 \implies c_1 = -3c_2$.

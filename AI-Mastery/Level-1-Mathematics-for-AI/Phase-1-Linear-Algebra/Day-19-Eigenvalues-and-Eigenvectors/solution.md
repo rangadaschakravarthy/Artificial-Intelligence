@@ -16,17 +16,23 @@
 ### Question 1
 1. 
 
-$$\det \begin{bmatrix} 2-\lambda & 1 \\ 1 & 2-\lambda \end{bmatrix} = (2-\lambda)^2 - 1 = 0 \implies (2-\lambda) = \pm 1 \implies \lambda_1 = 3, \lambda_2 = 1$$
+$$
+\det \begin{bmatrix} 2-\lambda & 1 \\ 1 & 2-\lambda \end{bmatrix} = (2-\lambda)^2 - 1 = 0 \implies (2-\lambda) = \pm 1 \implies \lambda_1 = 3, \lambda_2 = 1
+$$
 
 .
 ### Question 2
 2. For \lambda_1=3: 
 
-$$(\mathbf{A}-3\mathbf{I})\mathbf{v} = \begin{bmatrix} -1 & 1 \\ 1 & -1 \end{bmatrix} \implies \mathbf{v}_1 = [1/\sqrt{2}, 1/\sqrt{2}]^T$$
+$$
+(\mathbf{A}-3\mathbf{I})\mathbf{v} = \begin{bmatrix} -1 & 1 \\ 1 & -1 \end{bmatrix} \implies \mathbf{v}_1 = [1/\sqrt{2}, 1/\sqrt{2}]^T
+$$
 
 . For \lambda_2=1: 
 
-$$(\mathbf{A}-1\mathbf{I})\mathbf{v} = \begin{bmatrix} 1 & 1 \\ 1 & 1 \end{bmatrix} \implies \mathbf{v}_2 = [-1/\sqrt{2}, 1/\sqrt{2}]^T$$
+$$
+(\mathbf{A}-1\mathbf{I})\mathbf{v} = \begin{bmatrix} 1 & 1 \\ 1 & 1 \end{bmatrix} \implies \mathbf{v}_2 = [-1/\sqrt{2}, 1/\sqrt{2}]^T
+$$
 
 .
 ### Question 3

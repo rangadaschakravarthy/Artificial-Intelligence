@@ -12,7 +12,9 @@
 2. Show that for unit vector $\mathbf{u}$, projection matrix formula simplifies to $\mathbf{P} = \mathbf{u} \mathbf{u}^T$.
 3. Given 
 
-$$\mathbf{A} = \begin{bmatrix} 1 \\ 2 \end{bmatrix}$$
+$$
+\mathbf{A} = \begin{bmatrix} 1 \\ 2 \end{bmatrix}
+$$
 
 , calculate \mathbf{P} = \mathbf{A}(\mathbf{A}^T \mathbf{A})^{-1} \mathbf{A}^T.
 4. Verify that $\mathbf{P}^T = \mathbf{P}$ for the projection matrix computed above.

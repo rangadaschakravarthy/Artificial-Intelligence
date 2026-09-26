@@ -10,11 +10,15 @@
 - **Matrix Multiplication**: $(AB)_{ij} = \sum_{k} A_{ik} B_{kj}$
 - **Matrix Determinant (2x2)**: 
 
-$$\det \begin{bmatrix} a & b \\ c & d \end{bmatrix} = ad - bc$$
+$$
+\det \begin{bmatrix} a & b \\ c & d \end{bmatrix} = ad - bc
+$$
 
 - **Matrix Inverse (2x2)**: 
 
-$$\begin{bmatrix} a & b \\ c & d \end{bmatrix}^{-1} = \frac{1}{ad-bc} \begin{bmatrix} d & -b \\ -c & a \end{bmatrix}$$
+$$
+\begin{bmatrix} a & b \\ c & d \end{bmatrix}^{-1} = \frac{1}{ad-bc} \begin{bmatrix} d & -b \\ -c & a \end{bmatrix}
+$$
 
 - **Eigenvalue Equation**: $A \mathbf{v} = \lambda \mathbf{v} \implies (A - \lambda I) \mathbf{v} = \mathbf{0} \implies \det(A - \lambda I) = 0$
 - **Singular Value Decomposition (SVD)**: $A = U \Sigma V^T$

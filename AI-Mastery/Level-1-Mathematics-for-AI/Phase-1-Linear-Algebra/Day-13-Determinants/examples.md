@@ -3,7 +3,9 @@
 ## Example 1 — Very Easy
 2x2 Determinant: 
 
-$$\det \begin{bmatrix} 5 & 2 \\ 1 & 3 \end{bmatrix} = 5(3) - 2(1) = 15 - 2 = 13$$
+$$
+\det \begin{bmatrix} 5 & 2 \\ 1 & 3 \end{bmatrix} = 5(3) - 2(1) = 15 - 2 = 13
+$$
 
 .
 
@@ -13,7 +15,9 @@ Diagonal Matrix Determinant: $\det \text{diag}(2, 3, 4) = 2 \times 3 \times 4 = 
 ## Example 3 — Intermediate
 Singular Matrix Area Collapse: 
 
-$$\det \begin{bmatrix} 1 & 2 \\ 2 & 4 \end{bmatrix} = 4 - 4 = 0$$
+$$
+\det \begin{bmatrix} 1 & 2 \\ 2 & 4 \end{bmatrix} = 4 - 4 = 0
+$$
 
  (Collapse to line).
 

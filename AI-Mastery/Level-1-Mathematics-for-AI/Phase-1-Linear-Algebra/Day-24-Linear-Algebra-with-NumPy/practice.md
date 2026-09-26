@@ -10,7 +10,9 @@
 ## Level 2 — Calculation
 1. Write code to solve system \mathbf{A}\mathbf{x} = \mathbf{b} for 
 
-$$\mathbf{A} = \begin{bmatrix} 3 & 1 \\ 1 & 2 \end{bmatrix}$$
+$$
+\mathbf{A} = \begin{bmatrix} 3 & 1 \\ 1 & 2 \end{bmatrix}
+$$
 
  and \mathbf{b} = [9, 8]^T using `np.linalg.solve`.
 2. Compute L2 norm of vector `v = np.array([3, 4, 12])` using `np.linalg.norm`.

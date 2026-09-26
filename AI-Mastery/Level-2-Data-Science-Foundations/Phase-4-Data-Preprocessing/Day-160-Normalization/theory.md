@@ -4,9 +4,16 @@
 Min-Max Normalization rescales numerical feature values into a fixed range, typically $[0, 1]$, based on the feature's minimum and maximum values.
 
 ### 2. Formula
-$$x' = rac{x - x_{\min}}{x_{\max} - x_{\min}}$$
+
+$$
+x' = rac{x - x_{\min}}{x_{\max} - x_{\min}}
+$$
+
 For arbitrary target range $[a, b]$:
-$$x'' = a + rac{(x - x_{\min})(b - a)}{x_{\max} - x_{\min}}$$
+
+$$
+x'' = a + rac{(x - x_{\min})(b - a)}{x_{\max} - x_{\min}}
+$$
 
 ### 3. Outlier Sensitivity Warning
 If a feature contains an extreme outlier ($x_{\max} = 1,000,000$ while normal values range $[0, 100]$), Min-Max Normalization squashes all normal values into a tiny range $[0, 0.0001]$, destroying feature variance.

@@ -20,7 +20,9 @@ $$\text{Minimax Value}(n) = \begin{cases}
 \min_{a \in A(n)} \text{Minimax}(\text{Result}(n, a)) & \text{if Player}(n) = \text{MIN}
 \end{cases}$$
 
-$$\text{Alpha-Beta Cut-Off Condition: } \alpha \ge \beta$$
+$$
+\text{Alpha-Beta Cut-Off Condition: } \alpha \ge \beta
+$$
 
 ## 5. Parameters / Environment
 - **Game State**: Complete configuration of board/game pieces.

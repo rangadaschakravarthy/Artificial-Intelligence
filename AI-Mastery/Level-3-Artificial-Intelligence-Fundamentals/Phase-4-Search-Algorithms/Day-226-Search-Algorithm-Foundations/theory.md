@@ -17,7 +17,9 @@ When an agent cannot foresee the complete path to a goal, search systematically 
 - $m$: Maximum depth of state space.
 - $g(n)$: Accumulated cost from initial state to node $n$.
 
-$$\text{Frontier Evaluation Function: } f(n) = \begin{cases} \text{depth}(n) & \text{BFS} \\ -\text{depth}(n) & \text{DFS} \\ g(n) & \text{UCS} \end{cases}$$
+$$
+\text{Frontier Evaluation Function: } f(n) = \begin{cases} \text{depth}(n) & \text{BFS} \\ -\text{depth}(n) & \text{DFS} \\ g(n) & \text{UCS} \end{cases}
+$$
 
 ## 5. Parameters / Environment
 - **Frontier Data Structure**: Queue (FIFO), Stack (LIFO), or PriorityQueue (Min-Heap).

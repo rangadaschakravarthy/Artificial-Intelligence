@@ -3,21 +3,27 @@
 ## Example 1 — Very Easy
 Bowl Minimum: 
 
-$$f(x, y) = x^2 + y^2 \implies \mathbf{H} = \begin{bmatrix} 2 & 0 \\ 0 & 2 \end{bmatrix} \implies \lambda = [2, 2] > 0$$
+$$
+f(x, y) = x^2 + y^2 \implies \mathbf{H} = \begin{bmatrix} 2 & 0 \\ 0 & 2 \end{bmatrix} \implies \lambda = [2, 2] > 0
+$$
 
  (Minimum).
 
 ## Example 2 — Beginner
 Peak Maximum: 
 
-$$f(x, y) = -(x^2 + y^2) \implies \mathbf{H} = \begin{bmatrix} -2 & 0 \\ 0 & -2 \end{bmatrix} \implies \lambda = [-2, -2] < 0$$
+$$
+f(x, y) = -(x^2 + y^2) \implies \mathbf{H} = \begin{bmatrix} -2 & 0 \\ 0 & -2 \end{bmatrix} \implies \lambda = [-2, -2] < 0
+$$
 
  (Maximum).
 
 ## Example 3 — Intermediate
 Saddle Point: 
 
-$$f(x, y) = x^2 - y^2 \implies \mathbf{H} = \begin{bmatrix} 2 & 0 \\ 0 & -2 \end{bmatrix} \implies \lambda = [2, -2]$$
+$$
+f(x, y) = x^2 - y^2 \implies \mathbf{H} = \begin{bmatrix} 2 & 0 \\ 0 & -2 \end{bmatrix} \implies \lambda = [2, -2]
+$$
 
  (Saddle Point).
 

@@ -5,7 +5,9 @@
 2. If a vector function maps $\mathbb{R}^3 \rightarrow \mathbb{R}^2$, what are the dimensions of its Jacobian matrix?
 3. Given 
 
-$$\mathbf{f}(x, y) = \begin{bmatrix} x + y \\ 2x y \end{bmatrix}$$
+$$
+\mathbf{f}(x, y) = \begin{bmatrix} x + y \\ 2x y \end{bmatrix}
+$$
 
 , find partial derivatives for row 1 and row 2.
 4. What is the Jacobian matrix of linear function $\mathbf{f}(\mathbf{x}) = \mathbf{A}\mathbf{x}$?
@@ -14,13 +16,17 @@ $$\mathbf{f}(x, y) = \begin{bmatrix} x + y \\ 2x y \end{bmatrix}$$
 ## Level 2 — Calculation
 1. Compute Jacobian matrix for 
 
-$$\mathbf{f}(x, y) = \begin{bmatrix} x^2 + y^2 \\ 3x y \end{bmatrix}$$
+$$
+\mathbf{f}(x, y) = \begin{bmatrix} x^2 + y^2 \\ 3x y \end{bmatrix}
+$$
 
  at point (1, 2).
 2. Compute Jacobian determinant $|\det(\mathbf{J})|$ for Polar Coordinate transformation $x = r \cos\theta, y = r \sin\theta$.
 3. Given 
 
-$$\mathbf{f}(x_1, x_2, x_3) = \begin{bmatrix} x_1^2 \\ x_2 x_3 \end{bmatrix}$$
+$$
+\mathbf{f}(x_1, x_2, x_3) = \begin{bmatrix} x_1^2 \\ x_2 x_3 \end{bmatrix}
+$$
 
 , state shape and compute Jacobian matrix.
 4. Compute Jacobian matrix of Softmax function for 2 outputs $S_1 = \frac{e^{z_1}}{e^{z_1}+e^{z_2}}, S_2 = \frac{e^{z_2}}{e^{z_1}+e^{z_2}}$.

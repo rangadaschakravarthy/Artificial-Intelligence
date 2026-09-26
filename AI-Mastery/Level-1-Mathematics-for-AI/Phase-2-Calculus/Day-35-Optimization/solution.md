@@ -18,7 +18,9 @@
 ### Question 2
 2. 
 
-$$f_{xx} = 4, f_{xy} = 0, f_{yy} = 6 \implies \mathbf{H} = \begin{bmatrix} 4 & 0 \\ 0 & 6 \end{bmatrix}$$
+$$
+f_{xx} = 4, f_{xy} = 0, f_{yy} = 6 \implies \mathbf{H} = \begin{bmatrix} 4 & 0 \\ 0 & 6 \end{bmatrix}
+$$
 
 .
 ### Question 3
@@ -26,7 +28,9 @@ $$f_{xx} = 4, f_{xy} = 0, f_{yy} = 6 \implies \mathbf{H} = \begin{bmatrix} 4 & 0
 ### Question 4
 4. \nabla f = [2x - 4y, -4x + 2y]^T = [0, 0]^T \implies (0, 0). 
 
-$$\mathbf{H} = \begin{bmatrix} 2 & -4 \\ -4 & 2 \end{bmatrix}$$
+$$
+\mathbf{H} = \begin{bmatrix} 2 & -4 \\ -4 & 2 \end{bmatrix}
+$$
 
 . \det(\mathbf{H}-\lambda\mathbf{I}) = (2-\lambda)^2 - 16 = 0 \implies \lambda_1 = 6, \lambda_2 = -2. Mixed signs \implies (0, 0) is a SADDLE POINT!
 ### Question 5

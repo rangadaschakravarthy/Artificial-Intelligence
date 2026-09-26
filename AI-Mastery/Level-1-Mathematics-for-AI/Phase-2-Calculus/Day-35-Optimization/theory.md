@@ -17,8 +17,14 @@ For twice-differentiable function $f: \mathbb{R}^n \rightarrow \mathbb{R}$:
 Hessian $\mathbf{H} = \nabla^2 f(\mathbf{x}) \in \mathbb{R}^{n \times n}$. Symmetric matrix of second partials.
 
 ### 5. Formula
-$$\mathbf{H} = \begin{bmatrix} \frac{\partial^2 f}{\partial x_1^2} & \frac{\partial^2 f}{\partial x_1 \partial x_2} \\ \frac{\partial^2 f}{\partial x_2 \partial x_1} & \frac{\partial^2 f}{\partial x_2^2} \end{bmatrix}$$
-$$\lambda_i > 0 \, \forall i \implies \text{Local Min}, \quad \lambda_i < 0 \, \forall i \implies \text{Local Max}, \quad \text{Mixed signs} \implies \text{Saddle Point}$$
+
+$$
+\mathbf{H} = \begin{bmatrix} \frac{\partial^2 f}{\partial x_1^2} & \frac{\partial^2 f}{\partial x_1 \partial x_2} \\ \frac{\partial^2 f}{\partial x_2 \partial x_1} & \frac{\partial^2 f}{\partial x_2^2} \end{bmatrix}
+$$
+
+$$
+\lambda_i > 0 \, \forall i \implies \text{Local Min}, \quad \lambda_i < 0 \, \forall i \implies \text{Local Max}, \quad \text{Mixed signs} \implies \text{Saddle Point}
+$$
 
 ### 6. Symbol-by-Symbol Explanation
 - $\mathbf{x}^*$: Critical point where $\nabla f = \mathbf{0}$
@@ -29,12 +35,16 @@ $$\lambda_i > 0 \, \forall i \implies \text{Local Min}, \quad \lambda_i < 0 \, \
 Classify critical point of $f(x, y) = x^2 + 2y^2 - 4x + 8y + 5$:
 1. Gradient: 
 
-$$\nabla f = \begin{bmatrix} 2x - 4 \\ 4y + 8 \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \end{bmatrix} \implies x^* = 2, y^* = -2$$
+$$
+\nabla f = \begin{bmatrix} 2x - 4 \\ 4y + 8 \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \end{bmatrix} \implies x^* = 2, y^* = -2
+$$
 
 .
 2. Hessian matrix: 
 
-$$f_{xx} = 2, f_{xy} = 0, f_{yy} = 4 \implies \mathbf{H} = \begin{bmatrix} 2 & 0 \\ 0 & 4 \end{bmatrix}$$
+$$
+f_{xx} = 2, f_{xy} = 0, f_{yy} = 4 \implies \mathbf{H} = \begin{bmatrix} 2 & 0 \\ 0 & 4 \end{bmatrix}
+$$
 
 .
 3. Eigenvalues of $\mathbf{H}$: $\lambda_1 = 2, \lambda_2 = 4$. Both eigenvalues $> 0$ (Positive Definite $\mathbf{H} \succ 0$).
@@ -43,7 +53,9 @@ $$f_{xx} = 2, f_{xy} = 0, f_{yy} = 4 \implies \mathbf{H} = \begin{bmatrix} 2 & 0
 ### 8. Second Example
 Saddle Point Example: f(x, y) = x^2 - y^2. \nabla f = [2x, -2y]^T = [0, 0]^T \implies (0, 0). Hessian 
 
-$$\mathbf{H} = \begin{bmatrix} 2 & 0 \\ 0 & -2 \end{bmatrix}$$
+$$
+\mathbf{H} = \begin{bmatrix} 2 & 0 \\ 0 & -2 \end{bmatrix}
+$$
 
 . Eigenvalues \lambda_1 = 2, \lambda_2 = -2 (mixed signs!). (0, 0) is a SADDLE POINT!
 

@@ -24,19 +24,42 @@ This sheet provides quick reference mathematical formulas, code syntaxes, and us
 ## 3. Statistical & Preprocessing Formulas
 
 ### Z-Score Standardization
-$$z = rac{x - \mu}{\sigma}$$
+
+$$
+z = rac{x - \mu}{\sigma}
+$$
+
 Where $\mu = 	ext{mean}(x)$ and $\sigma = 	ext{std}(x)$.
 
 ### Min-Max Normalization
-$$x' = rac{x - x_{\min}}{x_{\max} - x_{\min}}$$
+
+$$
+x' = rac{x - x_{\min}}{x_{\max} - x_{\min}}
+$$
 
 ### Interquartile Range (IQR) & Outlier Bounds
-$$	ext{IQR} = Q_3 - Q_1$$
-$$	ext{Lower Bound} = Q_1 - 1.5 	imes 	ext{IQR}$$
-$$	ext{Upper Bound} = Q_3 + 1.5 	imes 	ext{IQR}$$
+
+$$
+ext{IQR} = Q_3 - Q_1
+$$
+
+$$
+ext{Lower Bound} = Q_1 - 1.5 	imes 	ext{IQR}
+$$
+
+$$
+ext{Upper Bound} = Q_3 + 1.5 	imes 	ext{IQR}
+$$
 
 ### Pearson Correlation Coefficient
-$$r_{xy} = rac{\sum (x_i - ar{x})(y_i - ar{y})}{\sqrt{\sum (x_i - ar{x})^2 \sum (y_i - ar{y})^2}}$$
+
+$$
+r_{xy} = rac{\sum (x_i - ar{x})(y_i - ar{y})}{\sqrt{\sum (x_i - ar{x})^2 \sum (y_i - ar{y})^2}}
+$$
 
 ### Log1p Transformation
-$$y = \ln(1 + x)$$
+
+$$
+y = \ln(1 + x)
+$$
+

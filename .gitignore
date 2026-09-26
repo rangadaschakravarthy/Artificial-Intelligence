@@ -7,6 +7,7 @@ curriculum_builder.py
 verify_repository.py
 verify_*.py
 builder_*.py
+fix_*.py
 
 # Python Environment & Cache
 __pycache__/

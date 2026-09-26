@@ -8,11 +8,25 @@ This mini-project implements two real-world probabilistic AI systems:
 ## 2. Naive Bayes Spam Architecture
 - **Preprocessing**: Tokenize lowercase text, build Vocabulary $D$.
 - **Prior Calculation**:
-  $$P(	ext{Spam}) = rac{N_{	ext{Spam}}}{N_{	ext{total}}}, \quad P(	ext{Ham}) = rac{N_{	ext{Ham}}}{N_{	ext{total}}}$$
+  
+
+$$
+P(	ext{Spam}) = rac{N_{	ext{Spam}}}{N_{	ext{total}}}, \quad P(	ext{Ham}) = rac{N_{	ext{Ham}}}{N_{	ext{total}}}
+$$
+
 - **Likelihood Fitting with Laplace Smoothing**:
-  $$P(W_i \mid c) = rac{	ext{Count}(W_i, c) + 1}{\sum_j 	ext{Count}(W_j, c) + D}$$
+  
+
+$$
+P(W_i \mid c) = rac{	ext{Count}(W_i, c) + 1}{\sum_j 	ext{Count}(W_j, c) + D}
+$$
+
 - **Log-Space Prediction**:
-  $$	ext{Score}(c) = \ln P(c) + \sum_{w \in 	ext{doc}} \ln P(w \mid c)$$
+  
+
+$$
+ext{Score}(c) = \ln P(c) + \sum_{w \in 	ext{doc}} \ln P(w \mid c)
+$$
 
 ## 3. Bayesian Credit Risk Architecture
 - **Prior**: Base default rate $P(D) = 0.03$.

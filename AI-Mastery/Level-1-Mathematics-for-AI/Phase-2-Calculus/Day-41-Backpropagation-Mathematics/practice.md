@@ -10,7 +10,9 @@
 ## Level 2 — Calculation
 1. Given \mathbf{\delta}^{(2)} = [0.2, -0.4]^T, 
 
-$$\mathbf{W}^{(2)} = \begin{bmatrix} 1 & 3 \\ 2 & 4 \end{bmatrix}$$
+$$
+\mathbf{W}^{(2)} = \begin{bmatrix} 1 & 3 \\ 2 & 4 \end{bmatrix}
+$$
 
 , and \sigma'(\mathbf{z}^{(1)}) = [0.5, 0.5]^T, calculate hidden delta \mathbf{\delta}^{(1)}.
 2. Given $\mathbf{\delta}^{(1)} = [-0.1, 0.3]^T$ and input vector $\mathbf{x} = [2, 5]^T$, compute weight gradient matrix $\frac{\partial L}{\partial \mathbf{W}^{(1)}}$.
@@ -28,7 +30,9 @@ $$\mathbf{W}^{(2)} = \begin{bmatrix} 1 & 3 \\ 2 & 4 \end{bmatrix}$$
 ## Level 4 — AI/ML Application
 1. Perform a complete hand calculation of forward pass, loss, backward pass deltas, and weight gradients for a 2-layer network with inputs x=[1, 1]^T, initial weights 
 
-$$W^{(1)}=\begin{bmatrix}0.1&0.2\\0.3&0.4\end{bmatrix}, b^{(1)}=[0, 0]^T, W^{(2)}=[0.5, 0.6], b^{(2)}=0$$
+$$
+W^{(1)}=\begin{bmatrix}0.1&0.2\\0.3&0.4\end{bmatrix}, b^{(1)}=[0, 0]^T, W^{(2)}=[0.5, 0.6], b^{(2)}=0
+$$
 
 , and target y=1.0. Verify every number.
 2. Write a Python script that implements the hand calculation above and confirms exact matching numerical values.

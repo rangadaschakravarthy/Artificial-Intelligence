@@ -8,13 +8,22 @@ The outcome of a coin flip in Tokyo and the outcome of a coin flip in New York a
 
 ## 3. Mathematical Definition
 Random variables $X$ and $Y$ are independent (written $X \perp \!\!\! \perp Y$) if and only if for all subsets $A, B \subseteq \mathbb{R}$:
-$$P(X \in A, Y \in B) = P(X \in A) \cdot P(Y \in B)$$
+
+$$
+P(X \in A, Y \in B) = P(X \in A) \cdot P(Y \in B)
+$$
 
 For PMF / PDF:
-$$f_{X,Y}(x, y) = f_X(x) \cdot f_Y(y) \quad orall x, y$$
+
+$$
+f_{X,Y}(x, y) = f_X(x) \cdot f_Y(y) \quad orall x, y
+$$
 
 Conditional Probability Form:
-$$P(Y=y \mid X=x) = P(Y=y) \quad orall x, y$$
+
+$$
+P(Y=y \mid X=x) = P(Y=y) \quad orall x, y
+$$
 
 ## 4. Fundamental Theorems for Independent RVs
 1. **Product Expectation**: $E[X Y] = E[X] E[Y]$
@@ -36,9 +45,17 @@ If $p(x, y) = p_X(x) p_Y(y)$ for ALL 4 pairs, $X$ and $Y$ are independent.
 ## 7. Second Example (i.i.d. Data in ML)
 Dataset samples $\mathcal{D} = \{(x_1, y_1), \dots, (x_N, y_N)\}$.
 Under i.i.d. assumption, dataset joint likelihood factorizes:
-$$L(	heta) = P(\mathcal{D} \mid 	heta) = \prod_{i=1}^N P(x_i, y_i \mid 	heta)$$
+
+$$
+L(	heta) = P(\mathcal{D} \mid 	heta) = \prod_{i=1}^N P(x_i, y_i \mid 	heta)
+$$
+
 Log-likelihood turns products into sums:
-$$\ln L(	heta) = \sum_{i=1}^N \ln P(x_i, y_i \mid 	heta)$$
+
+$$
+\ln L(	heta) = \sum_{i=1}^N \ln P(x_i, y_i \mid 	heta)
+$$
+
 This derivation is why loss functions sum across dataset rows!
 
 ## 8. Common Mistakes

@@ -6,10 +6,16 @@ Traditional Programming (Software 1.0) relies on human developers explicitly wri
 ### 2. Architecture Comparison
 
 **Traditional Software (Software 1.0):**
-$$\text{Data} + \text{Explicit Logic (Code)} \xrightarrow{\text{Execution Engine}} \text{Results}$$
+
+$$
+\text{Data} + \text{Explicit Logic (Code)} \xrightarrow{\text{Execution Engine}} \text{Results}
+$$
 
 **Machine Learning (Software 2.0):**
-$$\text{Data} + \text{Desired Results} \xrightarrow{\text{Learning Algorithm}} \text{Trained Model (Program)}$$
+
+$$
+\text{Data} + \text{Desired Results} \xrightarrow{\text{Learning Algorithm}} \text{Trained Model (Program)}
+$$
 
 ### 3. Decision Tree: When to Use Which?
 - Use **Traditional Programming** if: Rules are clear, deterministic, and manageable by humans (e.g. tax calculations, database CRUD).

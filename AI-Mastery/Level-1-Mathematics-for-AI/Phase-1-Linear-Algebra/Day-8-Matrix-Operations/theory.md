@@ -8,13 +8,19 @@ If you have two tables of student test scores from Semester 1 and Semester 2, ad
 
 ### 3. Mathematical Definition
 For $\mathbf{A}, \mathbf{B} \in \mathbb{R}^{m \times n}$ and $c \in \mathbb{R}$:
-$$(\mathbf{A} + \mathbf{B})_{i,j} = a_{i,j} + b_{i,j}, \quad (c\mathbf{A})_{i,j} = c \cdot a_{i,j}$$
+
+$$
+(\mathbf{A} + \mathbf{B})_{i,j} = a_{i,j} + b_{i,j}, \quad (c\mathbf{A})_{i,j} = c \cdot a_{i,j}
+$$
 
 ### 4. Notation
 $\mathbf{A} + \mathbf{B}$ for addition, $c\mathbf{A}$ for scalar mult, $\mathbf{A} \odot \mathbf{B}$ or $\mathbf{A} * \mathbf{B}$ for Hadamard product.
 
 ### 5. Formula
-$$\mathbf{C} = \mathbf{A} \odot \mathbf{B} \implies c_{i,j} = a_{i,j} \cdot b_{i,j}$$
+
+$$
+\mathbf{C} = \mathbf{A} \odot \mathbf{B} \implies c_{i,j} = a_{i,j} \cdot b_{i,j}
+$$
 
 ### 6. Symbol-by-Symbol Explanation
 - $\mathbf{A}, \mathbf{B}$: Input matrices of shape $m \times n$
@@ -24,22 +30,29 @@ $$\mathbf{C} = \mathbf{A} \odot \mathbf{B} \implies c_{i,j} = a_{i,j} \cdot b_{i
 ### 7. Step-by-Step Calculation
 Given 
 
-$$\mathbf{A} = \begin{bmatrix} 1 & 3 \\ 2 & 4 \end{bmatrix}, \mathbf{B} = \begin{bmatrix} 5 & 0 \\ -1 & 2 \end{bmatrix}$$
+$$
+\mathbf{A} = \begin{bmatrix} 1 & 3 \\ 2 & 4 \end{bmatrix}, \mathbf{B} = \begin{bmatrix} 5 & 0 \\ -1 & 2 \end{bmatrix}
+$$
 
 :
 1. 
 
-$$\mathbf{A} + \mathbf{B} = \begin{bmatrix} 1+5 & 3+0 \\ 2+(-1) & 4+2 \end{bmatrix} = \begin{bmatrix} 6 & 3 \\ 1 & 6 \end{bmatrix}$$
+$$
+\mathbf{A} + \mathbf{B} = \begin{bmatrix} 1+5 & 3+0 \\ 2+(-1) & 4+2 \end{bmatrix} = \begin{bmatrix} 6 & 3 \\ 1 & 6 \end{bmatrix}
+$$
 
 2. 
 
-$$3\mathbf{A} = \begin{bmatrix} 3(1) & 3(3) \\ 3(2) & 3(4) \end{bmatrix} = \begin{bmatrix} 3 & 9 \\ 6 & 12 \end{bmatrix}$$
-
+$$
+3\mathbf{A} = \begin{bmatrix} 3(1) & 3(3) \\ 3(2) & 3(4) \end{bmatrix} = \begin{bmatrix} 3 & 9 \\ 6 & 12 \end{bmatrix}
+$$
 
 ### 8. Second Example
 Hadamard Product 
 
-$$\mathbf{A} \odot \mathbf{B} = \begin{bmatrix} 1(5) & 3(0) \\ 2(-1) & 4(2) \end{bmatrix} = \begin{bmatrix} 5 & 0 \\ -2 & 8 \end{bmatrix}$$
+$$
+\mathbf{A} \odot \mathbf{B} = \begin{bmatrix} 1(5) & 3(0) \\ 2(-1) & 4(2) \end{bmatrix} = \begin{bmatrix} 5 & 0 \\ -2 & 8 \end{bmatrix}
+$$
 
 .
 

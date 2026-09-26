@@ -10,7 +10,9 @@
 ## Level 2 — Calculation
 1. Given 2D centered data matrix 
 
-$$\mathbf{X}_c = \begin{bmatrix} -1 & 1 \\ 1 & -1 \end{bmatrix}$$
+$$
+\mathbf{X}_c = \begin{bmatrix} -1 & 1 \\ 1 & -1 \end{bmatrix}
+$$
 
 , compute covariance matrix \mathbf{\Sigma}.
 2. Compute eigenvalues of covariance matrix $\mathbf{\Sigma}$ from Question 1 above.

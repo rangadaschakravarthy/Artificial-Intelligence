@@ -16,7 +16,9 @@
 ### Question 1
 1. 
 
-$$\det \begin{bmatrix} 1 & -1 \\ 2 & 3 \end{bmatrix} = 1(3) - (-1)(2) = 3 + 2 = 5 \neq 0$$
+$$
+\det \begin{bmatrix} 1 & -1 \\ 2 & 3 \end{bmatrix} = 1(3) - (-1)(2) = 3 + 2 = 5 \neq 0
+$$
 
 . Independent!
 ### Question 2

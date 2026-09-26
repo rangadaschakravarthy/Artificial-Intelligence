@@ -5,20 +5,28 @@
 2. Given $\mathbf{A}$ of shape $3 \times 4$ and $\mathbf{B}$ of shape $4 \times 2$, is $\mathbf{B}\mathbf{A}$ valid?
 3. Multiply 
 
-$$\mathbf{A} = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$$
+$$
+\mathbf{A} = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}
+$$
 
  and 
 
-$$\mathbf{B} = \begin{bmatrix} 2 & 0 \\ 1 & 3 \end{bmatrix}$$
+$$
+\mathbf{B} = \begin{bmatrix} 2 & 0 \\ 1 & 3 \end{bmatrix}
+$$
 
 .
 4. Multiply matrix 
 
-$$\mathbf{A} = \begin{bmatrix} 3 & 1 \\ 2 & 5 \end{bmatrix}$$
+$$
+\mathbf{A} = \begin{bmatrix} 3 & 1 \\ 2 & 5 \end{bmatrix}
+$$
 
  by vector 
 
-$$\mathbf{x} = \begin{bmatrix} 2 \\ 4 \end{bmatrix}$$
+$$
+\mathbf{x} = \begin{bmatrix} 2 \\ 4 \end{bmatrix}
+$$
 
 .
 5. What is $\mathbf{A} \mathbf{I}$ where $\mathbf{I}$ is the identity matrix?
@@ -26,18 +34,24 @@ $$\mathbf{x} = \begin{bmatrix} 2 \\ 4 \end{bmatrix}$$
 ## Level 2 — Calculation
 1. Compute \mathbf{A}\mathbf{B} for 
 
-$$\mathbf{A} = \begin{bmatrix} 1 & 0 & 2 \\ -1 & 3 & 1 \end{bmatrix}_{2 \times 3}$$
+$$
+\mathbf{A} = \begin{bmatrix} 1 & 0 & 2 \\ -1 & 3 & 1 \end{bmatrix}_{2 \times 3}
+$$
 
  and 
 
-$$\mathbf{B} = \begin{bmatrix} 3 & 1 \\ 2 & 1 \\ 1 & 0 \end{bmatrix}_{3 \times 2}$$
+$$
+\mathbf{B} = \begin{bmatrix} 3 & 1 \\ 2 & 1 \\ 1 & 0 \end{bmatrix}_{3 \times 2}
+$$
 
 .
 2. Compute $\mathbf{B}\mathbf{A}$ for the matrices in Question 1 above. Is $\mathbf{A}\mathbf{B} = \mathbf{B}\mathbf{A}$?
 3. If dataset $\mathbf{X}$ has 100 samples and 50 features, and weight matrix $\mathbf{W}$ maps to 10 hidden units, what shape must $\mathbf{W}$ have for $\mathbf{X}\mathbf{W}$?
 4. Calculate matrix square \mathbf{A}^2 = \mathbf{A}\mathbf{A} for 
 
-$$\mathbf{A} = \begin{bmatrix} 2 & 1 \\ 0 & 3 \end{bmatrix}$$
+$$
+\mathbf{A} = \begin{bmatrix} 2 & 1 \\ 0 & 3 \end{bmatrix}
+$$
 
 .
 5. Show that $(\mathbf{A} + \mathbf{B})\mathbf{C} = \mathbf{A}\mathbf{C} + \mathbf{B}\mathbf{C}$ for $2 \times 2$ matrices.
@@ -52,11 +66,15 @@ $$\mathbf{A} = \begin{bmatrix} 2 & 1 \\ 0 & 3 \end{bmatrix}$$
 ## Level 4 — AI/ML Application
 1. In a Multi-Layer Perceptron layer: Input 
 
-$$\mathbf{X}_{2 \times 3} = \begin{bmatrix} 1 & 0 & 2 \\ 0 & 3 & 1 \end{bmatrix}$$
+$$
+\mathbf{X}_{2 \times 3} = \begin{bmatrix} 1 & 0 & 2 \\ 0 & 3 & 1 \end{bmatrix}
+$$
 
 , Weights 
 
-$$\mathbf{W}_{3 \times 2} = \begin{bmatrix} 1 & -1 \\ 2 & 0 \\ 0 & 1 \end{bmatrix}$$
+$$
+\mathbf{W}_{3 \times 2} = \begin{bmatrix} 1 & -1 \\ 2 & 0 \\ 0 & 1 \end{bmatrix}
+$$
 
 , Bias \mathbf{b} = [1, 2]. Compute layer pre-activation \mathbf{Z} = \mathbf{X}\mathbf{W} + \mathbf{b}.
 2. In Attention Mechanism, $Q \in \mathbb{R}^{B \times S \times D}$ and $K \in \mathbb{R}^{B \times S \times D}$. What is the shape of attention weight matrix $Q K^T$?

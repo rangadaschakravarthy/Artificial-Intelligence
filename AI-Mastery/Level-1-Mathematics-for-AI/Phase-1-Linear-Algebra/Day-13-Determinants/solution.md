@@ -24,11 +24,15 @@
 ### Question 5
 5. 
 
-$$\mathbf{A} = \begin{bmatrix} a & b \\ c & d \end{bmatrix} \implies \det(\mathbf{A}) = ad - bc$$
+$$
+\mathbf{A} = \begin{bmatrix} a & b \\ c & d \end{bmatrix} \implies \det(\mathbf{A}) = ad - bc
+$$
 
 . 
 
-$$\mathbf{A}^T = \begin{bmatrix} a & c \\ b & d \end{bmatrix} \implies \det(\mathbf{A}^T) = ad - cb = ad - bc$$
+$$
+\mathbf{A}^T = \begin{bmatrix} a & c \\ b & d \end{bmatrix} \implies \det(\mathbf{A}^T) = ad - cb = ad - bc
+$$
 
 . Equal!
 

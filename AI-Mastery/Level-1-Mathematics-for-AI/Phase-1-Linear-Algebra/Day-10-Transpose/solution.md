@@ -4,7 +4,9 @@
 ### Question 1
 1. 
 
-$$\mathbf{A}^T = \begin{bmatrix} 1 & 2 \\ 5 & 6 \\ 9 & 0 \end{bmatrix}_{3 \times 2}$$
+$$
+\mathbf{A}^T = \begin{bmatrix} 1 & 2 \\ 5 & 6 \\ 9 & 0 \end{bmatrix}_{3 \times 2}
+$$
 
 .
 ### Question 2
@@ -14,7 +16,9 @@ $$\mathbf{A}^T = \begin{bmatrix} 1 & 2 \\ 5 & 6 \\ 9 & 0 \end{bmatrix}_{3 \times
 ### Question 4
 4. Yes, because 
 
-$$\mathbf{S}^T = \begin{bmatrix} 3 & -1 \\ -1 & 4 \end{bmatrix} = \mathbf{S}$$
+$$
+\mathbf{S}^T = \begin{bmatrix} 3 & -1 \\ -1 & 4 \end{bmatrix} = \mathbf{S}
+$$
 
 .
 ### Question 5
@@ -24,29 +28,39 @@ $$\mathbf{S}^T = \begin{bmatrix} 3 & -1 \\ -1 & 4 \end{bmatrix} = \mathbf{S}$$
 ### Question 1
 1. 
 
-$$\mathbf{A}+\mathbf{B} = \begin{bmatrix} 1 & 3 \\ 5 & 9 \end{bmatrix} \implies (\mathbf{A}+\mathbf{B})^T = \begin{bmatrix} 1 & 5 \\ 3 & 9 \end{bmatrix}$$
+$$
+\mathbf{A}+\mathbf{B} = \begin{bmatrix} 1 & 3 \\ 5 & 9 \end{bmatrix} \implies (\mathbf{A}+\mathbf{B})^T = \begin{bmatrix} 1 & 5 \\ 3 & 9 \end{bmatrix}
+$$
 
 . 
 
-$$\mathbf{A}^T+\mathbf{B}^T = \begin{bmatrix} 1 & 3 \\ 2 & 4 \end{bmatrix} + \begin{bmatrix} 0 & 2 \\ 1 & 5 \end{bmatrix} = \begin{bmatrix} 1 & 5 \\ 3 & 9 \end{bmatrix}$$
+$$
+\mathbf{A}^T+\mathbf{B}^T = \begin{bmatrix} 1 & 3 \\ 2 & 4 \end{bmatrix} + \begin{bmatrix} 0 & 2 \\ 1 & 5 \end{bmatrix} = \begin{bmatrix} 1 & 5 \\ 3 & 9 \end{bmatrix}
+$$
 
 . Equal!
 ### Question 2
 2. 
 
-$$\mathbf{A}\mathbf{B} = \begin{bmatrix} 1(2)+3(4) & 1(1)+3(0) \\ 0(2)+2(4) & 0(1)+2(0) \end{bmatrix} = \begin{bmatrix} 14 & 1 \\ 8 & 0 \end{bmatrix} \implies (\mathbf{A}\mathbf{B})^T = \begin{bmatrix} 14 & 8 \\ 1 & 0 \end{bmatrix}$$
+$$
+\mathbf{A}\mathbf{B} = \begin{bmatrix} 1(2)+3(4) & 1(1)+3(0) \\ 0(2)+2(4) & 0(1)+2(0) \end{bmatrix} = \begin{bmatrix} 14 & 1 \\ 8 & 0 \end{bmatrix} \implies (\mathbf{A}\mathbf{B})^T = \begin{bmatrix} 14 & 8 \\ 1 & 0 \end{bmatrix}
+$$
 
 .
 ### Question 3
 3. 
 
-$$\mathbf{B}^T = \begin{bmatrix} 2 & 4 \\ 1 & 0 \end{bmatrix}, \mathbf{A}^T = \begin{bmatrix} 1 & 0 \\ 3 & 2 \end{bmatrix} \implies \mathbf{B}^T \mathbf{A}^T = \begin{bmatrix} 2(1)+4(3) & 2(0)+4(2) \\ 1(1)+0(3) & 1(0)+0(2) \end{bmatrix} = \begin{bmatrix} 14 & 8 \\ 1 & 0 \end{bmatrix}$$
+$$
+\mathbf{B}^T = \begin{bmatrix} 2 & 4 \\ 1 & 0 \end{bmatrix}, \mathbf{A}^T = \begin{bmatrix} 1 & 0 \\ 3 & 2 \end{bmatrix} \implies \mathbf{B}^T \mathbf{A}^T = \begin{bmatrix} 2(1)+4(3) & 2(0)+4(2) \\ 1(1)+0(3) & 1(0)+0(2) \end{bmatrix} = \begin{bmatrix} 14 & 8 \\ 1 & 0 \end{bmatrix}
+$$
 
 . Matches!
 ### Question 4
 4. 
 
-$$\mathbf{A}^T \mathbf{A} = \begin{bmatrix} 1 & 3 \\ 2 & 0 \end{bmatrix} \begin{bmatrix} 1 & 2 \\ 3 & 0 \end{bmatrix} = \begin{bmatrix} 10 & 2 \\ 2 & 4 \end{bmatrix}$$
+$$
+\mathbf{A}^T \mathbf{A} = \begin{bmatrix} 1 & 3 \\ 2 & 0 \end{bmatrix} \begin{bmatrix} 1 & 2 \\ 3 & 0 \end{bmatrix} = \begin{bmatrix} 10 & 2 \\ 2 & 4 \end{bmatrix}
+$$
 
 . Yes, it is symmetric!
 ### Question 5

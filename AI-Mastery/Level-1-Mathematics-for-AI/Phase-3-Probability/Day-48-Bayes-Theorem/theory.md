@@ -8,10 +8,16 @@ Suppose a rare disease affects $0.1\%$ of people ($P(	ext{Disease}) = 0.001$). A
 
 ## 3. Mathematical Definition
 Given hypothesis $H$ and evidence $E$:
-$$P(H|E) = rac{P(E|H) \cdot P(H)}{P(E)}$$
+
+$$
+P(H|E) = rac{P(E|H) \cdot P(H)}{P(E)}
+$$
 
 Using Law of Total Probability for denominator:
-$$P(H|E) = rac{P(E|H) P(H)}{P(E|H) P(H) + P(E|H^c) P(H^c)}$$
+
+$$
+P(H|E) = rac{P(E|H) P(H)}{P(E|H) P(H) + P(E|H^c) P(H^c)}
+$$
 
 ## 4. Notation
 - $P(H|E)$: **Posterior Probability** (Probability of Hypothesis given Evidence).
@@ -20,8 +26,14 @@ $$P(H|E) = rac{P(E|H) P(H)}{P(E|H) P(H) + P(E|H^c) P(H^c)}$$
 - $P(E)$: **Marginal Likelihood / Evidence** (Total probability of observing Evidence under all hypotheses).
 
 ## 5. Formula
-$$	ext{Posterior} = rac{	ext{Likelihood} 	imes 	ext{Prior}}{	ext{Evidence}}$$
-$$P(A_i | B) = rac{P(B | A_i) P(A_i)}{\sum_{j=1}^k P(B | A_j) P(A_j)}$$
+
+$$
+ext{Posterior} = rac{	ext{Likelihood} 	imes 	ext{Prior}}{	ext{Evidence}}
+$$
+
+$$
+P(A_i | B) = rac{P(B | A_i) P(A_i)}{\sum_{j=1}^k P(B | A_j) P(A_j)}
+$$
 
 ## 6. Symbol Explanation
 - $H$: Hypothesis event.
@@ -36,9 +48,18 @@ Medical Diagnosis Problem:
 
 Calculate $P(D|+)$:
 1. Calculate Evidence $P(+)$:
-   $$P(+) = P(+|D)P(D) + P(+|D^c)P(D^c) = (0.95)(0.01) + (0.05)(0.99) = 0.0095 + 0.0495 = 0.0590$$
+   
+
+$$
+P(+) = P(+|D)P(D) + P(+|D^c)P(D^c) = (0.95)(0.01) + (0.05)(0.99) = 0.0095 + 0.0495 = 0.0590
+$$
+
 2. Calculate Posterior $P(D|+)$:
-   $$P(D|+) = rac{(0.95)(0.01)}{0.0590} = rac{0.0095}{0.0590} pprox 0.1610 = 16.10\%$$
+   
+
+$$
+P(D|+) = rac{(0.95)(0.01)}{0.0590} = rac{0.0095}{0.0590} pprox 0.1610 = 16.10\%
+$$
 
 ## 8. Second Example (Spam Filtering)
 Word "VIAGRA" appears in an email ($E$).

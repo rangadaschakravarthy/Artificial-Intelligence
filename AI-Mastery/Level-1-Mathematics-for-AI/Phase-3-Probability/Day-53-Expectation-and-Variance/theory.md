@@ -18,11 +18,26 @@ Variance tells you about reliability and stability.
 
 ## 4. Fundamental Properties
 - **Linearity of Expectation**:
-  $$E[a X + b Y + c] = a E[X] + b E[Y] + c$$
+  
+
+$$
+E[a X + b Y + c] = a E[X] + b E[Y] + c
+$$
+
   *(Note: Holds ALWAYS, regardless of whether $X$ and $Y$ are independent!)*
 - **Variance Rules**:
-  $$	ext{Var}(a X + b) = a^2 	ext{Var}(X)$$
-  $$	ext{Var}(X + Y) = 	ext{Var}(X) + 	ext{Var}(Y) + 2 	ext{Cov}(X, Y)$$
+  
+
+$$
+ext{Var}(a X + b) = a^2 	ext{Var}(X)
+$$
+
+  
+
+$$
+ext{Var}(X + Y) = 	ext{Var}(X) + 	ext{Var}(Y) + 2 	ext{Cov}(X, Y)
+$$
+
   *(If $X, Y$ are independent, $	ext{Cov}(X, Y) = 0 \implies 	ext{Var}(X + Y) = 	ext{Var}(X) + 	ext{Var}(Y)$)*
 
 ## 5. Notation
@@ -39,8 +54,10 @@ Discrete RV $X$: $P(X=1)=0.2, P(X=2)=0.5, P(X=3)=0.3$.
 
 ## 7. Second Example (Feature Standardization in AI)
 Standardizing feature $X$: $Z = rac{X - \mu}{\sigma}$.
-- $E[Z] = E\left[rac{X - \mu}{\sigma}ight] = rac{E[X] - \mu}{\sigma} = rac{\mu - \mu}{\sigma} = 0$.
-- $	ext{Var}(Z) = 	ext{Var}\left(rac{X - \mu}{\sigma}ight) = rac{1}{\sigma^2} 	ext{Var}(X - \mu) = rac{\sigma^2}{\sigma^2} = 1$.
+- $E[Z] = E\left[rac{X - \mu}{\sigma}
+ight] = rac{E[X] - \mu}{\sigma} = rac{\mu - \mu}{\sigma} = 0$.
+- $	ext{Var}(Z) = 	ext{Var}\left(rac{X - \mu}{\sigma}
+ight) = rac{1}{\sigma^2} 	ext{Var}(X - \mu) = rac{\sigma^2}{\sigma^2} = 1$.
 Standardized variable $Z$ has Mean 0 and Variance 1!
 
 ## 8. Common Mistakes

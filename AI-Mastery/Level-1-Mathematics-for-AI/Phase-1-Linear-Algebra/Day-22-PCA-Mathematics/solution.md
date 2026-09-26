@@ -16,19 +16,25 @@
 ### Question 1
 1. 
 
-$$\mathbf{\Sigma} = \frac{1}{2-1} \begin{bmatrix} -1 & 1 \\ 1 & -1 \end{bmatrix}^T \begin{bmatrix} -1 & 1 \\ 1 & -1 \end{bmatrix} = \begin{bmatrix} 1+1 & -1-1 \\ -1-1 & 1+1 \end{bmatrix} = \begin{bmatrix} 2 & -2 \\ -2 & 2 \end{bmatrix}$$
+$$
+\mathbf{\Sigma} = \frac{1}{2-1} \begin{bmatrix} -1 & 1 \\ 1 & -1 \end{bmatrix}^T \begin{bmatrix} -1 & 1 \\ 1 & -1 \end{bmatrix} = \begin{bmatrix} 1+1 & -1-1 \\ -1-1 & 1+1 \end{bmatrix} = \begin{bmatrix} 2 & -2 \\ -2 & 2 \end{bmatrix}
+$$
 
 .
 ### Question 2
 2. 
 
-$$\det \begin{bmatrix} 2-\lambda & -2 \\ -2 & 2-\lambda \end{bmatrix} = (2-\lambda)^2 - 4 = 0 \implies (2-\lambda) = \pm 2 \implies \lambda_1 = 4, \lambda_2 = 0$$
+$$
+\det \begin{bmatrix} 2-\lambda & -2 \\ -2 & 2-\lambda \end{bmatrix} = (2-\lambda)^2 - 4 = 0 \implies (2-\lambda) = \pm 2 \implies \lambda_1 = 4, \lambda_2 = 0
+$$
 
 .
 ### Question 3
 3. For \lambda_1 = 4: 
 
-$$\begin{bmatrix} -2 & -2 \\ -2 & -2 \end{bmatrix} \mathbf{v} = \mathbf{0} \implies v_1 + v_2 = 0$$
+$$
+\begin{bmatrix} -2 & -2 \\ -2 & -2 \end{bmatrix} \mathbf{v} = \mathbf{0} \implies v_1 + v_2 = 0
+$$
 
 . Normalized \mathbf{v}_1 = [1/\sqrt{2}, -1/\sqrt{2}]^T.
 ### Question 4

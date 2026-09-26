@@ -8,11 +8,21 @@ A raw test score of 85 means little without context. If $\mu = 70$ and $\sigma =
 
 ## 3. Mathematical Definitions
 - **Gaussian PDF**:
-  $$f(x) = rac{1}{\sigma \sqrt{2\pi}} \exp\left( -rac{(x - \mu)^2}{2\sigma^2} ight)$$
+  $$f(x) = rac{1}{\sigma \sqrt{2\pi}} \exp\left( -rac{(x - \mu)^2}{2\sigma^2} 
+ight)$$
 - **Standard Normal Transformation**:
-  $$Z = rac{X - \mu}{\sigma} \implies Z \sim \mathcal{N}(0, 1)$$
+  
+
+$$
+Z = rac{X - \mu}{\sigma} \implies Z \sim \mathcal{N}(0, 1)
+$$
+
 - **Standard Normal PDF**:
-  $$\phi(z) = rac{1}{\sqrt{2\pi}} e^{-rac{z^2}{2}}$$
+  
+
+$$
+\phi(z) = rac{1}{\sqrt{2\pi}} e^{-rac{z^2}{2}}
+$$
 
 ## 4. 68-95-99.7 Empirical Rule
 - $\mu \pm 1\sigma$: $\Phi(1) - \Phi(-1) pprox 68.27\%$ of data.

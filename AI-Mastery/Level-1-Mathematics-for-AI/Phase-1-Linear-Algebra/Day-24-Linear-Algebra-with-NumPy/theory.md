@@ -13,7 +13,10 @@ NumPy arrays (`ndarray`) store homogenous typed data in contiguous memory blocks
 `np.array()`, `np.dot()`, `A @ B`, `np.linalg.solve(A, b)`, `np.linalg.svd(A)`.
 
 ### 5. Formula
-$$\text{Speedup} = \frac{\text{Execution Time}_{Python Loop}}{\text{Execution Time}_{NumPy Vectorized}} \approx 50x - 200x$$
+
+$$
+\text{Speedup} = \frac{\text{Execution Time}_{Python Loop}}{\text{Execution Time}_{NumPy Vectorized}} \approx 50x - 200x
+$$
 
 ### 6. Symbol-by-Symbol Explanation
 - `ndarray`: Homogeneous N-dimensional array
@@ -24,7 +27,10 @@ $$\text{Speedup} = \frac{\text{Execution Time}_{Python Loop}}{\text{Execution Ti
 Benchmark vector addition of 1,000,000 numbers:
 - Pure Python `for` loop: ~120 ms
 - NumPy `a + b` vectorized: ~0.8 ms
-$$\text{Speedup} = \frac{120}{0.8} = 150x \text{ faster!}$$
+
+$$
+\text{Speedup} = \frac{120}{0.8} = 150x \text{ faster!}
+$$
 
 ### 8. Second Example
 Solve $A x = b$ using `np.linalg.solve(A, b)`: Uses LAPACK `gesv` (LU decomposition with partial pivoting) in $O(n^3)$ operations with optimal CPU cache usage.

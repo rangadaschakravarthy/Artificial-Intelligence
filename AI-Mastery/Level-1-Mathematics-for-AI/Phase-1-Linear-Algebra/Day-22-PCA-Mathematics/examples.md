@@ -6,7 +6,9 @@ Mean Centering: Data $[10, 20], [30, 40] \implies \mu = [20, 30] \implies$ Cente
 ## Example 2 — Beginner
 2D Covariance Matrix: 
 
-$$\mathbf{\Sigma} = \begin{bmatrix} \text{Var}(X) & \text{Cov}(X,Y) \\ \text{Cov}(Y,X) & \text{Var}(Y) \end{bmatrix}$$
+$$
+\mathbf{\Sigma} = \begin{bmatrix} \text{Var}(X) & \text{Cov}(X,Y) \\ \text{Cov}(Y,X) & \text{Var}(Y) \end{bmatrix}
+$$
 
 .
 

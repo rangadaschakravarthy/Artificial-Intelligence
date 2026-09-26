@@ -13,8 +13,14 @@ Differential calculus computes the derivative $f'(x) = \lim_{h \to 0} \frac{f(x+
 $\frac{dy}{dx}, f'(x), \dot{y}$. Instantaneous rate of change of $y$ with respect to $x$.
 
 ### 5. Formula
-$$\text{Average Rate of Change (Secant)} = \frac{f(x_2) - f(x_1)}{x_2 - x_1}$$
-$$\text{Instantaneous Rate of Change (Tangent)} = \lim_{\Delta x \to 0} \frac{\Delta y}{\Delta x}$$
+
+$$
+\text{Average Rate of Change (Secant)} = \frac{f(x_2) - f(x_1)}{x_2 - x_1}
+$$
+
+$$
+\text{Instantaneous Rate of Change (Tangent)} = \lim_{\Delta x \to 0} \frac{\Delta y}{\Delta x}
+$$
 
 ### 6. Symbol-by-Symbol Explanation
 - $f(x)$: Objective function (e.g. Loss/Error curve)

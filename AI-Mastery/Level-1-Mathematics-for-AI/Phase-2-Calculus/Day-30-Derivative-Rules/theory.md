@@ -17,7 +17,10 @@ For differentiable functions $u(x), v(x)$ and constant $c \in \mathbb{R}$:
 $\frac{d}{dx}[u \cdot v] = u' v + u v'$. $\frac{d}{dx}\left[\frac{u}{v}\right] = \frac{u' v - u v'}{v^2}$.
 
 ### 5. Formula
-$$\text{Sigmoid Derivative: } \sigma'(x) = \sigma(x) (1 - \sigma(x))$$
+
+$$
+\text{Sigmoid Derivative: } \sigma'(x) = \sigma(x) (1 - \sigma(x))
+$$
 
 ### 6. Symbol-by-Symbol Explanation
 - $u(x), v(x)$: Differentiable functions

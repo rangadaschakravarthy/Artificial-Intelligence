@@ -8,12 +8,30 @@ Imagine a table of customer data showing Age ($X$) and Income ($Y$). If you want
 
 ## 3. Mathematical Definition
 - **Discrete Marginal PMF**:
-  $$p_X(x) = \sum_{y \in S_Y} p_{X,Y}(x, y)$$
-  $$p_Y(y) = \sum_{x \in S_X} p_{X,Y}(x, y)$$
+  
+
+$$
+p_X(x) = \sum_{y \in S_Y} p_{X,Y}(x, y)
+$$
+
+  
+
+$$
+p_Y(y) = \sum_{x \in S_X} p_{X,Y}(x, y)
+$$
 
 - **Continuous Marginal PDF**:
-  $$f_X(x) = \int_{-\infty}^{\infty} f_{X,Y}(x, y) dy$$
-  $$f_Y(y) = \int_{-\infty}^{\infty} f_{X,Y}(x, y) dx$$
+  
+
+$$
+f_X(x) = \int_{-\infty}^{\infty} f_{X,Y}(x, y) dy
+$$
+
+  
+
+$$
+f_Y(y) = \int_{-\infty}^{\infty} f_{X,Y}(x, y) dx
+$$
 
 ## 4. Notation
 - $p_X(x)$ or $f_X(x)$: Marginal PMF / PDF of $X$.
@@ -33,7 +51,9 @@ Discrete Joint PMF:
 ## 6. Second Example (Continuous Marginalization)
 Given joint PDF $f(x, y) = 4 x y$ on $[0, 1] 	imes [0, 1]$.
 Find marginal PDF $f_X(x)$:
-$$f_X(x) = \int_0^1 4 x y dy = 4 x \left[ rac{y^2}{2} ight]_0^1 = 4 x \left( rac{1}{2} ight) = 2 x \quad 	ext{for } 0 \le x \le 1$$
+$$f_X(x) = \int_0^1 4 x y dy = 4 x \left[ rac{y^2}{2} 
+ight]_0^1 = 4 x \left( rac{1}{2} 
+ight) = 2 x \quad 	ext{for } 0 \le x \le 1$$
 
 ## 7. Common Mistakes
 - Integrating with respect to $x$ when trying to find marginal $f_X(x)$ (To find $f_X(x)$, integrate out $y$!).

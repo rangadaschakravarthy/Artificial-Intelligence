@@ -4,7 +4,11 @@
 Standardization (Z-Score Normalization) rescales numerical features so that they have a mean of $0$ ($\mu = 0$) and a standard deviation of $1$ ($\sigma = 1$).
 
 ### 2. Formula
-$$z = rac{x - \mu}{\sigma}$$
+
+$$
+z = rac{x - \mu}{\sigma}
+$$
+
 where $\mu = rac{1}{N}\sum x_i$ is the feature mean, and $\sigma = \sqrt{rac{1}{N}\sum (x_i - \mu)^2}$ is the standard deviation.
 
 ### 3. Normalization vs Standardization Comparison

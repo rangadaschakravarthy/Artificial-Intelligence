@@ -8,13 +8,19 @@ If walking vector $\mathbf{u}$ takes you 3 steps East and 2 North, and vector $\
 
 ### 3. Mathematical Definition
 For $\mathbf{u}, \mathbf{v} \in \mathbb{R}^n$ and $c \in \mathbb{R}$:
-$$\mathbf{u} + \mathbf{v} = \begin{bmatrix} u_1 + v_1 \\ \vdots \\ u_n + v_n \end{bmatrix}, \quad c\mathbf{u} = \begin{bmatrix} c u_1 \\ \vdots \\ c u_n \end{bmatrix}$$
+
+$$
+\mathbf{u} + \mathbf{v} = \begin{bmatrix} u_1 + v_1 \\ \vdots \\ u_n + v_n \end{bmatrix}, \quad c\mathbf{u} = \begin{bmatrix} c u_1 \\ \vdots \\ c u_n \end{bmatrix}
+$$
 
 ### 4. Notation
 $\mathbf{u} + \mathbf{v}$ for addition, $\mathbf{u} \odot \mathbf{v}$ or $\mathbf{u} * \mathbf{v}$ for element-wise (Hadamard) product.
 
 ### 5. Formula
-$$\mathbf{w} = a\mathbf{u} + b\mathbf{v} = \begin{bmatrix} a u_1 + b v_1 \\ \vdots \\ a u_n + b v_n \end{bmatrix}$$
+
+$$
+\mathbf{w} = a\mathbf{u} + b\mathbf{v} = \begin{bmatrix} a u_1 + b v_1 \\ \vdots \\ a u_n + b v_n \end{bmatrix}
+$$
 
 ### 6. Symbol-by-Symbol Explanation
 - $\mathbf{u}, \mathbf{v}$: Input vectors
@@ -29,7 +35,10 @@ Given $\mathbf{u} = [2, 5]^T$, $\mathbf{v} = [3, -1]^T$:
 
 ### 8. Second Example
 Hadamard product of $\mathbf{a} = [1, 2, 3]^T$ and $\mathbf{b} = [4, 5, 6]^T$:
-$$\mathbf{a} \odot \mathbf{b} = [1 \times 4, 2 \times 5, 3 \times 6]^T = [4, 10, 18]^T$$
+
+$$
+\mathbf{a} \odot \mathbf{b} = [1 \times 4, 2 \times 5, 3 \times 6]^T = [4, 10, 18]^T
+$$
 
 ### 9. Common Mistakes
 Attempting to add vectors of different dimensions; confusing matrix multiplication with element-wise vector product.

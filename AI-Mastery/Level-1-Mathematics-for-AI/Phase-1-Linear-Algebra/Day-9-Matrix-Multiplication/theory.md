@@ -8,13 +8,19 @@ Imagine transforming a batch of data. Each row of matrix $\mathbf{A}$ is a sampl
 
 ### 3. Mathematical Definition
 For $\mathbf{A} \in \mathbb{R}^{m \times k}$ and $\mathbf{B} \in \mathbb{R}^{k \times n}$, their product $\mathbf{C} = \mathbf{A}\mathbf{B} \in \mathbb{R}^{m \times n}$ has entries:
-$$c_{i,j} = \sum_{p=1}^k a_{i,p} b_{p,j} = \mathbf{a}_{i,:} \cdot \mathbf{b}_{:,j}$$
+
+$$
+c_{i,j} = \sum_{p=1}^k a_{i,p} b_{p,j} = \mathbf{a}_{i,:} \cdot \mathbf{b}_{:,j}
+$$
 
 ### 4. Notation
 $\mathbf{C} = \mathbf{A} \mathbf{B}$ or $\mathbf{A} \cdot \mathbf{B}$. Shape check: $(m \times k) \times (k \times n) \rightarrow (m \times n)$.
 
 ### 5. Formula
-$$c_{i,j} = a_{i,1}b_{1,j} + a_{i,2}b_{2,j} + \dots + a_{i,k}b_{k,j}$$
+
+$$
+c_{i,j} = a_{i,1}b_{1,j} + a_{i,2}b_{2,j} + \dots + a_{i,k}b_{k,j}
+$$
 
 ### 6. Symbol-by-Symbol Explanation
 - $m$: Rows in matrix $\mathbf{A}$ (e.g. batch size)
@@ -25,23 +31,32 @@ $$c_{i,j} = a_{i,1}b_{1,j} + a_{i,2}b_{2,j} + \dots + a_{i,k}b_{k,j}$$
 ### 7. Step-by-Step Calculation
 Multiply 
 
-$$\mathbf{A} = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}_{2 \times 2}$$
+$$
+\mathbf{A} = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}_{2 \times 2}
+$$
 
  and 
 
-$$\mathbf{B} = \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix}_{2 \times 2}$$
+$$
+\mathbf{B} = \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix}_{2 \times 2}
+$$
 
 :
 - $c_{1,1} = 1(5) + 2(7) = 5 + 14 = 19$
 - $c_{1,2} = 1(6) + 2(8) = 6 + 16 = 22$
 - $c_{2,1} = 3(5) + 4(7) = 15 + 28 = 43$
 - $c_{2,2} = 3(6) + 4(8) = 18 + 32 = 50$
-$$\mathbf{C} = \begin{bmatrix} 19 & 22 \\ 43 & 50 \end{bmatrix}$$
+
+$$
+\mathbf{C} = \begin{bmatrix} 19 & 22 \\ 43 & 50 \end{bmatrix}
+$$
 
 ### 8. Second Example
 Multiply \mathbf{X}_{1 \times 3} = [2, 1, 3] and 
 
-$$\mathbf{W}_{3 \times 2} = \begin{bmatrix} 1 & 0 \\ -1 & 2 \\ 0 & 4 \end{bmatrix}$$
+$$
+\mathbf{W}_{3 \times 2} = \begin{bmatrix} 1 & 0 \\ -1 & 2 \\ 0 & 4 \end{bmatrix}
+$$
 
 :
 $c_{1,1} = 2(1) + 1(-1) + 3(0) = 1$

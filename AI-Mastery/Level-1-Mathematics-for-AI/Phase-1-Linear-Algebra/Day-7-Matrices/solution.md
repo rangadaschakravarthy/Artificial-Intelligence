@@ -16,13 +16,17 @@
 ### Question 1
 1. 
 
-$$\mathbf{I}_3 = \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix}$$
+$$
+\mathbf{I}_3 = \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix}
+$$
 
 .
 ### Question 2
 2. Example: 
 
-$$\mathbf{S} = \begin{bmatrix} 5 & 2 \\ 2 & 9 \end{bmatrix}$$
+$$
+\mathbf{S} = \begin{bmatrix} 5 & 2 \\ 2 & 9 \end{bmatrix}
+$$
 
  (off-diagonal elements must match).
 ### Question 3

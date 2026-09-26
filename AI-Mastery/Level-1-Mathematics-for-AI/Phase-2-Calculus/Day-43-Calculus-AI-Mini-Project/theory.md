@@ -16,7 +16,10 @@ Updates: $\mathbf{W}_1 \leftarrow \mathbf{W}_1 - \eta \frac{1}{B} \mathbf{\Delta
 $\mathbf{X}_{B \times 2}$: Input batch. $\mathbf{W}_1_{4 \times 2}, \mathbf{W}_2_{1 \times 4}$: Weight matrices. $\mathbf{\Delta}_1_{B \times 4}, \mathbf{\Delta}_2_{B \times 1}$: Error delta matrices.
 
 ### 5. Formula
-$$\mathbf{\Delta}_1 = (\mathbf{\Delta}_2 \mathbf{W}_2) \odot \text{ReLU}'(\mathbf{Z}_1) \quad \text{(Matrix Backprop Delta)}$$
+
+$$
+\mathbf{\Delta}_1 = (\mathbf{\Delta}_2 \mathbf{W}_2) \odot \text{ReLU}'(\mathbf{Z}_1) \quad \text{(Matrix Backprop Delta)}
+$$
 
 ### 6. Symbol-by-Symbol Explanation
 - $\mathbf{\Delta}_2$: Output layer error delta ($B \times 1$)

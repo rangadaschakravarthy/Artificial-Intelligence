@@ -4,19 +4,25 @@
 ### Question 1
 1. 
 
-$$\begin{bmatrix} 2+5 & 4+1 \\ 1+0 & 3+2 \end{bmatrix} = \begin{bmatrix} 7 & 5 \\ 1 & 5 \end{bmatrix}$$
+$$
+\begin{bmatrix} 2+5 & 4+1 \\ 1+0 & 3+2 \end{bmatrix} = \begin{bmatrix} 7 & 5 \\ 1 & 5 \end{bmatrix}
+$$
 
 .
 ### Question 2
 2. 
 
-$$\begin{bmatrix} 4(1) & 4(-2) \\ 4(3) & 4(0) \end{bmatrix} = \begin{bmatrix} 4 & -8 \\ 12 & 0 \end{bmatrix}$$
+$$
+\begin{bmatrix} 4(1) & 4(-2) \\ 4(3) & 4(0) \end{bmatrix} = \begin{bmatrix} 4 & -8 \\ 12 & 0 \end{bmatrix}
+$$
 
 .
 ### Question 3
 3. 
 
-$$\begin{bmatrix} 3(2) & 2(0) \\ 1(-1) & 4(5) \end{bmatrix} = \begin{bmatrix} 6 & 0 \\ -1 & 20 \end{bmatrix}$$
+$$
+\begin{bmatrix} 3(2) & 2(0) \\ 1(-1) & 4(5) \end{bmatrix} = \begin{bmatrix} 6 & 0 \\ -1 & 20 \end{bmatrix}
+$$
 
 .
 ### Question 4
@@ -28,19 +34,25 @@ $$\begin{bmatrix} 3(2) & 2(0) \\ 1(-1) & 4(5) \end{bmatrix} = \begin{bmatrix} 6 
 ### Question 1
 1. 
 
-$$2\begin{bmatrix}1&2\\0&4\end{bmatrix} - 3\begin{bmatrix}3&-1\\2&1\end{bmatrix} = \begin{bmatrix}2&4\\0&8\end{bmatrix} - \begin{bmatrix}9&-3\\6&3\end{bmatrix} = \begin{bmatrix}-7&7\\-6&5\end{bmatrix}$$
+$$
+2\begin{bmatrix}1&2\\0&4\end{bmatrix} - 3\begin{bmatrix}3&-1\\2&1\end{bmatrix} = \begin{bmatrix}2&4\\0&8\end{bmatrix} - \begin{bmatrix}9&-3\\6&3\end{bmatrix} = \begin{bmatrix}-7&7\\-6&5\end{bmatrix}
+$$
 
 .
 ### Question 2
 2. 
 
-$$\mathbf{X} = \begin{bmatrix} 4-1 & 5-3 \\ 1-2 & 2-0 \end{bmatrix} = \begin{bmatrix} 3 & 2 \\ -1 & 2 \end{bmatrix}$$
+$$
+\mathbf{X} = \begin{bmatrix} 4-1 & 5-3 \\ 1-2 & 2-0 \end{bmatrix} = \begin{bmatrix} 3 & 2 \\ -1 & 2 \end{bmatrix}
+$$
 
 .
 ### Question 3
 3. 
 
-$$\text{ReLU}(\mathbf{Z}) = \begin{bmatrix} \max(0, 2.5) & \max(0, -1.2) \\ \max(0, -0.5) & \max(0, 3.0) \end{bmatrix} = \begin{bmatrix} 2.5 & 0.0 \\ 0.0 & 3.0 \end{bmatrix}$$
+$$
+\text{ReLU}(\mathbf{Z}) = \begin{bmatrix} \max(0, 2.5) & \max(0, -1.2) \\ \max(0, -0.5) & \max(0, 3.0) \end{bmatrix} = \begin{bmatrix} 2.5 & 0.0 \\ 0.0 & 3.0 \end{bmatrix}
+$$
 
 .
 ### Question 4
@@ -64,13 +76,17 @@ $$\text{ReLU}(\mathbf{Z}) = \begin{bmatrix} \max(0, 2.5) & \max(0, -1.2) \\ \max
 ### Question 1
 1. 
 
-$$\mathbf{W}_{new} = \begin{bmatrix} 0.5 & 1.0 \\ -0.2 & 0.8 \end{bmatrix} - 0.1 \begin{bmatrix} 2.0 & -1.0 \\ 0.5 & 4.0 \end{bmatrix} = \begin{bmatrix} 0.5-0.2 & 1.0+0.1 \\ -0.2-0.05 & 0.8-0.4 \end{bmatrix} = \begin{bmatrix} 0.3 & 1.1 \\ -0.25 & 0.4 \end{bmatrix}$$
+$$
+\mathbf{W}_{new} = \begin{bmatrix} 0.5 & 1.0 \\ -0.2 & 0.8 \end{bmatrix} - 0.1 \begin{bmatrix} 2.0 & -1.0 \\ 0.5 & 4.0 \end{bmatrix} = \begin{bmatrix} 0.5-0.2 & 1.0+0.1 \\ -0.2-0.05 & 0.8-0.4 \end{bmatrix} = \begin{bmatrix} 0.3 & 1.1 \\ -0.25 & 0.4 \end{bmatrix}
+$$
 
 .
 ### Question 2
 2. Broadcast \mathbf{b} to each row: 
 
-$$\begin{bmatrix} 1.0+0.5 & 2.0-0.5 \\ 3.0+0.5 & 4.0-0.5 \\ 5.0+0.5 & 6.0-0.5 \end{bmatrix} = \begin{bmatrix} 1.5 & 1.5 \\ 3.5 & 3.5 \\ 5.5 & 5.5 \end{bmatrix}$$
+$$
+\begin{bmatrix} 1.0+0.5 & 2.0-0.5 \\ 3.0+0.5 & 4.0-0.5 \\ 5.0+0.5 & 6.0-0.5 \end{bmatrix} = \begin{bmatrix} 1.5 & 1.5 \\ 3.5 & 3.5 \\ 5.5 & 5.5 \end{bmatrix}
+$$
 
 .
 ### Question 3

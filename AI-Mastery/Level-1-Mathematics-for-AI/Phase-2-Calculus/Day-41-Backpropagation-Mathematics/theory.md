@@ -17,7 +17,10 @@ For an $L$-layer neural network with activations $\mathbf{a}^{(l)} = \sigma(\mat
 $\mathbf{\delta}^{(l)} = \frac{\partial L}{\partial \mathbf{z}^{(l)}} \in \mathbb{R}^{n_l}$. $\mathbf{\Sigma}'(\mathbf{z}^{(l)}) = \text{diag}(\sigma'(\mathbf{z}^{(l)}))$.
 
 ### 5. Formula
-$$\mathbf{\delta}^{(l)} = ((\mathbf{W}^{(l+1)})^T \mathbf{\delta}^{(l+1)}) \odot \sigma'(\mathbf{z}^{(l)}) \quad \text{(Equation 2 Recurrence)}$$
+
+$$
+\mathbf{\delta}^{(l)} = ((\mathbf{W}^{(l+1)})^T \mathbf{\delta}^{(l+1)}) \odot \sigma'(\mathbf{z}^{(l)}) \quad \text{(Equation 2 Recurrence)}
+$$
 
 ### 6. Symbol-by-Symbol Explanation
 - $\mathbf{\delta}^{(l+1)}$: Error vector from layer $l+1$

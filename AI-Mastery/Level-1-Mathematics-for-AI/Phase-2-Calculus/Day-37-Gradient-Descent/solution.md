@@ -18,7 +18,9 @@
 ### Question 2
 2. \nabla L = [6w_1, 2w_2]^T. At (1, 2), \nabla L = [6, 4]^T. 
 
-$$\mathbf{w}_1 = \begin{bmatrix} 1 \\ 2 \end{bmatrix} - 0.05 \begin{bmatrix} 6 \\ 4 \end{bmatrix} = \begin{bmatrix} 0.7 \\ 1.8 \end{bmatrix}$$
+$$
+\mathbf{w}_1 = \begin{bmatrix} 1 \\ 2 \end{bmatrix} - 0.05 \begin{bmatrix} 6 \\ 4 \end{bmatrix} = \begin{bmatrix} 0.7 \\ 1.8 \end{bmatrix}
+$$
 
 .
 ### Question 3

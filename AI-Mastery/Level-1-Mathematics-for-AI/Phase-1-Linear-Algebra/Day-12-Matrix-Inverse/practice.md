@@ -3,12 +3,16 @@
 ## Level 1 — Basic Understanding
 1. Calculate the inverse of 
 
-$$\mathbf{A} = \begin{bmatrix} 3 & 1 \\ 4 & 2 \end{bmatrix}$$
+$$
+\mathbf{A} = \begin{bmatrix} 3 & 1 \\ 4 & 2 \end{bmatrix}
+$$
 
 .
 2. Is matrix 
 
-$$\mathbf{B} = \begin{bmatrix} 2 & 4 \\ 3 & 6 \end{bmatrix}$$
+$$
+\mathbf{B} = \begin{bmatrix} 2 & 4 \\ 3 & 6 \end{bmatrix}
+$$
 
  invertible? Explain why.
 3. State the formula for $(\mathbf{A}\mathbf{B})^{-1}$.
@@ -18,16 +22,22 @@ $$\mathbf{B} = \begin{bmatrix} 2 & 4 \\ 3 & 6 \end{bmatrix}$$
 ## Level 2 — Calculation
 1. Find the inverse of diagonal matrix 
 
-$$\mathbf{D} = \begin{bmatrix} 4 & 0 \\ 0 & -2 \end{bmatrix}$$
+$$
+\mathbf{D} = \begin{bmatrix} 4 & 0 \\ 0 & -2 \end{bmatrix}
+$$
 
 .
 2. Given 
 
-$$\mathbf{A} = \begin{bmatrix} 2 & 0 \\ 0 & 3 \end{bmatrix}$$
+$$
+\mathbf{A} = \begin{bmatrix} 2 & 0 \\ 0 & 3 \end{bmatrix}
+$$
 
  and 
 
-$$\mathbf{B} = \begin{bmatrix} 1 & 1 \\ 0 & 1 \end{bmatrix}$$
+$$
+\mathbf{B} = \begin{bmatrix} 1 & 1 \\ 0 & 1 \end{bmatrix}
+$$
 
 , compute (\mathbf{A}\mathbf{B})^{-1}.
 3. Solve the system of equations using matrix inverse: $2x + y = 7, \, x + 3y = 11$.
@@ -44,11 +54,15 @@ $$\mathbf{B} = \begin{bmatrix} 1 & 1 \\ 0 & 1 \end{bmatrix}$$
 ## Level 4 — AI/ML Application
 1. In Linear Regression, given dataset feature matrix 
 
-$$\mathbf{X} = \begin{bmatrix} 1 & 1 \\ 1 & 2 \\ 1 & 3 \end{bmatrix}$$
+$$
+\mathbf{X} = \begin{bmatrix} 1 & 1 \\ 1 & 2 \\ 1 & 3 \end{bmatrix}
+$$
 
  and targets 
 
-$$\mathbf{y} = \begin{bmatrix} 2 \\ 3 \\ 3.5 \end{bmatrix}$$
+$$
+\mathbf{y} = \begin{bmatrix} 2 \\ 3 \\ 3.5 \end{bmatrix}
+$$
 
 , compute \mathbf{X}^T \mathbf{X}, (\mathbf{X}^T \mathbf{X})^{-1}, and parameter vector \mathbf{w} = (\mathbf{X}^T \mathbf{X})^{-1} \mathbf{X}^T \mathbf{y}.
 2. Why does collinearity (multicollinearity) between features cause $(\mathbf{X}^T \mathbf{X})^{-1}$ to fail or produce wildly unstable weights?

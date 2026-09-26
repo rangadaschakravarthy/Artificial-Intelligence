@@ -3,7 +3,9 @@
 ## Example 1 — Very Easy
 2x2 Square Multiplication: 
 
-$$\begin{bmatrix} 2 & 0 \\ 1 & 3 \end{bmatrix} \begin{bmatrix} 1 & 4 \\ 2 & 1 \end{bmatrix} = \begin{bmatrix} 2 & 8 \\ 7 & 7 \end{bmatrix}$$
+$$
+\begin{bmatrix} 2 & 0 \\ 1 & 3 \end{bmatrix} \begin{bmatrix} 1 & 4 \\ 2 & 1 \end{bmatrix} = \begin{bmatrix} 2 & 8 \\ 7 & 7 \end{bmatrix}
+$$
 
 .
 
@@ -16,7 +18,9 @@ Matrix-Vector Multiplication: Matrix $\mathbf{A}_{2 \times 2}$ times Column Vect
 ## Example 4 — AI/ML Example
 Non-Commutativity Proof: 
 
-$$\mathbf{A} = \begin{bmatrix} 1 & 0 \\ 0 & 0 \end{bmatrix}, \mathbf{B} = \begin{bmatrix} 0 & 1 \\ 0 & 0 \end{bmatrix} \implies \mathbf{A}\mathbf{B} = \begin{bmatrix} 0 & 1 \\ 0 & 0 \end{bmatrix}, \mathbf{B}\mathbf{A} = \begin{bmatrix} 0 & 0 \\ 0 & 0 \end{bmatrix}$$
+$$
+\mathbf{A} = \begin{bmatrix} 1 & 0 \\ 0 & 0 \end{bmatrix}, \mathbf{B} = \begin{bmatrix} 0 & 1 \\ 0 & 0 \end{bmatrix} \implies \mathbf{A}\mathbf{B} = \begin{bmatrix} 0 & 1 \\ 0 & 0 \end{bmatrix}, \mathbf{B}\mathbf{A} = \begin{bmatrix} 0 & 0 \\ 0 & 0 \end{bmatrix}
+$$
 
 .
 

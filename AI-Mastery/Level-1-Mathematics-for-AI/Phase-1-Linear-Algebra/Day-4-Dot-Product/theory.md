@@ -13,7 +13,10 @@ For $\mathbf{u}, \mathbf{v} \in \mathbb{R}^n$, the dot product $\mathbf{u} \cdot
 $\mathbf{u} \cdot \mathbf{v}$, $\langle \mathbf{u}, \mathbf{v} \rangle$, or $\mathbf{u}^T \mathbf{v}$. Result is a scalar $\in \mathbb{R}$.
 
 ### 5. Formula
-$$\mathbf{u} \cdot \mathbf{v} = u_1 v_1 + u_2 v_2 + \dots + u_n v_n = \sum_{i=1}^n u_i v_i$$
+
+$$
+\mathbf{u} \cdot \mathbf{v} = u_1 v_1 + u_2 v_2 + \dots + u_n v_n = \sum_{i=1}^n u_i v_i
+$$
 
 ### 6. Symbol-by-Symbol Explanation
 - $\mathbf{u}, \mathbf{v}$: Vectors in $\mathbb{R}^n$
@@ -22,11 +25,18 @@ $$\mathbf{u} \cdot \mathbf{v} = u_1 v_1 + u_2 v_2 + \dots + u_n v_n = \sum_{i=1}
 
 ### 7. Step-by-Step Calculation
 Given $\mathbf{u} = [2, 3]^T$, $\mathbf{v} = [4, -1]^T$:
-$$\mathbf{u} \cdot \mathbf{v} = (2 \times 4) + (3 \times -1) = 8 + (-3) = 5$$
+
+$$
+\mathbf{u} \cdot \mathbf{v} = (2 \times 4) + (3 \times -1) = 8 + (-3) = 5
+$$
 
 ### 8. Second Example
 Given $\mathbf{x} = [1, 0, 2]^T$ and $\mathbf{w} = [-2, 3, 1]^T$:
-$$\mathbf{w}^T \mathbf{x} = (-2)(1) + (3)(0) + (1)(2) = -2 + 0 + 2 = 0$$
+
+$$
+\mathbf{w}^T \mathbf{x} = (-2)(1) + (3)(0) + (1)(2) = -2 + 0 + 2 = 0
+$$
+
 Since dot product is 0, $\mathbf{w}$ and $\mathbf{x}$ are orthogonal (perpendicular)!
 
 ### 9. Common Mistakes

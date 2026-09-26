@@ -3,7 +3,9 @@
 ## Example 1 — Very Easy
 Diagonal SVD: 
 
-$$\mathbf{A} = \begin{bmatrix} 5 & 0 \\ 0 & 2 \end{bmatrix} \implies \mathbf{U}=\mathbf{I}_2, \mathbf{\Sigma}=\begin{bmatrix}5&0\\0&2\end{bmatrix}, \mathbf{V}=\mathbf{I}_2$$
+$$
+\mathbf{A} = \begin{bmatrix} 5 & 0 \\ 0 & 2 \end{bmatrix} \implies \mathbf{U}=\mathbf{I}_2, \mathbf{\Sigma}=\begin{bmatrix}5&0\\0&2\end{bmatrix}, \mathbf{V}=\mathbf{I}_2
+$$
 
 .
 

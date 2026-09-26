@@ -13,7 +13,10 @@ Linear algebra studies vector spaces $V$ over a field $F$ and linear mappings be
 Scalars are written as lowercase italic letters ($s \in \mathbb{R}$), vectors as bold lowercase ($\mathbf{v} \in \mathbb{R}^n$), matrices as uppercase bold ($\mathbf{A} \in \mathbb{R}^{m \times n}$).
 
 ### 5. Formula
-$$\mathbf{y} = \mathbf{A}\mathbf{x} + \mathbf{b}$$
+
+$$
+\mathbf{y} = \mathbf{A}\mathbf{x} + \mathbf{b}
+$$
 
 ### 6. Symbol-by-Symbol Explanation
 - $\mathbf{y}$: Output vector (e.g., predicted housing prices)
@@ -23,11 +26,17 @@ $$\mathbf{y} = \mathbf{A}\mathbf{x} + \mathbf{b}$$
 
 ### 7. Step-by-Step Calculation
 Given $x = [2000, 3]$, $A = [[100], [15000]]$, $b = [20000]$:
-$$y = (2000 \times 100) + (3 \times 15000) + 20000 = 200000 + 45000 + 20000 = 265000$$
+
+$$
+y = (2000 \times 100) + (3 \times 15000) + 20000 = 200000 + 45000 + 20000 = 265000
+$$
 
 ### 8. Second Example
 Given a 2-feature input $x = [1, 2]$ transformed by weight matrix $W = [[2, 0], [0, 3]]$:
-$$y = Wx = [2(1) + 0(2), 0(1) + 3(2)] = [2, 6]$$
+
+$$
+y = Wx = [2(1) + 0(2), 0(1) + 3(2)] = [2, 6]
+$$
 
 ### 9. Common Mistakes
 Treating matrix transformation as element-wise multiplication; confusing vector dimensions with matrix ranks.

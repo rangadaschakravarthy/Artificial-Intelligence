@@ -14,7 +14,10 @@ Classical Machine Learning algorithms require human domain experts to manually e
 
 ### 4. Mathematical Neural Network Notation
 A single artificial neuron computes a weighted sum followed by a non-linear activation function $\sigma$:
-$$y = \sigma\left( \mathbf{w}^T \mathbf{x} + b \right) = \sigma\left( \sum_{i=1}^d w_i x_i + b \right)$$
+
+$$
+y = \sigma\left( \mathbf{w}^T \mathbf{x} + b \right) = \sigma\left( \sum_{i=1}^d w_i x_i + b \right)
+$$
 
 ### 5. Summary
 Deep Learning learns hierarchical feature representations automatically from raw data using multi-layer neural networks.

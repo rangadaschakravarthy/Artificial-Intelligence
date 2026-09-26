@@ -8,14 +8,21 @@ Think of a scalar as a single measurement like your weight (70 kg). A vector is 
 
 ### 3. Mathematical Definition
 A vector $\mathbf{v} \in \mathbb{R}^n$ is an $n$-tuple of real numbers $(v_1, v_2, \dots, v_n)$. It can be written as a column vector:
-$$\mathbf{v} = \begin{bmatrix} v_1 \\ \vdots \\ v_n \end{bmatrix}$$
+
+$$
+\mathbf{v} = \begin{bmatrix} v_1 \\ \vdots \\ v_n \end{bmatrix}
+$$
+
 or as a row vector $\mathbf{v}^T = [v_1, v_2, \dots, v_n]$.
 
 ### 4. Notation
 $\alpha, c \in \mathbb{R}$ for scalars. $\mathbf{v}, \vec{v}, \mathbf{x} \in \mathbb{R}^n$ for vectors. Component $i$ is denoted $v_i$.
 
 ### 5. Formula
-$$\mathbf{v} = \begin{bmatrix} v_1 \\ v_2 \\ \vdots \\ v_n \end{bmatrix} \in \mathbb{R}^n$$
+
+$$
+\mathbf{v} = \begin{bmatrix} v_1 \\ v_2 \\ \vdots \\ v_n \end{bmatrix} \in \mathbb{R}^n
+$$
 
 ### 6. Symbol-by-Symbol Explanation
 - $\mathbf{v}$: Vector
@@ -25,7 +32,9 @@ $$\mathbf{v} = \begin{bmatrix} v_1 \\ v_2 \\ \vdots \\ v_n \end{bmatrix} \in \ma
 ### 7. Step-by-Step Calculation
 For a point (3, 4) in 2D space: Component x = 3, component y = 4. Vector 
 
-$$\mathbf{v} = \begin{bmatrix} 3 \\ 4 \end{bmatrix}$$
+$$
+\mathbf{v} = \begin{bmatrix} 3 \\ 4 \end{bmatrix}
+$$
 
 . Dimension n = 2.
 

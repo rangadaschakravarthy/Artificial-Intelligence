@@ -10,12 +10,16 @@
 ## Level 2 — Calculation
 1. Find the singular values of 
 
-$$\mathbf{A} = \begin{bmatrix} 3 & 0 \\ 0 & 4 \end{bmatrix}$$
+$$
+\mathbf{A} = \begin{bmatrix} 3 & 0 \\ 0 & 4 \end{bmatrix}
+$$
 
 .
 2. Calculate \mathbf{A}^T \mathbf{A} for 
 
-$$\mathbf{A} = \begin{bmatrix} 1 & 1 \\ 0 & 1 \end{bmatrix}$$
+$$
+\mathbf{A} = \begin{bmatrix} 1 & 1 \\ 0 & 1 \end{bmatrix}
+$$
 
  and find its singular values.
 3. If matrix $\mathbf{A}$ has rank $r = 3$, how many non-zero singular values does it have?

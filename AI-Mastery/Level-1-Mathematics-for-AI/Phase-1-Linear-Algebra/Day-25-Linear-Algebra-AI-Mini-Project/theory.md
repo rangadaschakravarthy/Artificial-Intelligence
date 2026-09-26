@@ -13,7 +13,10 @@ Pipeline: 1) Term-Document Matrix $\mathbf{A}_{v \times d}$. 2) TF-IDF weighting
 $\mathbf{W}$: TF-IDF Matrix ($v$ words $\times d$ docs). $\mathbf{U}_k$: Latent Topic Space ($v \times k$). $\mathbf{V}_k$: Document Embeddings ($d \times k$). $\mathbf{q}$: Query Vector.
 
 ### 5. Formula
-$$\text{Similarity}(\mathbf{q}_k, \mathbf{d}_j) = \frac{\mathbf{q}_k \cdot \mathbf{d}_j}{||\mathbf{q}_k||_2 ||\mathbf{d}_j||_2}$$
+
+$$
+\text{Similarity}(\mathbf{q}_k, \mathbf{d}_j) = \frac{\mathbf{q}_k \cdot \mathbf{d}_j}{||\mathbf{q}_k||_2 ||\mathbf{d}_j||_2}
+$$
 
 ### 6. Symbol-by-Symbol Explanation
 - $\mathbf{q}_k$: $k$-dimensional latent query embedding vector
@@ -24,12 +27,16 @@ $$\text{Similarity}(\mathbf{q}_k, \mathbf{d}_j) = \frac{\mathbf{q}_k \cdot \math
 Projecting query vector onto 2D latent topic space:
 Query \mathbf{q} = [1, 0, 1]^T. Top 2 Left Singular Vectors 
 
-$$\mathbf{U}_2 = \begin{bmatrix} 0.8 & 0.1 \\ 0.2 & 0.9 \\ 0.6 & 0.3 \end{bmatrix}$$
+$$
+\mathbf{U}_2 = \begin{bmatrix} 0.8 & 0.1 \\ 0.2 & 0.9 \\ 0.6 & 0.3 \end{bmatrix}
+$$
 
 .
 Latent Query 
 
-$$\mathbf{q}_k = \mathbf{U}_2^T \mathbf{q} = \begin{bmatrix} 0.8(1)+0.2(0)+0.6(1) \\ 0.1(1)+0.9(0)+0.3(1) \end{bmatrix} = \begin{bmatrix} 1.4 \\ 0.4 \end{bmatrix}$$
+$$
+\mathbf{q}_k = \mathbf{U}_2^T \mathbf{q} = \begin{bmatrix} 0.8(1)+0.2(0)+0.6(1) \\ 0.1(1)+0.9(0)+0.3(1) \end{bmatrix} = \begin{bmatrix} 1.4 \\ 0.4 \end{bmatrix}
+$$
 
 .
 

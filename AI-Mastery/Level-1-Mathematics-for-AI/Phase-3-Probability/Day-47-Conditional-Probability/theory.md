@@ -8,7 +8,10 @@ Imagine picking a random person from the global population. The probability they
 
 ## 3. Mathematical Definition
 For any two events $A$ and $B$ in sample space $\Omega$ with $P(B) > 0$:
-$$P(A|B) = rac{P(A \cap B)}{P(B)}$$
+
+$$
+P(A|B) = rac{P(A \cap B)}{P(B)}
+$$
 
 ## 4. Notation
 - $P(A|B)$: Probability of $A$ given $B$.
@@ -16,8 +19,14 @@ $$P(A|B) = rac{P(A \cap B)}{P(B)}$$
 - $P(B)$: Marginal probability of condition event $B$.
 
 ## 5. Formula
-$$P(A|B) = rac{P(A \cap B)}{P(B)}, \quad P(B) > 0$$
-$$	ext{Reordered: } P(A \cap B) = P(A|B)P(B) = P(B|A)P(A)$$
+
+$$
+P(A|B) = rac{P(A \cap B)}{P(B)}, \quad P(B) > 0
+$$
+
+$$
+ext{Reordered: } P(A \cap B) = P(A|B)P(B) = P(B|A)P(A)
+$$
 
 ## 6. Symbol Explanation
 - $|$: "given" or "conditioned upon".
@@ -30,7 +39,10 @@ In a dataset of 100 images:
 - 25 images are Cats AND have Whiskers ($A \cap B$).
 
 Find $P(	ext{Cat} \mid 	ext{Whiskers}) = P(A|B)$:
-$$P(A|B) = rac{P(A \cap B)}{P(B)} = rac{25/100}{30/100} = rac{25}{30} = rac{5}{6} pprox 0.8333$$
+
+$$
+P(A|B) = rac{P(A \cap B)}{P(B)} = rac{25/100}{30/100} = rac{25}{30} = rac{5}{6} pprox 0.8333
+$$
 
 ## 8. Second Example (Machine Learning Confusion Matrix)
 Given binary confusion matrix values: $TP=80, FP=10, FN=20, TN=890$.
