@@ -12,3 +12,6 @@ Comprehensive, self-study GitHub curriculum for mastering Artificial Intelligenc
 
 ### [Level 3 — Artificial Intelligence Fundamentals](./Level-3-Artificial-Intelligence-Fundamentals/)
 - Understanding AI, AI History, Intelligent Agents, State Spaces, Problem Formulation, Classical Search (BFS, DFS, UCS, Greedy, A*), Knowledge Representation, Reasoning, Planning, and Adversarial Search (Minimax, Alpha-Beta Pruning).
+
+### [Level 4 — Machine Learning](./Level-4-Machine-Learning/)
+- ML Fundamentals, Paradigms (Supervised, Unsupervised, Semi-Supervised, Self-Supervised, Reinforcement Learning), Linear & Logistic Regression, $k$-NN, Decision Trees, Random Forests, Naive Bayes, SVM, K-Means, DBSCAN, PCA, Association Rules, MDPs, Q-Learning, Pipelines, Tuning, Evaluation Metrics, Model Interpretability, and 6 Capstone Projects.

@@ -1,0 +1,54 @@
+# Machine Learning Glossary — Level 4
+
+- **Accuracy**: Fraction of total predictions a classification model got correct.
+- **Action ($a$)**: Operation an RL agent executes to transition between states.
+- **Algorithm**: Computational routine that fits parameters to data.
+- **Bagging (Bootstrap Aggregating)**: Ensemble method that trains multiple base estimators on random bootstrap samples of data.
+- **Bias**: Error resulting from overly simplistic model assumptions (underfitting).
+- **Bias-Variance Tradeoff**: Balancing underfitting (high bias) and overfitting (high variance) to achieve optimal generalization.
+- **Categorical Feature**: Feature containing discrete qualitative labels (e.g., City, Gender).
+- **Classification**: Supervised learning task predicting discrete categorical target labels.
+- **Clustering**: Unsupervised learning task grouping unlabeled samples based on feature similarity.
+- **Confusion Matrix**: $2 \times 2$ (or $K \times K$) table recording True Positives, True Negatives, False Positives, and False Negatives.
+- **Cross-Validation**: Resampling procedure evaluating model stability by partitioning data into $K$ complementary folds.
+- **Data Leakage**: Inadvertent introduction of information from test/validation sets into the training process.
+- **Decision Boundary**: Surface in feature space separating different predicted classes.
+- **Dendrogram**: Tree diagram representing hierarchical clustering linkages.
+- **Dimensionality Reduction**: Transforming high-dimensional data into a lower-dimensional space while preserving variance or distance relationships.
+- **Discount Factor ($\gamma$)**: Scalar $\in [0, 1)$ weighing immediate versus future rewards in RL.
+- **Distance Metric**: Function measuring distance between sample vectors (e.g., Euclidean, Manhattan).
+- **Epoch**: One complete pass of the entire training dataset through an ML algorithm.
+- **Evaluation Metric**: Quantitative measure evaluating model performance (e.g. MSE, F1-Score).
+- **Exploration vs Exploitation**: Trade-off between trying new actions (Exploration) and taking best-known actions (Exploitation).
+- **F1-Score**: Harmonic mean of Precision and Recall.
+- **Feature ($x$)**: Measurable individual property or attribute of a observed instance.
+- **Feature Engineering**: Transforming raw data attributes into informative input representations.
+- **Feature Matrix ($X$)**: Two-dimensional array of shape $(n, d)$ containing sample rows and feature columns.
+- **Generalization**: A trained model's ability to make accurate predictions on new, unseen data.
+- **Gradient Descent**: First-order iterative optimization algorithm for finding a local minimum of a differentiable loss function.
+- **Hyperparameter**: External configuration setting specified by the engineer before training begins (e.g., learning rate, max depth).
+- **Inertia**: Sum of squared distances of samples to their assigned cluster centroid in K-Means.
+- **Inference**: Applying a trained model to make predictions on new input data.
+- **Label / Target ($y$)**: True ground-truth outcome variable being predicted.
+- **Lasso Regression ($L_1$)**: Linear regression with an $L_1$ absolute weight penalty, causing feature selection.
+- **Learning Rate ($\alpha$)**: Step-size hyperparameter controlling gradient update magnitude.
+- **Loss Function ($\mathcal{L}$)**: Function evaluating penalty between model predictions and true ground-truth targets.
+- **Model**: Mathematical representation containing learned parameters fitted on data.
+- **Normal Equation**: Analytical closed-form solution $\boldsymbol{\beta} = (\mathbf{X}^T\mathbf{X})^{-1}\mathbf{X}^T\mathbf{y}$ for OLS linear regression.
+- **Overfitting**: Phenomenon where a model memorizes training noise and fails to generalize to unseen test data.
+- **Parameter ($\boldsymbol{\theta}$)**: Internal coefficient learned automatically from training data (e.g., weights $w$, bias $b$).
+- **Pipeline**: Encapsulated sequence of data transformers and estimators in scikit-learn.
+- **Precision**: Proportion of positive predictions that were actually correct ($\frac{TP}{TP+FP}$).
+- **Q-Learning**: Model-free temporal difference RL algorithm learning optimal state-action values $Q(s, a)$.
+- **Recall**: Proportion of actual positive cases that were correctly identified ($\frac{TP}{TP+FN}$).
+- **Regression**: Supervised learning task predicting continuous numerical target values.
+- **Regularization**: Adding a penalty term to loss functions to constrain model complexity and prevent overfitting.
+- **Reinforcement Learning**: ML paradigm where an agent learns optimal decision policies through reward feedback.
+- **Ridge Regression ($L_2$)**: Linear regression with an $L_2$ squared weight penalty, shrinking coefficients continuously.
+- **ROC-AUC**: Area under the Receiver Operating Characteristic curve (TPR vs FPR).
+- **Self-Supervised Learning**: ML paradigm creating autonomous supervision signals directly from unlabeled data via pretext tasks.
+- **Semi-Supervised Learning**: ML paradigm combining small labeled datasets with large unlabeled datasets.
+- **Supervised Learning**: ML paradigm training models on paired input features and explicit target labels $(X, y)$.
+- **Underfitting**: Phenomenon where a model is too simple to capture underlying data structures (high bias).
+- **Unsupervised Learning**: ML paradigm finding structural patterns in unlabeled feature matrices $X$.
+- **Variance**: Error resulting from high sensitivity to small fluctuations in training data (overfitting).

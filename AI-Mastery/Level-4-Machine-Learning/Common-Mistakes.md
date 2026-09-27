@@ -1,0 +1,10 @@
+# Common Mistakes in Machine Learning Engineering
+
+1. **Data Leakage via Global Preprocessing**: Fitting scaling transformers (`StandardScaler`) or imputers on the entire dataset before splitting into train/test sets. *Fix*: Fit transformers strictly on $X_{\text{train}}$ inside a scikit-learn `Pipeline`.
+2. **Evaluating Imbalanced Classification with Accuracy**: Relying on accuracy when positive classes are rare (e.g., 0.1% fraud). A dummy zero model gets 99.9% accuracy while detecting zero fraud. *Fix*: Use Precision, Recall, F1-Score, and PR-AUC.
+3. **Ignoring Feature Scaling for Distance-Based Algorithms**: Running $k$-NN, SVM, K-Means, or PCA on unscaled features. Unscaled features with large numerical ranges (e.g., Income in \$) dominate distance calculations. *Fix*: Apply `StandardScaler` or `MinMaxScaler`.
+4. **Confusing Model Parameters with Hyperparameters**: Attempting to train learning rates or tree depths via gradient descent. *Fix*: Learn parameters ($\mathbf{w}, b$) via training optimization; tune hyperparameters ($\alpha$, `max_depth`) via `GridSearchCV`.
+5. **Evaluating Permutation Importance on Training Data**: Shuffling features on training data measures what the model memorized rather than true feature predictive power. *Fix*: Evaluate permutation importance strictly on validation or test sets.
+6. **Confusing t-SNE with Feature Engineering**: Using t-SNE non-linear embeddings as feature inputs to downstream classification models. *Fix*: Use t-SNE strictly for 2D/3D visualization; use PCA or UMAP for feature reduction.
+7. **Tuning Hyperparameters on the Test Set**: Selecting best hyperparameters based on test set scores introduces test-set contamination. *Fix*: Tune hyperparameters exclusively on validation folds ($K$-Fold CV).
+8. **Setting Default Classification Thresholds on Asymmetric Cost Problems**: Using threshold 0.5 when False Negatives are fatal (e.g., medical diagnosis). *Fix*: Tune probability thresholds to achieve required Recall levels.
