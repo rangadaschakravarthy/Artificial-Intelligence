@@ -29,7 +29,7 @@ Naive Bayes is a foundational baseline algorithm for text classification, spam f
 
 ## Checklist
 - [ ] Implement Gaussian PDF likelihood evaluation
-- [ ] Apply Laplace smoothing $rac{x_i + lpha}{N + lpha K}$
+- [ ] Apply Laplace smoothing $\frac{x_i + lpha}{N + lpha K}$
 - [ ] Perform prediction in log-space $rg\max_c [\ln P(y) + \sum \ln P(x_i|y)]$
 - [ ] Code Naive Bayes from scratch in Python
 

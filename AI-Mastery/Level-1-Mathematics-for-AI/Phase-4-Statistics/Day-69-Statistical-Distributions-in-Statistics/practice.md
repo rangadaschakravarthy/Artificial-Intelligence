@@ -16,7 +16,7 @@
 
 ## Level 3: Conceptual & Multi-Step Problems
 11. Explain why Student's t-distribution has heavier tails than the Standard Normal distribution for small $df$.
-12. Show that as degrees of freedom $df 	o \infty$, Student's t-distribution converges to the Standard Normal distribution.
+12. Show that as degrees of freedom $df \to \infty$, Student's t-distribution converges to the Standard Normal distribution.
 13. Explain why non-parametric rank-sum tests (Mann-Whitney U) are less sensitive to extreme outliers than t-tests.
 14. Show that if $X \sim \chi^2_{k_1}$ and $Y \sim \chi^2_{k_2}$ are independent, then $X + Y \sim \chi^2_{k_1 + k_2}$.
 15. Explain how goodness-of-fit Kolmogorov-Smirnov test uses maximum empirical distribution distance $D$.

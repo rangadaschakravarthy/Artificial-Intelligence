@@ -44,7 +44,7 @@ Experiment: Rolling a 6-sided die. $\Omega = \{1, 2, 3, 4, 5, 6\}$.
 Bounding box prediction for object detection:
 - $\Omega$: Continuous 2D image coordinate region.
 - Event $A$: True Object Box. Event $B$: Predicted Box.
-- Intersection over Union (IoU) metric: $	ext{IoU} = rac{|A \cap B|}{|A \cup B|}$.
+- Intersection over Union (IoU) metric: $	ext{IoU} = \frac{|A \cap B|}{|A \cup B|}$.
 
 ## 9. Common Mistakes
 - Confusing mutually exclusive ($A \cap B = \emptyset$) with independent events.

@@ -27,8 +27,8 @@
 18. Fix issue where integer division `a / b` produced floats when integers were expected (`a // b`).
 
 ## Level 5 — AI/ML Application
-19. Implement Mean Absolute Error (MAE) loss formula: $	ext{MAE} = rac{1}{N} \sum |y_{	ext{pred}} - y_{	ext{true}}|$.
-20. Implement Sigmoid activation preprocessing formula: $rac{1}{1 + e^{-x}}$.
+19. Implement Mean Absolute Error (MAE) loss formula: $	ext{MAE} = \frac{1}{N} \sum |y_{	ext{pred}} - y_{	ext{true}}|$.
+20. Implement Sigmoid activation preprocessing formula: $\frac{1}{1 + e^{-x}}$.
 21. Connect element-wise array operations to bias addition $X W + b$ in neural network layers.
 
 ## Level 6 — Interview Questions

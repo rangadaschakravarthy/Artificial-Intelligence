@@ -12,15 +12,15 @@ ho_{X,Y}$.
 1. $\sigma_X = \sqrt{4} = 2$.
 2. $\sigma_Y = \sqrt{9} = 3$.
 3. $
-ho_{X,Y} = rac{	ext{Cov}(X, Y)}{\sigma_X \sigma_Y} = rac{3}{2 	imes 3} = rac{3}{6} = 0.50$.
+ho_{X,Y} = \frac{	ext{Cov}(X, Y)}{\sigma_X \sigma_Y} = \frac{3}{2 	imes 3} = \frac{3}{6} = 0.50$.
 
 ## Example 3: Zero Correlation with Non-Linear Dependence
 **Problem**: Let $X \in \{-1, 0, 1\}$ with equal probabilities $1/3$, and let $Y = X^2$. Calculate $	ext{Cov}(X, Y)$.
 **Solution**:
-1. $E[X] = rac{-1 + 0 + 1}{3} = 0$.
-2. $Y \in \{1, 0, 1\} \implies E[Y] = rac{1 + 0 + 1}{3} = rac{2}{3}$.
-3. $XY = X \cdot X^2 = X^3 \in \{-1, 0, 1\} \implies E[XY] = rac{-1 + 0 + 1}{3} = 0$.
-4. $	ext{Cov}(X, Y) = E[XY] - E[X]E[Y] = 0 - 0 \left(rac{2}{3}
+1. $E[X] = \frac{-1 + 0 + 1}{3} = 0$.
+2. $Y \in \{1, 0, 1\} \implies E[Y] = \frac{1 + 0 + 1}{3} = \frac{2}{3}$.
+3. $XY = X \cdot X^2 = X^3 \in \{-1, 0, 1\} \implies E[XY] = \frac{-1 + 0 + 1}{3} = 0$.
+4. $	ext{Cov}(X, Y) = E[XY] - E[X]E[Y] = 0 - 0 \left(\frac{2}{3}
 ight) = 0$.
 5. $	ext{Cov}(X, Y) = 0$ even though $Y$ is completely determined by $X$ ($Y = X^2$).
 
@@ -31,7 +31,7 @@ ho_{X,Y}$?
 **Solution**:
 1. $	ext{Cov}(U, V) = 	ext{Cov}(2X, 3Y) = 2 	imes 3 	imes 	ext{Cov}(X, Y) = 6 	ext{Cov}(X, Y)$ (scaled by 6!).
 2. $
-ho_{U,V} = rac{6 	ext{Cov}(X, Y)}{(2 \sigma_X)(3 \sigma_Y)} = rac{6 	ext{Cov}(X, Y)}{6 \sigma_X \sigma_Y} = 
+ho_{U,V} = \frac{6 	ext{Cov}(X, Y)}{(2 \sigma_X)(3 \sigma_Y)} = \frac{6 	ext{Cov}(X, Y)}{6 \sigma_X \sigma_Y} = 
 ho_{X,Y}$ (Correlation is scale invariant!).
 
 ## Example 5: 2x2 Covariance Matrix Construction

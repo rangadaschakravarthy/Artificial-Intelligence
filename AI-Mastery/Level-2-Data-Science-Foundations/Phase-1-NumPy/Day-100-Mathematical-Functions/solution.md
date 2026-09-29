@@ -37,8 +37,9 @@ print("Cos:", np.cos(x))
 21. Right-skewed features have extreme right-tail outliers. Taking `log1p` compresses the dynamic range, transforming the feature into a symmetric Gaussian-like distribution suitable for linear models.
 
 ## Level 6 — Interview Solutions
-22. Adding $1.0 + 10^{-15}$ drops lower precision bits of $10^{-15}$ because single/double precision floats have limited mantissa bits. `np.log1p` uses direct Taylor expansion $\ln(1+x) pprox x - rac{x^2}{2} + rac{x^3}{3}$.
+22. Adding $1.0 + 10^{-15}$ drops lower precision bits of $10^{-15}$ because single/double precision floats have limited mantissa bits. `np.log1p` uses direct Taylor expansion $\ln(1+x) pprox x - \frac{x^2}{2} + \frac{x^3}{3}$.
 23. Round-to-even (banker's rounding) rounds $X.5$ to the nearest even integer. Over large datasets, rounding up half the time and down half the time prevents systematic upward rounding bias.
-24. $	ext{LSE}(z) = m + \ln \left( \sum e^{z_i - m} ight)$ where $m = \max(z)$. Shifting exponents by $-m$ ensures the maximum exponent is $e^0 = 1$, completely avoiding $+\infty$ overflow.
+24. $	ext{LSE}(z) = m + \ln \left( \sum e^{z_i - m} 
+ight)$ where $m = \max(z)$. Shifting exponents by $-m$ ensures the maximum exponent is $e^0 = 1$, completely avoiding $+\infty$ overflow.
 25. SVML vectorized libraries replace standard `libm` scalar function calls with 256-bit SIMD polynomial approximations that compute transcendental functions for 4-8 elements concurrently.
 26. `np.clip(arr, min_val, max_val)` bounds values strictly before calling sensitive functions like `np.log` or `np.arcsin`.

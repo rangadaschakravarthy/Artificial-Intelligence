@@ -30,8 +30,9 @@ counts, bin_edges = np.histogram(X[:, 0], bins=5)
 - `rowvar`: Boolean in `np.corrcoef` / `np.cov`. If `False`, columns represent variables and rows represent observations.
 
 ### 6. How It Works
-`np.corrcoef(X, rowvar=False)` computes covariance matrix $C = rac{1}{N-1} X^T X$ for centered data, then normalizes by feature standard deviations:
-$$ho_{i, j} = rac{	ext{Cov}(X_i, X_j)}{\sigma_i \sigma_j}$$
+`np.corrcoef(X, rowvar=False)` computes covariance matrix $C = \frac{1}{N-1} X^T X$ for centered data, then normalizes by feature standard deviations:
+$$
+ho_{i, j} = \frac{	ext{Cov}(X_i, X_j)}{\sigma_i \sigma_j}$$
 
 ### 7. Simple Example
 ```python
@@ -63,11 +64,12 @@ The 1.5*IQR rule identifies `100` as an outlier ($100 > 25 + 1.5 	imes 10 = 40$)
 Pandas methods `.corr()`, `.quantile()`, and `.value_counts()` wrap these exact NumPy data analysis functions.
 
 ### 12. AI/ML Connection
-Feature selection filters out highly correlated features ($ho > 0.95$) to prevent multi-collinearity in linear models.
+Feature selection filters out highly correlated features ($
+ho > 0.95$) to prevent multi-collinearity in linear models.
 
 ### 13. Interview Insight
 Question: "How do you calculate a Pearson correlation matrix for a feature matrix $X$ using raw matrix operations in NumPy?"
-Answer: Center $X$: $X_c = X - \mu$. Compute Covariance: $C = rac{1}{N-1} X_c^T X_c$. Compute Std Vector: $s = \sqrt{	ext{diag}(C)}$. Correlation: $R = rac{C}{s[:, 	ext{newaxis}] \cdot s[	ext{newaxis}, :]}$.
+Answer: Center $X$: $X_c = X - \mu$. Compute Covariance: $C = \frac{1}{N-1} X_c^T X_c$. Compute Std Vector: $s = \sqrt{	ext{diag}(C)}$. Correlation: $R = \frac{C}{s[:, 	ext{newaxis}] \cdot s[	ext{newaxis}, :]}$.
 
 ### 14. Summary
 NumPy provides functions for descriptive data profiling (`percentile`, `corrcoef`, `histogram`). Use IQR bounds to detect and clean outliers.

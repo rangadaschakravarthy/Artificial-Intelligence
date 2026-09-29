@@ -30,6 +30,6 @@
 
 ## Level 5: Interview Questions
 21. Why does $P(	ext{Data} | H_0) 
-eq P(H_0 | 	ext{Data})$? Explain using Bayes' Theorem.
+\neq P(H_0 | 	ext{Data})$? Explain using Bayes' Theorem.
 22. How do Sequential Analysis methods (e.g. mSPRT) solve the A/B testing Peeking Problem?
 23. Write Python code using SciPy to perform 2-sample t-test, compute $p$-value, compute Cohen's $d$ effect size, and print full report.

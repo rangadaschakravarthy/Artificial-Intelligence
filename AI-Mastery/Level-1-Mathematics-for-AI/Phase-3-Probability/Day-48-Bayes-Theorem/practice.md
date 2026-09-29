@@ -19,7 +19,7 @@
 12. Explain the Base Rate Fallacy with a numerical counter-example.
 13. Three factories $F_1, F_2, F_3$ produce $50\%, 30\%, 20\%$ of chips with defect rates $1\%, 2\%, 5\%$. Find $P(F_3 | 	ext{Defect})$.
 14. Show how Bayes' Theorem can be expressed in Odds form: $	ext{Posterior Odds} = 	ext{Prior Odds} 	imes 	ext{Likelihood Ratio}$.
-15. If Prior $P(H) = 0.01$ and Likelihood Ratio $rac{P(E|H)}{P(E|H^c)} = 100$, compute Posterior $P(H|E)$.
+15. If Prior $P(H) = 0.01$ and Likelihood Ratio $\frac{P(E|H)}{P(E|H^c)} = 100$, compute Posterior $P(H|E)$.
 
 ## Level 4: AI & ML Applications
 16. A credit card fraud model has prior $P(	ext{Fraud}) = 0.002$. High amount feature has $P(	ext{High}|	ext{Fraud}) = 0.80$, $P(	ext{High}|	ext{Legit}) = 0.05$. Calculate $P(	ext{Fraud}|	ext{High})$.

@@ -7,7 +7,7 @@ Probability is a number between $0$ and $1$ that measures how likely an event is
 Imagine flipping a fair coin 1,000 times. You cannot predict the exact outcome of flip #427, but over 1,000 flips, approximately 500 will be Heads. Probability allows AI models to make rational predictions even when individual data points are noisy or unpredictable.
 
 ## 3. Mathematical Definition
-Given a sample space $\Omega$ containing all possible outcomes, an event $A$ is a subset of $\Omega$ ($A \subseteq \Omega$). Probability is a function $P: \mathcal{F} 	o [0, 1]$ mapping events to real numbers adhering to Kolmogorov Axioms.
+Given a sample space $\Omega$ containing all possible outcomes, an event $A$ is a subset of $\Omega$ ($A \subseteq \Omega$). Probability is a function $P: \mathcal{F} \to [0, 1]$ mapping events to real numbers adhering to Kolmogorov Axioms.
 
 ## 4. Notation
 - $\Omega$: Sample Space (set of all outcomes)
@@ -18,7 +18,7 @@ Given a sample space $\Omega$ containing all possible outcomes, an event $A$ is 
 Mathematical definition under equal likelihood:
 
 $$
-P(A) = rac{|A|}{|\Omega|} = rac{	ext{Number of favorable outcomes}}{	ext{Total number of possible outcomes}}
+P(A) = \frac{|A|}{|\Omega|} = \frac{	ext{Number of favorable outcomes}}{	ext{Total number of possible outcomes}}
 $$
 
 Kolmogorov Axioms:
@@ -37,12 +37,12 @@ ight) = \sum_{i=1}^{\infty} P(A_i)$$
 Consider rolling a fair 6-sided die. Find probability of rolling an even number.
 - $\Omega = \{1, 2, 3, 4, 5, 6\} \implies |\Omega| = 6$.
 - Event $A = 	ext{Even number} = \{2, 4, 6\} \implies |A| = 3$.
-- $P(A) = rac{3}{6} = 0.5$.
+- $P(A) = \frac{3}{6} = 0.5$.
 
 ## 8. Second Example (Real-World AI)
 In an image classification model predicting Cat vs Dog:
 - Neural network outputs logits $[2.1, 0.5]$.
-- Softmax converts logits to probabilities: $P(	ext{Cat}) = rac{e^{2.1}}{e^{2.1} + e^{0.5}} pprox 0.832$.
+- Softmax converts logits to probabilities: $P(	ext{Cat}) = \frac{e^{2.1}}{e^{2.1} + e^{0.5}} pprox 0.832$.
 - $P(	ext{Dog}) = 1 - 0.832 = 0.168$.
 
 ## 9. Common Mistakes
@@ -54,7 +54,7 @@ In an image classification model predicting Cat vs Dog:
 Classifier predictions (e.g., logistic regression, softmax layer in deep learning) output values in $[0, 1]$ representing $P(Y=1|X)$.
 
 ## 11. Algorithm Connection
-- **Logistic Regression**: Sigmoid function $\sigma(z) = rac{1}{1 + e^{-z}}$ forces output to be a probability.
+- **Logistic Regression**: Sigmoid function $\sigma(z) = \frac{1}{1 + e^{-z}}$ forces output to be a probability.
 - **Classification Thresholding**: Decision boundary where prediction is class 1 if $P(Y=1|X) \ge 0.5$.
 
 ## 12. Practical Interpretation

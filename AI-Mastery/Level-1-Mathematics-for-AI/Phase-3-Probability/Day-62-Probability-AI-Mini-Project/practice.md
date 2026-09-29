@@ -16,7 +16,7 @@
 
 ## Level 3: Conceptual & Multi-Step Problems
 11. Explain how text preprocessing (lowercasing, punctuation removal) affects vocabulary size $D$ and Laplace smoothing denominators.
-12. Show that Laplace smoothed probability $rac{N_{c,i} + 1}{N_c + D}$ sums to 1 across all $D$ words in vocabulary.
+12. Show that Laplace smoothed probability $\frac{N_{c,i} + 1}{N_c + D}$ sums to 1 across all $D$ words in vocabulary.
 13. Prove that updating posterior probability sequentially with independent evidence yields the exact same result as updating with all evidence simultaneously.
 14. Explain why high Precision is prioritized over High Recall in email spam filtering (avoiding moving legitimate emails to spam).
 15. Explain why high Recall is prioritized over High Precision in medical disease diagnosis.

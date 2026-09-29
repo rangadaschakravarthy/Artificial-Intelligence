@@ -16,13 +16,13 @@
 ## Example 3: Poisson Call Arrival
 **Problem**: An AI customer bot receives $\lambda = 5$ calls per minute. Compute $P(X = 2)$.
 **Solution**:
-1. $P(X = 2) = rac{5^2 e^{-5}}{2!} = rac{25 	imes 0.006738}{2} = rac{0.16845}{2} pprox 0.0842 = 8.42\%$.
+1. $P(X = 2) = \frac{5^2 e^{-5}}{2!} = \frac{25 	imes 0.006738}{2} = \frac{0.16845}{2} pprox 0.0842 = 8.42\%$.
 
 ## Example 4: Uniform Weight Initialization (Xavier Uniform)
-**Problem**: Weights are initialized $W \sim 	ext{Uniform}(-a, a)$ with $a = \sqrt{rac{6}{d_{in} + d_{out}}}$. For $d_{in}=100, d_{out}=100$, compute $a$ and weight variance.
+**Problem**: Weights are initialized $W \sim 	ext{Uniform}(-a, a)$ with $a = \sqrt{\frac{6}{d_{in} + d_{out}}}$. For $d_{in}=100, d_{out}=100$, compute $a$ and weight variance.
 **Solution**:
-1. $a = \sqrt{rac{6}{200}} = \sqrt{0.03} pprox 0.1732$.
-2. $	ext{Var}(W) = rac{(a - (-a))^2}{12} = rac{(2a)^2}{12} = rac{4 a^2}{12} = rac{a^2}{3} = rac{0.03}{3} = 0.01$.
+1. $a = \sqrt{\frac{6}{200}} = \sqrt{0.03} pprox 0.1732$.
+2. $	ext{Var}(W) = \frac{(a - (-a))^2}{12} = \frac{(2a)^2}{12} = \frac{4 a^2}{12} = \frac{a^2}{3} = \frac{0.03}{3} = 0.01$.
 
 ## Example 5: Gaussian Empirical Rule
 **Problem**: Model weights $W \sim \mathcal{N}(0, 4)$ (so $\mu=0, \sigma=2$). Find interval containing $95.45\%$ of weights.

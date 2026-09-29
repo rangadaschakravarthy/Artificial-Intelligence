@@ -53,11 +53,11 @@ Discrete RV $X$: $P(X=1)=0.2, P(X=2)=0.5, P(X=3)=0.3$.
 4. $\sigma = \sqrt{0.49} = 0.70$.
 
 ## 7. Second Example (Feature Standardization in AI)
-Standardizing feature $X$: $Z = rac{X - \mu}{\sigma}$.
-- $E[Z] = E\left[rac{X - \mu}{\sigma}
-ight] = rac{E[X] - \mu}{\sigma} = rac{\mu - \mu}{\sigma} = 0$.
-- $	ext{Var}(Z) = 	ext{Var}\left(rac{X - \mu}{\sigma}
-ight) = rac{1}{\sigma^2} 	ext{Var}(X - \mu) = rac{\sigma^2}{\sigma^2} = 1$.
+Standardizing feature $X$: $Z = \frac{X - \mu}{\sigma}$.
+- $E[Z] = E\left[\frac{X - \mu}{\sigma}
+ight] = \frac{E[X] - \mu}{\sigma} = \frac{\mu - \mu}{\sigma} = 0$.
+- $	ext{Var}(Z) = 	ext{Var}\left(\frac{X - \mu}{\sigma}
+ight) = \frac{1}{\sigma^2} 	ext{Var}(X - \mu) = \frac{\sigma^2}{\sigma^2} = 1$.
 Standardized variable $Z$ has Mean 0 and Variance 1!
 
 ## 8. Common Mistakes

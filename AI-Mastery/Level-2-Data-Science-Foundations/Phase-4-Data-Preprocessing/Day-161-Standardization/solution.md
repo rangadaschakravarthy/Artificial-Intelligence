@@ -2,7 +2,7 @@
 
 ## Level 1 — Basic
 1. Mean $\mu = 0$, Standard Deviation $\sigma = 1$.
-2. $z = rac{x - \mu}{\sigma}$.
+2. $z = \frac{x - \mu}{\sigma}$.
 3. No. Standardized values are unbounded and typically fall between $-3$ and $+3$ for Gaussian distributions.
 
 ## Level 2 — Coding

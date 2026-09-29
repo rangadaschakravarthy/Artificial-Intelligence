@@ -40,7 +40,7 @@ Explain why singular matrices cannot be inverted and why `solve()` is preferred 
 ## Completion Checklist
 - [ ] I can calculate a 2x2 matrix inverse manually
 - [ ] I know the condition for invertibility ($\det 
-eq 0$)
+\neq 0$)
 - [ ] I know the product inverse rule $(\mathbf{A}\mathbf{B})^{-1} = \mathbf{B}^{-1}\mathbf{A}^{-1}$
 - [ ] I can solve linear systems in Python
 

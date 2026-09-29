@@ -13,19 +13,19 @@
   
 
 $$
-t = rac{ar{X} - \mu}{s / \sqrt{N}} \sim t_{N-1}
+t = \frac{ar{X} - \mu}{s / \sqrt{N}} \sim t_{N-1}
 $$
 
 - **Student's $t$ PDF**:
   $$f(t; 
-u) = rac{\Gamma\left(rac{
+u) = \frac{\Gamma\left(\frac{
 u+1}{2}
 ight)}{\sqrt{
-u \pi} \Gamma\left(rac{
+u \pi} \Gamma\left(\frac{
 u}{2}
-ight)} \left( 1 + rac{t^2}{
+ight)} \left( 1 + \frac{t^2}{
 u} 
-ight)^{-rac{
+ight)^{-\frac{
 u+1}{2}}$$
   *(where $
 u = df = N - 1$ degrees of freedom)*
@@ -34,7 +34,7 @@ u = df = N - 1$ degrees of freedom)*
   
 
 $$
-\chi^2 = \sum_{i=1}^k rac{(O_i - E_i)^2}{E_i} \sim \chi^2_{df}
+\chi^2 = \sum_{i=1}^k \frac{(O_i - E_i)^2}{E_i} \sim \chi^2_{df}
 $$
 
 ## 4. Degrees of Freedom ($df$)

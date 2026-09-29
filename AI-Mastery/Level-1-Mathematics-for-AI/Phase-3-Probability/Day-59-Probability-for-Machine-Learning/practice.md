@@ -22,13 +22,13 @@
 15. Explain how expected calibration error (ECE) measures whether a model's predicted confidence $0.80$ matches true accuracy $80\%$.
 
 ## Level 4: AI & ML Applications
-16. In Logistic Regression, sigmoid $\sigma(z) = rac{1}{1 + e^{-z}}$. Compute derivative $rac{d\sigma}{dz}$ in terms of $\sigma(z)$.
+16. In Logistic Regression, sigmoid $\sigma(z) = \frac{1}{1 + e^{-z}}$. Compute derivative $\frac{d\sigma}{dz}$ in terms of $\sigma(z)$.
 17. Show that gradient of BCE loss $L = -[y \ln \hat{y} + (1-y) \ln(1-\hat{y})]$ w.r.t logit $z$ simplifies to $(\hat{y} - y)$.
 18. Explain why Softmax + Cross-Entropy loss avoids vanishing gradients during neural network training compared to MSE + Sigmoid.
 19. Classify the following models as Generative or Discriminative: 1) Logistic Regression, 2) Naive Bayes, 3) Linear Discriminant Analysis (LDA), 4) Support Vector Machine (SVM).
-20. In temperature scaling for neural network calibration $q_i = rac{e^{z_i / T}}{\sum e^{z_j / T}}$, what happens when $T > 1$?
+20. In temperature scaling for neural network calibration $q_i = \frac{e^{z_i / T}}{\sum e^{z_j / T}}$, what happens when $T > 1$?
 
 ## Level 5: Interview Questions
 21. Prove that minimizing Cross-Entropy $H(p, q) = -\sum p(x) \log q(x)$ is mathematically equivalent to minimizing KL Divergence $D_{KL}(p \parallel q)$.
-22. Derive MAP estimate for Bernoulli parameter $p$ with Beta$(lpha, eta)$ prior, showing $\hat{p}_{MAP} = rac{k + lpha - 1}{N + lpha + eta - 2}$.
+22. Derive MAP estimate for Bernoulli parameter $p$ with Beta$(lpha, eta)$ prior, showing $\hat{p}_{MAP} = \frac{k + lpha - 1}{N + lpha + eta - 2}$.
 23. Write Python code using `scipy.optimize` to find MLE parameters for a custom distribution.

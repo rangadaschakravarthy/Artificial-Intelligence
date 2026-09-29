@@ -3,7 +3,7 @@
 ## Example 1: Z-Score Calculation
 **Problem**: Feature $X \sim \mathcal{N}(50, 10^2)$. Compute $Z$-score for $x = 65$.
 **Solution**:
-1. $Z = rac{x - \mu}{\sigma} = rac{65 - 50}{10} = rac{15}{10} = +1.5$.
+1. $Z = \frac{x - \mu}{\sigma} = \frac{65 - 50}{10} = \frac{15}{10} = +1.5$.
 2. $x = 65$ lies 1.5 standard deviations above the mean.
 
 ## Example 2: Probability from Z-Score Table
@@ -22,7 +22,7 @@
 ## Example 4: Z-Score Outlier Detection
 **Problem**: Server memory usage feature has $\mu = 40$ GB, $\sigma = 5$ GB. A reading shows $58$ GB. Is it an outlier ($|Z| > 3.0$)?
 **Solution**:
-1. $Z = rac{58 - 40}{5} = rac{18}{5} = 3.6$.
+1. $Z = \frac{58 - 40}{5} = \frac{18}{5} = 3.6$.
 2. Since $|3.6| > 3.0$, reading $58$ GB IS an outlier.
 
 ## Example 5: Custom StandardScaler Implementation

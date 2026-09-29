@@ -51,8 +51,8 @@ Discrete Joint PMF:
 ## 6. Second Example (Continuous Marginalization)
 Given joint PDF $f(x, y) = 4 x y$ on $[0, 1] 	imes [0, 1]$.
 Find marginal PDF $f_X(x)$:
-$$f_X(x) = \int_0^1 4 x y dy = 4 x \left[ rac{y^2}{2} 
-ight]_0^1 = 4 x \left( rac{1}{2} 
+$$f_X(x) = \int_0^1 4 x y dy = 4 x \left[ \frac{y^2}{2} 
+ight]_0^1 = 4 x \left( \frac{1}{2} 
 ight) = 2 x \quad 	ext{for } 0 \le x \le 1$$
 
 ## 7. Common Mistakes

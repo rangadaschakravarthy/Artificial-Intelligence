@@ -29,6 +29,6 @@
 20. In fraud detection models, if cost of false positive (blocking clean card) is $5 and cost of false negative (fraud loss) is $500, how should prediction probability threshold be set?
 
 ## Level 5: Interview Questions
-21. Derive the mathematical relationship between sample size $n$, effect size $d$, $lpha$, and $eta$ for a 2-sample $Z$-test: $n = rac{2 (Z_{lpha/2} + Z_{eta})^2}{d^2}$.
+21. Derive the mathematical relationship between sample size $n$, effect size $d$, $lpha$, and $eta$ for a 2-sample $Z$-test: $n = \frac{2 (Z_{lpha/2} + Z_{eta})^2}{d^2}$.
 22. How do you conduct a post-hoc power analysis, and why is pre-experiment power planning preferred?
 23. Write Python code using `statsmodels` to run complete power analysis and sample size estimation pipeline for an AI experiment.

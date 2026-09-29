@@ -16,13 +16,13 @@ ight]$$
 
 ## 4. Variants of Naive Bayes
 1. **Gaussian Naive Bayes (Continuous Features)**:
-   $$P(X_i = x_i \mid Y=c) = rac{1}{\sqrt{2\pi \sigma_{c,i}^2}} \exp\left( -rac{(x_i - \mu_{c,i})^2}{2\sigma_{c,i}^2} 
+   $$P(X_i = x_i \mid Y=c) = \frac{1}{\sqrt{2\pi \sigma_{c,i}^2}} \exp\left( -\frac{(x_i - \mu_{c,i})^2}{2\sigma_{c,i}^2} 
 ight)$$
 2. **Multinomial Naive Bayes (Word Counts)**:
    
 
 $$
-P(X_i = x_i \mid Y=c) = rac{N_{c,i} + lpha}{N_c + lpha D}
+P(X_i = x_i \mid Y=c) = \frac{N_{c,i} + lpha}{N_c + lpha D}
 $$
 
 3. **Bernoulli Naive Bayes (Binary Features)**:
@@ -37,7 +37,7 @@ If a word never appeared in Spam during training ($N_{c,i} = 0$), raw probabilit
 Laplace smoothing adds pseudo-counts $lpha > 0$ (typically $lpha = 1$):
 
 $$
-\hat{P}(X_i \mid Y=c) = rac{N_{c,i} + lpha}{N_c + lpha D}
+\hat{P}(X_i \mid Y=c) = \frac{N_{c,i} + lpha}{N_c + lpha D}
 $$
 
 ## 6. Notation
@@ -53,14 +53,14 @@ Classification: 2 classes (Spam, Ham). Vocabulary size $D = 3$.
 Laplace smoothed likelihood for Word 1 in Spam ($lpha=1$):
 
 $$
-P(W_1 \mid 	ext{Spam}) = rac{50 + 1}{100 + 1(3)} = rac{51}{103} pprox 0.4951
+P(W_1 \mid 	ext{Spam}) = \frac{50 + 1}{100 + 1(3)} = \frac{51}{103} pprox 0.4951
 $$
 
 ## 8. Second Example (Gaussian Naive Bayes)
 Feature $X_1$ (Height in cm) for Class $c$ (Male): $\mu_{c,1} = 175, \sigma_{c,1} = 10$.
 Evaluate likelihood for observed height $x_1 = 180$:
-$$P(X_1=180 \mid 	ext{Male}) = rac{1}{10 \sqrt{2\pi}} \exp\left( -rac{(180 - 175)^2}{2(100)} 
-ight) = rac{1}{25.1327} e^{-25/200} = 0.0398 	imes e^{-0.125} pprox 0.0351$$
+$$P(X_1=180 \mid 	ext{Male}) = \frac{1}{10 \sqrt{2\pi}} \exp\left( -\frac{(180 - 175)^2}{2(100)} 
+ight) = \frac{1}{25.1327} e^{-25/200} = 0.0398 	imes e^{-0.125} pprox 0.0351$$
 
 ## 9. Common Mistakes
 - Omitting Laplace smoothing, resulting in zero-probability zeroing out entire products.

@@ -12,7 +12,8 @@
 7. In Q6, compute marginal $p_Y(1)$.
 8. Joint PDF $f(x,y) = x + y$ on $[0,1] 	imes [0,1]$. Derive marginal $f_X(x)$.
 9. Joint PDF $f(x,y) = 2$ on $0 \le x \le y \le 1$. Derive marginal $f_X(x)$.
-10. For Bivariate Gaussian $\mathcal{N}\left( egin{bmatrix} 0 \ 0 \end{bmatrix}, egin{bmatrix} 16 & 5 \ 5 & 25 \end{bmatrix} ight)$, state standard deviation $\sigma_Y$.
+10. For Bivariate Gaussian $\mathcal{N}\left( egin{bmatrix} 0 \ 0 \end{bmatrix}, egin{bmatrix} 16 & 5 \ 5 & 25 \end{bmatrix} 
+ight)$, state standard deviation $\sigma_Y$.
 
 ## Level 3: Conceptual & Multi-Step Problems
 11. Derive marginal $f_Y(y)$ for joint PDF $f(x,y) = 2$ on $0 \le x \le y \le 1$.
@@ -24,7 +25,7 @@
 ## Level 4: AI & ML Applications
 16. In Bayesian Mixture Models $p(x) = \sum_{k=1}^K p(x | z=k) p(z=k)$, identify the joint distribution and the marginal distribution.
 17. In VAE latent spaces, observed image data marginal likelihood is $p(x) = \int p(x|z) p(z) dz$. Why is this integral intractable for complex neural networks $p(x|z)$?
-18. Explain how Monte Carlo integration approximates marginal $p(x) pprox rac{1}{S} \sum_{s=1}^S p(x | z^{(s)})$ by sampling $z^{(s)} \sim p(z)$.
+18. Explain how Monte Carlo integration approximates marginal $p(x) pprox \frac{1}{S} \sum_{s=1}^S p(x | z^{(s)})$ by sampling $z^{(s)} \sim p(z)$.
 19. Given 3D joint PMF $p(x, y, z)$, write the formula to marginalize out both $Y$ and $Z$ to find $p_X(x)$.
 20. In reinforcement learning, state transition dynamics $P(s' | s, a) = \sum_r P(s', r | s, a)$ marginalizes out reward $r$. Write the sum.
 

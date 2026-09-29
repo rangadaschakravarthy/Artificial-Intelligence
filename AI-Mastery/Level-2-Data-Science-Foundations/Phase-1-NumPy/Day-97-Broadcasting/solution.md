@@ -10,7 +10,7 @@
 ## Level 2 — Coding
 6. `res = M - v`
 7. `res = M - v[:, np.newaxis]`
-8. `(10, 5, 1)` and `(1, 5, 4)` -> Dim 2: $1 	o 4$; Dim 1: $5 == 5$; Dim 0: $1 	o 10$. Compatible! Output `(10, 5, 4)`.
+8. `(10, 5, 1)` and `(1, 5, 4)` -> Dim 2: $1 \to 4$; Dim 1: $5 == 5$; Dim 0: $1 \to 10$. Compatible! Output `(10, 5, 4)`.
 9. 
 ```python
 a = np.arange(1, 6)
@@ -21,7 +21,7 @@ grid = a[:, None] * a[None, :]
 ## Level 3 — Data Analysis
 11. `(4, 3, 5)`
 12. Trailing dimensions check $3 
-eq 4$. NumPy checks right-to-left, attempting to match 3 with 4.
+\neq 4$. NumPy checks right-to-left, attempting to match 3 with 4.
 13. Reshape `(4,)` to column vector `(4, 1)` using `vec[:, np.newaxis]`.
 14. `(10, 20)`
 15. `array([[11, 21], [12, 22]])`

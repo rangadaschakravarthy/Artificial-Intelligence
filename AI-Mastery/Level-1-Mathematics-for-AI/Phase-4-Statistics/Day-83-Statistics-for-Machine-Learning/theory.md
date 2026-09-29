@@ -12,7 +12,7 @@ Statistics integrates into 4 major machine learning lifecycle stages:
   
 
 $$
-F = rac{	ext{Between-Class Variance}}{	ext{Within-Class Variance}}
+F = \frac{	ext{Between-Class Variance}}{	ext{Within-Class Variance}}
 $$
 
   High $F$-score $\implies$ Feature mean differs significantly across classes (High predictive signal!).
@@ -20,8 +20,8 @@ $$
 
 ## 3. Multiple Testing Correction
 When evaluating $m$ features simultaneously:
-- **Bonferroni Correction**: $lpha_{	ext{adj}} = rac{lpha}{m}$ (Very conservative).
-- **Benjamini-Hochberg (FDR)**: Sort $p$-values $p_{(1)} \le \dots \le p_{(m)}$ and find largest $k$ where $p_{(k)} \le rac{k}{m} q^*$.
+- **Bonferroni Correction**: $lpha_{	ext{adj}} = \frac{lpha}{m}$ (Very conservative).
+- **Benjamini-Hochberg (FDR)**: Sort $p$-values $p_{(1)} \le \dots \le p_{(m)}$ and find largest $k$ where $p_{(k)} \le \frac{k}{m} q^*$.
 
 ## 4. Summary
 Statistical feature selection (ANOVA/Chi-Square) and A/B testing provide mathematical rigor across ML model training and deployment.

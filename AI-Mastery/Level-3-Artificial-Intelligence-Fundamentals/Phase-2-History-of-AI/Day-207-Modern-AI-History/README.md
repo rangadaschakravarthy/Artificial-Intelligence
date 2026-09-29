@@ -10,8 +10,8 @@
 
 ## Topics Covered
 - The Great Pendulum Swings of AI:
-  - 1950s–1970s: Early Symbolic Exploration $	o$ First AI Winter
-  - 1980s: Expert Systems Commercial Boom $	o$ Second AI Winter
+  - 1950s–1970s: Early Symbolic Exploration $\to$ First AI Winter
+  - 1980s: Expert Systems Commercial Boom $\to$ Second AI Winter
   - 1990s–2000s: Statistical Machine Learning (SVMs, Graph Models)
   - 2010s: Deep Learning & GPU Parallel Compute Revolution
   - 2020s: Transformers, Foundation Models, and Generative AI

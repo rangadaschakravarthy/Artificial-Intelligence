@@ -23,7 +23,7 @@
 **Solution**:
 - $H_0: eta_1 = 0$
 - $H_a: eta_1 
-eq 0$
+\neq 0$
 
 ## Example 5: Python Hypothesis Formulation Function
 **Problem**: Write Python function to format hypotheses strings.

@@ -18,7 +18,7 @@
 11. Explain why selecting features using target $Y$ on the ENTIRE dataset before train/test split causes severe data leakage.
 12. Show why Benjamini-Hochberg False Discovery Rate (FDR) control has higher statistical power than Bonferroni correction.
 13. Explain how Covariate Shift ($P_{train}(X) 
-eq P_{test}(X)$) causes ML model performance degradation.
+\neq P_{test}(X)$) causes ML model performance degradation.
 14. Explain why A/B tests use 2-sample proportion Z-tests or Welch's t-tests rather than simple sample mean comparisons.
 15. Explain how Population Stability Index (PSI) measures distribution shift in credit risk modeling.
 
@@ -30,6 +30,6 @@ eq P_{test}(X)$) causes ML model performance degradation.
 20. In automated MLOps pipelines, how are KS-test $p$-values used to trigger automated model retraining alerts?
 
 ## Level 5: Interview Questions
-21. Derive the ANOVA $F$-statistic formula $F = rac{MS_{	ext{between}}}{MS_{	ext{within}}}$ and explain how it measures class separation.
+21. Derive the ANOVA $F$-statistic formula $F = \frac{MS_{	ext{between}}}{MS_{	ext{within}}}$ and explain how it measures class separation.
 22. How do you design an A/B test for a recommendation engine while preventing network spillover / contagion effects between users?
 23. Write Python code using Scikit-Learn and SciPy to execute a full Statistical Feature Selection and A/B Test Lift Evaluation pipeline.

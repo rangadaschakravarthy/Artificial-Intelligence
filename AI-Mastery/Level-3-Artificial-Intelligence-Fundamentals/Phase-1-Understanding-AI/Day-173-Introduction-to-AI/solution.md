@@ -3,7 +3,7 @@
 ## Level 1 — Basic
 1. Thought vs Action and Human-like vs Rationality.
 2. The sensory input received by an agent at any given moment.
-3. The mathematical mapping $f: \mathcal{P}^* 	o \mathcal{A}$ from percept history to selected action.
+3. The mathematical mapping $f: \mathcal{P}^* \to \mathcal{A}$ from percept history to selected action.
 4. False. Rationality maximizes *expected* performance based on available information, not guaranteed outcome omniscience.
 5. The Performance Measure.
 

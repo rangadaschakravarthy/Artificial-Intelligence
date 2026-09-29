@@ -10,8 +10,8 @@
 - Day 201: Second AI Winter
 
 ## Topics Covered
-- The 1990s Transition: Hand-coded boolean logic $	o$ Probabilistic graph models
-- Handling uncertainty with Bayes' Theorem ($P(A \mid B) = rac{P(B \mid A)P(A)}{P(B)}$)
+- The 1990s Transition: Hand-coded boolean logic $\to$ Probabilistic graph models
+- Handling uncertainty with Bayes' Theorem ($P(A \mid B) = \frac{P(B \mid A)P(A)}{P(B)}$)
 - Bayesian Networks (Directed Acyclic Graphs of conditional dependence)
 - Hidden Markov Models (HMMs) for speech recognition and sequence decoding
 - Why statistical methods succeeded where rigid boolean rules failed

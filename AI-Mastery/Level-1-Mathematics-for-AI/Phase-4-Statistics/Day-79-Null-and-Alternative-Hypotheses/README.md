@@ -3,7 +3,7 @@
 ## Learning Objectives
 - Formulate precise mathematical Null ($H_0$) and Alternative ($H_a$) hypotheses across different AI scenarios.
 - Master Equality vs Inequality constraints ($=, 
-eq, \le, \ge, <, >$).
+\neq, \le, \ge, <, >$).
 - Understand Directional vs Non-Directional Hypotheses.
 - Write hypothesis generators in Python.
 
@@ -31,7 +31,7 @@ Correctly translating business and technical goals (e.g., "Is Model B accuracy h
 - [ ] Ensure $=$ is in $H_0$
 - [ ] Match research question to $H_a$
 - [ ] Differentiate 2-tailed ($H_a: 
-eq$) vs 1-tailed ($H_a: >, <$)
+\neq$) vs 1-tailed ($H_a: >, <$)
 - [ ] Code hypothesis setup in Python
 
 ## Estimated Difficulty

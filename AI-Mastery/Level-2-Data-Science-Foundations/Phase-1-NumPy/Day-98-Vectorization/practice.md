@@ -27,8 +27,8 @@
 18. Fix issue where `np.vectorize` failed to speed up a slow Python data processing function.
 
 ## Level 5 — AI/ML Application
-19. Implement vectorized Sigmoid activation function $S(x) = rac{1}{1 + e^{-x}}$ over 2D input matrix.
-20. Implement vectorized Cosine Similarity between two feature matrices $A$ and $B$: $rac{A \cdot B^T}{\|A\| \|B\|}$.
+19. Implement vectorized Sigmoid activation function $S(x) = \frac{1}{1 + e^{-x}}$ over 2D input matrix.
+20. Implement vectorized Cosine Similarity between two feature matrices $A$ and $B$: $\frac{A \cdot B^T}{\|A\| \|B\|}$.
 21. Connect SIMD vector instructions to parallel tensor computations in machine learning frameworks.
 
 ## Level 6 — Interview Questions

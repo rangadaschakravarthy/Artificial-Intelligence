@@ -12,7 +12,7 @@
 **Solution**:
 - $H_0: \mu = 50$ ms.
 - $H_a: \mu 
-eq 50$ ms.
+\neq 50$ ms.
 - Type of test: Two-Tailed test.
 
 ## Example 3: Two-Tailed Z Critical Values

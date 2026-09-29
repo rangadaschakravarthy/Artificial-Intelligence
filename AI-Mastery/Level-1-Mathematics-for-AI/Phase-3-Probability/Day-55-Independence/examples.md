@@ -6,15 +6,17 @@
 1. Marginals: $p_X(0) = 0.1+0.3=0.4, p_X(1) = 0.2+0.4=0.6$.
 2. Marginals: $p_Y(0) = 0.1+0.2=0.3, p_Y(1) = 0.3+0.4=0.7$.
 3. Check $p(0,0)$: $p_X(0)p_Y(0) = 0.4 	imes 0.3 = 0.12 
-eq 0.10$.
+\neq 0.10$.
 4. Since $0.10 
-eq 0.12$, $X$ and $Y$ are NOT independent.
+\neq 0.12$, $X$ and $Y$ are NOT independent.
 
 ## Example 2: Continuous PDF Factorization
 **Problem**: Joint PDF $f(x, y) = 4 x y$ for $0 \le x \le 1, 0 \le y \le 1$. Determine if $X$ and $Y$ are independent.
 **Solution**:
-1. $f_X(x) = \int_0^1 4 x y dy = 4x \left[ rac{y^2}{2} ight]_0^1 = 2x$.
-2. $f_Y(y) = \int_0^1 4 x y dx = 4y \left[ rac{x^2}{2} ight]_0^1 = 2y$.
+1. $f_X(x) = \int_0^1 4 x y dy = 4x \left[ \frac{y^2}{2} 
+ight]_0^1 = 2x$.
+2. $f_Y(y) = \int_0^1 4 x y dx = 4y \left[ \frac{x^2}{2} 
+ight]_0^1 = 2y$.
 3. Check product: $f_X(x) f_Y(y) = (2x)(2y) = 4 x y = f(x, y)$.
 4. Yes! $X$ and $Y$ are independent continuous random variables.
 

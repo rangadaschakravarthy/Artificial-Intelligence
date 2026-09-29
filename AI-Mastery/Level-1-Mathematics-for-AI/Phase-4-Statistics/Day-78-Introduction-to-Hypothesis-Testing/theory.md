@@ -14,7 +14,7 @@ Hypothesis testing is a formal statistical procedure for using sample data to ev
 
 ## 3. One-Tailed vs Two-Tailed Tests
 - **Two-Tailed Test** ($H_a: \mu 
-eq \mu_0$): Tests for difference in EITHER direction (increase or decrease). Split $lpha/2$ in both tails.
+\neq \mu_0$): Tests for difference in EITHER direction (increase or decrease). Split $lpha/2$ in both tails.
 - **One-Tailed Test Right** ($H_a: \mu > \mu_0$): Tests specifically for an INCREASE. Entire $lpha$ in upper tail.
 - **One-Tailed Test Left** ($H_a: \mu < \mu_0$): Tests specifically for a DECREASE. Entire $lpha$ in lower tail.
 

@@ -8,7 +8,7 @@
 ## Example 2: Bonferroni Adjustment
 **Problem**: Evaluating $m = 50$ candidate features at overall family-wise $lpha = 0.05$. What is the adjusted single-feature $p$-value threshold?
 **Solution**:
-- $lpha_{	ext{adj}} = rac{0.05}{50} = 0.001$.
+- $lpha_{	ext{adj}} = \frac{0.05}{50} = 0.001$.
 - Only features with $p \le 0.001$ are selected.
 
 ## Example 3: Scikit-Learn SelectKBest ANOVA
@@ -25,7 +25,7 @@ X_selected = selector.fit_transform(X, y)
 **Problem**: Baseline CTR $p_A = 0.05$. Variant B CTR $p_B = 0.06$. Compute absolute and relative lift.
 **Solution**:
 1. Absolute Lift $= p_B - p_A = 0.06 - 0.05 = +0.01 = +1.0\%$ absolute.
-2. Relative Lift $= rac{p_B - p_A}{p_A} = rac{0.01}{0.05} = +0.20 = +20.0\%$ relative lift.
+2. Relative Lift $= \frac{p_B - p_A}{p_A} = \frac{0.01}{0.05} = +0.20 = +20.0\%$ relative lift.
 
 ## Example 5: Data Drift Detection via KS-Test
 **Problem**: Run 2-sample KS test on production feature values vs training feature values.

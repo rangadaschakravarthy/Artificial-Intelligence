@@ -18,7 +18,7 @@
 11. `(50,)`
 12. `(5,)` (Axes 0 and 2 are collapsed, leaving dimension 1 of size 5).
 13. `a` is 1D `(5,)`, `b` is 2D `(1, 5)`. Inner matrix dimensions don't match ($5 
-eq 1$).
+\neq 1$).
 14. 2 axes (axis 1 and axis 2).
 15. `(1, 10, 1)`
 

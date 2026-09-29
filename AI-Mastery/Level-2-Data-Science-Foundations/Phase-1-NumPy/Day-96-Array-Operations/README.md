@@ -19,7 +19,7 @@
 Element-wise array operations form the mathematical foundation for loss computation, feature scaling, and activation functions in machine learning.
 
 ## Real-World Usage
-Applying feature scaling formulas $X_{	ext{scaled}} = rac{X - \mu}{\sigma}$ across entire datasets simultaneously.
+Applying feature scaling formulas $X_{	ext{scaled}} = \frac{X - \mu}{\sigma}$ across entire datasets simultaneously.
 
 ## Study Order
 1. Read `theory.md`.

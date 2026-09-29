@@ -10,7 +10,7 @@ Imagine picking a random person from the global population. The probability they
 For any two events $A$ and $B$ in sample space $\Omega$ with $P(B) > 0$:
 
 $$
-P(A|B) = rac{P(A \cap B)}{P(B)}
+P(A|B) = \frac{P(A \cap B)}{P(B)}
 $$
 
 ## 4. Notation
@@ -21,7 +21,7 @@ $$
 ## 5. Formula
 
 $$
-P(A|B) = rac{P(A \cap B)}{P(B)}, \quad P(B) > 0
+P(A|B) = \frac{P(A \cap B)}{P(B)}, \quad P(B) > 0
 $$
 
 $$
@@ -41,13 +41,13 @@ In a dataset of 100 images:
 Find $P(	ext{Cat} \mid 	ext{Whiskers}) = P(A|B)$:
 
 $$
-P(A|B) = rac{P(A \cap B)}{P(B)} = rac{25/100}{30/100} = rac{25}{30} = rac{5}{6} pprox 0.8333
+P(A|B) = \frac{P(A \cap B)}{P(B)} = \frac{25/100}{30/100} = \frac{25}{30} = \frac{5}{6} pprox 0.8333
 $$
 
 ## 8. Second Example (Machine Learning Confusion Matrix)
 Given binary confusion matrix values: $TP=80, FP=10, FN=20, TN=890$.
-- **Precision**: $P(Y=1 \mid \hat{Y}=1) = rac{TP}{TP + FP} = rac{80}{80 + 10} = rac{80}{90} pprox 0.8889$.
-- **Recall (Sensitivity)**: $P(\hat{Y}=1 \mid Y=1) = rac{TP}{TP + FN} = rac{80}{80 + 20} = rac{80}{100} = 0.80$.
+- **Precision**: $P(Y=1 \mid \hat{Y}=1) = \frac{TP}{TP + FP} = \frac{80}{80 + 10} = \frac{80}{90} pprox 0.8889$.
+- **Recall (Sensitivity)**: $P(\hat{Y}=1 \mid Y=1) = \frac{TP}{TP + FN} = \frac{80}{80 + 20} = \frac{80}{100} = 0.80$.
 
 ## 9. Common Mistakes
 - Confusing $P(A|B)$ with $P(B|A)$ (Transposition Fallacy).
@@ -62,11 +62,11 @@ Every supervised learning classifier estimates $P(Y=y \mid X=x)$, the conditiona
 
 ## 12. Practical Interpretation
 In medical AI, $P(	ext{Disease} \mid 	ext{Positive Test}) 
-eq P(	ext{Positive Test} \mid 	ext{Disease})$. Confusing these lead to massive false alarm misinterpretations.
+\neq P(	ext{Positive Test} \mid 	ext{Disease})$. Confusing these lead to massive false alarm misinterpretations.
 
 ## 13. Interview Insight
 **Q**: What is the relationship between $P(A|B)$ and $P(B|A)$?
-**A**: They are linked by Bayes' Theorem: $P(A|B) = rac{P(B|A)P(A)}{P(B)}$.
+**A**: They are linked by Bayes' Theorem: $P(A|B) = \frac{P(B|A)P(A)}{P(B)}$.
 
 ## 14. Summary
 Conditional probability updates event likelihoods under new evidence by restricting the sample space to the conditioning event.

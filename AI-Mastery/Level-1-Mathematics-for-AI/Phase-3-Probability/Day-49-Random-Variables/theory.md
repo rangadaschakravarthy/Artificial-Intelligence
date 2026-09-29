@@ -7,7 +7,7 @@ A random variable is a rule or mathematical function that assigns a numerical va
 When flipping a coin 3 times, the sample space consists of strings like $\{HHT, TTH, \dots\}$. Computers cannot perform matrix math on words. A random variable $X$ translates these outcomes into numbers, such as "number of Heads" ($X=2$ for $HHT$).
 
 ## 3. Mathematical Definition
-A random variable $X$ is a measurable function $X: \Omega 	o \mathbb{R}$ that maps elements $\omega \in \Omega$ from the sample space to real numbers on the real line.
+A random variable $X$ is a measurable function $X: \Omega \to \mathbb{R}$ that maps elements $\omega \in \Omega$ from the sample space to real numbers on the real line.
 
 ## 4. Notation
 - Uppercase $X, Y, Z$: The random variable itself (the rule / function).
@@ -27,7 +27,7 @@ Rolling two fair 6-sided dice. Let $X$ be the sum of the two dice.
 - Sample point $\omega = (3, 4) \in \Omega$.
 - $X((3, 4)) = 3 + 4 = 7$.
 - Support of $X$: $S_X = \{2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12\}$.
-- $P(X = 7) = rac{6}{36} = rac{1}{6}$.
+- $P(X = 7) = \frac{6}{36} = \frac{1}{6}$.
 
 ## 8. Second Example (AI Target Variable)
 In binary customer churn prediction:

@@ -6,13 +6,13 @@ Min-Max Normalization rescales numerical feature values into a fixed range, typi
 ### 2. Formula
 
 $$
-x' = rac{x - x_{\min}}{x_{\max} - x_{\min}}
+x' = \frac{x - x_{\min}}{x_{\max} - x_{\min}}
 $$
 
 For arbitrary target range $[a, b]$:
 
 $$
-x'' = a + rac{(x - x_{\min})(b - a)}{x_{\max} - x_{\min}}
+x'' = a + \frac{(x - x_{\min})(b - a)}{x_{\max} - x_{\min}}
 $$
 
 ### 3. Outlier Sensitivity Warning

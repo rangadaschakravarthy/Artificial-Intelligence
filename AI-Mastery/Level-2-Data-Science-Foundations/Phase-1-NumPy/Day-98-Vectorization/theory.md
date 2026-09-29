@@ -61,7 +61,7 @@ Pandas vectorized series methods (`df['A'] + df['B']`) avoid slow row-by-row `.a
 
 ### 12. AI/ML Connection
 Evaluating loss functions, computing gradient vector updates $w \leftarrow w - \eta 
-abla L$, and calculating matrix activations across large batches.
+\nabla L$, and calculating matrix activations across large batches.
 
 ### 13. Interview Insight
 Question: "Does `np.vectorize()` provide C-speed performance optimization?"

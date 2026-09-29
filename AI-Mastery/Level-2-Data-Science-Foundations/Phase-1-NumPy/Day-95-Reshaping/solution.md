@@ -17,7 +17,7 @@
 ## Level 3 — Data Analysis
 11. `(1, 10)`
 12. Total elements must match ($5 	imes 5 = 25 
-eq 20$).
+\neq 20$).
 13. `flatten()` explicitly allocates a new independent memory buffer copy.
 14. `(2, 4, 3)`
 15. `[1, 2, 3, 4]`

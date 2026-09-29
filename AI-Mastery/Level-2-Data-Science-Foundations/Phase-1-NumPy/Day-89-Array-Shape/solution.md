@@ -27,7 +27,7 @@ def can_multiply(A, B):
 
 ## Level 4 — Debugging
 16. Total size must match: $4 	imes 4 = 16 
-eq 15$. Use compatible dimensions e.g. `(3, 5)` or resize array.
+\neq 15$. Use compatible dimensions e.g. `(3, 5)` or resize array.
 17. Remove second `-1` wildcard parameter in `reshape()` call; specify all other dimensions explicitly.
 18. Transpose second matrix: `A @ B.T` so shapes align: `(5, 3) @ (3, 5)` -> `(5, 5)`.
 

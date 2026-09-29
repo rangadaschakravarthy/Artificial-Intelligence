@@ -19,7 +19,7 @@ $$
 
 - **Pearson Correlation**:
   $$
-ho_{X,Y} = rac{	ext{Cov}(X, Y)}{\sigma_X \sigma_Y}$$
+ho_{X,Y} = \frac{	ext{Cov}(X, Y)}{\sigma_X \sigma_Y}$$
 
 ## 4. Range and Interpretation
 - $
@@ -44,10 +44,10 @@ ho_{X,Y}$: Pearson correlation coefficient.
 
 ## 7. Step-by-Step Calculation
 Discrete joint points $(X, Y)$: $(1, 2), (2, 4), (3, 6)$ each with probability $1/3$.
-- $E[X] = rac{1+2+3}{3} = 2$.
-- $E[Y] = rac{2+4+6}{3} = 4$.
-- $E[XY] = rac{1(2) + 2(4) + 3(6)}{3} = rac{2 + 8 + 18}{3} = rac{28}{3} pprox 9.3333$.
-- $	ext{Cov}(X, Y) = E[XY] - E[X]E[Y] = rac{28}{3} - (2)(4) = 9.3333 - 8 = 1.3333$.
+- $E[X] = \frac{1+2+3}{3} = 2$.
+- $E[Y] = \frac{2+4+6}{3} = 4$.
+- $E[XY] = \frac{1(2) + 2(4) + 3(6)}{3} = \frac{2 + 8 + 18}{3} = \frac{28}{3} pprox 9.3333$.
+- $	ext{Cov}(X, Y) = E[XY] - E[X]E[Y] = \frac{28}{3} - (2)(4) = 9.3333 - 8 = 1.3333$.
 
 ## 8. Second Example (AI Feature Redundancy)
 In a linear regression dataset:

@@ -7,7 +7,7 @@ A set of vectors is linearly independent if no vector in the set can be built as
 Imagine directions on a map. 'North' and 'East' are independent because walking North will never get you even 1 millimeter East. But 'North', 'East', and 'Northeast' are dependent because Northeast = North + East.
 
 ### 3. Mathematical Definition
-A set of vectors \{\mathbf{v}_1, \mathbf{v}_2, \dots, \mathbf{v}_k\} \subset \mathbb{R}^n$ is linearly independent if the equation:
+A set of vectors $\{\mathbf{v}_1, \mathbf{v}_2, \dots, \mathbf{v}_k\} \subset \mathbb{R}^n$ is linearly independent if the equation:
 
 $$
 c_1 \mathbf{v}_1 + c_2 \mathbf{v}_2 + \dots + c_k \mathbf{v}_k = \mathbf{0}

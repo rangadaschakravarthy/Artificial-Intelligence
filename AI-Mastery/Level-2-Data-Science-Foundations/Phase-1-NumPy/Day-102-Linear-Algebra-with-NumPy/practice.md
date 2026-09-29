@@ -28,7 +28,7 @@
 
 ## Level 5 — AI/ML Application
 19. Implement closed-form Linear Regression weight equation $w = (X^T X)^{-1} X^T y$.
-20. Implement Principal Component Analysis (PCA) eigenvector extraction on covariance matrix $C = rac{1}{N-1} X^T X$.
+20. Implement Principal Component Analysis (PCA) eigenvector extraction on covariance matrix $C = \frac{1}{N-1} X^T X$.
 21. Connect vector norms (L1 and L2) to Lasso and Ridge regularization penalties in Machine Learning.
 
 ## Level 6 — Interview Questions

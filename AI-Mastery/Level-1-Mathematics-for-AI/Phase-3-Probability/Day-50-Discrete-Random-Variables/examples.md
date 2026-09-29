@@ -1,7 +1,7 @@
 # Worked Examples — Discrete Random Variables
 
 ## Example 1: PMF Verification
-**Problem**: Is $p(x) = rac{x}{10}$ for $x \in \{1, 2, 3, 4\}$ a valid PMF?
+**Problem**: Is $p(x) = \frac{x}{10}$ for $x \in \{1, 2, 3, 4\}$ a valid PMF?
 **Solution**:
 1. Non-negativity check: $p(1)=0.1, p(2)=0.2, p(3)=0.3, p(4)=0.4$. All $\ge 0$.
 2. Sum check: $\sum p(x) = 0.1 + 0.2 + 0.3 + 0.4 = 1.0$.
@@ -26,6 +26,6 @@
 1. $P(X \ge 2) = p(2) + p(3) = 0.30 + 0.10 = 0.40$.
 
 ## Example 5: Expectation of Discrete RV
-**Problem**: Compute expected value $E[X]$ for $X \in \{1, 2, 3, 4\}$ with PMF $p(x) = rac{x}{10}$.
+**Problem**: Compute expected value $E[X]$ for $X \in \{1, 2, 3, 4\}$ with PMF $p(x) = \frac{x}{10}$.
 **Solution**:
 1. $E[X] = \sum x \cdot p(x) = 1(0.1) + 2(0.2) + 3(0.3) + 4(0.4) = 0.1 + 0.4 + 0.9 + 1.6 = 3.0$.

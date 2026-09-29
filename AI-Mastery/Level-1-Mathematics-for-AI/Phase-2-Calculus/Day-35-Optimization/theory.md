@@ -5,7 +5,7 @@ Optimization is the process of finding the input values that give the lowest pos
 
 ### 2. Intuition
 Imagine hiking on a terrain in thick fog. You feel the ground with your feet: if it's flat in all directions ($
-abla f = \mathbf{0}$), you are at a critical point! If the ground curves UP in all directions like a bowl, you are at a MINIMUM.
+\nabla f = \mathbf{0}$), you are at a critical point! If the ground curves UP in all directions like a bowl, you are at a MINIMUM.
 
 ### 3. Mathematical Definition
 For twice-differentiable function $f: \mathbb{R}^n \rightarrow \mathbb{R}$:

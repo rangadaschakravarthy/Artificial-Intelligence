@@ -19,7 +19,7 @@
 2. Explain why Learning Rate Finder (Fast.ai technique) sweeps $\eta$ exponentially from $10^{-6}$ to $10^1$ to find optimal $\eta$.
 3. Explain the difference between Step Decay, Exponential Decay, and Cosine Annealing with Warm Restarts (SGDR).
 4. Why does AdamW require smaller learning rates ($10^{-4}$) compared to SGD ($10^{-1}$)?
-5. How does batch size $B$ scale with learning rate $\eta$ under Linear Learning Rate Scaling Rule ($	o$ double $B \implies$ double $\eta$)?
+5. How does batch size $B$ scale with learning rate $\eta$ under Linear Learning Rate Scaling Rule ($\to$ double $B \implies$ double $\eta$)?
 
 ## Level 4 — AI/ML Application
 1. Write a Python function implementing Cosine Annealing with Warmup learning rate scheduler. Plot $\eta_t$ over 100 epochs.

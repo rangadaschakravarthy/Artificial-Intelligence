@@ -6,8 +6,8 @@ Log and Power Transformations apply non-linear mathematical operations to stabil
 ### 2. Formulas
 - **Log1p**: $f(x) = \ln(1 + x)$ (safe for $x \ge 0$).
 - **Box-Cox**:
-  $$y^{(\lambda)} = egin{cases} rac{x^\lambda - 1}{\lambda} & 	ext{if } \lambda 
-eq 0 \ \ln(x) & 	ext{if } \lambda = 0 \end{cases} \quad (x > 0)$$
+  $$y^{(\lambda)} = egin{cases} \frac{x^\lambda - 1}{\lambda} & 	ext{if } \lambda 
+\neq 0 \ \ln(x) & 	ext{if } \lambda = 0 \end{cases} \quad (x > 0)$$
 - **Yeo-Johnson**: Extends Box-Cox to handle negative values and zeros ($x \le 0$).
 
 ### 3. Syntax

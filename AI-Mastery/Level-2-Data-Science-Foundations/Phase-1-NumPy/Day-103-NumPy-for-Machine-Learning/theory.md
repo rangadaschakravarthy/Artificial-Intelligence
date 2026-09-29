@@ -33,8 +33,8 @@ W -= learning_rate * dW
 ### 6. How It Works
 1. Forward Pass: Compute predictions $\hat{y} = X W + b$.
 2. Loss Calculation: Measure discrepancy $L(\hat{y}, y)$.
-3. Gradient Calculation: Compute partial derivative $rac{\partial L}{\partial W} = rac{2}{N} X^T (\hat{y} - y)$.
-4. Gradient Descent: Update parameters $W \leftarrow W - \eta rac{\partial L}{\partial W}$.
+3. Gradient Calculation: Compute partial derivative $\frac{\partial L}{\partial W} = \frac{2}{N} X^T (\hat{y} - y)$.
+4. Gradient Descent: Update parameters $W \leftarrow W - \eta \frac{\partial L}{\partial W}$.
 
 ### 7. Simple Example
 ```python
@@ -71,8 +71,8 @@ This exact tensor matrix math is executed inside PyTorch `autograd` and CUDA GPU
 
 ### 13. Interview Insight
 Question: "Derive the vectorized weight gradient for Linear Regression with MSE loss."
-Answer: Loss $L = rac{1}{N} \|X W - y\|^2 = rac{1}{N} (X W - y)^T (X W - y)$. Taking derivative wrt $W$: $
-abla_W L = rac{2}{N} X^T (X W - y) = rac{2}{N} X^T (\hat{y} - y)$.
+Answer: Loss $L = \frac{1}{N} \|X W - y\|^2 = \frac{1}{N} (X W - y)^T (X W - y)$. Taking derivative wrt $W$: $
+abla_W L = \frac{2}{N} X^T (X W - y) = \frac{2}{N} X^T (\hat{y} - y)$.
 
 ### 14. Summary
 Machine Learning models consist of matrix forward passes, loss functions, and gradient updates. All can be cleanly implemented in raw vectorized NumPy.

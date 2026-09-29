@@ -17,14 +17,14 @@
 ## Level 3: Conceptual & Multi-Step Problems
 11. Prove that $	ext{Var}(X) = E[X^2] - (E[X])^2$.
 12. Prove that $	ext{Var}(aX + b) = a^2 	ext{Var}(X)$.
-13. If $X_1, \dots, X_n$ are i.i.d. with mean $\mu$ and variance $\sigma^2$, find the mean and variance of sample mean $ar{X} = rac{1}{n} \sum_{i=1}^n X_i$.
-14. Explain why $	ext{Var}(ar{X}) = rac{\sigma^2}{n}$ implies that larger sample sizes reduce estimation variance.
+13. If $X_1, \dots, X_n$ are i.i.d. with mean $\mu$ and variance $\sigma^2$, find the mean and variance of sample mean $ar{X} = \frac{1}{n} \sum_{i=1}^n X_i$.
+14. Explain why $	ext{Var}(ar{X}) = \frac{\sigma^2}{n}$ implies that larger sample sizes reduce estimation variance.
 15. Prove that $E[(X - c)^2]$ is minimized when $c = E[X]$.
 
 ## Level 4: AI & ML Applications
-16. Input feature $X$ has mean $\mu = 50$ and $\sigma = 10$. Express standardized feature $Z = rac{X - 50}{10}$ and state its mean and variance.
-17. In Batch Normalization, feature $x_i$ is normalized to $\hat{x}_i = rac{x_i - \mu_B}{\sqrt{\sigma_B^2 + \epsilon}}$, then scaled $y_i = \gamma \hat{x}_i + eta$. State $E[y_i]$ and $	ext{Var}(y_i)$.
-18. An ensemble averages predictions of $M$ independent models, each with variance $\sigma^2$. Compute variance of ensemble average $ar{f}(x) = rac{1}{M} \sum_{m=1}^M f_m(x)$.
+16. Input feature $X$ has mean $\mu = 50$ and $\sigma = 10$. Express standardized feature $Z = \frac{X - 50}{10}$ and state its mean and variance.
+17. In Batch Normalization, feature $x_i$ is normalized to $\hat{x}_i = \frac{x_i - \mu_B}{\sqrt{\sigma_B^2 + \epsilon}}$, then scaled $y_i = \gamma \hat{x}_i + eta$. State $E[y_i]$ and $	ext{Var}(y_i)$.
+18. An ensemble averages predictions of $M$ independent models, each with variance $\sigma^2$. Compute variance of ensemble average $ar{f}(x) = \frac{1}{M} \sum_{m=1}^M f_m(x)$.
 19. Relate Q18 to variance reduction in Random Forests (Bagging).
 20. In reinforcement learning, cumulative return $G_t = \sum_{k=0}^{\infty} \gamma^k R_{t+k+1}$. Use Linearity of Expectation to write expected return $V(s) = E[G_t | S_t = s]$.
 

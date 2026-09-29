@@ -34,7 +34,7 @@ $$
 ext{New Offset} = 	ext{Base Offset} + (	ext{start} 	imes 	ext{stride})
 $$
 
-$$	ext{New Shape}_i = \left\lceil rac{	ext{stop} - 	ext{start}}{	ext{step}} 
+$$	ext{New Shape}_i = \left\lceil \frac{	ext{stop} - 	ext{start}}{	ext{step}} 
 ight
 ceil, \quad 	ext{New Stride}_i = 	ext{stride}_i 	imes 	ext{step}$$
 

@@ -1,8 +1,8 @@
 # Day 70 — Normal Distribution and Z-Scores
 
 ## Learning Objectives
-- Master Gaussian PDF $f(x) = rac{1}{\sigma \sqrt{2\pi}} e^{-rac{(x-\mu)^2}{2\sigma^2}}$.
-- Master Standardization to $Z$-score $Z = rac{X - \mu}{\sigma} \sim \mathcal{N}(0, 1)$.
+- Master Gaussian PDF $f(x) = \frac{1}{\sigma \sqrt{2\pi}} e^{-\frac{(x-\mu)^2}{2\sigma^2}}$.
+- Master Standardization to $Z$-score $Z = \frac{X - \mu}{\sigma} \sim \mathcal{N}(0, 1)$.
 - Apply 68-95-99.7 Empirical Rule.
 - Perform outlier detection and standardization in Python.
 
@@ -12,7 +12,7 @@
 ## Topics Covered
 1. Mathematical Properties of Gaussian Normal Distribution $\mathcal{N}(\mu, \sigma^2)$
 2. Standard Normal Distribution $\mathcal{N}(0, 1)$
-3. $Z$-Score Transformation $Z = rac{X - \mu}{\sigma}$
+3. $Z$-Score Transformation $Z = \frac{X - \mu}{\sigma}$
 4. Empirical Rule (68.27% - 95.45% - 99.73%)
 5. $Z$-Score Outlier Detection in ML (`StandardScaler`)
 
@@ -27,7 +27,7 @@ $Z$-score standardization (`StandardScaler`) centers features at mean 0 with uni
 5. Run `code.py`.
 
 ## Checklist
-- [ ] Convert raw $x$ to $Z$-score $Z = rac{x - \mu}{\sigma}$
+- [ ] Convert raw $x$ to $Z$-score $Z = \frac{x - \mu}{\sigma}$
 - [ ] Look up standard normal probabilities $\Phi(z)$
 - [ ] Apply 68-95-99.7 Empirical Rule
 - [ ] Implement `StandardScaler` in Python

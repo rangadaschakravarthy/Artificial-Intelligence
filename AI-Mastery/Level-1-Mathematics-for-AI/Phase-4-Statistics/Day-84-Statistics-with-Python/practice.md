@@ -17,7 +17,7 @@
 ## Level 3: Conceptual & Multi-Step Problems
 11. Explain why Durbin-Watson statistic near $2.0$ indicates uncorrelated residuals, while values $< 1.0$ indicate positive autocorrelation.
 12. Explain how multicollinearity inflates coefficient standard errors and how Condition Number in Statsmodels summary alerts to collinearity.
-13. Show how Adjusted $R^2 = 1 - rac{(1-R^2)(N-1)}{N-k-1}$ penalizes adding unnecessary features $k$.
+13. Show how Adjusted $R^2 = 1 - \frac{(1-R^2)(N-1)}{N-k-1}$ penalizes adding unnecessary features $k$.
 14. Explain how Breusch-Pagan test checks for Heteroscedasticity (non-constant variance) in regression residuals.
 15. Compare Statsmodels (statistical inference focus) vs Scikit-Learn (predictive accuracy focus) design philosophies.
 

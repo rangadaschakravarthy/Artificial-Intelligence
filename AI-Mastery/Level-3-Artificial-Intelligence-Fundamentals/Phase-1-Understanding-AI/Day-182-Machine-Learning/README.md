@@ -12,7 +12,7 @@
 ## Topics Covered
 - Machine Learning Definition (Arthur Samuel 1959 / Tom Mitchell 1997)
 - Mitchell's ML Definition: $P$ improves with $E$ with respect to $T$
-- Paradigm Shift: Rules + Data $	o$ Output (Traditional) vs Data + Output $	o$ Rules (ML)
+- Paradigm Shift: Rules + Data $\to$ Output (Traditional) vs Data + Output $\to$ Rules (ML)
 - ML Subfields: Supervised, Unsupervised, Reinforcement Learning
 - Why ML replaced pure Symbolic AI for perceptual tasks
 

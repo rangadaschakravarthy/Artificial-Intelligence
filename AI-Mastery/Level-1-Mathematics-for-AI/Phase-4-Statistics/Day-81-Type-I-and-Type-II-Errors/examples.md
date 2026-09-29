@@ -33,6 +33,6 @@ n_per_group = analysis.solve_power(
 ## Example 5: $lpha$ vs $eta$ Trade-off
 **Problem**: If you decrease $lpha$ from $0.05$ to $0.01$, what happens to Type II error $eta$ and Power $1-eta$?
 **Solution**:
-1. Decreasing $lpha$ moves critical value further out ($1.96 	o 2.58$), making $H_0$ harder to reject.
+1. Decreasing $lpha$ moves critical value further out ($1.96 \to 2.58$), making $H_0$ harder to reject.
 2. This increases Type II error $eta$ (more false negatives).
 3. Statistical Power $1-eta$ DECREASES.

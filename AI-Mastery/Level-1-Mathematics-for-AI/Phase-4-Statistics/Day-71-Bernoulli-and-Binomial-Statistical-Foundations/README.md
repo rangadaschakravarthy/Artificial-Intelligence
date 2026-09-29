@@ -12,9 +12,9 @@
 ## Topics Covered
 1. Bernoulli Statistical Model $	ext{Bern}(p)$
 2. Binomial Distribution $	ext{Bin}(n, p)$ as Sum of Independent Bernoullis
-3. Sample Proportion $\hat{p} = rac{X}{n}$ Statistics
+3. Sample Proportion $\hat{p} = \frac{X}{n}$ Statistics
 4. Normal Approximation to Binomial Distribution
-5. Standard Error of Proportion $SE(\hat{p}) = \sqrt{rac{p(1-p)}{n}}$
+5. Standard Error of Proportion $SE(\hat{p}) = \sqrt{\frac{p(1-p)}{n}}$
 
 ## Why This Matters for AI
 Binary classification accuracy, click-through rates (CTR), conversion rates in A/B testing, and precision/recall metrics are modeled statistically using Binomial proportion inference.
@@ -27,8 +27,8 @@ Binary classification accuracy, click-through rates (CTR), conversion rates in A
 5. Run `code.py`.
 
 ## Checklist
-- [ ] Compute sample proportion $\hat{p} = rac{X}{n}$
-- [ ] Compute Standard Error $SE(\hat{p}) = \sqrt{rac{\hat{p}(1-\hat{p})}{n}}$
+- [ ] Compute sample proportion $\hat{p} = \frac{X}{n}$
+- [ ] Compute Standard Error $SE(\hat{p}) = \sqrt{\frac{\hat{p}(1-\hat{p})}{n}}$
 - [ ] Check Normal approximation condition $n p \ge 10, n(1-p) \ge 10$
 - [ ] Compute proportion confidence intervals in Python
 

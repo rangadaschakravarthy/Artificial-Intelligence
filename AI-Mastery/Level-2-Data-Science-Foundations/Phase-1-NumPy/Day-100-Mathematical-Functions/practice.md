@@ -27,7 +27,7 @@
 18. Fix issue where `np.round()` rounded `2.5` to `2.0` instead of `3.0` (Explain round-to-even behavior).
 
 ## Level 5 — AI/ML Application
-19. Implement Sigmoid activation function $S(x) = rac{1}{1 + e^{-x}}$ using `np.exp()`.
+19. Implement Sigmoid activation function $S(x) = \frac{1}{1 + e^{-x}}$ using `np.exp()`.
 20. Implement Binary Cross-Entropy Loss function $	ext{BCE} = - 	ext{mean}(y \ln(p) + (1-y) \ln(1-p))$.
 21. Connect log transformations to normalizing right-skewed feature distributions before training linear models.
 

@@ -6,15 +6,15 @@ Standardization (Z-Score Normalization) rescales numerical features so that they
 ### 2. Formula
 
 $$
-z = rac{x - \mu}{\sigma}
+z = \frac{x - \mu}{\sigma}
 $$
 
-where $\mu = rac{1}{N}\sum x_i$ is the feature mean, and $\sigma = \sqrt{rac{1}{N}\sum (x_i - \mu)^2}$ is the standard deviation.
+where $\mu = \frac{1}{N}\sum x_i$ is the feature mean, and $\sigma = \sqrt{\frac{1}{N}\sum (x_i - \mu)^2}$ is the standard deviation.
 
 ### 3. Normalization vs Standardization Comparison
 | Attribute | Normalization (Min-Max) | Standardization (Z-Score) |
 |---|---|---|
-| **Formula** | $rac{x - x_{\min}}{x_{\max} - x_{\min}}$ | $rac{x - \mu}{\sigma}$ |
+| **Formula** | $\frac{x - x_{\min}}{x_{\max} - x_{\min}}$ | $\frac{x - \mu}{\sigma}$ |
 | **Output Range** | Fixed $[0, 1]$ | Unbounded $(-\infty, +\infty)$ |
 | **Mean / Std** | Varies | Mean = 0, Std = 1 |
 | **Outlier Sensitivity** | High | Moderate (preserves outlier variance) |

@@ -11,7 +11,7 @@
 - Level 1 Statistics: Gaussian Distribution & Z-Scores
 
 ## Topics Covered
-- Standardization Z-score formula: $z = rac{x - \mu}{\sigma}$
+- Standardization Z-score formula: $z = \frac{x - \mu}{\sigma}$
 - Properties of standardized features: Mean = 0, Standard Deviation = 1
 - `sklearn.preprocessing.StandardScaler` API
 - Robustness to outliers compared to Min-Max Normalization

@@ -26,7 +26,7 @@ This sheet provides quick reference mathematical formulas, code syntaxes, and us
 ### Z-Score Standardization
 
 $$
-z = rac{x - \mu}{\sigma}
+z = \frac{x - \mu}{\sigma}
 $$
 
 Where $\mu = 	ext{mean}(x)$ and $\sigma = 	ext{std}(x)$.
@@ -34,7 +34,7 @@ Where $\mu = 	ext{mean}(x)$ and $\sigma = 	ext{std}(x)$.
 ### Min-Max Normalization
 
 $$
-x' = rac{x - x_{\min}}{x_{\max} - x_{\min}}
+x' = \frac{x - x_{\min}}{x_{\max} - x_{\min}}
 $$
 
 ### Interquartile Range (IQR) & Outlier Bounds
@@ -54,7 +54,7 @@ $$
 ### Pearson Correlation Coefficient
 
 $$
-r_{xy} = rac{\sum (x_i - ar{x})(y_i - ar{y})}{\sqrt{\sum (x_i - ar{x})^2 \sum (y_i - ar{y})^2}}
+r_{xy} = \frac{\sum (x_i - ar{x})(y_i - ar{y})}{\sqrt{\sum (x_i - ar{x})^2 \sum (y_i - ar{y})^2}}
 $$
 
 ### Log1p Transformation

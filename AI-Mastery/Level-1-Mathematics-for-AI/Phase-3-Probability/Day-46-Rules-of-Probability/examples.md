@@ -16,9 +16,9 @@
 ## Example 3: Multiplication Rule (Dependent Events)
 **Problem**: An urn contains 5 red balls and 5 black balls. Draw 2 balls without replacement. What is $P(	ext{Both Red})$?
 **Solution**:
-1. $P(R_1) = rac{5}{10} = 0.5$.
-2. $P(R_2 | R_1) = rac{4}{9}$.
-3. $P(R_1 \cap R_2) = P(R_1) \cdot P(R_2 | R_1) = rac{5}{10} 	imes rac{4}{9} = rac{20}{90} = rac{2}{9} pprox 0.2222$.
+1. $P(R_1) = \frac{5}{10} = 0.5$.
+2. $P(R_2 | R_1) = \frac{4}{9}$.
+3. $P(R_1 \cap R_2) = P(R_1) \cdot P(R_2 | R_1) = \frac{5}{10} 	imes \frac{4}{9} = \frac{20}{90} = \frac{2}{9} pprox 0.2222$.
 
 ## Example 4: AI Example (Sensor Failure Risk)
 **Problem**: An autonomous vehicle relies on LIDAR ($P(	ext{fail}) = 0.01$) and Radar ($P(	ext{fail}) = 0.02$). Failures are independent. Vehicle fails if BOTH fail. What is vehicle system failure probability?

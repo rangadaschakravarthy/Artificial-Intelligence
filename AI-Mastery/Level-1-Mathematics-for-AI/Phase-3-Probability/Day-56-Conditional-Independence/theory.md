@@ -13,7 +13,7 @@ Consider Shoe Size ($X$) and Reading Ability ($Y$) among school children.
 $X$ and $Y$ are conditionally independent given $Z$ (written $X \perp \!\!\! \perp Y \mid Z$) if and only if:
 
 $$
-P(X=x, Y=y \mid Z=z) = P(X=x \mid Z=z) \cdot P(Y=y \mid Z=z) \quad orall x, y, z
+P(X=x, Y=y \mid Z=z) = P(X=x \mid Z=z) \cdot P(Y=y \mid Z=z) \quad \forall x, y, z
 $$
 
 Equivalent conditional form:

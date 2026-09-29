@@ -33,7 +33,7 @@ Extreme feature outliers warp linear regression weights. Features are bounded st
 Broadcasting converts feature matrix $X$ into zero-mean unit-variance space:
 
 $$
-X_{	ext{std}} = rac{X - \mu_{	ext{cols}}}{\sigma_{	ext{cols}}}
+X_{	ext{std}} = \frac{X - \mu_{	ext{cols}}}{\sigma_{	ext{cols}}}
 $$
 
 ### 6. Step 4: Closed-Form OLS Linear Regression

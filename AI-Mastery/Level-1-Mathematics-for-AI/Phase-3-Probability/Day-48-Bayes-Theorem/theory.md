@@ -10,13 +10,13 @@ Suppose a rare disease affects $0.1\%$ of people ($P(	ext{Disease}) = 0.001$). A
 Given hypothesis $H$ and evidence $E$:
 
 $$
-P(H|E) = rac{P(E|H) \cdot P(H)}{P(E)}
+P(H|E) = \frac{P(E|H) \cdot P(H)}{P(E)}
 $$
 
 Using Law of Total Probability for denominator:
 
 $$
-P(H|E) = rac{P(E|H) P(H)}{P(E|H) P(H) + P(E|H^c) P(H^c)}
+P(H|E) = \frac{P(E|H) P(H)}{P(E|H) P(H) + P(E|H^c) P(H^c)}
 $$
 
 ## 4. Notation
@@ -28,11 +28,11 @@ $$
 ## 5. Formula
 
 $$
-ext{Posterior} = rac{	ext{Likelihood} 	imes 	ext{Prior}}{	ext{Evidence}}
+ext{Posterior} = \frac{	ext{Likelihood} 	imes 	ext{Prior}}{	ext{Evidence}}
 $$
 
 $$
-P(A_i | B) = rac{P(B | A_i) P(A_i)}{\sum_{j=1}^k P(B | A_j) P(A_j)}
+P(A_i | B) = \frac{P(B | A_i) P(A_i)}{\sum_{j=1}^k P(B | A_j) P(A_j)}
 $$
 
 ## 6. Symbol Explanation
@@ -58,7 +58,7 @@ $$
    
 
 $$
-P(D|+) = rac{(0.95)(0.01)}{0.0590} = rac{0.0095}{0.0590} pprox 0.1610 = 16.10\%
+P(D|+) = \frac{(0.95)(0.01)}{0.0590} = \frac{0.0095}{0.0590} pprox 0.1610 = 16.10\%
 $$
 
 ## 8. Second Example (Spam Filtering)
@@ -66,7 +66,7 @@ Word "VIAGRA" appears in an email ($E$).
 - Prior $P(	ext{Spam}) = 0.30$.
 - $P(	ext{"VIAGRA"} | 	ext{Spam}) = 0.20$.
 - $P(	ext{"VIAGRA"} | 	ext{Ham}) = 0.001$.
-- Posterior $P(	ext{Spam} | 	ext{"VIAGRA"}) = rac{(0.20)(0.30)}{(0.20)(0.30) + (0.001)(0.70)} = rac{0.06}{0.06 + 0.0007} = rac{0.06}{0.0607} pprox 0.9885 = 98.85\%$.
+- Posterior $P(	ext{Spam} | 	ext{"VIAGRA"}) = \frac{(0.20)(0.30)}{(0.20)(0.30) + (0.001)(0.70)} = \frac{0.06}{0.06 + 0.0007} = \frac{0.06}{0.0607} pprox 0.9885 = 98.85\%$.
 
 ## 9. Common Mistakes
 - Base Rate Fallacy: Ignoring the prior probability $P(H)$.

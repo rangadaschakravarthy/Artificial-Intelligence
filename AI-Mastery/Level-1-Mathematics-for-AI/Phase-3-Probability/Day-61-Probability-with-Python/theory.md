@@ -18,10 +18,10 @@ For any statistical distribution object `dist = stats.norm(loc=mu, scale=sigma)`
 Monte Carlo simulation approximates expected values $E[g(X)]$ by drawing $S$ independent random samples and computing average:
 
 $$
-E[g(X)] pprox rac{1}{S} \sum_{s=1}^S g(x^{(s)}), \quad x^{(s)} \sim P(X)
+E[g(X)] pprox \frac{1}{S} \sum_{s=1}^S g(x^{(s)}), \quad x^{(s)} \sim P(X)
 $$
 
-By Law of Large Numbers, error decreases at rate $O\left(rac{1}{\sqrt{S}}
+By Law of Large Numbers, error decreases at rate $O\left(\frac{1}{\sqrt{S}}
 ight)$.
 
 ## 4. Fitting Distributions

@@ -3,7 +3,7 @@
 ## Example 1: Laplace Smoothed Probability
 **Problem**: In 1,000 Ham emails (total word count 50,000 across vocabulary $D = 10,000$), word "Crypto" appears $0$ times. Compute Laplace smoothed $P(	ext{"Crypto"}|	ext{Ham})$ with $lpha = 1$.
 **Solution**:
-1. $P(	ext{"Crypto"}|	ext{Ham}) = rac{N_{c,i} + 1}{N_c + 1 	imes D} = rac{0 + 1}{50000 + 10000} = rac{1}{60000} pprox 0.00001667$.
+1. $P(	ext{"Crypto"}|	ext{Ham}) = \frac{N_{c,i} + 1}{N_c + 1 	imes D} = \frac{0 + 1}{50000 + 10000} = \frac{1}{60000} pprox 0.00001667$.
 2. (Without Laplace smoothing, it would be $0/50000 = 0$).
 
 ## Example 2: Log-Domain Score Comparison
@@ -16,8 +16,8 @@
 ## Example 3: Gaussian Naive Bayes Prediction
 **Problem**: Class 0: $X_1 \sim \mathcal{N}(0, 1)$. Class 1: $X_1 \sim \mathcal{N}(3, 1)$. Priors are equal ($0.5$). Classify point $x_1 = 2.0$.
 **Solution**:
-1. Likelihood Class 0: $f_0(2) = rac{1}{\sqrt{2\pi}} e^{-(2-0)^2 / 2} = rac{1}{\sqrt{2\pi}} e^{-2} pprox 0.3989 	imes 0.1353 pprox 0.0540$.
-2. Likelihood Class 1: $f_1(2) = rac{1}{\sqrt{2\pi}} e^{-(2-3)^2 / 2} = rac{1}{\sqrt{2\pi}} e^{-0.5} pprox 0.3989 	imes 0.6065 pprox 0.2419$.
+1. Likelihood Class 0: $f_0(2) = \frac{1}{\sqrt{2\pi}} e^{-(2-0)^2 / 2} = \frac{1}{\sqrt{2\pi}} e^{-2} pprox 0.3989 	imes 0.1353 pprox 0.0540$.
+2. Likelihood Class 1: $f_1(2) = \frac{1}{\sqrt{2\pi}} e^{-(2-3)^2 / 2} = \frac{1}{\sqrt{2\pi}} e^{-0.5} pprox 0.3989 	imes 0.6065 pprox 0.2419$.
 3. Since $f_1(2) > f_0(2)$, predicted class is Class 1.
 
 ## Example 4: Bernoulli Naive Bayes Likelihood
@@ -32,5 +32,5 @@
 1. Max log-score offset: $S_{\max} = -8.0$.
 2. Exponents: $e^{-10 - (-8)} = e^{-2} pprox 0.1353$. $e^{-8 - (-8)} = e^0 = 1.0$.
 3. Sum $= 1.1353$.
-4. $P(Y=0|X) = rac{0.1353}{1.1353} pprox 0.1192 = 11.92\%$.
-5. $P(Y=1|X) = rac{1.0}{1.1353} pprox 0.8808 = 88.08\%$.
+4. $P(Y=0|X) = \frac{0.1353}{1.1353} pprox 0.1192 = 11.92\%$.
+5. $P(Y=1|X) = \frac{1.0}{1.1353} pprox 0.8808 = 88.08\%$.

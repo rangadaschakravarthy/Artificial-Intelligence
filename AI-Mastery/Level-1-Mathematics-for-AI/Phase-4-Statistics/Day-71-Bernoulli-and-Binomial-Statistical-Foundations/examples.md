@@ -3,8 +3,8 @@
 ## Example 1: Standard Error of Proportion Calculation
 **Problem**: An AI model classifies 400 test images ($n=400$), getting 320 correct ($X=320$). Compute sample accuracy $\hat{p}$ and standard error $SE(\hat{p})$.
 **Solution**:
-1. $\hat{p} = rac{320}{400} = 0.80$.
-2. $SE(\hat{p}) = \sqrt{rac{\hat{p}(1-\hat{p})}{n}} = \sqrt{rac{0.80(0.20)}{400}} = \sqrt{rac{0.16}{400}} = \sqrt{0.0004} = 0.02$.
+1. $\hat{p} = \frac{320}{400} = 0.80$.
+2. $SE(\hat{p}) = \sqrt{\frac{\hat{p}(1-\hat{p})}{n}} = \sqrt{\frac{0.80(0.20)}{400}} = \sqrt{\frac{0.16}{400}} = \sqrt{0.0004} = 0.02$.
 3. Sample accuracy is $80\% \pm 2\%$.
 
 ## Example 2: Checking Normal Approximation Conditions
@@ -19,7 +19,7 @@
 1. Check conditions: $n p = 50 \ge 10, n(1-p) = 50 \ge 10$ (Valid!).
 2. $\mu = n p = 50$, $\sigma = \sqrt{100(0.5)(0.5)} = \sqrt{25} = 5$.
 3. Apply continuity correction for $X \ge 60 \implies X \ge 59.5$.
-4. $Z = rac{59.5 - 50}{5} = rac{9.5}{5} = 1.90$.
+4. $Z = \frac{59.5 - 50}{5} = \frac{9.5}{5} = 1.90$.
 5. $P(Z \ge 1.90) = 1 - \Phi(1.90) pprox 1 - 0.9713 = 0.0287 = 2.87\%$.
 
 ## Example 4: 95% Confidence Interval for Proportion

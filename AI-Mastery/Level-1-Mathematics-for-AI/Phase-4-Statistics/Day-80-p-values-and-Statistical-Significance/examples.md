@@ -22,7 +22,7 @@
 ## Example 4: Cohen's d Effect Size Calculation
 **Problem**: Model A mean $= 80\%$, Model B mean $= 85\%$, pooled std dev $s_{pooled} = 10\%$. Compute Cohen's $d$.
 **Solution**:
-1. $d = rac{ar{x}_B - ar{x}_A}{s_{pooled}} = rac{85 - 80}{10} = rac{5}{10} = 0.50$ (Medium effect size).
+1. $d = \frac{ar{x}_B - ar{x}_A}{s_{pooled}} = \frac{85 - 80}{10} = \frac{5}{10} = 0.50$ (Medium effect size).
 
 ## Example 5: SciPy p-value Calculation
 **Problem**: Compute $p$-values in Python using SciPy.

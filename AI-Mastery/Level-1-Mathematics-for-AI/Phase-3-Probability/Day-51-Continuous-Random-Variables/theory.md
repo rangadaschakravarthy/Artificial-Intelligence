@@ -7,14 +7,14 @@ A continuous random variable takes values in a continuous range (an interval of 
 Imagine height in centimeters. What is the probability someone is EXACTLY 175.49281... cm tall? Zero. But what is the probability someone is BETWEEN 175 cm and 176 cm tall? That is a positive probability, equal to the area under the density curve between 175 and 176.
 
 ## 3. Mathematical Definition
-Let $X$ be a continuous random variable with PDF $f_X(x): \mathbb{R} 	o [0, \infty)$.
+Let $X$ be a continuous random variable with PDF $f_X(x): \mathbb{R} \to [0, \infty)$.
 - **Probability over Interval**: $P(a \le X \le b) = \int_a^b f_X(x) dx$
 - **CDF**: $F_X(x) = P(X \le x) = \int_{-\infty}^x f_X(t) dt$
 
 ## 4. Fundamental Relationship (Calculus)
 
 $$
-f(x) = rac{d}{dx} F(x) = F'(x)
+f(x) = \frac{d}{dx} F(x) = F'(x)
 $$
 
 ## 5. PDF Conditions
@@ -38,10 +38,10 @@ $$
 Standard Normal distribution $\mathcal{N}(0, 1)$:
 
 $$
-f(x) = rac{1}{\sqrt{2\pi}} e^{-rac{x^2}{2}}
+f(x) = \frac{1}{\sqrt{2\pi}} e^{-\frac{x^2}{2}}
 $$
 
-- $P(-1 \le X \le 1) = \int_{-1}^1 rac{1}{\sqrt{2\pi}} e^{-rac{x^2}{2}} dx pprox 0.6827$ ($68.27\%$ empirical rule).
+- $P(-1 \le X \le 1) = \int_{-1}^1 \frac{1}{\sqrt{2\pi}} e^{-\frac{x^2}{2}} dx pprox 0.6827$ ($68.27\%$ empirical rule).
 
 ## 9. Common Mistakes
 - Thinking PDF height $f(x)$ cannot exceed 1 (PDF is density, not probability; $f(x)$ can be $> 1$ as long as integral equals 1).

@@ -4,7 +4,7 @@
 1. When should you use Student's t-distribution instead of Standard Normal $Z$?
 2. What is the degrees of freedom ($df$) for a 1-sample t-test with sample size $N$?
 3. Describe the shape of a Chi-Square distribution $\chi^2_k$.
-4. What happens to the shape of Student's t-distribution as degrees of freedom $df 	o \infty$?
+4. What happens to the shape of Student's t-distribution as degrees of freedom $df \to \infty$?
 5. Write the formula for Chi-Square test statistic $\chi^2$.
 
 ## Level 2: Direct Calculations
@@ -29,7 +29,7 @@
 20. In cross-validation evaluation ($K=10$), why is a paired t-test appropriate for comparing two model architectures evaluated on identical data folds?
 
 ## Level 5: Interview Questions
-21. Prove that $t$-statistic $t = rac{Z}{\sqrt{U / 
+21. Prove that $t$-statistic $t = \frac{Z}{\sqrt{U / 
 u}}$ where $Z \sim \mathcal{N}(0,1)$ and $U \sim \chi^2_
 u$ independent follows Student's t-distribution.
 22. Why does Welch's t-test replace Student's t-test when two sample groups have unequal variances (Heteroscedasticity)?

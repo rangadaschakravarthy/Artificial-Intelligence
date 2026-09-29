@@ -16,7 +16,7 @@
 
 ## Level 3: Conceptual & Multi-Step Problems
 11. Derive $E[\hat{p}] = p$ showing that sample proportion is an unbiased estimator of population proportion $p$.
-12. Derive $	ext{Var}(\hat{p}) = rac{p(1-p)}{n}$ using linearity of variance on independent Bernoulli indicator variables.
+12. Derive $	ext{Var}(\hat{p}) = \frac{p(1-p)}{n}$ using linearity of variance on independent Bernoulli indicator variables.
 13. Show that $p(1-p)$ achieves its maximum value at $p = 0.50$, proving that standard error is highest at $p=0.50$.
 14. Explain why Wilson Score interval or Clopper-Pearson exact interval is preferred over Normal approximation interval when $p$ is close to 0 or 1.
 15. Determine the sample size $n$ required to estimate a proportion with margin of error $E = 0.03$ at $95\%$ confidence (worst-case $p=0.5$).
@@ -29,6 +29,6 @@
 20. Explain how sample size estimation prevents underpowered A/B tests in production AI deployments.
 
 ## Level 5: Interview Questions
-21. Prove De Moivre–Laplace Theorem showing that Binomial PMF converges to Normal PDF as $n 	o \infty$ using Stirling's approximation.
-22. Derive the required sample size formula $n = rac{Z_{lpha/2}^2 p (1-p)}{E^2}$ for proportion estimation.
+21. Prove De Moivre–Laplace Theorem showing that Binomial PMF converges to Normal PDF as $n \to \infty$ using Stirling's approximation.
+22. Derive the required sample size formula $n = \frac{Z_{lpha/2}^2 p (1-p)}{E^2}$ for proportion estimation.
 23. Write Python code using `statsmodels` to perform a 2-sample $Z$-test for proportions on A/B test conversion data.

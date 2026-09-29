@@ -27,7 +27,8 @@
 18. Fix issue where random sampling failed because probabilities `p` in `choice` did not sum to `1.0`.
 
 ## Level 5 — AI/ML Application
-19. Implement Xavier (Glorot) Uniform initialization: $W \sim 	ext{Uniform}\left(-\sqrt{rac{6}{	ext{fan\_in} + 	ext{fan\_out}}}, +\sqrt{rac{6}{	ext{fan\_in} + 	ext{fan\_out}}}ight)$.
+19. Implement Xavier (Glorot) Uniform initialization: $W \sim 	ext{Uniform}\left(-\sqrt{\frac{6}{	ext{fan\_in} + 	ext{fan\_out}}}, +\sqrt{\frac{6}{	ext{fan\_in} + 	ext{fan\_out}}}
+ight)$.
 20. Implement a 80/20 train/test random indices split for a dataset of size $N=1000$.
 21. Connect random sampling to Monte Carlo policy evaluation in Reinforcement Learning.
 

@@ -5,7 +5,8 @@
 2. `rowvar=False`
 3. $	ext{IQR} = Q3 - Q1 = 	ext{Percentile}(75) - 	ext{Percentile}(25)$.
 4. `np.histogram()`
-5. True ($-1.0 \le ho \le +1.0$).
+5. True ($-1.0 \le 
+ho \le +1.0$).
 
 ## Level 2 — Coding
 6. `p10, p50, p90 = np.percentile(np.arange(100), [10, 50, 90])` -> `(9.9, 49.5, 89.1)`.
@@ -43,7 +44,8 @@ X_clean = np.delete(X, drop_cols, axis=1)
 21. Skewed percentile distributions signal the need for log/power transforms to make feature distributions symmetric for ML models.
 
 ## Level 6 — Interview Solutions
-22. Pearson correlation is the normalized covariance: $ho_{X,Y} = rac{	ext{Cov}(X,Y)}{\sigma_X \sigma_Y} = rac{\sum (x_i - ar{x})(y_i - ar{y})}{\sqrt{\sum (x_i - ar{x})^2 \sum (y_i - ar{y})^2}}$.
+22. Pearson correlation is the normalized covariance: $
+ho_{X,Y} = \frac{	ext{Cov}(X,Y)}{\sigma_X \sigma_Y} = \frac{\sum (x_i - ar{x})(y_i - ar{y})}{\sqrt{\sum (x_i - ar{x})^2 \sum (y_i - ar{y})^2}}$.
 23. Pearson measures linear relationships between continuous variables. Spearman measures monotonic relationships between ranked values (robust to non-linear monotonic trends).
 24. `np.cov` computes sample covariance matrix, applying Bessel's correction ($N-1$ denominator) to provide an unbiased estimator of population covariance.
 25. When percentile falls between data points $i$ and $i+1$, interpolation method specifies value choice: `linear` (weighted average), `lower` ($i$), `higher` ($i+1$), `nearest` (closest index).

@@ -48,7 +48,7 @@ $$
 
 ## 6. Second Example (Bivariate Gaussian Distribution)
 Continuous 2D Gaussian PDF with mean vector $oldsymbol{\mu} = [\mu_1, \mu_2]^T$ and covariance matrix $oldsymbol{\Sigma}$:
-$$f(\mathbf{x}) = rac{1}{2\pi |oldsymbol{\Sigma}|^{1/2}} \exp\left( -rac{1}{2} (\mathbf{x} - oldsymbol{\mu})^T oldsymbol{\Sigma}^{-1} (\mathbf{x} - oldsymbol{\mu}) 
+$$f(\mathbf{x}) = \frac{1}{2\pi |oldsymbol{\Sigma}|^{1/2}} \exp\left( -\frac{1}{2} (\mathbf{x} - oldsymbol{\mu})^T oldsymbol{\Sigma}^{-1} (\mathbf{x} - oldsymbol{\mu}) 
 ight)$$
 
 ## 7. Common Mistakes
@@ -66,7 +66,7 @@ High joint probability density $f(\mathbf{x})$ indicates typical, realistic data
 
 ## 11. Interview Insight
 **Q**: How do you extract joint PDF from joint CDF $F(x, y)$?
-**A**: By taking partial derivatives: $f(x, y) = rac{\partial^2}{\partial x \partial y} F(x, y)$.
+**A**: By taking partial derivatives: $f(x, y) = \frac{\partial^2}{\partial x \partial y} F(x, y)$.
 
 ## 12. Summary
 Joint distributions $f(x,y)$ model multi-variable feature spaces, forming the foundation of multivariate AI algorithms.

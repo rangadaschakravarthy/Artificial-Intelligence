@@ -19,7 +19,7 @@
 12. Because evaluating the sampling distribution under $H_0$ requires specifying an exact numerical point parameter value (e.g. $\mu = \mu_0$) to calculate standard error and $Z$-scores.
 13. Selecting a 1-tailed direction after observing sample data effectively doubles the effective $lpha$ level (from $0.025$ to $0.05$ in that tail), artificially inflating false positive rates.
 14. Presumption of innocence $= H_0$. Jury must find evidence "beyond a reasonable doubt" ($lpha$) to convict ($H_a$). Verdict "Not Guilty" means insufficient evidence to convict, not proven innocence.
-15. Decreasing $lpha$ from $0.05$ to $0.01$ moves critical boundaries further out into the tails ($1.96 	o 2.58$), requiring much stronger empirical evidence to reject $H_0$.
+15. Decreasing $lpha$ from $0.05$ to $0.01$ moves critical boundaries further out into the tails ($1.96 \to 2.58$), requiring much stronger empirical evidence to reject $H_0$.
 
 ## Level 4
 16. $H_0: CTR_{B} - CTR_{A} \le 0$; $H_a: CTR_{B} - CTR_{A} > 0$.

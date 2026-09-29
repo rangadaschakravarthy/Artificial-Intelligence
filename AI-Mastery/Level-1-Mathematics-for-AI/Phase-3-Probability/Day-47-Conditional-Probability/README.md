@@ -12,7 +12,7 @@
 ## Topics Covered
 1. Definition of Conditional Probability $P(A|B)$
 2. Reduced Sample Space Intuition
-3. Formula $P(A|B) = rac{P(A \cap B)}{P(B)}$
+3. Formula $P(A|B) = \frac{P(A \cap B)}{P(B)}$
 4. Contingency Tables and Confusion Matrices
 5. Precision, Recall, and False Positive Rates as Conditional Probabilities
 
@@ -28,7 +28,7 @@ Machine learning inference is fundamentally conditional probability: finding $P(
 
 ## Checklist
 - [ ] Understand conditioning as restricting the sample space to $B$
-- [ ] Calculate $P(A|B) = rac{P(A \cap B)}{P(B)}$
+- [ ] Calculate $P(A|B) = \frac{P(A \cap B)}{P(B)}$
 - [ ] Express Precision and Recall as conditional probabilities
 - [ ] Build confusion matrix code in Python
 

@@ -3,8 +3,8 @@
 ## Example 1: t-Statistic Calculation
 **Problem**: Sample size $N = 16$ ($df = 15$), sample mean $ar{x} = 54$, sample $s = 8$. Test $H_0: \mu = 50$. Compute $t$-score.
 **Solution**:
-1. Standard Error $SE = rac{s}{\sqrt{N}} = rac{8}{\sqrt{16}} = rac{8}{4} = 2.0$.
-2. $t = rac{ar{x} - \mu_0}{SE} = rac{54 - 50}{2.0} = rac{4}{2.0} = +2.0$.
+1. Standard Error $SE = \frac{s}{\sqrt{N}} = \frac{8}{\sqrt{16}} = \frac{8}{4} = 2.0$.
+2. $t = \frac{ar{x} - \mu_0}{SE} = \frac{54 - 50}{2.0} = \frac{4}{2.0} = +2.0$.
 3. $t$-score is $+2.0$ with $df = 15$.
 
 ## Example 2: t Critical Value Lookup
@@ -18,9 +18,9 @@
 ## Example 3: Chi-Square Goodness-of-Fit Statistic
 **Problem**: Observed dice roll counts for 60 rolls: $O = [15, 7, 12, 8, 11, 7]$. Expected counts for fair die: $E_i = 10$. Compute $\chi^2$ statistic.
 **Solution**:
-1. $\chi^2 = \sum rac{(O_i - E_i)^2}{E_i}$.
-2. $= rac{(15-10)^2}{10} + rac{(7-10)^2}{10} + rac{(12-10)^2}{10} + rac{(8-10)^2}{10} + rac{(11-10)^2}{10} + rac{(7-10)^2}{10}$.
-3. $= rac{25 + 9 + 4 + 4 + 1 + 9}{10} = rac{52}{10} = 5.20$.
+1. $\chi^2 = \sum \frac{(O_i - E_i)^2}{E_i}$.
+2. $= \frac{(15-10)^2}{10} + \frac{(7-10)^2}{10} + \frac{(12-10)^2}{10} + \frac{(8-10)^2}{10} + \frac{(11-10)^2}{10} + \frac{(7-10)^2}{10}$.
+3. $= \frac{25 + 9 + 4 + 4 + 1 + 9}{10} = \frac{52}{10} = 5.20$.
 4. $df = 6 - 1 = 5$.
 
 ## Example 4: Chi-Square Critical Value Lookup

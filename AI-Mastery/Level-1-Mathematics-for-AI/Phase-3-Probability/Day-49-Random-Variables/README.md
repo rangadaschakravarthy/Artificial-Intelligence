@@ -10,7 +10,7 @@
 - Days 44–48 Probability basics and set theory.
 
 ## Topics Covered
-1. Mathematical Definition of a Random Variable $X: \Omega 	o \mathbb{R}$
+1. Mathematical Definition of a Random Variable $X: \Omega \to \mathbb{R}$
 2. Discrete vs Continuous Random Variables
 3. Support / Range of a Random Variable
 4. Random Variables in Machine Learning Datasets
@@ -27,7 +27,7 @@ Every column in a tabular dataset, pixel intensity in an image, or token embeddi
 5. Run `code.py`.
 
 ## Checklist
-- [ ] Define $X: \Omega 	o \mathbb{R}$
+- [ ] Define $X: \Omega \to \mathbb{R}$
 - [ ] Differentiate discrete vs continuous random variables
 - [ ] Identify support $S_X$ of a random variable
 - [ ] Simulate random variables using NumPy

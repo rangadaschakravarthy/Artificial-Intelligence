@@ -31,4 +31,4 @@
 ## Level 5: Interview Questions
 21. What is the difference between Frequentist and Bayesian views of probability?
 22. Prove $P(A^c) = 1 - P(A)$ using Kolmogorov Axioms.
-23. Why is Softmax preferred over simple normalization $rac{x_i}{\sum x_j}$ for converting neural network outputs to probabilities?
+23. Why is Softmax preferred over simple normalization $\frac{x_i}{\sum x_j}$ for converting neural network outputs to probabilities?

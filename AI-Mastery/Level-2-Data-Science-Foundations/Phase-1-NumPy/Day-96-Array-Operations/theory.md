@@ -62,7 +62,7 @@ print("Matrix Product (A @ B):
 Column-wise math in Pandas DataFrames (e.g. `df['total'] = df['price'] * df['qty']`) compiles directly to NumPy ufunc array operations.
 
 ### 12. AI/ML Connection
-Computing Mean Squared Error (MSE) loss: $	ext{MSE} = rac{1}{N} \sum (y_{	ext{pred}} - y_{	ext{true}})^2$ uses element-wise subtraction, squaring, and mean reduction.
+Computing Mean Squared Error (MSE) loss: $	ext{MSE} = \frac{1}{N} \sum (y_{	ext{pred}} - y_{	ext{true}})^2$ uses element-wise subtraction, squaring, and mean reduction.
 
 ### 13. Interview Insight
 Question: "What is the difference between `A * B` and `np.dot(A, B)` in NumPy?"

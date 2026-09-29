@@ -6,13 +6,14 @@
 3. State $H_0$ and $H_a$ for testing if two population means are equal.
 4. What tail type corresponds to $H_a: \mu > 100$?
 5. What tail type corresponds to $H_a: \mu 
-eq 100$?
+\neq 100$?
 
 ## Level 2: Direct Calculations
 6. Formulate $H_0$ and $H_a$ for testing if a new recommendation engine increases average basket size above $50.
 7. Formulate $H_0$ and $H_a$ for testing if server CPU usage differs from $70\%$.
 8. Formulate $H_0$ and $H_a$ for testing if a data compression algorithm reduces file size below 500 MB.
-9. Formulate $H_0$ and $H_a$ for testing if feature correlation $ho$ is non-zero.
+9. Formulate $H_0$ and $H_a$ for testing if feature correlation $
+ho$ is non-zero.
 10. Formulate $H_0$ and $H_a$ for testing if Model A and Model B have identical error variance ($\sigma_1^2 = \sigma_2^2$).
 
 ## Level 3: Conceptual & Multi-Step Problems

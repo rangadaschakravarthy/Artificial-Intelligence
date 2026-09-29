@@ -24,7 +24,7 @@ class SimpleAIAgent:
 
 ### 5. Parameters / Operational Environment
 - **Percept Sequence**: The complete history of sensory inputs received by the agent.
-- **Agent Function**: Mathematical mapping from percept history to selected action ($f: \mathcal{P}^* 	o \mathcal{A}$).
+- **Agent Function**: Mathematical mapping from percept history to selected action ($f: \mathcal{P}^* \to \mathcal{A}$).
 - **Performance Measure**: Objective criterion evaluating environmental outcome quality.
 
 ### 6. How It Works: The 4 Quadrants of AI
@@ -52,7 +52,7 @@ AI system output is an action, prediction, or decision that maximizes the expect
 Data Science provides the structured datasets, feature distributions, and cleaning pipelines that feed AI decision engines.
 
 ### 12. AI/ML Connection
-Machine Learning is the subset of AI where agent functions $f: \mathcal{P}^* 	o \mathcal{A}$ are learned automatically from data rather than hand-coded by human engineers.
+Machine Learning is the subset of AI where agent functions $f: \mathcal{P}^* \to \mathcal{A}$ are learned automatically from data rather than hand-coded by human engineers.
 
 ### 13. Interview Insight
 Question: "How do you define Artificial Intelligence in a technical interview?"

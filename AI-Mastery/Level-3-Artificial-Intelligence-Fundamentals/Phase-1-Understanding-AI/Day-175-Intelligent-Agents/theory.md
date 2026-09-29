@@ -33,7 +33,7 @@ To design an intelligent agent, you must specify its **PEAS**:
 6. **Granularity**: Discrete (finite states/actions like Chess) vs Continuous (smooth values like steering angle).
 
 ### 6. The 5 Agent Architectures
-1. **Simple Reflex Agent**: Acts strictly on current percept ($I 	o A$).
+1. **Simple Reflex Agent**: Acts strictly on current percept ($I \to A$).
 2. **Model-Based Reflex Agent**: Maintains internal state tracking unobserved environment aspects.
 3. **Goal-Based Agent**: Combines state tracking with explicit goal targets to plan action sequences.
 4. **Utility-Based Agent**: Uses a continuous utility function $U(s)$ to trade off competing goals.

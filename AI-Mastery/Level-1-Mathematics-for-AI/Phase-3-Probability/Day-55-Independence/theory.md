@@ -16,13 +16,13 @@ $$
 For PMF / PDF:
 
 $$
-f_{X,Y}(x, y) = f_X(x) \cdot f_Y(y) \quad orall x, y
+f_{X,Y}(x, y) = f_X(x) \cdot f_Y(y) \quad \forall x, y
 $$
 
 Conditional Probability Form:
 
 $$
-P(Y=y \mid X=x) = P(Y=y) \quad orall x, y
+P(Y=y \mid X=x) = P(Y=y) \quad \forall x, y
 $$
 
 ## 4. Fundamental Theorems for Independent RVs
@@ -60,7 +60,7 @@ This derivation is why loss functions sum across dataset rows!
 
 ## 8. Common Mistakes
 - Assuming zero correlation implies independence (Independence $\implies$ Uncorrelated, but Uncorrelated $
-eq\implies$ Independent).
+\neq\implies$ Independent).
 - Assuming i.i.d. holds for time-series data (time-series points are sequentially dependent!).
 
 ## 9. AI Connection
@@ -68,7 +68,7 @@ eq\implies$ Independent).
 - Naive Bayes Classifier assumes features are conditionally independent given class target.
 
 ## 10. Algorithm Connection
-- **Empirical Risk Minimization (ERM)**: Minimizes $rac{1}{N} \sum_{i=1}^N \mathcal{L}(y_i, f(x_i))$, justified by i.i.d. sampling.
+- **Empirical Risk Minimization (ERM)**: Minimizes $\frac{1}{N} \sum_{i=1}^N \mathcal{L}(y_i, f(x_i))$, justified by i.i.d. sampling.
 
 ## 11. Practical Interpretation
 Violating i.i.d. assumptions (e.g. data leakage, temporal autocorrelation) leads to overoptimistic test evaluation.

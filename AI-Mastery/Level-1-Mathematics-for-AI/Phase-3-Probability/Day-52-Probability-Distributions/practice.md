@@ -15,14 +15,15 @@
 10. For $X \sim \mathcal{N}(100, 25)$, compute standard deviation $\sigma$ and $z$-score for $x = 110$.
 
 ## Level 3: Conceptual & Multi-Step Problems
-11. Show that the Binomial distribution converges to Poisson distribution when $n 	o \infty$, $p 	o 0$ with $\lambda = n p$ constant.
+11. Show that the Binomial distribution converges to Poisson distribution when $n \to \infty$, $p \to 0$ with $\lambda = n p$ constant.
 12. Derive $E[X] = \lambda$ for $X \sim 	ext{Poisson}(\lambda)$.
 13. If $X_1, \dots, X_n \stackrel{iid}{\sim} 	ext{Bern}(p)$, show that $Y = \sum X_i \sim 	ext{Bin}(n, p)$.
 14. Compute $E[X^4]$ for standard normal $X \sim \mathcal{N}(0, 1)$ using integration by parts.
 15. If $X \sim \mathcal{N}(\mu_1, \sigma_1^2)$ and $Y \sim \mathcal{N}(\mu_2, \sigma_2^2)$ are independent, state the distribution of $Z = X + Y$.
 
 ## Level 4: AI & ML Applications
-16. In Kaiming (He) Normal Initialization, weights are drawn from $\mathcal{N}\left(0, rac{2}{d_{in}}ight)$. Find $\sigma$ for $d_{in} = 512$.
+16. In Kaiming (He) Normal Initialization, weights are drawn from $\mathcal{N}\left(0, \frac{2}{d_{in}}
+ight)$. Find $\sigma$ for $d_{in} = 512$.
 17. A text generator outputs tokens where word count per document follows Poisson Distribution with $\lambda = 200$. Compute standard deviation of document lengths.
 18. Softmax probabilities define a Categorical distribution (generalized Bernoulli). Write its log-likelihood loss for target class $y$.
 19. In diffusion models, forward noise adding process adds Gaussian noise $q(x_t | x_{t-1}) = \mathcal{N}(x_t; \sqrt{1-eta_t} x_{t-1}, eta_t I)$. State mean vector.

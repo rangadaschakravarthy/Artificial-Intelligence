@@ -8,11 +8,11 @@
 5. $S_X = \{1, 2, 3, 4, 5, 6\}$.
 
 ## Level 2
-6. $\Omega = \{HH, HT, TH, TT\}$. $X=1$ for $\{HT, TH\}$. $P(X=1) = rac{2}{4} = 0.50$.
-7. Favorable pairs for sum 4: $(1,3), (2,2), (3,1) \implies 3$ pairs. $P(X=4) = rac{3}{36} = rac{1}{12} pprox 0.0833$.
-8. Favorable pairs for sum $\ge 10$: $(4,6), (5,5), (5,6), (6,4), (6,5), (6,6) \implies 6$ pairs. $P(X \ge 10) = rac{6}{36} = rac{1}{6} pprox 0.1667$.
+6. $\Omega = \{HH, HT, TH, TT\}$. $X=1$ for $\{HT, TH\}$. $P(X=1) = \frac{2}{4} = 0.50$.
+7. Favorable pairs for sum 4: $(1,3), (2,2), (3,1) \implies 3$ pairs. $P(X=4) = \frac{3}{36} = \frac{1}{12} pprox 0.0833$.
+8. Favorable pairs for sum $\ge 10$: $(4,6), (5,5), (5,6), (6,4), (6,5), (6,6) \implies 6$ pairs. $P(X \ge 10) = \frac{6}{36} = \frac{1}{6} pprox 0.1667$.
 9. $Y(1) = 3, Y(2) = 5, Y(3) = 7 \implies S_Y = \{3, 5, 7\}$.
-10. Evens are $\{2, 4\} \implies P = rac{2}{5} = 0.40$.
+10. Evens are $\{2, 4\} \implies P = \frac{2}{5} = 0.40$.
 
 ## Level 3
 11. $E[I_A] = 1 \cdot P(I_A = 1) + 0 \cdot P(I_A = 0) = 1 \cdot P(A) + 0 \cdot P(A^c) = P(A)$.

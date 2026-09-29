@@ -5,7 +5,7 @@
 **Solution**:
 1. $\Omega = \{HHH, HHT, HTH, HTT, THH, THT, TTH, TTT\} \implies |\Omega| = 8$.
 2. Event $A = \{HHH, HHT, HTH, THH\}$.
-3. $|A| = 4$. $P(A) = rac{4}{8} = 0.5$.
+3. $|A| = 4$. $P(A) = \frac{4}{8} = 0.5$.
 
 ## Example 2: Set Operations (Card Drawing)
 **Problem**: Let $A$ be drawing a Red card, $B$ be drawing a Face card (J, Q, K). Find $|A \cap B|$ and $|A \cup B|$.
@@ -26,7 +26,7 @@
 **Problem**: A bounding box $A$ has area 100 pixels. Predicted box $B$ has area 120 pixels. Overlap area $|A \cap B| = 80$ pixels. Calculate IoU.
 **Solution**:
 1. $|A \cup B| = |A| + |B| - |A \cap B| = 100 + 120 - 80 = 140$.
-2. $	ext{IoU} = rac{|A \cap B|}{|A \cup B|} = rac{80}{140} = rac{4}{7} pprox 0.5714$.
+2. $	ext{IoU} = \frac{|A \cap B|}{|A \cup B|} = \frac{80}{140} = \frac{4}{7} pprox 0.5714$.
 
 ## Example 5: Continuous Sample Space
 **Problem**: An AI response latency $T$ is measured in seconds between 0 and 5. Define $\Omega$ and event $E$: "Response time under 2 seconds".

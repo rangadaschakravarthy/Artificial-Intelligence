@@ -11,7 +11,7 @@ Raw Data ➔ Clean Nulls/Duplicates ➔ Encode Categoricals ➔ Detect Outliers 
 ### 3. Connection to Mathematics for AI (Level 1)
 - **Feature Scaling**: Maps feature vectors into normalized $L_2$ vector spaces or standard normal distributions $\mathcal{N}(0, 1)$.
 - **Encoding**: Maps discrete categorical sets to orthogonal unit basis vectors in $\mathbb{R}^K$.
-- **Outlier Detection**: Uses statistical $Z$-scores ($Z = rac{x - \mu}{\sigma}$) and Interquartile Ranges ($	ext{IQR} = Q_3 - Q_1$).
+- **Outlier Detection**: Uses statistical $Z$-scores ($Z = \frac{x - \mu}{\sigma}$) and Interquartile Ranges ($	ext{IQR} = Q_3 - Q_1$).
 
 ### 4. Summary
 Preprocessing translates continuous and categorical variables into standardized mathematical representations for machine learning models.

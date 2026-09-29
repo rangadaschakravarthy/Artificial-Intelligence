@@ -11,8 +11,9 @@
 6. $P(A \cup B) = 0.5 + 0.4 - 0.2 = 0.7$.
 7. $P(A \cup B) = 0.7 + 0.3 = 1.0$.
 8. $P(	ext{At least 1 H}) = 1 - P(	ext{TTT}) = 1 - (0.5)^3 = 1 - 0.125 = 0.875$.
-9. With replacement: $rac{4}{52} 	imes rac{4}{52} = \left(rac{1}{13}ight)^2 = rac{1}{169} pprox 0.0059$.
-10. Without replacement: $rac{4}{52} 	imes rac{3}{51} = rac{1}{13} 	imes rac{1}{17} = rac{1}{221} pprox 0.0045$.
+9. With replacement: $\frac{4}{52} 	imes \frac{4}{52} = \left(\frac{1}{13}
+ight)^2 = \frac{1}{169} pprox 0.0059$.
+10. Without replacement: $\frac{4}{52} 	imes \frac{3}{51} = \frac{1}{13} 	imes \frac{1}{17} = \frac{1}{221} pprox 0.0045$.
 
 ## Level 3
 11. $P(A \cup B) = P(A) + P(B) - P(A \cap B) \le 1 \implies P(A) + P(B) - 1 \le P(A \cap B)$.

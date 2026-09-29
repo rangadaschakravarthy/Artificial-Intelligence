@@ -2,7 +2,7 @@
 
 ## Level 1 — Basic
 1. $[0, 1]$.
-2. $x' = rac{x - x_{\min}}{x_{\max} - x_{\min}}$.
+2. $x' = \frac{x - x_{\min}}{x_{\max} - x_{\min}}$.
 3. The presence of an extreme outlier inflates $x_{\max}$ (or decreases $x_{\min}$), compressing non-outlier data into an extremely narrow sub-interval close to 0 or 1.
 
 ## Level 2 — Coding

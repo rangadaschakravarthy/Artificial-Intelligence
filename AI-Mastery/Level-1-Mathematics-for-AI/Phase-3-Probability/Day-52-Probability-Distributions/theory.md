@@ -17,9 +17,9 @@ Think of distributions as pre-built mathematical shapes:
 | :--- | :--- | :--- | :--- | :--- |
 | **Bernoulli$(p)$** | Discrete | $p^x (1-p)^{1-x}, x \in \{0,1\}$ | $p$ | $p(1-p)$ |
 | **Binomial$(n, p)$** | Discrete | $inom{n}{x} p^x (1-p)^{n-x}$ | $n p$ | $n p (1-p)$ |
-| **Poisson$(\lambda)$** | Discrete | $rac{\lambda^x e^{-\lambda}}{x!}, x \in \mathbb{N}_0$ | $\lambda$ | $\lambda$ |
-| **Uniform$(a, b)$** | Continuous | $rac{1}{b-a}, x \in [a,b]$ | $rac{a+b}{2}$ | $rac{(b-a)^2}{12}$ |
-| **Normal$(\mu, \sigma^2)$** | Continuous | $rac{1}{\sigma \sqrt{2\pi}} e^{-rac{(x-\mu)^2}{2\sigma^2}}$ | $\mu$ | $\sigma^2$ |
+| **Poisson$(\lambda)$** | Discrete | $\frac{\lambda^x e^{-\lambda}}{x!}, x \in \mathbb{N}_0$ | $\lambda$ | $\lambda$ |
+| **Uniform$(a, b)$** | Continuous | $\frac{1}{b-a}, x \in [a,b]$ | $\frac{a+b}{2}$ | $\frac{(b-a)^2}{12}$ |
+| **Normal$(\mu, \sigma^2)$** | Continuous | $\frac{1}{\sigma \sqrt{2\pi}} e^{-\frac{(x-\mu)^2}{2\sigma^2}}$ | $\mu$ | $\sigma^2$ |
 
 ## 4. Notation
 - $X \sim 	ext{Bern}(p)$
@@ -38,7 +38,7 @@ $$
 A website gets an average of $\lambda = 3$ API calls per second. Find $P(X = 0)$ calls in a second:
 
 $$
-P(X = 0) = rac{3^0 e^{-3}}{0!} = e^{-3} pprox 0.0498 = 4.98\%
+P(X = 0) = \frac{3^0 e^{-3}}{0!} = e^{-3} pprox 0.0498 = 4.98\%
 $$
 
 ## 7. Common Mistakes

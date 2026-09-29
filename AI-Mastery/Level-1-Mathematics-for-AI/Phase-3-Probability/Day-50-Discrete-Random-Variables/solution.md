@@ -8,8 +8,8 @@
 5. False. CDF of a discrete RV is a step function with jump discontinuities at support points.
 
 ## Level 2
-6. $\sum p(x) = c(1^2 + 2^2 + 3^2) = c(1 + 4 + 9) = 14 c = 1 \implies c = rac{1}{14}$.
-7. $P(X \ge 2) = p(2) + p(3) = rac{4}{14} + rac{9}{14} = rac{13}{14} pprox 0.9286$.
+6. $\sum p(x) = c(1^2 + 2^2 + 3^2) = c(1 + 4 + 9) = 14 c = 1 \implies c = \frac{1}{14}$.
+7. $P(X \ge 2) = p(2) + p(3) = \frac{4}{14} + \frac{9}{14} = \frac{13}{14} pprox 0.9286$.
 8. $p(2) = F(2) - F(1) = 0.7 - 0.3 = 0.40$.
 9. $p(3) = F(3) - F(2) = 1.0 - 0.7 = 0.30$.
 10. $P(1 < X \le 2) = F(2) - F(1) = 0.7 - 0.3 = 0.40$.
@@ -17,7 +17,8 @@
 ## Level 3
 11. $E[X] = 0(1-p) + 1(p) = p$.
 12. $E[X^2] = 0^2(1-p) + 1^2(p) = p$. $	ext{Var}(X) = E[X^2] - (E[X])^2 = p - p^2 = p(1-p)$.
-13. PMF: $p(x) = rac{1}{n}$ for $x \in \{1, \dots, n\}$. CDF: $F(x) = rac{\lfloor x floor}{n}$ for $1 \le x \le n$.
+13. PMF: $p(x) = \frac{1}{n}$ for $x \in \{1, \dots, n\}$. CDF: $F(x) = \frac{\lfloor x 
+floor}{n}$ for $1 \le x \le n$.
 14. $P(X > x) = 1 - P(X \le x) = 1 - F(x)$.
 15. Let $Y = X - c$. Symmetry implies $p(c + y) = p(c - y)$. Thus $E[Y] = \sum y p(c+y) = 0 \implies E[X - c] = 0 \implies E[X] = c$.
 

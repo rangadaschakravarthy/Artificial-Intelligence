@@ -18,7 +18,7 @@ ext{Upper Bound} = Q_3 + 1.5 	imes 	ext{IQR}
 $$
 
 - **Z-Score Method**:
-  $$	ext{Outlier if } |Z| = \left|rac{x - \mu}{\sigma}
+  $$	ext{Outlier if } |Z| = \left|\frac{x - \mu}{\sigma}
 ight| > 3.0$$
 
 ### 3. Summary

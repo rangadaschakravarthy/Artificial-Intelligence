@@ -12,7 +12,7 @@
 7. For the PMF in Q6, compute $P(X > Y)$.
 8. Find constant $c$ for joint PDF $f(x, y) = c (x + 2y)$ on $0 \le x \le 1, 0 \le y \le 1$.
 9. For PDF $f(x, y) = 4 x y$ on $[0, 1] 	imes [0, 1]$, compute $P(X \le 0.5, Y \le 0.5)$.
-10. For Bivariate Gaussian with $|oldsymbol{\Sigma}| = 9$, compute normalization constant $rac{1}{2\pi |oldsymbol{\Sigma}|^{1/2}}$.
+10. For Bivariate Gaussian with $|oldsymbol{\Sigma}| = 9$, compute normalization constant $\frac{1}{2\pi |oldsymbol{\Sigma}|^{1/2}}$.
 
 ## Level 3: Conceptual & Multi-Step Problems
 11. Compute $P(X + Y \le 1)$ for joint PDF $f(x, y) = 2$ on $x \ge 0, y \ge 0, x+y \le 1$.

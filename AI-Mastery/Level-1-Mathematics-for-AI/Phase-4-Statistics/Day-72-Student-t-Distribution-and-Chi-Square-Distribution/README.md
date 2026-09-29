@@ -28,8 +28,8 @@ Small sample model benchmarking ($N < 30$), feature selection variance testing, 
 
 ## Checklist
 - [ ] Understand $df = N - 1$
-- [ ] Compute $t$-score $t = rac{ar{x} - \mu}{s / \sqrt{N}}$
-- [ ] Evaluate $\chi^2$ test statistic $\sum rac{(O - E)^2}{E}$
+- [ ] Compute $t$-score $t = \frac{ar{x} - \mu}{s / \sqrt{N}}$
+- [ ] Evaluate $\chi^2$ test statistic $\sum \frac{(O - E)^2}{E}$
 - [ ] Compute $t$ and $\chi^2$ probabilities in SciPy
 
 ## Estimated Difficulty
